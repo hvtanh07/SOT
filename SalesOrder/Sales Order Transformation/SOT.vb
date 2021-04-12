@@ -111,9 +111,17 @@ Public Class SOT
 
     Private Sub Tar_btn_test_Click(sender As Object, e As EventArgs) Handles tar_btn_test.Click
         'Remember to add Port and Network Library=dbmssocn; when deploy
-        Dim strCN As String = "Data Source=" & txt_tar_hostname.Text &
+        Dim strCN As String
+        If "" = txt_tar_usrname.Text.Trim Then
+            strCN = "Data Source=" & txt_tar_hostname.Text &
+                                "; Initial Catalog=" & txt_tar_db.Text &
+                                    "; Integrated Security=True"
+        Else
+            strCN = "Data Source=" & txt_tar_hostname.Text &
                                 "; Initial Catalog=" & txt_tar_db.Text &
                                     "; User ID=" & txt_tar_usrname.Text & "; Password=" & txt_tar_pw.Text
+        End If
+
         EnumControls(Me, False)
         Try
             Elog("Connecting to " & txt_tar_hostname.Text & "...", 1)
@@ -129,86 +137,86 @@ Public Class SOT
         EnumControls(Me, True)
     End Sub
 
-    Private Sub src_txt_hostname_LostFocus(sender As Object, e As EventArgs) Handles txt_src_hostname.LostFocus
+    Private Sub src_txt_hostname_LostFocus(sender As Object, e As EventArgs) Handles txt_src_hostname.LostFocus, txt_src_hostname.Leave
         Dim mySettings = My.Settings
         mySettings.cfg_src_hostname = txt_src_hostname.Text
         mySettings.Save()
         'MessageBox.Show(My.Settings.src_hostname)
     End Sub
 
-    Private Sub src_txt_port_LostFocus(sender As Object, e As EventArgs) Handles txt_src_port.LostFocus
+    Private Sub src_txt_port_LostFocus(sender As Object, e As EventArgs) Handles txt_src_port.LostFocus, txt_src_port.Leave
         Dim mySettings = My.Settings
         mySettings.cfg_src_port = txt_src_port.Text
         mySettings.Save()
     End Sub
 
-    Private Sub src_usrname_LostFocus(sender As Object, e As EventArgs) Handles txt_src_usrname.LostFocus
+    Private Sub src_usrname_LostFocus(sender As Object, e As EventArgs) Handles txt_src_usrname.LostFocus, txt_src_usrname.Leave
         Dim mySettings = My.Settings
         mySettings.cfg_src_usrname = txt_src_usrname.Text
         mySettings.Save()
     End Sub
 
-    Private Sub src_pw_LostFocus(sender As Object, e As EventArgs) Handles txt_src_pw.LostFocus
+    Private Sub src_pw_LostFocus(sender As Object, e As EventArgs) Handles txt_src_pw.LostFocus, txt_src_pw.Leave
         Dim mySettings = My.Settings
         mySettings.cfg_src_pw = txt_src_pw.Text
         mySettings.Save()
     End Sub
 
-    Private Sub src_txt_db_LostFocus(sender As Object, e As EventArgs) Handles txt_src_db.LostFocus
+    Private Sub src_txt_db_LostFocus(sender As Object, e As EventArgs) Handles txt_src_db.LostFocus, txt_src_db.Leave
         Dim mySettings = My.Settings
         mySettings.cfg_src_db = txt_src_db.Text
         mySettings.Save()
     End Sub
 
-    Private Sub tar_txt_hostname_LostFocus(sender As Object, e As EventArgs) Handles txt_tar_hostname.LostFocus
+    Private Sub tar_txt_hostname_LostFocus(sender As Object, e As EventArgs) Handles txt_tar_hostname.LostFocus, txt_tar_hostname.Leave
         Dim mySettings = My.Settings
         mySettings.cfg_tar_hostname = txt_tar_hostname.Text
         mySettings.Save()
     End Sub
 
-    Private Sub tar_txt_port_LostFocus(sender As Object, e As EventArgs) Handles txt_tar_port.LostFocus
+    Private Sub tar_txt_port_LostFocus(sender As Object, e As EventArgs) Handles txt_tar_port.LostFocus, txt_tar_port.Leave
         Dim mySettings = My.Settings
         mySettings.cfg_tar_port = txt_tar_port.Text
         mySettings.Save()
     End Sub
 
-    Private Sub tar_txt_usrname_LostFocus(sender As Object, e As EventArgs) Handles txt_tar_usrname.LostFocus
+    Private Sub tar_txt_usrname_LostFocus(sender As Object, e As EventArgs) Handles txt_tar_usrname.LostFocus, txt_tar_usrname.Leave
         Dim mySettings = My.Settings
         mySettings.cfg_tar_usrname = txt_tar_usrname.Text
         mySettings.Save()
     End Sub
 
-    Private Sub tar_txt_pw_LostFocus(sender As Object, e As EventArgs) Handles txt_tar_pw.LostFocus
+    Private Sub tar_txt_pw_LostFocus(sender As Object, e As EventArgs) Handles txt_tar_pw.LostFocus, txt_tar_pw.Leave
         Dim mySettings = My.Settings
         mySettings.cfg_tar_pw = txt_tar_pw.Text
         mySettings.Save()
     End Sub
 
-    Private Sub tar_txt_db_LostFocus(sender As Object, e As EventArgs) Handles txt_tar_db.LostFocus
+    Private Sub tar_txt_db_LostFocus(sender As Object, e As EventArgs) Handles txt_tar_db.LostFocus, txt_tar_db.Leave
         Dim mySettings = My.Settings
         mySettings.cfg_tar_db = txt_tar_db.Text
         mySettings.Save()
     End Sub
 
-    Private Sub txt_email_sender_LostFocus(sender As Object, e As EventArgs) Handles txt_sender.LostFocus
+    Private Sub txt_email_sender_LostFocus(sender As Object, e As EventArgs) Handles txt_sender.LostFocus, txt_sender.Leave
         Dim mySettings = My.Settings
         mySettings.cfg_sender = txt_sender.Text
         mySettings.Save()
     End Sub
 
-    Private Sub txt_sender_pw_LostFocus(sender As Object, e As EventArgs) Handles txt_sender_pw.LostFocus
+    Private Sub txt_sender_pw_LostFocus(sender As Object, e As EventArgs) Handles txt_sender_pw.LostFocus, txt_sender_pw.Leave
         Dim mySettings = My.Settings
         mySettings.cfg_sender_pw = txt_sender_pw.Text
         mySettings.Save()
     End Sub
 
-    Private Sub txt_recipients_LostFocus(sender As Object, e As EventArgs) Handles txt_recipients.LostFocus
+    Private Sub txt_recipients_LostFocus(sender As Object, e As EventArgs) Handles txt_recipients.LostFocus, txt_recipients.Leave
         Dim mySettings = My.Settings
         mySettings.cfg_recipients = txt_recipients.Text
         mySettings.Save()
     End Sub
 
-    Private Sub txt_spt_LostFocus(sender As Object, e As EventArgs) Handles txt_spt.LostFocus
+    Private Sub txt_spt_LostFocus(sender As Object, e As EventArgs) Handles txt_spt.LostFocus, txt_spt.Leave
         Dim mySettings = My.Settings
         mySettings.cfg_spt = txt_spt.Text
         mySettings.Save()
@@ -1361,19 +1369,19 @@ Public Class SOT
         MsgBox("Error: " + e.RejectionHint.ToString(), MsgBoxStyle.Critical)
     End Sub
 
-    Private Sub txt_int_day_LostFocus(sender As Object, e As EventArgs) Handles txt_int_day.LostFocus
+    Private Sub txt_int_day_LostFocus(sender As Object, e As EventArgs) Handles txt_int_day.LostFocus, txt_int_day.Leave
         Dim mySettings = My.Settings
         mySettings.cfg_int_day = txt_int_day.Text
         mySettings.Save()
     End Sub
 
-    Private Sub txt_int_hrs_LostFocus(sender As Object, e As EventArgs) Handles txt_int_hrs.LostFocus
+    Private Sub txt_int_hrs_LostFocus(sender As Object, e As EventArgs) Handles txt_int_hrs.LostFocus, txt_int_hrs.Leave
         Dim mySettings = My.Settings
         mySettings.cfg_int_hrs = txt_int_hrs.Text
         mySettings.Save()
     End Sub
 
-    Private Sub txt_int_min_LostFocus(sender As Object, e As EventArgs) Handles txt_int_min.LostFocus
+    Private Sub txt_int_min_LostFocus(sender As Object, e As EventArgs) Handles txt_int_min.LostFocus, txt_int_min.Leave
         Dim mySettings = My.Settings
         mySettings.cfg_int_min = txt_int_min.Text
         mySettings.Save()

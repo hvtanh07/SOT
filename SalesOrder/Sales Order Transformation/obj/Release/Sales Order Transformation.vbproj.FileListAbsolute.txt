@@ -52,3 +52,17 @@ C:\SOT\SalesOrder\Sales Order Transformation\obj\Release\Sales Order Transformat
 C:\SOT\SalesOrder\Sales Order Transformation\obj\Release\Sales Order Transformation.exe
 C:\SOT\SalesOrder\Sales Order Transformation\obj\Release\Sales Order Transformation.xml
 C:\SOT\SalesOrder\Sales Order Transformation\obj\Release\Sales Order Transformation.pdb
+C:\Github\SOT\SalesOrder\Sales Order Transformation\bin\Release\app.manifest
+C:\Github\SOT\SalesOrder\Sales Order Transformation\bin\Release\Sales Order Transformation.exe.config
+C:\Github\SOT\SalesOrder\Sales Order Transformation\bin\Release\Sales Order Transformation.exe
+C:\Github\SOT\SalesOrder\Sales Order Transformation\bin\Release\Sales Order Transformation.pdb
+C:\Github\SOT\SalesOrder\Sales Order Transformation\bin\Release\Sales Order Transformation.xml
+C:\Github\SOT\SalesOrder\Sales Order Transformation\obj\Release\Sales Order Transformation.vbprojAssemblyReference.cache
+C:\Github\SOT\SalesOrder\Sales Order Transformation\obj\Release\Sales Order Transformation.vbproj.ResolveComReference.cache
+C:\Github\SOT\SalesOrder\Sales Order Transformation\obj\Release\Sales_Order_Transformation.SOT.resources
+C:\Github\SOT\SalesOrder\Sales Order Transformation\obj\Release\Sales_Order_Transformation.Resources.resources
+C:\Github\SOT\SalesOrder\Sales Order Transformation\obj\Release\Sales Order Transformation.vbproj.GenerateResource.cache
+C:\Github\SOT\SalesOrder\Sales Order Transformation\obj\Release\Sales Order Transformation.vbproj.CoreCompileInputs.cache
+C:\Github\SOT\SalesOrder\Sales Order Transformation\obj\Release\Sales Order Transformation.exe
+C:\Github\SOT\SalesOrder\Sales Order Transformation\obj\Release\Sales Order Transformation.xml
+C:\Github\SOT\SalesOrder\Sales Order Transformation\obj\Release\Sales Order Transformation.pdb
