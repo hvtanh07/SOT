@@ -180,6 +180,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TECHLINKDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="TECHLINKDataSet.vb">
+      <DependentUpon>TECHLINKDataSet.xsd</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="SOT.resx">

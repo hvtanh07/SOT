@@ -388,7 +388,7 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-KPFBBSK;Initial Catalog=SOT;Integrated Security=True")>  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-KPFBBSK; Initial Catalog=SOT; Integrated Security=True")>  _
         Public ReadOnly Property TECHLINKConnectionString() As String
             Get
                 Return CType(Me("TECHLINKConnectionString"),String)

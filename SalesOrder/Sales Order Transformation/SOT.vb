@@ -1177,6 +1177,9 @@ Public Class SOT
 
         For Each drSO In dtSO.Rows
             Dim Order As DataTable = COPTCAdpt.GetDataBySORNO(drSO("TE015"))
+            For Each dc As DataColumn In Order.Columns
+                dc.ReadOnly = False
+            Next
             If Order.Rows.Count <> 0 Then
                 drSO("TE001") = Order(0)("TC001")
                 drSO("TE002") = Order(0)("TC002")
@@ -1233,10 +1236,16 @@ Public Class SOT
         'dtSO.Columns("TF002").MaxLength = 40
         For Each drSO In dtSO.Rows
             Dim Order As DataTable = COPTCAdpt.GetDataBySORNO(drSO("TF002"))
+            For Each dc As DataColumn In Order.Columns
+                dc.ReadOnly = False
+            Next
             If Order.Rows.Count = 1 Then
                 drSO("TF001") = Order(0)("TC001")
                 drSO("TF002") = Order(0)("TC002")
                 Dim SubOrder As DataTable = COPTDAdpt.GetDataByTD123(drSO("TF001"), drSO("TF002"), drSO("TF004"))
+                For Each dc As DataColumn In SubOrder.Columns
+                    dc.ReadOnly = False
+                Next
                 If SubOrder.Rows.Count < 1 Then
                     drSO("TF065") = 3
                 Else
@@ -1434,6 +1443,7 @@ Public Class SOT
         ' Connection String
 
         Dim strCNVN As String
+        Dim strCNVNBL As String
 
         If "" IsNot mysettings.cfg_tar_usrname.Trim Then
             strCNVN = String.Format(mysettings.strCNVN,
@@ -1441,33 +1451,26 @@ Public Class SOT
                                     mysettings.cfg_tar_db,
                                     mysettings.cfg_tar_usrname,
                                     mysettings.cfg_tar_pw)
+            strCNVNBL = String.Format(mysettings.strCNVN,
+                                     mysettings.cfg_tar_hostname,
+                                     "SOT",
+                                     mysettings.cfg_tar_usrname,
+                                     mysettings.cfg_tar_pw)
         Else
             strCNVN = String.Format(mysettings.strCNVN2,
                                     mysettings.cfg_tar_hostname,
                                     mysettings.cfg_tar_db)
-        End If
-
-        Dim strCNVNBL As String
-
-        If "" IsNot mysettings.cfg_tar_usrname.Trim Then
-            strCNVNBL = String.Format(mysettings.strCNVN,
-                                      mysettings.cfg_tar_hostname,
-                                      "SOT",
-                                      mysettings.cfg_tar_usrname,
-                                      mysettings.cfg_tar_pw)
-        Else
             strCNVNBL = String.Format(mysettings.strCNVN2,
-                                      mysettings.cfg_tar_hostname,
-                                      "SOT")
+                                     mysettings.cfg_tar_hostname,
+                                     "SOT")
         End If
-
 
         ' Starting point for retrieving data
         Dim spt As String = mysettings.cfg_spt '.ToString("yyyy-MM-dd hh:mm:ss.fff")
 
         ' SQL Command for retrieving data
         Dim strCmdDIC As String = mysettings.strCmdDIC
-        Dim StrCmdBL As String = mysettings.strCmdBL
+        'Dim StrCmdBL As String = mysettings.strCmdBL
 
         ' Target table
         Dim strDtMO As String = "COPTC"
@@ -1499,6 +1502,9 @@ Public Class SOT
         ' Get table CUS
         Dim CusAdpt As New CusTableAdapter
         Dim dtCUS As DataTable = CusAdpt.GetData()
+        For Each dc As DataColumn In dtCUS.Columns
+            dc.ReadOnly = False
+        Next
         BW.ReportProgress(2)
 
         ' Get table COPMG
@@ -1529,8 +1535,14 @@ Public Class SOT
         'get MO
         Dim MOAdpt As New MAINSOTableAdapter
         Dim dtMO As DataTable = MOAdpt.GetData(spt)
+        For Each dc As DataColumn In dtMO.Columns
+            dc.ReadOnly = False
+        Next
         Dim RMAdpt As New REMARKSTableAdapter
         Dim dtRM As DataTable = RMAdpt.GetData()
+        For Each dc As DataColumn In dtRM.Columns
+            dc.ReadOnly = False
+        Next
         Dim dtUpdateMO As New DataTable
         Dim dtUpdateMOforFilterSO As New DataTable
         FilterRemarks(dtMO, dtRM)
@@ -1553,6 +1565,9 @@ Public Class SOT
             End Try
             'get New MO
             Dim dtNewMO As DataTable = MOAdpt.GetDataByNew(spt)
+            For Each dc As DataColumn In dtNewMO.Columns
+                dc.ReadOnly = False
+            Next
             FilterRemarks(dtNewMO, dtRM)
             If dtNewMO Is Nothing Then
                 txt_elogs.Invoke(New LogMessageDelegate(AddressOf Elog), New Object() {"No new Main Order found.", 0})
@@ -1560,6 +1575,9 @@ Public Class SOT
                 'get Update MO
                 Dim MOEAdpt As New COPTETableAdapter
                 dtUpdateMO = MOEAdpt.GetData(spt)
+                For Each dc As DataColumn In dtUpdateMO.Columns
+                    dc.ReadOnly = False
+                Next
                 FilterRemarks(dtUpdateMO, dtRM)
                 dtUpdateMOforFilterSO = dtUpdateMO.Copy
                 If dtUpdateMO Is Nothing Then
@@ -1590,6 +1608,9 @@ Public Class SOT
             ' get SO
             Dim SOAdpt As New SOTTableAdapter
             Dim dtSO As DataTable = SOAdpt.GetData(spt)
+            For Each dc As DataColumn In dtSO.Columns
+                dc.ReadOnly = False
+            Next
             FilterSO(dtSO, "TD002", dtMO, "TC012")
             BW.ReportProgress(56)
 
@@ -1605,6 +1626,9 @@ Public Class SOT
                     'get Update SO
                     Dim SOEAdpt As New COPTFTableAdapter
                     Dim dtUpdateSO As DataTable = SOEAdpt.GetData(spt)
+                    For Each dc As DataColumn In dtUpdateSO.Columns
+                        dc.ReadOnly = False
+                    Next
                     FilterSO(dtUpdateSO, "TF002", dtUpdateMOforFilterSO, "TE015")
                     If dtUpdateSO Is Nothing Then
                         txt_elogs.Invoke(New LogMessageDelegate(AddressOf Elog), New Object() {"No updated Sub Order found.", 0})
