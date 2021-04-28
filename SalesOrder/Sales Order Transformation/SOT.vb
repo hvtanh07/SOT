@@ -48,6 +48,7 @@ Public Class SOT
         Next
         txt_spt.Enabled = False
         Elog("Configuration loaded.")
+        Loaddata()
     End Sub
 
     Private Sub EnumControls(ByVal ctl As Control, sts As Boolean)
@@ -392,6 +393,10 @@ Public Class SOT
         Dim BLAdpt As New BLCOPTDTableAdapter
         Dim ExProdAdpt As New EXPRODTableAdapter
         Dim Exlist As DataTable = ExProdAdpt.GetData()
+        For Each dc As DataColumn In Exlist.Columns
+            dc.ReadOnly = False
+        Next
+        'For dc As DataColumn 
         Dim TempSORNO As String = ""
         Dim TempOrdType As String = ""
         For Each drSO In dtSO.Rows
@@ -462,7 +467,7 @@ Public Class SOT
                                            drSO("TD002"), drSO("TD003"), drSO("TD004"), drSO("TD005"), drSO("TD007"), TD008,
                                            TD009, drSO("TD010"), TD011, TD012, drSO("TD013"), drSO("TD016"),
                                            drSO("TD020"), drSO("TD021"), TD022, TD024, TD025, TD026,
-                                           TD031, TD032, TD034, TD035, drSO("TD036"), drSO("TD045"),
+                                           TD031, TD032, TD034, TD035, drSO("TD036"), drSO("TD041"), drSO("TD045"),
                                            drSO("TD047"), drSO("TD048"), drSO("TD049"), TD076, drSO("TD077"), TD078)
                         dtRp.Rows.Add(drSO.ItemArray)
                         DelRows.Add(drSO)
@@ -515,6 +520,9 @@ Public Class SOT
         Dim ExProdAdpt As New EXPRODTableAdapter
         Dim Exlist As New DataTable
         Exlist = ExProdAdpt.GetData()
+        For Each dc As DataColumn In Exlist.Columns
+            dc.ReadOnly = False
+        Next
         Dim TempSORNO As String = ""
         Dim TempOrdType As String = ""
         For Each drSO In dtSO.Rows
@@ -678,12 +686,17 @@ Public Class SOT
     End Sub
     Private Sub MoveBL2NewSO(dtNewSO As DataTable, strCNVNBL As String)
         SetColOrder(dtNewSO)
+        dtNewSO.Columns("TD001").MaxLength = 80
         Dim BLAdpt As New BLCOPTDTableAdapter
         Dim dtBL As DataTable = BLAdpt.GetData
         SetColOrder(dtBL)
         For Each dr As DataRow In dtBL.Rows
             'dr("TD001") = ""
-            dtNewSO.Rows.Add(dr.ItemArray)
+            Try
+                dtNewSO.Rows.Add(dr.ItemArray)
+            Catch ex As Exception
+                MsgBox(ex)
+            End Try
         Next
         Dim strSQL As String = "TRUNCATE TABLE BLCOPTD"
         Using cnvnbl As New SqlConnection(strCNVNBL)
@@ -701,6 +714,9 @@ Public Class SOT
         SetColOrder(dtNewMO)
         Dim BLAdpt As New BLCOPTCTableAdapter
         Dim dtBL As DataTable = BLAdpt.GetData
+        For Each dc As DataColumn In dtBL.Columns
+            dc.ReadOnly = False
+        Next
         SetColOrder(dtBL)
         For Each dr As DataRow In dtBL.Rows
             'dr("TC001") = ""
@@ -981,132 +997,60 @@ Public Class SOT
             Next
         End If
     End Sub
-    Private Function OrdType(TC004 As String) As String
-        'Dim result As String = ""
-        Dim T1 As String = Strings.Left(TC004, 1)
-        Dim T2 As String = Strings.Left(TC004, 2)
-        Dim T3 As String = Strings.Left(TC004, 3)
-        Dim T4 As String = Strings.Left(TC004, 4)
-        Select Case T4
-            Case "BWTX"
-                'Return "B221"
-                Return "B224"
-            Case "JCJM"
-                Return "P222"
-        End Select
-        Select Case T3
-            Case "BMH"
-                'Return "B221"
-                Return "B224"
-            Case "BVR", "BFF", "BTB", "BTC", "BCB"
-                'Return "B222"
-                Return "B225"
-            Case "JMH"
-                'Return "J221"
-                Return "J222"
-            Case "AYM", "CYM", "BRJ", "PTL"
-                'Return "Y221"
-                Return "Y222"
-        End Select
-        Select Case T2
-            Case "BY", "PE", "AI", "CI", "AM"
-                'Return "Y221"
-                Return "Y222"
-            Case "JC"
-                'Return "P221"
-                Return "B223"
-        End Select
-        Select Case T1
-            Case "A", "E"
-                'Return "A221"
-                Return "A222"
-            Case "C"
-                'Return "C221"
-                Return "C222"
-            Case "P"
-                'Return "P221"
-                Return "P222"
-            Case "Y"
-                'Return "Y221"
-                Return "Y222"
-        End Select
-        Return ""
+    Private Function OrdType(ByVal TC004 As String) As String
+        Dim T1 As String = TC004.Substring(0, 1)
+        Dim T2 As String = TC004.Substring(0, 2)
+        Dim T3 As String = TC004.Substring(0, 3)
+        Dim T4 As String = TC004.Substring(0, 4)
+        Dim result As String = ""
+
+        Try
+            Dim codeed = New codeChangeTableAdapter()
+            result = CStr(codeed.GetOrdTypeCode(T4, T3, T2, T1))
+        Catch ex As Exception
+            txt_elogs.Invoke(New LogMessageDelegate(AddressOf Elog), New Object() {"Connection to database failed. Error: " & ex.Message.ToString(), 3})
+            MessageBox.Show("Connection failed. Error: " & ex.Message)
+        End Try
+
+        Return If(Not Equals(result, Nothing), result, "")
     End Function
-    Private Function DeptCode(TC004 As String) As String
-        'Dim result As String = ""
-        Dim T1 As String = Strings.Left(TC004, 1)
-        Dim T2 As String = Strings.Left(TC004, 2)
-        Dim T3 As String = Strings.Left(TC004, 3)
-        Dim T4 As String = Strings.Left(TC004, 4)
-        Select Case T4
-            Case "BWTX"
-                Return "B01-1"
-            Case "JCJM"
-                Return "J01-2"
-        End Select
-        Select Case T3
-            Case "BMH"
-                Return "B01-1"
-            Case "BVR", "BFF", "BTB", "BTC", "BCB"
-                Return "B01-2"
-            Case "JMH"
-                Return "J01-1"
-            Case "AYM", "CYM", "BRJ", "PTL"
-                Return "Y01"
-        End Select
-        Select Case T2
-            Case "BY", "PE", "AI", "CI", "AM"
-                Return "Y01"
-            Case "JC"
-                Return "B01-3"
-        End Select
-        Select Case T1
-            Case "A", "C", "E"
-                Return "A01"
-            Case "P"
-                Return "J01-2"
-            Case "Y"
-                Return "Y01"
-        End Select
-        Return ""
+
+    Private Function DeptCode(ByVal TC004 As String) As String
+        ' Dim result As String = ""
+        Dim T1 As String = TC004.Substring(0, 1)
+        Dim T2 As String = TC004.Substring(0, 2)
+        Dim T3 As String = TC004.Substring(0, 3)
+        Dim T4 As String = TC004.Substring(0, 4)
+        Dim result As String = ""
+
+        Try
+            Dim codeed = New codeChangeTableAdapter()
+            result = CStr(codeed.DeptCode(T4, T3, T2, T1))
+        Catch ex As Exception
+            txt_elogs.Invoke(New LogMessageDelegate(AddressOf Elog), New Object() {"Connection to database failed. Error: " & ex.Message.ToString(), 3})
+            MessageBox.Show("Connection failed. Error: " & ex.Message)
+        End Try
+
+        Return If(Not Equals(result, Nothing), result, "")
     End Function
-    Private Function StorageCode(TC004 As String) As String
-        'Dim result As String = ""
-        Dim T1 As String = Strings.Left(TC004, 1)
-        Dim T2 As String = Strings.Left(TC004, 2)
-        Dim T3 As String = Strings.Left(TC004, 3)
-        Dim T4 As String = Strings.Left(TC004, 4)
-        Select Case T4
-            Case "BWTX"
-                Return "B02"
-            Case "JCJM"
-                Return "P04"
-        End Select
-        Select Case T3
-            Case "BMH"
-                Return "B02"
-            Case "BVR", "BFF", "BTB", "BTC", "BCB"
-                Return "B03"
-            Case "JMH"
-                Return "B02"
-            Case "AYM", "CYM", "BRJ", "PTL"
-                Return "Y04"
-        End Select
-        Select Case T2
-            Case "BY", "PE", "AI", "CI", "AM"
-                Return "Y04"
-            Case "JC"
-                Return "D01"
-        End Select
-        Select Case T1
-            Case "A", "C", "E"
-                Return "A04"
-            Case "P"
-                Return "P04"
-            Case "Y"
-                Return "Y04"
-        End Select
-        Return ""
+
+    Private Function StorageCode(ByVal TC004 As String) As String
+        ' Dim result As String = ""
+        Dim T1 As String = TC004.Substring(0, 1)
+        Dim T2 As String = TC004.Substring(0, 2)
+        Dim T3 As String = TC004.Substring(0, 3)
+        Dim T4 As String = TC004.Substring(0, 4)
+        Dim result As String = ""
+
+        Try
+            Dim codeed = New codeChangeTableAdapter()
+            result = CStr(codeed.StorageCode(T4, T3, T2, T1))
+        Catch ex As Exception
+            txt_elogs.Invoke(New LogMessageDelegate(AddressOf Elog), New Object() {"Connection to database failed. Error: " & ex.Message.ToString(), 3})
+            MessageBox.Show("Connection failed. Error: " & ex.Message)
+        End Try
+
+        Return If(Not Equals(result, Nothing), result, "")
     End Function
 
     Private Sub GetBLMO(dtNewBLSO As DataTable, dtNewBLMO As DataTable)
@@ -1157,13 +1101,14 @@ Public Class SOT
         dtSO.Columns("TE055").MaxLength = 80
         dtSO.Columns("TE058").MaxLength = 80
         dtSO.Columns("TE062").MaxLength = 80
+        dtSO.Columns("TE069").MaxLength = 80
         dtSO.Columns("TE107").MaxLength = 10
         dtSO.Columns("TE108").MaxLength = 10
         dtSO.Columns("TE110").MaxLength = 6
         dtSO.Columns("TE111").MaxLength = 4
         dtSO.Columns("TE112").MaxLength = 20
         dtSO.Columns("TE113").MaxLength = 255
-        dtSO.Columns("TE115").MaxLength = 20
+        dtSO.Columns("TE115").MaxLength = 50
         dtSO.Columns("TE117").MaxLength = 16
         dtSO.Columns("TE129").MaxLength = 10
         dtSO.Columns("TE137").MaxLength = 6
@@ -1233,7 +1178,8 @@ Public Class SOT
         Dim drSO As DataRow
         Dim COPTCAdpt As New COPTC1TableAdapter
         Dim COPTDAdpt As New COPTDTableAdapter
-        'dtSO.Columns("TF002").MaxLength = 40
+        dtSO.Columns("TF002").MaxLength = 40
+        dtSO.Columns("TF001").MaxLength = 40
         For Each drSO In dtSO.Rows
             Dim Order As DataTable = COPTCAdpt.GetDataBySORNO(drSO("TF002"))
             For Each dc As DataColumn In Order.Columns
@@ -1619,6 +1565,9 @@ Public Class SOT
             Else
                 '=====New SO=======
                 Dim dtNewSO As DataTable = SOAdpt.GetDataByNew(spt)
+                For Each dc As DataColumn In dtNewSO.Columns
+                    dc.ReadOnly = False
+                Next
                 FilterSO(dtNewSO, "TD002", dtNewMO, "TC012")
                 If dtNewSO Is Nothing Then
                     txt_elogs.Invoke(New LogMessageDelegate(AddressOf Elog), New Object() {"No new Sub Order found.", 0})
@@ -1827,5 +1776,79 @@ Public Class SOT
                 MsgBox("Incorrect password!", MsgBoxStyle.Critical)
             End If
         End If
+    End Sub
+
+    Private Function codeCheck() As Boolean
+        If txt_in.Text.Trim() Is "" Then
+            Elog("Input code empty!.", 3)
+            Return False
+        End If
+
+        If txt_OrdType.Text.Trim() Is "" Then
+            Elog("Order type code empty!.", 3)
+            Return False
+        End If
+
+        If txt_DeptCode.Text.Trim() Is "" Then
+            Elog("Dept code code empty!.", 3)
+            Return False
+        End If
+
+        If cBox_Storage.Text.Trim() Is "" Then
+            Elog("Storage code empty!.", 3)
+            Return False
+        End If
+
+        Return True
+    End Function
+    Private Sub Loaddata()
+        Dim codeed = New codeChangeTableAdapter()
+        Dim code As DataTable = codeed.GetData()
+        dataGridView1.Columns.Clear()
+        dataGridView1.DataSource = code
+    End Sub
+
+    Private Sub btn_Add_Click(sender As Object, e As EventArgs) Handles btn_Add.Click
+        If Not codeCheck() Then Return
+        Dim codeed = New codeChangeTableAdapter()
+        codeed.InsertQuery(txt_in.Text, txt_OrdType.Text, txt_DeptCode.Text, cBox_Storage.Text)
+        Elog("Record saved.", 2)
+        Loaddata()
+    End Sub
+
+    Private Sub btn_Update_Click(sender As Object, e As EventArgs) Handles btn_Update.Click
+        If Not codeCheck() Then Return
+        Dim codeed = New codeChangeTableAdapter()
+        codeed.UpdateQuery(txt_in.Text, txt_OrdType.Text, txt_DeptCode.Text, cBox_Storage.Text)
+        Elog("Record updated.", 2)
+        Loaddata()
+    End Sub
+
+    Private Sub btn_delete_Click(sender As Object, e As EventArgs) Handles btn_delete.Click
+        If txt_in.Text.Trim() Is "" Then
+            Elog("Input code empty!.", 3)
+            Return
+        End If
+
+        Dim codeed = New codeChangeTableAdapter()
+        codeed.DeleteQuery(txt_in.Text)
+        Elog("Record deleted.", 2)
+        Loaddata()
+    End Sub
+    Private Sub dataGridView1_CellClick(ByVal sender As Object, ByVal e As DataGridViewCellEventArgs) Handles dataGridView1.CellClick
+        If dataGridView1.RowCount > 0 AndAlso e.RowIndex >= 0 Then
+            Dim row As DataGridViewRow = Me.dataGridView1.Rows(e.RowIndex)
+            txt_in.Text = row.Cells(0).Value.ToString()
+            txt_OrdType.Text = row.Cells(1).Value.ToString()
+            txt_DeptCode.Text = row.Cells(2).Value.ToString()
+            cBox_Storage.Text = row.Cells(3).Value.ToString()
+        End If
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim SOAdpt As New SOTTableAdapter
+
+        Dim dtNewSO As DataTable = SOAdpt.GetDataByNew("01/01/2021")
+        DataGridView2.DataSource = dtNewSO
     End Sub
 End Class

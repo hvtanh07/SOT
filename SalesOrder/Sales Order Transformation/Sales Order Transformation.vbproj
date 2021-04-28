@@ -175,6 +175,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SOTDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="SOTDataSet.vb">
+      <DependentUpon>SOTDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="TECHLINKDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

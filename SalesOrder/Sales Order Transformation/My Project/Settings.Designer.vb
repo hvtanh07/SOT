@@ -406,26 +406,6 @@ Namespace My
             End Get
         End Property
         
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-KPFBBSK;Initial Catalog=SOT;Integrated Security=True")>  _
-        Public ReadOnly Property DSCSYSConnectionString() As String
-            Get
-                Return CType(Me("DSCSYSConnectionString"),String)
-            End Get
-        End Property
-        
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-KPFBBSK;Initial Catalog=SOT;Integrated Security=True")>  _
-        Public ReadOnly Property SOTConnectionString() As String
-            Get
-                Return CType(Me("SOTConnectionString"),String)
-            End Get
-        End Property
-        
         <Global.System.Configuration.UserScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.DefaultSettingValueAttribute("Data Source={0}; Initial Catalog={1};  Integrated Security=True")>  _
@@ -436,6 +416,26 @@ Namespace My
             Set
                 Me("strCNVN2") = value
             End Set
+        End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-KPFBBSK; Initial Catalog=SOT; Integrated Security=True")>  _
+        Public ReadOnly Property DSCSYSConnectionString() As String
+            Get
+                Return CType(Me("DSCSYSConnectionString"),String)
+            End Get
+        End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-KPFBBSK; Initial Catalog=SOT; Integrated Security=True")>  _
+        Public ReadOnly Property SOTConnectionString() As String
+            Get
+                Return CType(Me("SOTConnectionString"),String)
+            End Get
         End Property
     End Class
 End Namespace
