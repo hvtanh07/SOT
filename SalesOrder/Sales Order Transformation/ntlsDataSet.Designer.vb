@@ -12394,31 +12394,31 @@ Namespace ntlsDataSetTableAdapters
             Me._commandCollection(0).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@start_point", Global.System.Data.SqlDbType.DateTime, 8, Global.System.Data.ParameterDirection.Input, 0, 0, "DATETIME", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._commandCollection(1) = New Global.System.Data.SqlClient.SqlCommand()
             Me._commandCollection(1).Connection = Me.Connection
-            Me._commandCollection(1).CommandText = "SELECT CONVERT(nchar(8), DATETIME, 112) AS CREATE_DATE, 'SFT' AS CREATOR, DATETIM"& _ 
-                "E, 0 AS FLAG, '' AS TD001, LTRIM(RTRIM(SORNO)) AS TD002, RIGHT(10000 + ITEMNO, 4"& _ 
-                ") AS TD003, LTRIM(RTRIM(CODE)) AS TD004, '' AS TD005, "&Global.Microsoft.VisualBasic.ChrW(10)&"                  '' AS T"& _ 
-                "D007, QTY AS TD008, 0 AS TD009, '' AS TD010, 0 AS TD011, 0 AS TD012, CONVERT(nch"& _ 
-                "ar(8), RETD, 112) AS TD013, 'N' AS TD016, '' AS TD020, 'Y' AS TD021, 0 AS TD022,"& _ 
-                " 0 AS TD024, 0 AS TD025, 1 AS TD026, 0 AS TD031, 0 AS TD032, "&Global.Microsoft.VisualBasic.ChrW(10)&"                  "& _ 
-                "0 AS TD034, 0 AS TD035, '' AS TD036, UNIT AS TD041, 9 AS TD045, CONVERT(nchar(8)"& _ 
-                ", RETD, 112) AS TD047, CONVERT(nchar(8), RETD, 112) AS TD048, 1 AS TD049, QTY AS"& _ 
-                " TD076, '' AS TD077, 0 AS TD078"&Global.Microsoft.VisualBasic.ChrW(10)&"FROM     dbo.SOT"&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE  (DATETIME > @start_point"& _ 
-                ") AND (CUS LIKE '%VN') AND (REV = 1) AND (CO = 'AA' OR CO = 'VT' OR CO = 'AC') "&Global.Microsoft.VisualBasic.ChrW(10)& _ 
+            Me._commandCollection(1).CommandText = "SELECT CONVERT(nchar(8), DATETIME, 112) AS CREATE_DATE, 'SFT' AS CREATOR, DATETIM" &
+                "E, 0 AS FLAG, '' AS TD001, LTRIM(RTRIM(SORNO)) AS TD002, RIGHT(10000 + ITEMNO, 4" &
+                ") AS TD003, LTRIM(RTRIM(CODE)) AS TD004, '' AS TD005, " & Global.Microsoft.VisualBasic.ChrW(10) & "                  '' AS T" &
+                "D007, QTY AS TD008, 0 AS TD009, '' AS TD010, 0 AS TD011, 0 AS TD012, CONVERT(nch" &
+                "ar(8), RETD, 112) AS TD013, 'N' AS TD016, '' AS TD020, 'Y' AS TD021, 0 AS TD022," &
+                " 0 AS TD024, 0 AS TD025, 1 AS TD026, 0 AS TD031, 0 AS TD032, " & Global.Microsoft.VisualBasic.ChrW(10) & "                  " &
+                "0 AS TD034, 0 AS TD035, '' AS TD036, UNIT AS TD041, 9 AS TD045, CONVERT(nchar(8)" &
+                ", RETD, 112) AS TD047, CONVERT(nchar(8), RETD, 112) AS TD048, 1 AS TD049, QTY AS" &
+                " TD076, '' AS TD077, 0 AS TD078" & Global.Microsoft.VisualBasic.ChrW(10) & "FROM     dbo.SOT" & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE  (DATETIME > @start_point" &
+                ") AND (CUS LIKE '%VN') AND (REV = 1) AND (CO = 'AA' OR CO = 'VT' OR CO = 'AC') " & Global.Microsoft.VisualBasic.ChrW(10) &
                 "ORDER BY DATETIME"
             Me._commandCollection(1).CommandType = Global.System.Data.CommandType.Text
-            Me._commandCollection(1).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@start_point", Global.System.Data.SqlDbType.DateTime, 8, Global.System.Data.ParameterDirection.Input, 0, 0, "DATETIME", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._commandCollection(1).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@start_point", Global.System.Data.SqlDbType.DateTime, 8, Global.System.Data.ParameterDirection.Input, 0, 0, "DATETIME", Global.System.Data.DataRowVersion.Current, False, Nothing, "", "", ""))
             Me._commandCollection(2) = New Global.System.Data.SqlClient.SqlCommand()
             Me._commandCollection(2).Connection = Me.Connection
-            Me._commandCollection(2).CommandText = "SELECT QTY AS TD076, CONVERT (nchar(8), DATETIME, 112) AS CREATE_DATE, 'SFT' AS C"& _ 
-                "REATOR, DATETIME, 0 AS FLAG, QTY AS TD008, '' AS TD001, LTRIM(RTRIM(SORNO)) AS T"& _ 
-                "D002, RIGHT (10000 + ITEMNO, 4) AS TD003, LTRIM(RTRIM(CODE)) AS TD004, '' AS TD0"& _ 
-                "05, '' AS TD007, 0 AS TD009, '' AS TD010, 0 AS TD011, 0 AS TD012, CONVERT (nchar"& _ 
-                "(8), RETD, 112) AS TD013, 'N' AS TD016, '' AS TD020, 'Y' AS TD021, 0 AS TD022, 0"& _ 
-                " AS TD024, 0 AS TD025, 1 AS TD026, 0 AS TD031, 0 AS TD032, 0 AS TD034, 0 AS TD03"& _ 
-                "5, '' AS TD036, UNIT AS TD041, 9 AS TD045, CONVERT (nchar(8), RETD, 112) AS TD04"& _ 
-                "7, CONVERT (nchar(8), RETD, 112) AS TD048, 1 AS TD049, '' AS TD077, 0 AS TD078 "&Global.Microsoft.VisualBasic.ChrW(10)& _ 
-                "FROM dbo.SOT "&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE (SORNO = @SORNO) AND (ITEMNO = CONVERT (int, @ITEM)) AND (CU"& _ 
-                "S LIKE '%VN%') AND (CO = 'AA' OR CO = 'VT' OR CO = 'AC') "&Global.Microsoft.VisualBasic.ChrW(10)&"ORDER BY DATETIME"
+            Me._commandCollection(2).CommandText = "SELECT QTY AS TD076, CONVERT (nchar(8), DATETIME, 112) AS CREATE_DATE, 'SFT' AS C" &
+                "REATOR, DATETIME, 0 AS FLAG, QTY AS TD008, '' AS TD001, LTRIM(RTRIM(SORNO)) AS T" &
+                "D002, RIGHT (10000 + ITEMNO, 4) AS TD003, LTRIM(RTRIM(CODE)) AS TD004, '' AS TD0" &
+                "05, '' AS TD007, 0 AS TD009, '' AS TD010, 0 AS TD011, 0 AS TD012, CONVERT (nchar" &
+                "(8), RETD, 112) AS TD013, 'N' AS TD016, '' AS TD020, 'Y' AS TD021, 0 AS TD022, 0" &
+                " AS TD024, 0 AS TD025, 1 AS TD026, 0 AS TD031, 0 AS TD032, 0 AS TD034, 0 AS TD03" &
+                "5, '' AS TD036, UNIT AS TD041, 9 AS TD045, CONVERT (nchar(8), RETD, 112) AS TD04" &
+                "7, CONVERT (nchar(8), RETD, 112) AS TD048, 1 AS TD049, '' AS TD077, 0 AS TD078 " & Global.Microsoft.VisualBasic.ChrW(10) &
+                "FROM dbo.SOT " & Global.Microsoft.VisualBasic.ChrW(10) & "WHERE (SORNO = @SORNO) AND (ITEMNO = CONVERT (int, @ITEM)) AND (CU" &
+                "S LIKE '%VN%') AND (CO = 'AA' OR CO = 'VT' OR CO = 'AC') " & Global.Microsoft.VisualBasic.ChrW(10) & "ORDER BY DATETIME"
             Me._commandCollection(2).CommandType = Global.System.Data.CommandType.Text
             Me._commandCollection(2).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@SORNO", Global.System.Data.SqlDbType.NVarChar, 40, Global.System.Data.ParameterDirection.Input, 0, 0, "SORNO", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._commandCollection(2).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@ITEM", Global.System.Data.SqlDbType.NVarChar, 12, Global.System.Data.ParameterDirection.Input, 0, 0, "ITEMNO", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
