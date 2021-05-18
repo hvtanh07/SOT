@@ -15,8 +15,6 @@
 End Class
 
 Namespace ntlsDataSetTableAdapters
-    Partial Public Class COPTETableAdapter
-    End Class
 
     Partial Public Class SOTTableAdapter
     End Class
