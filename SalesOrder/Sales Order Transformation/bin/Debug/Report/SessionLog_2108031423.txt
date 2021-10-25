@@ -1,0 +1,1568 @@
+03/08/2021 14:23:30: Session 2108031423 has started.
+03/08/2021 14:23:30: Start point: 2021-07-25 12:05:51.403
+03/08/2021 14:23:30: 2%
+03/08/2021 14:23:31: 8%
+03/08/2021 14:23:31: 14%
+03/08/2021 14:23:31: 16%
+03/08/2021 14:23:31: Connection to 223.255.178.194 is opened.
+03/08/2021 14:23:51: Failed to update Order No. 2012139    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:51: Failed to update Order No. 2012139    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:51: Failed to update Order No. 2107018    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:51: Failed to update Order No. 2107018    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:51: Failed to update Order No. 2107018    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:51: Failed to update Order No. 2107018    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:51: Failed to update Order No. 2107018    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:51: Failed to update Order No. 2107003    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:52: Failed to update Order No. 2107003    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:52: Failed to update Order No. 2107003    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:52: Failed to update Order No. 2107003    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:52: Failed to update Order No. 2107003    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:52: Failed to update Order No. 2107003    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:52: Failed to update Order No. 2107003    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:52: Failed to update Order No. 2107003    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:52: Failed to update Order No. 2107003    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:52: Failed to update Order No. 2107003    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:52: Failed to update Order No. 2107003    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:52: Failed to update Order No. 2107003    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:52: Failed to update Order No. 2107003    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:52: Failed to update Order No. 2106196    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:52: Failed to update Order No. 2106196    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:53: Failed to update Order No. 2107197    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:53: Failed to update Order No. 2106197    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:53: Failed to update Order No. 2106197    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:53: Failed to update Order No. 2106198    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:53: Failed to update Order No. 2106198    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:53: Failed to update Order No. 2106199    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:53: Failed to update Order No. 2106199    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:53: Failed to update Order No. 2106200    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:53: Failed to update Order No. 2106056    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:53: Failed to update Order No. 2106056    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:53: Failed to update Order No. 2106056    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:53: Failed to update Order No. 2106056    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:53: Failed to update Order No. 2106056    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:53: Failed to update Order No. 2106056    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:53: Failed to update Order No. 2106056    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:53: Failed to update Order No. 2106056    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:54: Failed to update Order No. 2106056    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:54: Failed to update Order No. 2106056    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:54: Failed to update Order No. 2106056    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:54: Failed to update Order No. 2106056    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:54: Failed to update Order No. 2106056    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:54: Failed to update Order No. 2106056    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:54: Failed to update Order No. 2106056    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:54: Failed to update Order No. 2106056    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:54: Failed to update Order No. 2106056    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:54: Failed to update Order No. 2106056    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:54: Failed to update Order No. 2106056    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:54: Failed to update Order No. 2106057    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:54: Failed to update Order No. 2106057    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:54: Failed to update Order No. 2106057    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:55: Failed to update Order No. 2106057    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:55: Failed to update Order No. 2106057    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:55: Failed to update Order No. 2106057    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:55: Failed to update Order No. 2106057    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:55: Failed to update Order No. 2106057    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:55: Failed to update Order No. 2106057    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:55: Failed to update Order No. 2106057    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:55: Failed to update Order No. 2106057    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:55: Failed to update Order No. 2106057    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:55: Failed to update Order No. 2106057    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:55: Failed to update Order No. 2106057    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:55: Failed to update Order No. 2106057    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:55: Failed to update Order No. 2106057    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:55: Failed to update Order No. 2106057    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:55: Failed to update Order No. 2106057    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:56: Failed to update Order No. 2106057    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:56: Failed to update Order No. 2106057    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:56: Failed to update Order No. 2107005    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:56: Failed to update Order No. 2107005    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:56: Failed to update Order No. 2107005    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:56: Failed to update Order No. 2107005    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:56: Failed to update Order No. 2107005    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:56: Failed to update Order No. 2107005    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:56: Failed to update Order No. 2107005    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:56: Failed to update Order No. 2107005    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:56: Failed to update Order No. 2107005    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:56: Failed to update Order No. 2107005    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:56: Failed to update Order No. 2107005    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:56: Failed to update Order No. 2107005    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:57: Failed to update Order No. 2107005    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:57: Failed to update Order No. 2107005    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:57: Failed to update Order No. 2107005    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:57: Failed to update Order No. 2107005    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:57: Failed to update Order No. 2107007    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:57: Failed to update Order No. 2107007    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:57: Failed to update Order No. 2107007    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:57: Failed to update Order No. 2107007    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:57: Failed to update Order No. 2107007    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:57: Failed to update Order No. 2107007    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:57: Failed to update Order No. 2107007    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:57: Failed to update Order No. 2107007    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:57: Failed to update Order No. 2107007    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:57: Failed to update Order No. 2107007    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:57: Failed to update Order No. 2107007    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:58: Failed to update Order No. 2107007    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:58: Failed to update Order No. 2107007    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:58: Failed to update Order No. 2107007    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:58: Failed to update Order No. 2107007    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:58: Failed to update Order No. 2107018    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:58: Failed to update Order No. 2107018    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:58: Failed to update Order No. 2107018    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:58: Failed to update Order No. 2107018    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:58: Failed to update Order No. 2104237    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:58: Failed to update Order No. 2104237    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:58: Failed to update Order No. 2104237    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:58: Failed to update Order No. 2104230    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:58: Failed to update Order No. 2104245    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:58: Failed to update Order No. 2107019    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:58: Failed to update Order No. 2107019    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:59: Failed to update Order No. 2107019    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:59: Failed to update Order No. 2107019    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:59: Failed to update Order No. 2107019    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:59: Failed to update Order No. 2107022    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:59: Failed to update Order No. 2107198    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:59: Failed to update Order No. 2107198    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:59: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:59: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:59: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:59: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:59: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:59: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:59: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:59: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:23:59: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:00: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:00: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:00: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:00: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:00: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:00: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:00: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:00: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:00: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:00: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:00: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:00: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:00: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:01: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:01: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:01: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:01: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:01: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:01: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:01: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:01: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:01: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:01: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:01: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:01: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:01: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:01: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:02: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:02: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:02: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:02: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:02: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:02: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:02: Failed to update Order No. 2106130    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:02: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:02: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:02: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:02: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:02: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:02: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:02: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:02: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:03: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:03: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:03: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:03: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:03: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:03: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:03: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:03: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:03: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:03: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:03: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:03: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:03: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:03: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:04: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:04: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:04: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:04: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:04: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:04: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:04: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:04: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:04: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:04: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:04: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:04: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:04: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:04: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:05: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:05: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:05: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:05: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:05: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:05: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:05: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:05: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:05: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:05: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:05: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:05: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:05: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:05: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:05: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:06: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:06: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:06: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:06: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:06: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:06: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:06: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:06: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:06: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:06: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:06: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:06: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:06: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:06: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:06: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:07: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:07: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:07: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:07: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:07: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:07: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:07: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:07: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:07: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:07: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:07: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:07: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:07: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:07: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:08: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:08: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:08: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:08: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:08: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:08: Failed to update Order No. 2106115    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:08: Failed to update Order No. 2107020    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:08: Failed to update Order No. 2107020    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:08: Failed to update Order No. 2107020    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:08: Failed to update Order No. 2107020    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:08: Failed to update Order No. 2107021    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:08: Failed to update Order No. 2107021    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:08: Failed to update Order No. 2107021    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:08: Failed to update Order No. 2107021    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:09: Failed to update Order No. 2107199    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:09: Failed to update Order No. 2102160    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:09: Failed to update Order No. 2107200    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:09: Failed to update Order No. 2107201    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:09: Failed to update Order No. 2101238    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:09: Failed to update Order No. 2101238    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:09: Failed to update Order No. 2107202    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:09: Failed to update Order No. 2107202    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:09: Failed to update Order No. 2101239    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:09: Failed to update Order No. 2101239    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:09: Failed to update Order No. 2101239    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:09: Failed to update Order No. 2101239    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:09: Failed to update Order No. 2101239    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:09: Failed to update Order No. 2101239    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:10: Failed to update Order No. 2101239    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:10: Failed to update Order No. 2101239    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:10: Failed to update Order No. 2101239    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:10: Failed to update Order No. 2101239    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:10: Failed to update Order No. 2103216    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:10: Failed to update Order No. 2103216    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:10: Failed to update Order No. 2103216    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:10: Failed to update Order No. 2103216    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:10: Failed to update Order No. 2103216    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:10: Failed to update Order No. 2103216    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:10: Failed to update Order No. 2103216    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:10: Failed to update Order No. 2103216    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:10: Failed to update Order No. 2103216    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:10: Failed to update Order No. 2103216    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:11: Failed to update Order No. 2103216    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:11: Failed to update Order No. 2103216    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:11: Failed to update Order No. 2103216    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:11: Failed to update Order No. 2103216    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:11: Failed to update Order No. 2103216    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:11: Failed to update Order No. 2103216    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:11: Failed to update Order No. 2103216    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:11: Failed to update Order No. 2107053    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:11: Failed to update Order No. 2107053    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:11: Failed to update Order No. 2107053    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:11: Failed to update Order No. 2103250    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:11: Failed to update Order No. 2103250    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:11: Failed to update Order No. 2103250    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:11: Failed to update Order No. 2103250    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:11: Failed to update Order No. 2103250    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:12: Failed to update Order No. 2104208    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:12: Failed to update Order No. 2104208    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:12: Failed to update Order No. 2104208    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:12: Failed to update Order No. 2104208    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:12: Failed to update Order No. 2104208    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:12: Failed to update Order No. 2104208    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:12: Failed to update Order No. 2104208    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:12: Failed to update Order No. 2107052    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:12: Failed to update Order No. 2107052    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:12: Failed to update Order No. 2107052    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:12: Failed to update Order No. 2104247    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:12: Failed to update Order No. 2104247    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:12: Failed to update Order No. 2104247    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:12: Failed to update Order No. 2104247    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:13: Failed to update Order No. 2104247    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:13: Failed to update Order No. 2104247    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:13: Failed to update Order No. 2104247    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:13: Failed to update Order No. 2104247    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:13: Failed to update Order No. 2104247    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:13: Failed to update Order No. 2104247    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:13: Failed to update Order No. 2104247    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:13: Failed to update Order No. 2104247    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:13: Failed to update Order No. 2104247    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:13: Failed to update Order No. 2104247    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:13: Failed to update Order No. 2104247    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:13: Failed to update Order No. 2104247    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:13: Failed to update Order No. 2104247    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:13: Failed to update Order No. 2104247    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:14: Failed to update Order No. 2104247    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:14: Failed to update Order No. 2104247    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:14: Failed to update Order No. 2105090    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:14: Failed to update Order No. 2105090    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:14: Failed to update Order No. 2105090    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:14: Failed to update Order No. 2105090    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:14: Failed to update Order No. 2105090    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:14: Failed to update Order No. 2105090    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:14: Failed to update Order No. 2105090    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:14: Failed to update Order No. 2105090    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:14: Failed to update Order No. 2105090    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:14: Failed to update Order No. 2105201    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:14: Failed to update Order No. 2105201    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:14: Failed to update Order No. 2105201    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:15: Failed to update Order No. 2105201    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:15: Failed to update Order No. 2105201    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:15: Failed to update Order No. 2105201    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:15: Failed to update Order No. 2105201    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:15: Failed to update Order No. 2105201    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:15: Failed to update Order No. 2105270    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:15: Failed to update Order No. 2105270    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:15: Failed to update Order No. 2105270    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:15: Failed to update Order No. 2105270    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:15: Failed to update Order No. 2105270    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:15: Failed to update Order No. 2105270    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:15: Failed to update Order No. 2106085    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:15: Failed to update Order No. 2106085    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:15: Failed to update Order No. 2106085    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:15: Failed to update Order No. 2101228    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:15: Failed to update Order No. 2101228    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:16: Failed to update Order No. 2106221    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:16: Failed to update Order No. 2106221    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:16: Failed to update Order No. 2107009    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:16: Failed to update Order No. 2107009    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:16: Failed to update Order No. 2107009    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:16: Failed to update Order No. 2107009    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:16: Failed to update Order No. 2107203    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:16: Failed to update Order No. 2010181    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:16: Failed to update Order No. 2010181    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:16: Failed to update Order No. 2010181    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:16: Failed to update Order No. 2010181    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:16: Failed to update Order No. 2010181    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:16: Failed to update Order No. 2010181    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:16: Failed to update Order No. 2010181    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:17: Failed to update Order No. 2010180    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:17: Failed to update Order No. 2010180    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:17: Failed to update Order No. 2010180    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:17: Failed to update Order No. 2010180    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:17: Failed to update Order No. 2010180    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:17: Failed to update Order No. 2010180    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:17: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:17: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:17: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:17: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:17: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:17: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:17: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:17: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:17: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:18: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:18: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:18: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:18: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:18: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:18: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:18: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:18: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:18: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:18: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:18: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:18: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:18: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:18: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:19: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:19: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:19: Failed to update Order No. 2012006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:19: Failed to update Order No. 2106111    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:19: Failed to update Order No. 2106111    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:19: Failed to update Order No. 2106111    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:19: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:19: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:19: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:19: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:19: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:19: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:19: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:19: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:19: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:20: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:20: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:20: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:20: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:20: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:20: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:20: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:20: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:20: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:20: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:20: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:20: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:20: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:20: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:21: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:21: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:21: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:21: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:21: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:21: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:21: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:21: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:21: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:21: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:21: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:21: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:21: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:21: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:22: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:22: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:22: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:22: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:22: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:22: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:22: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:22: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:22: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:22: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:22: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:22: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:22: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:22: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:22: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:23: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:23: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:23: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:23: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:23: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:23: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:23: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:23: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:23: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:23: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:23: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:23: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:23: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:23: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:24: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:24: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:24: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:24: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:24: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:24: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:24: Failed to update Order No. 2103259    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:24: Failed to update Order No. 2107204    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:24: Failed to update Order No. 2107204    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:24: Failed to update Order No. 2107204    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:24: Failed to update Order No. 2107204    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:24: Failed to update Order No. 2107204    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:24: Failed to update Order No. 2107204    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:24: Failed to update Order No. 2107204    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:24: Failed to update Order No. 2107204    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:25: Failed to update Order No. 2107204    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:25: Failed to update Order No. 2107204    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:25: Failed to update Order No. 2107204    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:25: Failed to update Order No. 2107204    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:25: Failed to update Order No. 2107204    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:25: Failed to update Order No. 2107204    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:25: Failed to update Order No. 2107204    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:25: Failed to update Order No. 2107204    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:25: Failed to update Order No. 2107204    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:25: Failed to update Order No. 2107204    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:25: Failed to update Order No. 2107204    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:25: Failed to update Order No. 2107204    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:25: Failed to update Order No. 2107205    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:25: Failed to update Order No. 2107006    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:26: Failed to update Order No. 2106223    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:26: Failed to update Order No. 2107206    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:26: Failed to update Order No. 2107206    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:26: Failed to update Order No. 2107206    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:26: Failed to update Order No. 2107206    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:26: Failed to update Order No. 2107206    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:26: Failed to update Order No. 2107206    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:26: Failed to update Order No. 2107206    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:26: Failed to update Order No. 2107207    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:26: Failed to update Order No. 2107207    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:26: Failed to update Order No. 2104215    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:26: Failed to update Order No. 2105215    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:26: Failed to update Order No. 2104217    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:26: Failed to update Order No. 2104087    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:26: Failed to update Order No. 2104087    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:27: Failed to update Order No. 2104087    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:27: Failed to update Order No. 2105217    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:27: Failed to update Order No. 2105216    . Error: Cannot insert the value NULL into column 'CFIELD01', table 'TEST03152021.dbo.COPTE'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+03/08/2021 14:24:27: 36%
+03/08/2021 14:24:27: 38%
+03/08/2021 14:24:27: 50%
+03/08/2021 14:24:27: 56%
+03/08/2021 14:24:27: 60%
+03/08/2021 14:24:27: 65%
+03/08/2021 14:24:27: 70%
+03/08/2021 14:24:32: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:32: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:32: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:32: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:32: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:32: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:32: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:32: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:32: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:32: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:32: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:32: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:32: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:32: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:33: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:33: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:33: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:33: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:33: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:33: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:33: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:33: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:33: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:33: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:33: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:33: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:33: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:33: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:33: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:34: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:34: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:34: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:34: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:34: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:34: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:34: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:34: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:34: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:34: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:34: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:34: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:34: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:24:34: Order number GMN-P001193 has more than one ERP Order No. System cannot decide!
+03/08/2021 14:25:39: The changed order has the product number TL-870S not found. Cannot import Order No. 2106111    -0002.
+03/08/2021 14:26:05: The changed order has the product number NTS0121900 not found. Cannot import Order No. 2107018    -0001.
+03/08/2021 14:26:09: The changed order has the product number TAPPO SONDA not found. Cannot import Order No. 2107197    -0002.
+03/08/2021 14:26:10: The changed order has the product number TRANSPORTATION FEE not found. Cannot import Order No. 2107198    -0001.
+03/08/2021 14:26:11: The changed order has the product number 51-7053 not found. Cannot import Order No. 2107204    -0001.
+03/08/2021 14:26:12: The changed order has the product number R40B-175/250 not found. Cannot import Order No. 2107204    -0001.
+03/08/2021 14:26:15: Order No. 2010180     has been updated.
+03/08/2021 14:26:15: Order No. 2010180     has been updated.
+03/08/2021 14:26:15: Order No. 2010180     has been updated.
+03/08/2021 14:26:15: Order No. 2010180     has been updated.
+03/08/2021 14:26:15: Order No. 2010180     has been updated.
+03/08/2021 14:26:16: Order No. 2010180     has been updated.
+03/08/2021 14:26:16: Order No. 2010181     has been updated.
+03/08/2021 14:26:16: Order No. 2010181     has been updated.
+03/08/2021 14:26:16: Order No. 2010181     has been updated.
+03/08/2021 14:26:16: Order No. 2010181     has been updated.
+03/08/2021 14:26:16: Order No. 2010181     has been updated.
+03/08/2021 14:26:16: Order No. 2010181     has been updated.
+03/08/2021 14:26:16: Order No. 2010181     has been updated.
+03/08/2021 14:26:16: Order No. 2012006     has been updated.
+03/08/2021 14:26:16: Order No. 2012006     has been updated.
+03/08/2021 14:26:16: Order No. 2012006     has been updated.
+03/08/2021 14:26:16: Order No. 2012006     has been updated.
+03/08/2021 14:26:16: Order No. 2012006     has been updated.
+03/08/2021 14:26:16: Order No. 2012006     has been updated.
+03/08/2021 14:26:16: Order No. 2012006     has been updated.
+03/08/2021 14:26:16: Order No. 2012006     has been updated.
+03/08/2021 14:26:16: Order No. 2012006     has been updated.
+03/08/2021 14:26:16: Order No. 2012006     has been updated.
+03/08/2021 14:26:16: Order No. 2012006     has been updated.
+03/08/2021 14:26:17: Order No. 2012006     has been updated.
+03/08/2021 14:26:17: Order No. 2012006     has been updated.
+03/08/2021 14:26:17: Order No. 2012006     has been updated.
+03/08/2021 14:26:17: Order No. 2012006     has been updated.
+03/08/2021 14:26:17: Order No. 2012006     has been updated.
+03/08/2021 14:26:17: Order No. 2012006     has been updated.
+03/08/2021 14:26:17: Order No. 2012006     has been updated.
+03/08/2021 14:26:17: Order No. 2012006     has been updated.
+03/08/2021 14:26:17: Order No. 2012006     has been updated.
+03/08/2021 14:26:17: Order No. 2012006     has been updated.
+03/08/2021 14:26:17: Order No. 2012006     has been updated.
+03/08/2021 14:26:17: Order No. 2012006     has been updated.
+03/08/2021 14:26:17: Order No. 2012006     has been updated.
+03/08/2021 14:26:17: Order No. 2012006     has been updated.
+03/08/2021 14:26:17: Order No. 2012006     has been updated.
+03/08/2021 14:26:17: Order No. 2012139     has been updated.
+03/08/2021 14:26:17: Order No. 2012139     has been updated.
+03/08/2021 14:26:17: Order No. 2101228     has been updated.
+03/08/2021 14:26:17: Order No. 2101228     has been updated.
+03/08/2021 14:26:18: Order No. 2101238     has been updated.
+03/08/2021 14:26:18: Order No. 2101238     has been updated.
+03/08/2021 14:26:18: Order No. 2101239     has been updated.
+03/08/2021 14:26:18: Order No. 2101239     has been updated.
+03/08/2021 14:26:18: Order No. 2101239     has been updated.
+03/08/2021 14:26:18: Order No. 2101239     has been updated.
+03/08/2021 14:26:18: Order No. 2101239     has been updated.
+03/08/2021 14:26:18: Order No. 2101239     has been updated.
+03/08/2021 14:26:18: Order No. 2101239     has been updated.
+03/08/2021 14:26:18: Order No. 2101239     has been updated.
+03/08/2021 14:26:18: Order No. 2101239     has been updated.
+03/08/2021 14:26:18: Order No. 2101239     has been updated.
+03/08/2021 14:26:18: Order No. 2102160     has been updated.
+03/08/2021 14:26:18: Order No. 2103216     has been updated.
+03/08/2021 14:26:18: Order No. 2103216     has been updated.
+03/08/2021 14:26:18: Order No. 2103216     has been updated.
+03/08/2021 14:26:18: Order No. 2103216     has been updated.
+03/08/2021 14:26:18: Order No. 2103216     has been updated.
+03/08/2021 14:26:18: Order No. 2103216     has been updated.
+03/08/2021 14:26:18: Order No. 2103216     has been updated.
+03/08/2021 14:26:19: Order No. 2103216     has been updated.
+03/08/2021 14:26:19: Order No. 2103216     has been updated.
+03/08/2021 14:26:19: Order No. 2103216     has been updated.
+03/08/2021 14:26:19: Order No. 2103216     has been updated.
+03/08/2021 14:26:19: Order No. 2103216     has been updated.
+03/08/2021 14:26:19: Order No. 2103216     has been updated.
+03/08/2021 14:26:19: Order No. 2103216     has been updated.
+03/08/2021 14:26:19: Order No. 2103216     has been updated.
+03/08/2021 14:26:19: Order No. 2103216     has been updated.
+03/08/2021 14:26:19: Order No. 2103216     has been updated.
+03/08/2021 14:26:19: Order No. 2103250     has been updated.
+03/08/2021 14:26:19: Order No. 2103250     has been updated.
+03/08/2021 14:26:19: Order No. 2103250     has been updated.
+03/08/2021 14:26:19: Order No. 2103250     has been updated.
+03/08/2021 14:26:19: Order No. 2103250     has been updated.
+03/08/2021 14:26:19: Order No. 2103259     has been updated.
+03/08/2021 14:26:19: Order No. 2103259     has been updated.
+03/08/2021 14:26:19: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:20: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:21: Order No. 2103259     has been updated.
+03/08/2021 14:26:22: Order No. 2103259     has been updated.
+03/08/2021 14:26:22: Order No. 2103259     has been updated.
+03/08/2021 14:26:22: Order No. 2103259     has been updated.
+03/08/2021 14:26:22: Order No. 2103259     has been updated.
+03/08/2021 14:26:22: Order No. 2103259     has been updated.
+03/08/2021 14:26:22: Order No. 2103259     has been updated.
+03/08/2021 14:26:22: Order No. 2103259     has been updated.
+03/08/2021 14:26:22: Order No. 2103259     has been updated.
+03/08/2021 14:26:22: Order No. 2103259     has been updated.
+03/08/2021 14:26:22: Order No. 2103259     has been updated.
+03/08/2021 14:26:22: Order No. 2103259     has been updated.
+03/08/2021 14:26:22: Order No. 2103259     has been updated.
+03/08/2021 14:26:22: Order No. 2103259     has been updated.
+03/08/2021 14:26:22: Order No. 2103259     has been updated.
+03/08/2021 14:26:22: Order No. 2103259     has been updated.
+03/08/2021 14:26:22: Order No. 2103259     has been updated.
+03/08/2021 14:26:22: Order No. 2103259     has been updated.
+03/08/2021 14:26:22: Order No. 2103259     has been updated.
+03/08/2021 14:26:22: Order No. 2103259     has been updated.
+03/08/2021 14:26:23: Order No. 2103259     has been updated.
+03/08/2021 14:26:23: Order No. 2103259     has been updated.
+03/08/2021 14:26:23: Order No. 2103259     has been updated.
+03/08/2021 14:26:23: Order No. 2103259     has been updated.
+03/08/2021 14:26:23: Order No. 2103259     has been updated.
+03/08/2021 14:26:23: Order No. 2103259     has been updated.
+03/08/2021 14:26:23: Order No. 2103259     has been updated.
+03/08/2021 14:26:23: Order No. 2103259     has been updated.
+03/08/2021 14:26:23: Order No. 2104087     has been updated.
+03/08/2021 14:26:23: Order No. 2104087     has been updated.
+03/08/2021 14:26:23: Order No. 2104087     has been updated.
+03/08/2021 14:26:23: Order No. 2104208     has been updated.
+03/08/2021 14:26:23: Order No. 2104208     has been updated.
+03/08/2021 14:26:23: Order No. 2104208     has been updated.
+03/08/2021 14:26:23: Order No. 2104208     has been updated.
+03/08/2021 14:26:23: Order No. 2104208     has been updated.
+03/08/2021 14:26:23: Order No. 2104208     has been updated.
+03/08/2021 14:26:23: Order No. 2104208     has been updated.
+03/08/2021 14:26:23: Order No. 2104215     has been updated.
+03/08/2021 14:26:23: Order No. 2104217     has been updated.
+03/08/2021 14:26:23: Order No. 2104230     has been updated.
+03/08/2021 14:26:23: Order No. 2104237     has been updated.
+03/08/2021 14:26:24: Order No. 2104237     has been updated.
+03/08/2021 14:26:24: Order No. 2104237     has been updated.
+03/08/2021 14:26:24: Order No. 2104245     has been updated.
+03/08/2021 14:26:24: Order No. 2104247     has been updated.
+03/08/2021 14:26:24: Order No. 2104247     has been updated.
+03/08/2021 14:26:24: Order No. 2104247     has been updated.
+03/08/2021 14:26:24: Order No. 2104247     has been updated.
+03/08/2021 14:26:24: Order No. 2104247     has been updated.
+03/08/2021 14:26:24: Order No. 2104247     has been updated.
+03/08/2021 14:26:24: Order No. 2104247     has been updated.
+03/08/2021 14:26:24: Order No. 2104247     has been updated.
+03/08/2021 14:26:24: Order No. 2104247     has been updated.
+03/08/2021 14:26:24: Order No. 2104247     has been updated.
+03/08/2021 14:26:24: Order No. 2104247     has been updated.
+03/08/2021 14:26:24: Order No. 2104247     has been updated.
+03/08/2021 14:26:24: Order No. 2104247     has been updated.
+03/08/2021 14:26:24: Order No. 2104247     has been updated.
+03/08/2021 14:26:24: Order No. 2104247     has been updated.
+03/08/2021 14:26:24: Order No. 2104247     has been updated.
+03/08/2021 14:26:24: Order No. 2104247     has been updated.
+03/08/2021 14:26:25: Order No. 2104247     has been updated.
+03/08/2021 14:26:25: Order No. 2104247     has been updated.
+03/08/2021 14:26:25: Order No. 2104247     has been updated.
+03/08/2021 14:26:25: Order No. 2105090     has been updated.
+03/08/2021 14:26:25: Order No. 2105090     has been updated.
+03/08/2021 14:26:25: Order No. 2105090     has been updated.
+03/08/2021 14:26:25: Order No. 2105090     has been updated.
+03/08/2021 14:26:25: Order No. 2105090     has been updated.
+03/08/2021 14:26:25: Order No. 2105090     has been updated.
+03/08/2021 14:26:25: Order No. 2105090     has been updated.
+03/08/2021 14:26:25: Order No. 2105090     has been updated.
+03/08/2021 14:26:25: Order No. 2105090     has been updated.
+03/08/2021 14:26:25: Order No. 2105201     has been updated.
+03/08/2021 14:26:25: Order No. 2105201     has been updated.
+03/08/2021 14:26:25: Order No. 2105201     has been updated.
+03/08/2021 14:26:25: Order No. 2105201     has been updated.
+03/08/2021 14:26:25: Order No. 2105201     has been updated.
+03/08/2021 14:26:25: Order No. 2105201     has been updated.
+03/08/2021 14:26:25: Order No. 2105201     has been updated.
+03/08/2021 14:26:25: Order No. 2105201     has been updated.
+03/08/2021 14:26:26: Order No. 2105215     has been updated.
+03/08/2021 14:26:26: Order No. 2105216     has been updated.
+03/08/2021 14:26:26: Order No. 2105217     has been updated.
+03/08/2021 14:26:26: Order No. 2105270     has been updated.
+03/08/2021 14:26:26: Order No. 2105270     has been updated.
+03/08/2021 14:26:26: Order No. 2105270     has been updated.
+03/08/2021 14:26:26: Order No. 2105270     has been updated.
+03/08/2021 14:26:26: Order No. 2105270     has been updated.
+03/08/2021 14:26:26: Order No. 2105270     has been updated.
+03/08/2021 14:26:26: Order No. 2106056     has been updated.
+03/08/2021 14:26:26: Order No. 2106056     has been updated.
+03/08/2021 14:26:26: Order No. 2106056     has been updated.
+03/08/2021 14:26:26: Order No. 2106056     has been updated.
+03/08/2021 14:26:26: Order No. 2106056     has been updated.
+03/08/2021 14:26:26: Order No. 2106056     has been updated.
+03/08/2021 14:26:26: Order No. 2106056     has been updated.
+03/08/2021 14:26:26: Order No. 2106056     has been updated.
+03/08/2021 14:26:26: Order No. 2106056     has been updated.
+03/08/2021 14:26:26: Order No. 2106056     has been updated.
+03/08/2021 14:26:26: Order No. 2106056     has been updated.
+03/08/2021 14:26:27: Order No. 2106056     has been updated.
+03/08/2021 14:26:27: Order No. 2106056     has been updated.
+03/08/2021 14:26:27: Order No. 2106056     has been updated.
+03/08/2021 14:26:27: Order No. 2106056     has been updated.
+03/08/2021 14:26:27: Order No. 2106056     has been updated.
+03/08/2021 14:26:27: Order No. 2106056     has been updated.
+03/08/2021 14:26:27: Order No. 2106056     has been updated.
+03/08/2021 14:26:27: Order No. 2106056     has been updated.
+03/08/2021 14:26:27: Order No. 2106057     has been updated.
+03/08/2021 14:26:27: Order No. 2106057     has been updated.
+03/08/2021 14:26:27: Order No. 2106057     has been updated.
+03/08/2021 14:26:27: Order No. 2106057     has been updated.
+03/08/2021 14:26:27: Order No. 2106057     has been updated.
+03/08/2021 14:26:27: Order No. 2106057     has been updated.
+03/08/2021 14:26:27: Order No. 2106057     has been updated.
+03/08/2021 14:26:27: Order No. 2106057     has been updated.
+03/08/2021 14:26:27: Order No. 2106057     has been updated.
+03/08/2021 14:26:27: Order No. 2106057     has been updated.
+03/08/2021 14:26:27: Order No. 2106057     has been updated.
+03/08/2021 14:26:27: Order No. 2106057     has been updated.
+03/08/2021 14:26:27: Order No. 2106057     has been updated.
+03/08/2021 14:26:27: Order No. 2106057     has been updated.
+03/08/2021 14:26:28: Order No. 2106057     has been updated.
+03/08/2021 14:26:28: Order No. 2106057     has been updated.
+03/08/2021 14:26:28: Order No. 2106057     has been updated.
+03/08/2021 14:26:28: Order No. 2106057     has been updated.
+03/08/2021 14:26:28: Order No. 2106057     has been updated.
+03/08/2021 14:26:28: Order No. 2106057     has been updated.
+03/08/2021 14:26:28: Order No. 2106085     has been updated.
+03/08/2021 14:26:28: Order No. 2106085     has been updated.
+03/08/2021 14:26:28: Order No. 2106085     has been updated.
+03/08/2021 14:26:28: Order No. 2106111     has been updated.
+03/08/2021 14:26:28: Order No. 2106111     has been updated.
+03/08/2021 14:26:28: Order No. 2106115     has been updated.
+03/08/2021 14:26:28: Order No. 2106115     has been updated.
+03/08/2021 14:26:28: Order No. 2106115     has been updated.
+03/08/2021 14:26:28: Order No. 2106115     has been updated.
+03/08/2021 14:26:28: Order No. 2106115     has been updated.
+03/08/2021 14:26:28: Order No. 2106115     has been updated.
+03/08/2021 14:26:28: Order No. 2106115     has been updated.
+03/08/2021 14:26:28: Order No. 2106115     has been updated.
+03/08/2021 14:26:28: Order No. 2106115     has been updated.
+03/08/2021 14:26:29: Order No. 2106115     has been updated.
+03/08/2021 14:26:29: Order No. 2106115     has been updated.
+03/08/2021 14:26:29: Order No. 2106115     has been updated.
+03/08/2021 14:26:29: Order No. 2106115     has been updated.
+03/08/2021 14:26:29: Order No. 2106115     has been updated.
+03/08/2021 14:26:29: Order No. 2106115     has been updated.
+03/08/2021 14:26:29: Order No. 2106115     has been updated.
+03/08/2021 14:26:29: Order No. 2106115     has been updated.
+03/08/2021 14:26:29: Order No. 2106115     has been updated.
+03/08/2021 14:26:29: Order No. 2106115     has been updated.
+03/08/2021 14:26:29: Order No. 2106115     has been updated.
+03/08/2021 14:26:29: Order No. 2106115     has been updated.
+03/08/2021 14:26:29: Order No. 2106115     has been updated.
+03/08/2021 14:26:29: Order No. 2106115     has been updated.
+03/08/2021 14:26:29: Order No. 2106115     has been updated.
+03/08/2021 14:26:29: Order No. 2106115     has been updated.
+03/08/2021 14:26:29: Order No. 2106115     has been updated.
+03/08/2021 14:26:29: Order No. 2106115     has been updated.
+03/08/2021 14:26:29: Order No. 2106115     has been updated.
+03/08/2021 14:26:29: Order No. 2106115     has been updated.
+03/08/2021 14:26:30: Order No. 2106115     has been updated.
+03/08/2021 14:26:30: Order No. 2106115     has been updated.
+03/08/2021 14:26:30: Order No. 2106115     has been updated.
+03/08/2021 14:26:30: Order No. 2106115     has been updated.
+03/08/2021 14:26:30: Order No. 2106115     has been updated.
+03/08/2021 14:26:30: Order No. 2106115     has been updated.
+03/08/2021 14:26:30: Order No. 2106115     has been updated.
+03/08/2021 14:26:30: Order No. 2106115     has been updated.
+03/08/2021 14:26:30: Order No. 2106115     has been updated.
+03/08/2021 14:26:30: Order No. 2106115     has been updated.
+03/08/2021 14:26:30: Order No. 2106115     has been updated.
+03/08/2021 14:26:30: Order No. 2106115     has been updated.
+03/08/2021 14:26:30: Order No. 2106115     has been updated.
+03/08/2021 14:26:30: Order No. 2106115     has been updated.
+03/08/2021 14:26:30: Order No. 2106115     has been updated.
+03/08/2021 14:26:30: Order No. 2106115     has been updated.
+03/08/2021 14:26:30: Order No. 2106115     has been updated.
+03/08/2021 14:26:30: Order No. 2106115     has been updated.
+03/08/2021 14:26:30: Order No. 2106115     has been updated.
+03/08/2021 14:26:31: Order No. 2106115     has been updated.
+03/08/2021 14:26:31: Order No. 2106115     has been updated.
+03/08/2021 14:26:31: Order No. 2106115     has been updated.
+03/08/2021 14:26:31: Order No. 2106115     has been updated.
+03/08/2021 14:26:31: Order No. 2106115     has been updated.
+03/08/2021 14:26:31: Order No. 2106115     has been updated.
+03/08/2021 14:26:31: Order No. 2106115     has been updated.
+03/08/2021 14:26:31: Order No. 2106115     has been updated.
+03/08/2021 14:26:31: Order No. 2106115     has been updated.
+03/08/2021 14:26:31: Order No. 2106115     has been updated.
+03/08/2021 14:26:31: Order No. 2106115     has been updated.
+03/08/2021 14:26:31: Order No. 2106115     has been updated.
+03/08/2021 14:26:31: Order No. 2106115     has been updated.
+03/08/2021 14:26:31: Order No. 2106115     has been updated.
+03/08/2021 14:26:31: Order No. 2106115     has been updated.
+03/08/2021 14:26:31: Order No. 2106115     has been updated.
+03/08/2021 14:26:31: Order No. 2106115     has been updated.
+03/08/2021 14:26:31: Order No. 2106115     has been updated.
+03/08/2021 14:26:31: Order No. 2106115     has been updated.
+03/08/2021 14:26:32: Order No. 2106115     has been updated.
+03/08/2021 14:26:32: Order No. 2106115     has been updated.
+03/08/2021 14:26:32: Order No. 2106115     has been updated.
+03/08/2021 14:26:32: Order No. 2106115     has been updated.
+03/08/2021 14:26:32: Order No. 2106115     has been updated.
+03/08/2021 14:26:32: Order No. 2106115     has been updated.
+03/08/2021 14:26:32: Order No. 2106115     has been updated.
+03/08/2021 14:26:32: Order No. 2106115     has been updated.
+03/08/2021 14:26:32: Order No. 2106115     has been updated.
+03/08/2021 14:26:32: Order No. 2106115     has been updated.
+03/08/2021 14:26:32: Order No. 2106115     has been updated.
+03/08/2021 14:26:32: Order No. 2106115     has been updated.
+03/08/2021 14:26:32: Order No. 2106115     has been updated.
+03/08/2021 14:26:32: Order No. 2106115     has been updated.
+03/08/2021 14:26:32: Order No. 2106115     has been updated.
+03/08/2021 14:26:32: Order No. 2106115     has been updated.
+03/08/2021 14:26:32: Order No. 2106115     has been updated.
+03/08/2021 14:26:32: Order No. 2106115     has been updated.
+03/08/2021 14:26:32: Order No. 2106115     has been updated.
+03/08/2021 14:26:32: Order No. 2106196     has been updated.
+03/08/2021 14:26:33: Order No. 2106196     has been updated.
+03/08/2021 14:26:33: Order No. 2106197     has been updated.
+03/08/2021 14:26:33: Order No. 2106197     has been updated.
+03/08/2021 14:26:33: Order No. 2106198     has been updated.
+03/08/2021 14:26:33: Order No. 2106198     has been updated.
+03/08/2021 14:26:33: Order No. 2106199     has been updated.
+03/08/2021 14:26:33: Order No. 2106199     has been updated.
+03/08/2021 14:26:33: Order No. 2106200     has been updated.
+03/08/2021 14:26:33: Order No. 2106221     has been updated.
+03/08/2021 14:26:33: Order No. 2106221     has been updated.
+03/08/2021 14:26:33: Order No. 2106223     has been updated.
+03/08/2021 14:26:33: Order No. 2107003     has been updated.
+03/08/2021 14:26:33: Order No. 2107003     has been updated.
+03/08/2021 14:26:33: Order No. 2107003     has been updated.
+03/08/2021 14:26:33: Order No. 2107003     has been updated.
+03/08/2021 14:26:33: Order No. 2107003     has been updated.
+03/08/2021 14:26:33: Order No. 2107003     has been updated.
+03/08/2021 14:26:33: Order No. 2107003     has been updated.
+03/08/2021 14:26:33: Order No. 2107003     has been updated.
+03/08/2021 14:26:33: Order No. 2107003     has been updated.
+03/08/2021 14:26:33: Order No. 2107003     has been updated.
+03/08/2021 14:26:33: Order No. 2107003     has been updated.
+03/08/2021 14:26:34: Order No. 2107003     has been updated.
+03/08/2021 14:26:34: Order No. 2107003     has been updated.
+03/08/2021 14:26:34: Order No. 2107005     has been updated.
+03/08/2021 14:26:34: Order No. 2107005     has been updated.
+03/08/2021 14:26:34: Order No. 2107005     has been updated.
+03/08/2021 14:26:34: Order No. 2107005     has been updated.
+03/08/2021 14:26:34: Order No. 2107005     has been updated.
+03/08/2021 14:26:34: Order No. 2107005     has been updated.
+03/08/2021 14:26:34: Order No. 2107005     has been updated.
+03/08/2021 14:26:34: Order No. 2107005     has been updated.
+03/08/2021 14:26:34: Order No. 2107005     has been updated.
+03/08/2021 14:26:34: Order No. 2107005     has been updated.
+03/08/2021 14:26:34: Order No. 2107005     has been updated.
+03/08/2021 14:26:34: Order No. 2107005     has been updated.
+03/08/2021 14:26:34: Order No. 2107005     has been updated.
+03/08/2021 14:26:34: Order No. 2107005     has been updated.
+03/08/2021 14:26:34: Order No. 2107005     has been updated.
+03/08/2021 14:26:34: Order No. 2107005     has been updated.
+03/08/2021 14:26:34: Order No. 2107006     has been updated.
+03/08/2021 14:26:34: Order No. 2107007     has been updated.
+03/08/2021 14:26:35: Order No. 2107007     has been updated.
+03/08/2021 14:26:35: Order No. 2107007     has been updated.
+03/08/2021 14:26:35: Order No. 2107007     has been updated.
+03/08/2021 14:26:35: Order No. 2107007     has been updated.
+03/08/2021 14:26:35: Order No. 2107007     has been updated.
+03/08/2021 14:26:35: Order No. 2107007     has been updated.
+03/08/2021 14:26:35: Order No. 2107007     has been updated.
+03/08/2021 14:26:35: Order No. 2107007     has been updated.
+03/08/2021 14:26:35: Order No. 2107007     has been updated.
+03/08/2021 14:26:35: Order No. 2107007     has been updated.
+03/08/2021 14:26:35: Order No. 2107007     has been updated.
+03/08/2021 14:26:35: Order No. 2107007     has been updated.
+03/08/2021 14:26:35: Order No. 2107007     has been updated.
+03/08/2021 14:26:35: Order No. 2107007     has been updated.
+03/08/2021 14:26:35: Order No. 2107009     has been updated.
+03/08/2021 14:26:35: Order No. 2107009     has been updated.
+03/08/2021 14:26:35: Order No. 2107009     has been updated.
+03/08/2021 14:26:35: Order No. 2107009     has been updated.
+03/08/2021 14:26:35: Order No. 2107018     has been updated.
+03/08/2021 14:26:35: Order No. 2107018     has been updated.
+03/08/2021 14:26:35: Order No. 2107018     has been updated.
+03/08/2021 14:26:36: Order No. 2107018     has been updated.
+03/08/2021 14:26:36: Order No. 2107018     has been updated.
+03/08/2021 14:26:36: Order No. 2107018     has been updated.
+03/08/2021 14:26:36: Order No. 2107018     has been updated.
+03/08/2021 14:26:36: Order No. 2107018     has been updated.
+03/08/2021 14:26:36: Order No. 2107019     has been updated.
+03/08/2021 14:26:36: Order No. 2107019     has been updated.
+03/08/2021 14:26:36: Order No. 2107019     has been updated.
+03/08/2021 14:26:36: Order No. 2107019     has been updated.
+03/08/2021 14:26:36: Order No. 2107019     has been updated.
+03/08/2021 14:26:36: Order No. 2107020     has been updated.
+03/08/2021 14:26:36: Order No. 2107020     has been updated.
+03/08/2021 14:26:36: Order No. 2107020     has been updated.
+03/08/2021 14:26:36: Order No. 2107020     has been updated.
+03/08/2021 14:26:36: Order No. 2107021     has been updated.
+03/08/2021 14:26:36: Order No. 2107021     has been updated.
+03/08/2021 14:26:36: Order No. 2107021     has been updated.
+03/08/2021 14:26:36: Order No. 2107021     has been updated.
+03/08/2021 14:26:36: Order No. 2107022     has been updated.
+03/08/2021 14:26:36: Order No. 2107052     has been updated.
+03/08/2021 14:26:36: Order No. 2107052     has been updated.
+03/08/2021 14:26:36: Order No. 2107052     has been updated.
+03/08/2021 14:26:37: Order No. 2107053     has been updated.
+03/08/2021 14:26:37: Order No. 2107053     has been updated.
+03/08/2021 14:26:37: Order No. 2107053     has been updated.
+03/08/2021 14:26:37: Order No. 2107198     has been updated.
+03/08/2021 14:26:37: Order No. 2107199     has been updated.
+03/08/2021 14:26:37: Order No. 2107200     has been updated.
+03/08/2021 14:26:37: Order No. 2107201     has been updated.
+03/08/2021 14:26:37: Order No. 2107202     has been updated.
+03/08/2021 14:26:37: Order No. 2107202     has been updated.
+03/08/2021 14:26:37: Order No. 2107203     has been updated.
+03/08/2021 14:26:37: Order No. 2107204     has been updated.
+03/08/2021 14:26:37: Order No. 2107204     has been updated.
+03/08/2021 14:26:37: Order No. 2107204     has been updated.
+03/08/2021 14:26:37: Order No. 2107204     has been updated.
+03/08/2021 14:26:37: Order No. 2107204     has been updated.
+03/08/2021 14:26:37: Order No. 2107204     has been updated.
+03/08/2021 14:26:37: Order No. 2107204     has been updated.
+03/08/2021 14:26:37: Order No. 2107204     has been updated.
+03/08/2021 14:26:37: Order No. 2107204     has been updated.
+03/08/2021 14:26:37: Order No. 2107204     has been updated.
+03/08/2021 14:26:38: Order No. 2107204     has been updated.
+03/08/2021 14:26:38: Order No. 2107204     has been updated.
+03/08/2021 14:26:38: Order No. 2107204     has been updated.
+03/08/2021 14:26:38: Order No. 2107204     has been updated.
+03/08/2021 14:26:38: Order No. 2107204     has been updated.
+03/08/2021 14:26:38: Order No. 2107204     has been updated.
+03/08/2021 14:26:38: Order No. 2107204     has been updated.
+03/08/2021 14:26:38: Order No. 2107204     has been updated.
+03/08/2021 14:26:38: Order No. 2107205     has been updated.
+03/08/2021 14:26:38: Order No. 2107206     has been updated.
+03/08/2021 14:26:38: Order No. 2107206     has been updated.
+03/08/2021 14:26:38: Order No. 2107206     has been updated.
+03/08/2021 14:26:38: Order No. 2107206     has been updated.
+03/08/2021 14:26:38: Order No. 2107206     has been updated.
+03/08/2021 14:26:38: Order No. 2107206     has been updated.
+03/08/2021 14:26:38: Order No. 2107206     has been updated.
+03/08/2021 14:26:38: Order No. 2107207     has been updated.
+03/08/2021 14:26:38: Order No. 2107207     has been updated.
+03/08/2021 14:26:38: 80%
+03/08/2021 14:26:38: End point: 2021-08-03 15:15:48.737
+03/08/2021 14:26:38: Session 2108031423 completed.

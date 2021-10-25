@@ -1,0 +1,140 @@
+28/06/2021 10:17:13: Session 2106281017 has started.
+28/06/2021 10:17:13: Start point: 2021-06-27 00:00:00.000
+28/06/2021 10:17:14: Connection to 223.255.178.194 is opened.
+28/06/2021 10:17:15: Order No. 2011008     has been updated.
+28/06/2021 10:17:15: Order No. 2011008     has been updated.
+28/06/2021 10:17:15: Order No. 2011008     has been updated.
+28/06/2021 10:17:15: Order No. 2011008     has been updated.
+28/06/2021 10:17:15: Order No. 2011008     has been updated.
+28/06/2021 10:17:15: Order No. 2011008     has been updated.
+28/06/2021 10:17:15: Order No. 2011008     has been updated.
+28/06/2021 10:17:15: Order No. 2011008     has been updated.
+28/06/2021 10:17:15: Order No. 2011008     has been updated.
+28/06/2021 10:17:15: Order No. 2011008     has been updated.
+28/06/2021 10:17:15: Order No. 2011008     has been updated.
+28/06/2021 10:17:15: Order No. 2105056     has been updated.
+28/06/2021 10:17:15: Order No. 2105051     has been updated.
+28/06/2021 10:17:15: Order No. 2105048     has been updated.
+28/06/2021 10:17:15: Order No. 2105049     has been updated.
+28/06/2021 10:17:15: Order No. 2105050     has been updated.
+28/06/2021 10:17:15: Order No. 2105047     has been updated.
+28/06/2021 10:17:17: Failed to update Order No. 2011008    . Error: Invalid object name 'dbo.COPTF'.
+28/06/2021 10:17:17: Failed to update Order No. 2011008    . Error: Invalid object name 'dbo.COPTF'.
+28/06/2021 10:17:17: Failed to update Order No. 2011008    . Error: Invalid object name 'dbo.COPTF'.
+28/06/2021 10:17:18: Failed to update Order No. 2011008    . Error: Invalid object name 'dbo.COPTF'.
+28/06/2021 10:17:18: Failed to update Order No. 2011008    . Error: Invalid object name 'dbo.COPTF'.
+28/06/2021 10:17:18: Failed to update Order No. 2011008    . Error: Invalid object name 'dbo.COPTF'.
+28/06/2021 10:17:18: Failed to update Order No. 2011008    . Error: Invalid object name 'dbo.COPTF'.
+28/06/2021 10:17:18: Failed to update Order No. 2011008    . Error: Invalid object name 'dbo.COPTF'.
+28/06/2021 10:17:18: Failed to update Order No. 2011008    . Error: Invalid object name 'dbo.COPTF'.
+28/06/2021 10:17:18: Failed to update Order No. 2011008    . Error: Invalid object name 'dbo.COPTF'.
+28/06/2021 10:17:18: Failed to update Order No. 2011008    . Error: Invalid object name 'dbo.COPTF'.
+28/06/2021 10:17:18: Failed to update Order No. 2105047    . Error: Invalid object name 'dbo.COPTF'.
+28/06/2021 10:17:18: Failed to update Order No. 2105048    . Error: Invalid object name 'dbo.COPTF'.
+28/06/2021 10:17:18: Failed to update Order No. 2105049    . Error: Invalid object name 'dbo.COPTF'.
+28/06/2021 10:17:18: Failed to update Order No. 2105050    . Error: Invalid object name 'dbo.COPTF'.
+28/06/2021 10:17:18: Failed to update Order No. 2105051    . Error: Invalid object name 'dbo.COPTF'.
+28/06/2021 10:17:18: Failed to update Order No. 2105056    . Error: Invalid object name 'dbo.COPTF'.
+28/06/2021 10:17:20: The product number LGDI-HW0814 not found. Cannot import Order No. 2104106    -0001.
+28/06/2021 10:17:20: The product number K51713 - AQUA not found. Cannot import Order No. 2106154    -0001.
+28/06/2021 10:17:20: The product number K51713 - CORAL not found. Cannot import Order No. 2106154    -0004.
+28/06/2021 10:17:20: The product number K51713 - MINT not found. Cannot import Order No. 2106154    -0005.
+28/06/2021 10:17:20: The product number K51713 - CORAL not found. Cannot import Order No. 2106160    -0004.
+28/06/2021 10:17:20: The product number K51713 - MINT not found. Cannot import Order No. 2106160    -0005.
+28/06/2021 10:17:20: The product number K51713 - AQUA not found. Cannot import Order No. 2106160    -0001.
+28/06/2021 10:17:20: The product number K51713 - AQUA not found. Cannot import Order No. 2106166    -0001.
+28/06/2021 10:17:20: The product number K51713 - CORAL not found. Cannot import Order No. 2106166    -0004.
+28/06/2021 10:17:20: The product number K51713 - MINT not found. Cannot import Order No. 2106166    -0005.
+28/06/2021 10:17:20: The product number K51713 - AQUA not found. Cannot import Order No. 2106172    -0001.
+28/06/2021 10:17:20: The product number K51713 - CORAL not found. Cannot import Order No. 2106172    -0004.
+28/06/2021 10:17:20: The product number K51713 - MINT not found. Cannot import Order No. 2106172    -0005.
+28/06/2021 10:17:20: The product number ZEICHNUNG SILIKONBAND not found. Cannot import Order No. 2106186    -0001.
+28/06/2021 10:17:20: The product number 20CM ROUND CASSEROLE HAND GRIP not found. Cannot import Order No. 2106197    -0001.
+28/06/2021 10:17:20: The product number SILICONECOVER-SETOF2 not found. Cannot import Order No. 2106200    -0001.
+28/06/2021 10:17:20: The product number 4PRH-225 (2.25"ID X 36") not found. Cannot import Order No. 2106201    -0001.
+28/06/2021 10:17:20: The product number 4PRH-250 (2.25"ID X 36") not found. Cannot import Order No. 2106201    -0002.
+28/06/2021 10:17:20: The product number PRINTING JIG not found. Cannot import Order No. 2106201    -0003.
+28/06/2021 10:17:20: The product number PRINTING JIG not found. Cannot import Order No. 2106201    -0004.
+28/06/2021 10:17:20: The product number RABBIT SHAPE CHOCOLATE PA not found. Cannot import Order No. 2106205    -0001.
+28/06/2021 10:17:20: The product number RABBIT SHAPE CHOCOLATE PA not found. Cannot import Order No. 2106206    -0001.
+28/06/2021 10:17:20: The product number 45-112X10 not found. Cannot import Order No. 2106225    -0004.
+28/06/2021 10:17:20: The product number R40-300/350X8 not found. Cannot import Order No. 2106225    -0019.
+28/06/2021 10:17:20: The product number R45B-200/250 not found. Cannot import Order No. 2106225    -0021.
+28/06/2021 10:17:20: The product number R90-250/300 not found. Cannot import Order No. 2106225    -0023.
+28/06/2021 10:17:20: The product number SILICONECOVER-SETOF2 not found. Cannot import Order No. 2106317    -0002.
+28/06/2021 10:17:20: The product number 24CM ROUND CASSEROLE HAND GRIP not found. Cannot import Order No. 2106340    -0001.
+28/06/2021 10:17:20: The product number K51713 - AQUA not found. Cannot import Order No. 2106343    -0001.
+28/06/2021 10:17:20: The product number K51713 - CORAL not found. Cannot import Order No. 2106343    -0004.
+28/06/2021 10:17:20: The product number K51713 - MINT not found. Cannot import Order No. 2106343    -0005.
+28/06/2021 10:17:20: The product number TUIT000019 USP not found. Cannot import Order No. 2106366    -0002.
+28/06/2021 10:17:20: The product number TUIT000032 USP not found. Cannot import Order No. 2106366    -0003.
+28/06/2021 10:17:20: The product number SILICONECOVER-SETOF2 not found. Cannot import Order No. 2106381    -0002.
+28/06/2021 10:17:20: The product number SILICONECOVER-SETOF2 not found. Cannot import Order No. 2106392    -0001.
+28/06/2021 10:17:20: The product number TB-62/70 not found. Cannot import Order No. 2106394    -0001.
+28/06/2021 10:17:20: The product number TB-66/74 not found. Cannot import Order No. 2106394    -0002.
+28/06/2021 10:17:20: The product number TB-68/76 not found. Cannot import Order No. 2106394    -0003.
+28/06/2021 10:17:20: The product number TB-70/80 not found. Cannot import Order No. 2106394    -0004.
+28/06/2021 10:17:20: The product number TB-74/82 not found. Cannot import Order No. 2106394    -0005.
+28/06/2021 10:17:20: The product number TB-78/86 not found. Cannot import Order No. 2106394    -0006.
+28/06/2021 10:17:20: The product number TB-80/88 not found. Cannot import Order No. 2106394    -0007.
+28/06/2021 10:17:20: The product number TB-90/98 not found. Cannot import Order No. 2106394    -0008.
+28/06/2021 10:17:20: The product number TB-94/102 not found. Cannot import Order No. 2106394    -0009.
+28/06/2021 10:17:20: The product number TB-84/92 not found. Cannot import Order No. 2106394    -0010.
+28/06/2021 10:17:20: The product number SILICONECOVER-SETOF2 not found. Cannot import Order No. 2106405    -0001.
+28/06/2021 10:17:20: The product number 4PRH-225 (2.25"ID X 36") not found. Cannot import Order No. 2106406    -0001.
+28/06/2021 10:17:20: The product number 4PRH-250 (2.25"ID X 36") not found. Cannot import Order No. 2106406    -0002.
+28/06/2021 10:17:20: The product number PRINTING JIG not found. Cannot import Order No. 2106406    -0003.
+28/06/2021 10:17:20: The product number PRINTING JIG not found. Cannot import Order No. 2106406    -0004.
+28/06/2021 10:17:20: The product number RABBIT SHAPE CHOCOLATE PA not found. Cannot import Order No. 2106410    -0001.
+28/06/2021 10:17:20: The product number RABBIT SHAPE CHOCOLATE PA not found. Cannot import Order No. 2106411    -0001.
+28/06/2021 10:17:20: The product number 45-112X10 not found. Cannot import Order No. 2106430    -0004.
+28/06/2021 10:17:20: The product number R40-300/350X8 not found. Cannot import Order No. 2106430    -0019.
+28/06/2021 10:17:20: The product number R45B-200/250 not found. Cannot import Order No. 2106430    -0021.
+28/06/2021 10:17:20: The product number R90-250/300 not found. Cannot import Order No. 2106430    -0023.
+28/06/2021 10:17:20: The product number SILICONECOVER-SETOF2 not found. Cannot import Order No. 2106522    -0002.
+28/06/2021 10:17:22: Order No. 9324485235 has been created.
+28/06/2021 10:17:22: Order No. 9324485235 has been created.
+28/06/2021 10:17:22: Order No. 9324485235 has been created.
+28/06/2021 10:17:22: Order No. 9324485235 has been created.
+28/06/2021 10:17:22: Order No. 9324485235 has been created.
+28/06/2021 10:17:22: Order No. 9324485230/20 has been created.
+28/06/2021 10:17:22: Order No. 9324485231/40 has been created.
+28/06/2021 10:17:22: Order No. 9324485228 has been created.
+28/06/2021 10:17:22: Order No. 9324485228 has been created.
+28/06/2021 10:17:22: Order No. 5101851 has been created.
+28/06/2021 10:17:22: Order No. 5101851 has been created.
+28/06/2021 10:17:22: Order No. 5101851 has been created.
+28/06/2021 10:17:22: Order No. 5101851 has been created.
+28/06/2021 10:17:22: Order No. 5101851 has been created.
+28/06/2021 10:17:22: Order No. 5101851 has been created.
+28/06/2021 10:17:22: Order No. 5101851 has been created.
+28/06/2021 10:17:22: Order No. 5101851 has been created.
+28/06/2021 10:17:22: Order No. ORF/3653 has been created.
+28/06/2021 10:17:22: Order No. ORF/3653 has been created.
+28/06/2021 10:17:22: Order No. ORF/3653 has been created.
+28/06/2021 10:17:22: Order No. ORF/3653 has been created.
+28/06/2021 10:17:22: Order No. ORF/3653 has been created.
+28/06/2021 10:17:22: Order No. 2106594 has been created.
+28/06/2021 10:17:22: Order No. 2106594 has been created.
+28/06/2021 10:17:23: Order No. 2106594 has been created.
+28/06/2021 10:17:23: Order No. 2106594 has been created.
+28/06/2021 10:17:23: Order No. 2106594 has been created.
+28/06/2021 10:17:23: Order No. 2106599 has been created.
+28/06/2021 10:17:23: Order No. 2106600 has been created.
+28/06/2021 10:17:23: Order No. 2106601 has been created.
+28/06/2021 10:17:23: Order No. 2106601 has been created.
+28/06/2021 10:17:23: Order No. 2106603 has been created.
+28/06/2021 10:17:23: Order No. 2106603 has been created.
+28/06/2021 10:17:23: Order No. 2106603 has been created.
+28/06/2021 10:17:23: Order No. 2106603 has been created.
+28/06/2021 10:17:23: Order No. 2106603 has been created.
+28/06/2021 10:17:23: Order No. 2106603 has been created.
+28/06/2021 10:17:23: Order No. 2106603 has been created.
+28/06/2021 10:17:23: Order No. 2106603 has been created.
+28/06/2021 10:17:23: Order No. 2106611 has been created.
+28/06/2021 10:17:23: Order No. 2106611 has been created.
+28/06/2021 10:17:23: Order No. 2106611 has been created.
+28/06/2021 10:17:23: Order No. 2106611 has been created.
+28/06/2021 10:17:23: Order No. 2106611 has been created.
+28/06/2021 10:17:23: End point: 2021-06-28 10:23:58.197
+28/06/2021 10:17:23: Session 2106281017 completed.

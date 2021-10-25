@@ -97,11 +97,6 @@ Used to sort self-referenced table's rows
 Represents a strongly typed in-memory cache of data.
 </summary>
 </member>
-<member name="T:Sales_Order_Transformation.ntlsDataSet.MAINSO1DataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
 <member name="T:Sales_Order_Transformation.ntlsDataSet.MAINSODataTable">
 <summary>
 Represents the strongly named DataTable class.
@@ -112,19 +107,24 @@ Represents the strongly named DataTable class.
 Represents the strongly named DataTable class.
 </summary>
 </member>
-<member name="T:Sales_Order_Transformation.ntlsDataSet.COPTFDataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
 <member name="T:Sales_Order_Transformation.ntlsDataSet.SOTDataTable">
 <summary>
 Represents the strongly named DataTable class.
 </summary>
 </member>
-<member name="T:Sales_Order_Transformation.ntlsDataSet.MAINSO1Row">
+<member name="T:Sales_Order_Transformation.ntlsDataSet.MAINSO1DataTable">
 <summary>
-Represents strongly named DataRow class.
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sales_Order_Transformation.ntlsDataSet.COPTDGetDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sales_Order_Transformation.ntlsDataSet.COPTFDataTable">
+<summary>
+Represents the strongly named DataTable class.
 </summary>
 </member>
 <member name="T:Sales_Order_Transformation.ntlsDataSet.MAINSORow">
@@ -137,19 +137,24 @@ Represents strongly named DataRow class.
 Represents strongly named DataRow class.
 </summary>
 </member>
-<member name="T:Sales_Order_Transformation.ntlsDataSet.COPTFRow">
-<summary>
-Represents strongly named DataRow class.
-</summary>
-</member>
 <member name="T:Sales_Order_Transformation.ntlsDataSet.SOTRow">
 <summary>
 Represents strongly named DataRow class.
 </summary>
 </member>
-<member name="T:Sales_Order_Transformation.ntlsDataSet.MAINSO1RowChangeEvent">
+<member name="T:Sales_Order_Transformation.ntlsDataSet.MAINSO1Row">
 <summary>
-Row event argument class
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sales_Order_Transformation.ntlsDataSet.COPTDGetRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sales_Order_Transformation.ntlsDataSet.COPTFRow">
+<summary>
+Represents strongly named DataRow class.
 </summary>
 </member>
 <member name="T:Sales_Order_Transformation.ntlsDataSet.MAINSORowChangeEvent">
@@ -162,19 +167,24 @@ Row event argument class
 Row event argument class
 </summary>
 </member>
-<member name="T:Sales_Order_Transformation.ntlsDataSet.COPTFRowChangeEvent">
-<summary>
-Row event argument class
-</summary>
-</member>
 <member name="T:Sales_Order_Transformation.ntlsDataSet.SOTRowChangeEvent">
 <summary>
 Row event argument class
 </summary>
 </member>
-<member name="T:Sales_Order_Transformation.ntlsDataSetTableAdapters.MAINSO1TableAdapter">
+<member name="T:Sales_Order_Transformation.ntlsDataSet.MAINSO1RowChangeEvent">
 <summary>
-Represents the connection and commands used to retrieve and save data.
+Row event argument class
+</summary>
+</member>
+<member name="T:Sales_Order_Transformation.ntlsDataSet.COPTDGetRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sales_Order_Transformation.ntlsDataSet.COPTFRowChangeEvent">
+<summary>
+Row event argument class
 </summary>
 </member>
 <member name="T:Sales_Order_Transformation.ntlsDataSetTableAdapters.MAINSOTableAdapter">
@@ -187,12 +197,22 @@ Represents the connection and commands used to retrieve and save data.
 Represents the connection and commands used to retrieve and save data.
 </summary>
 </member>
-<member name="T:Sales_Order_Transformation.ntlsDataSetTableAdapters.COPTFTableAdapter">
+<member name="T:Sales_Order_Transformation.ntlsDataSetTableAdapters.SOTTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
 </member>
-<member name="T:Sales_Order_Transformation.ntlsDataSetTableAdapters.SOTTableAdapter">
+<member name="T:Sales_Order_Transformation.ntlsDataSetTableAdapters.MAINSO1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sales_Order_Transformation.ntlsDataSetTableAdapters.COPTDGetTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sales_Order_Transformation.ntlsDataSetTableAdapters.COPTFTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
@@ -337,17 +357,17 @@ Represents the strongly named DataTable class.
 Represents the strongly named DataTable class.
 </summary>
 </member>
-<member name="T:Sales_Order_Transformation.SOTDataSet.REMARKSDataTable">
-<summary>
-Represents the strongly named DataTable class.
-</summary>
-</member>
 <member name="T:Sales_Order_Transformation.SOTDataSet.codeChangeDataTable">
 <summary>
 Represents the strongly named DataTable class.
 </summary>
 </member>
 <member name="T:Sales_Order_Transformation.SOTDataSet.BLCOPTDDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sales_Order_Transformation.SOTDataSet.REMARKSDataTable">
 <summary>
 Represents the strongly named DataTable class.
 </summary>
@@ -362,17 +382,17 @@ Represents strongly named DataRow class.
 Represents strongly named DataRow class.
 </summary>
 </member>
-<member name="T:Sales_Order_Transformation.SOTDataSet.REMARKSRow">
-<summary>
-Represents strongly named DataRow class.
-</summary>
-</member>
 <member name="T:Sales_Order_Transformation.SOTDataSet.codeChangeRow">
 <summary>
 Represents strongly named DataRow class.
 </summary>
 </member>
 <member name="T:Sales_Order_Transformation.SOTDataSet.BLCOPTDRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sales_Order_Transformation.SOTDataSet.REMARKSRow">
 <summary>
 Represents strongly named DataRow class.
 </summary>
@@ -387,17 +407,17 @@ Row event argument class
 Row event argument class
 </summary>
 </member>
-<member name="T:Sales_Order_Transformation.SOTDataSet.REMARKSRowChangeEvent">
-<summary>
-Row event argument class
-</summary>
-</member>
 <member name="T:Sales_Order_Transformation.SOTDataSet.codeChangeRowChangeEvent">
 <summary>
 Row event argument class
 </summary>
 </member>
 <member name="T:Sales_Order_Transformation.SOTDataSet.BLCOPTDRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sales_Order_Transformation.SOTDataSet.REMARKSRowChangeEvent">
 <summary>
 Row event argument class
 </summary>
@@ -412,17 +432,17 @@ Represents the connection and commands used to retrieve and save data.
 Represents the connection and commands used to retrieve and save data.
 </summary>
 </member>
-<member name="T:Sales_Order_Transformation.SOTDataSetTableAdapters.REMARKSTableAdapter">
-<summary>
-Represents the connection and commands used to retrieve and save data.
-</summary>
-</member>
 <member name="T:Sales_Order_Transformation.SOTDataSetTableAdapters.codeChangeTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
 </member>
 <member name="T:Sales_Order_Transformation.SOTDataSetTableAdapters.BLCOPTDTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sales_Order_Transformation.SOTDataSetTableAdapters.REMARKSTableAdapter">
 <summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>
@@ -477,7 +497,7 @@ Represents a strongly typed in-memory cache of data.
 Represents the strongly named DataTable class.
 </summary>
 </member>
-<member name="T:Sales_Order_Transformation.TECHLINKDataSet.COPMADataTable">
+<member name="T:Sales_Order_Transformation.TECHLINKDataSet.COPMA2DataTable">
 <summary>
 Represents the strongly named DataTable class.
 </summary>
@@ -522,12 +542,22 @@ Represents the strongly named DataTable class.
 Represents the strongly named DataTable class.
 </summary>
 </member>
+<member name="T:Sales_Order_Transformation.TECHLINKDataSet.SourceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Sales_Order_Transformation.TECHLINKDataSet.COPMADataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
 <member name="T:Sales_Order_Transformation.TECHLINKDataSet.CMSMGRow">
 <summary>
 Represents strongly named DataRow class.
 </summary>
 </member>
-<member name="T:Sales_Order_Transformation.TECHLINKDataSet.COPMARow">
+<member name="T:Sales_Order_Transformation.TECHLINKDataSet.COPMA2Row">
 <summary>
 Represents strongly named DataRow class.
 </summary>
@@ -572,12 +602,22 @@ Represents strongly named DataRow class.
 Represents strongly named DataRow class.
 </summary>
 </member>
+<member name="T:Sales_Order_Transformation.TECHLINKDataSet.SourceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Sales_Order_Transformation.TECHLINKDataSet.COPMARow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
 <member name="T:Sales_Order_Transformation.TECHLINKDataSet.CMSMGRowChangeEvent">
 <summary>
 Row event argument class
 </summary>
 </member>
-<member name="T:Sales_Order_Transformation.TECHLINKDataSet.COPMARowChangeEvent">
+<member name="T:Sales_Order_Transformation.TECHLINKDataSet.COPMA2RowChangeEvent">
 <summary>
 Row event argument class
 </summary>
@@ -618,6 +658,16 @@ Row event argument class
 </summary>
 </member>
 <member name="T:Sales_Order_Transformation.TECHLINKDataSet.COPTBRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sales_Order_Transformation.TECHLINKDataSet.SourceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Sales_Order_Transformation.TECHLINKDataSet.COPMARowChangeEvent">
 <summary>
 Row event argument class
 </summary>
@@ -668,6 +718,16 @@ Represents the connection and commands used to retrieve and save data.
 </summary>
 </member>
 <member name="T:Sales_Order_Transformation.TECHLINKDataSetTableAdapters.COPTBTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sales_Order_Transformation.TECHLINKDataSetTableAdapters.SourceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Sales_Order_Transformation.TECHLINKDataSetTableAdapters.CusTableAdapter1">
 <summary>
 Represents the connection and commands used to retrieve and save data.
 </summary>

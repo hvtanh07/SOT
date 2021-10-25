@@ -1,0 +1,1008 @@
+02/07/2021 08:57:41: Session 2107020857 has started.
+02/07/2021 08:57:41: Start point: 2021-06-25 00:00:00.000
+02/07/2021 08:57:42: 16%
+02/07/2021 08:57:42: Connection to 223.255.178.194 is opened.
+02/07/2021 08:57:42: 31%
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106108     has been updated.
+02/07/2021 08:57:43: Order No. 2106293     has been updated.
+02/07/2021 08:57:43: Order No. 2106293     has been updated.
+02/07/2021 08:57:43: Order No. 2106293     has been updated.
+02/07/2021 08:57:43: Order No. 2106293     has been updated.
+02/07/2021 08:57:43: Order No. 2106293     has been updated.
+02/07/2021 08:57:43: Order No. 2106293     has been updated.
+02/07/2021 08:57:43: Order No. 2010240     has been updated.
+02/07/2021 08:57:43: Order No. 2010240     has been updated.
+02/07/2021 08:57:43: Order No. 2010240     has been updated.
+02/07/2021 08:57:43: Order No. 2010240     has been updated.
+02/07/2021 08:57:43: Order No. 2010240     has been updated.
+02/07/2021 08:57:43: Order No. 2010240     has been updated.
+02/07/2021 08:57:43: Order No. 2103265     has been updated.
+02/07/2021 08:57:43: Order No. 2104084     has been updated.
+02/07/2021 08:57:43: Order No. 2104203     has been updated.
+02/07/2021 08:57:43: Order No. 2104203     has been updated.
+02/07/2021 08:57:43: Order No. 2104203     has been updated.
+02/07/2021 08:57:43: Order No. 2104203     has been updated.
+02/07/2021 08:57:43: Order No. 2104203     has been updated.
+02/07/2021 08:57:43: Order No. 2105064     has been updated.
+02/07/2021 08:57:43: Order No. 2101233     has been updated.
+02/07/2021 08:57:43: Order No. 2101233     has been updated.
+02/07/2021 08:57:43: Order No. 2101233     has been updated.
+02/07/2021 08:57:43: Order No. 2101233     has been updated.
+02/07/2021 08:57:43: Order No. 2101233     has been updated.
+02/07/2021 08:57:43: Order No. 2101233     has been updated.
+02/07/2021 08:57:43: Order No. 2101233     has been updated.
+02/07/2021 08:57:43: Order No. 2101233     has been updated.
+02/07/2021 08:57:43: Order No. 2101233     has been updated.
+02/07/2021 08:57:43: Order No. 2101233     has been updated.
+02/07/2021 08:57:43: Order No. 2101233     has been updated.
+02/07/2021 08:57:43: Order No. 2101235     has been updated.
+02/07/2021 08:57:43: Order No. 2101235     has been updated.
+02/07/2021 08:57:43: Order No. 2101235     has been updated.
+02/07/2021 08:57:43: Order No. 2101235     has been updated.
+02/07/2021 08:57:43: Order No. 2101235     has been updated.
+02/07/2021 08:57:43: Order No. 2101235     has been updated.
+02/07/2021 08:57:43: Order No. 2101235     has been updated.
+02/07/2021 08:57:43: Order No. 2010242     has been updated.
+02/07/2021 08:57:43: Order No. 2010242     has been updated.
+02/07/2021 08:57:43: Order No. 2010242     has been updated.
+02/07/2021 08:57:43: Order No. 2010242     has been updated.
+02/07/2021 08:57:43: Order No. 2010242     has been updated.
+02/07/2021 08:57:43: Order No. 2010242     has been updated.
+02/07/2021 08:57:43: Order No. 2010242     has been updated.
+02/07/2021 08:57:43: Order No. 2011298     has been updated.
+02/07/2021 08:57:43: Order No. 2011298     has been updated.
+02/07/2021 08:57:43: Order No. 2011298     has been updated.
+02/07/2021 08:57:43: Order No. 2011298     has been updated.
+02/07/2021 08:57:43: Order No. 2011298     has been updated.
+02/07/2021 08:57:43: Order No. 2011298     has been updated.
+02/07/2021 08:57:43: Order No. 2011298     has been updated.
+02/07/2021 08:57:43: Order No. 2011298     has been updated.
+02/07/2021 08:57:43: Order No. 2011298     has been updated.
+02/07/2021 08:57:43: Order No. 2012232     has been updated.
+02/07/2021 08:57:43: Order No. 2012232     has been updated.
+02/07/2021 08:57:44: Order No. 2012232     has been updated.
+02/07/2021 08:57:44: Order No. 2012232     has been updated.
+02/07/2021 08:57:44: Order No. 2012232     has been updated.
+02/07/2021 08:57:44: Order No. 2012232     has been updated.
+02/07/2021 08:57:44: Order No. 2012232     has been updated.
+02/07/2021 08:57:44: Order No. 2012233     has been updated.
+02/07/2021 08:57:44: Order No. 2012233     has been updated.
+02/07/2021 08:57:44: Order No. 2012233     has been updated.
+02/07/2021 08:57:44: Order No. 2012233     has been updated.
+02/07/2021 08:57:44: Order No. 2012233     has been updated.
+02/07/2021 08:57:44: Order No. 2101236     has been updated.
+02/07/2021 08:57:44: Order No. 2101236     has been updated.
+02/07/2021 08:57:44: Order No. 2101236     has been updated.
+02/07/2021 08:57:44: Order No. 2101236     has been updated.
+02/07/2021 08:57:44: Order No. 2101236     has been updated.
+02/07/2021 08:57:44: Order No. 2101236     has been updated.
+02/07/2021 08:57:44: Order No. 2011297     has been updated.
+02/07/2021 08:57:44: Order No. 2012234     has been updated.
+02/07/2021 08:57:44: Order No. 2101237     has been updated.
+02/07/2021 08:57:44: Order No. 2104207     has been updated.
+02/07/2021 08:57:44: Order No. 2106125     has been updated.
+02/07/2021 08:57:44: Order No. 2106299     has been updated.
+02/07/2021 08:57:44: Order No. 2106300     has been updated.
+02/07/2021 08:57:44: Order No. 2105056     has been updated.
+02/07/2021 08:57:44: Order No. 2105051     has been updated.
+02/07/2021 08:57:44: Order No. 2105048     has been updated.
+02/07/2021 08:57:44: Order No. 2105049     has been updated.
+02/07/2021 08:57:44: Order No. 2105050     has been updated.
+02/07/2021 08:57:44: Order No. 2105047     has been updated.
+02/07/2021 08:57:44: Order No. 2101239     has been updated.
+02/07/2021 08:57:44: Order No. 2101239     has been updated.
+02/07/2021 08:57:44: Order No. 2101239     has been updated.
+02/07/2021 08:57:44: Order No. 2101239     has been updated.
+02/07/2021 08:57:44: Order No. 2101239     has been updated.
+02/07/2021 08:57:44: Order No. 2101239     has been updated.
+02/07/2021 08:57:44: Order No. 2101228     has been updated.
+02/07/2021 08:57:44: Order No. 2101228     has been updated.
+02/07/2021 08:57:44: Order No. 2106079     has been updated.
+02/07/2021 08:57:44: Order No. 2106079     has been updated.
+02/07/2021 08:57:44: Order No. 2011008     has been updated.
+02/07/2021 08:57:44: Order No. 2011008     has been updated.
+02/07/2021 08:57:44: Order No. 2011008     has been updated.
+02/07/2021 08:57:44: Order No. 2011008     has been updated.
+02/07/2021 08:57:44: Order No. 2011008     has been updated.
+02/07/2021 08:57:44: Order No. 2011008     has been updated.
+02/07/2021 08:57:44: Order No. 2011008     has been updated.
+02/07/2021 08:57:44: Order No. 2011008     has been updated.
+02/07/2021 08:57:44: Order No. 2011008     has been updated.
+02/07/2021 08:57:44: Order No. 2011008     has been updated.
+02/07/2021 08:57:44: Order No. 2011008     has been updated.
+02/07/2021 08:57:44: Order No. 2105139     has been updated.
+02/07/2021 08:57:44: Order No. 2106301     has been updated.
+02/07/2021 08:57:44: Order No. 2106301     has been updated.
+02/07/2021 08:57:44: Order No. 2106301     has been updated.
+02/07/2021 08:57:44: Order No. 2106301     has been updated.
+02/07/2021 08:57:44: Order No. 2106301     has been updated.
+02/07/2021 08:57:44: Order No. 2106139     has been updated.
+02/07/2021 08:57:44: Order No. 2106140     has been updated.
+02/07/2021 08:57:44: Order No. 2105155     has been updated.
+02/07/2021 08:57:44: Order No. 2106306     has been updated.
+02/07/2021 08:57:44: Order No. 2106306     has been updated.
+02/07/2021 08:57:44: Order No. 2106306     has been updated.
+02/07/2021 08:57:44: Order No. 2106306     has been updated.
+02/07/2021 08:57:44: Order No. 2106306     has been updated.
+02/07/2021 08:57:44: Order No. 2106306     has been updated.
+02/07/2021 08:57:44: Order No. 2106306     has been updated.
+02/07/2021 08:57:44: Order No. 2106306     has been updated.
+02/07/2021 08:57:44: Order No. 2106306     has been updated.
+02/07/2021 08:57:44: Order No. 2106306     has been updated.
+02/07/2021 08:57:44: Order No. 2106130     has been updated.
+02/07/2021 08:57:44: Order No. 2106130     has been updated.
+02/07/2021 08:57:44: Order No. 2106130     has been updated.
+02/07/2021 08:57:44: Order No. 2106130     has been updated.
+02/07/2021 08:57:44: Order No. 2106130     has been updated.
+02/07/2021 08:57:44: Order No. 2106130     has been updated.
+02/07/2021 08:57:44: Order No. 2106130     has been updated.
+02/07/2021 08:57:44: Order No. 2106130     has been updated.
+02/07/2021 08:57:44: Order No. 2105163     has been updated.
+02/07/2021 08:57:44: Order No. 2106316     has been updated.
+02/07/2021 08:57:44: Order No. 2106316     has been updated.
+02/07/2021 08:57:44: Order No. 2106316     has been updated.
+02/07/2021 08:57:44: Order No. 2106316     has been updated.
+02/07/2021 08:57:44: Order No. 2106316     has been updated.
+02/07/2021 08:57:44: Order No. 2106316     has been updated.
+02/07/2021 08:57:44: Order No. 2106322     has been updated.
+02/07/2021 08:57:44: Order No. 2106322     has been updated.
+02/07/2021 08:57:44: Order No. 2106322     has been updated.
+02/07/2021 08:57:44: Order No. 2106322     has been updated.
+02/07/2021 08:57:44: Order No. 2106322     has been updated.
+02/07/2021 08:57:44: Order No. 2106322     has been updated.
+02/07/2021 08:57:44: Order No. 2106333     has been updated.
+02/07/2021 08:57:44: Order No. 2106333     has been updated.
+02/07/2021 08:57:44: Order No. 2106333     has been updated.
+02/07/2021 08:57:44: Order No. 2106333     has been updated.
+02/07/2021 08:57:44: Order No. 2106333     has been updated.
+02/07/2021 08:57:44: Order No. 2106333     has been updated.
+02/07/2021 08:57:44: Order No. 2106334     has been updated.
+02/07/2021 08:57:44: Order No. 2106334     has been updated.
+02/07/2021 08:57:44: Order No. 2106334     has been updated.
+02/07/2021 08:57:44: Order No. 2106334     has been updated.
+02/07/2021 08:57:44: Order No. 2106334     has been updated.
+02/07/2021 08:57:44: Order No. 2106334     has been updated.
+02/07/2021 08:57:44: Order No. 2106340     has been updated.
+02/07/2021 08:57:44: Order No. 2106340     has been updated.
+02/07/2021 08:57:44: Order No. 2106340     has been updated.
+02/07/2021 08:57:44: Order No. 2106340     has been updated.
+02/07/2021 08:57:44: Order No. 2106340     has been updated.
+02/07/2021 08:57:44: Order No. 2106340     has been updated.
+02/07/2021 08:57:44: Order No. 2106143     has been updated.
+02/07/2021 08:57:44: Order No. 2106142     has been updated.
+02/07/2021 08:57:44: Order No. 2106142     has been updated.
+02/07/2021 08:57:44: Order No. 2106142     has been updated.
+02/07/2021 08:57:44: Order No. 2106142     has been updated.
+02/07/2021 08:57:44: Order No. 2106142     has been updated.
+02/07/2021 08:57:44: Order No. 2106142     has been updated.
+02/07/2021 08:57:44: Order No. 2106142     has been updated.
+02/07/2021 08:57:44: Order No. 2106142     has been updated.
+02/07/2021 08:57:44: Order No. 2106142     has been updated.
+02/07/2021 08:57:44: Order No. 2106142     has been updated.
+02/07/2021 08:57:44: Order No. 2106142     has been updated.
+02/07/2021 08:57:44: Order No. 2106142     has been updated.
+02/07/2021 08:57:44: Order No. 2106142     has been updated.
+02/07/2021 08:57:44: Order No. 2106142     has been updated.
+02/07/2021 08:57:44: Order No. 2106142     has been updated.
+02/07/2021 08:57:44: Order No. 2101009     has been updated.
+02/07/2021 08:57:44: Order No. 2101009     has been updated.
+02/07/2021 08:57:44: Order No. 2101009     has been updated.
+02/07/2021 08:57:44: Order No. 2101009     has been updated.
+02/07/2021 08:57:44: Order No. 2101009     has been updated.
+02/07/2021 08:57:44: Order No. 2101009     has been updated.
+02/07/2021 08:57:44: Order No. 2011247     has been updated.
+02/07/2021 08:57:44: Order No. 2011247     has been updated.
+02/07/2021 08:57:44: Order No. 2011247     has been updated.
+02/07/2021 08:57:44: Order No. 2011247     has been updated.
+02/07/2021 08:57:44: Order No. 2011247     has been updated.
+02/07/2021 08:57:44: Order No. 2011247     has been updated.
+02/07/2021 08:57:44: Order No. 2011247     has been updated.
+02/07/2021 08:57:44: Order No. 2011247     has been updated.
+02/07/2021 08:57:44: Order No. 2103055     has been updated.
+02/07/2021 08:57:44: Order No. 2103055     has been updated.
+02/07/2021 08:57:44: Order No. 2103055     has been updated.
+02/07/2021 08:57:44: Order No. 2105182     has been updated.
+02/07/2021 08:57:44: Order No. 2102196     has been updated.
+02/07/2021 08:57:44: Order No. 2105274     has been updated.
+02/07/2021 08:57:44: Order No. 2106346     has been updated.
+02/07/2021 08:57:44: Order No. 2106346     has been updated.
+02/07/2021 08:57:44: Order No. 2106346     has been updated.
+02/07/2021 08:57:44: Order No. 2106349     has been updated.
+02/07/2021 08:57:44: Order No. 2104188     has been updated.
+02/07/2021 08:57:44: Order No. 2106350     has been updated.
+02/07/2021 08:57:44: Order No. 2106350     has been updated.
+02/07/2021 08:57:44: Order No. 2101019     has been updated.
+02/07/2021 08:57:44: Order No. 2104263     has been updated.
+02/07/2021 08:57:44: Order No. 2104263     has been updated.
+02/07/2021 08:57:44: Order No. 2104263     has been updated.
+02/07/2021 08:57:44: Order No. 2104263     has been updated.
+02/07/2021 08:57:44: Order No. 2104263     has been updated.
+02/07/2021 08:57:44: Order No. 2008108     has been updated.
+02/07/2021 08:57:44: Order No. 2008108     has been updated.
+02/07/2021 08:57:44: Order No. 2008108     has been updated.
+02/07/2021 08:57:44: Order No. 2008108     has been updated.
+02/07/2021 08:57:44: Order No. 2008108     has been updated.
+02/07/2021 08:57:44: Order No. 2008108     has been updated.
+02/07/2021 08:57:44: Order No. 2008108     has been updated.
+02/07/2021 08:57:44: Order No. 2101209     has been updated.
+02/07/2021 08:57:44: Order No. 2101209     has been updated.
+02/07/2021 08:57:44: Order No. 2101209     has been updated.
+02/07/2021 08:57:44: Order No. 2101209     has been updated.
+02/07/2021 08:57:44: Order No. 2101209     has been updated.
+02/07/2021 08:57:44: Order No. 2104143     has been updated.
+02/07/2021 08:57:44: Order No. 2104120     has been updated.
+02/07/2021 08:57:44: Order No. 2104120     has been updated.
+02/07/2021 08:57:44: Order No. 2104120     has been updated.
+02/07/2021 08:57:44: Order No. 2104120     has been updated.
+02/07/2021 08:57:44: Order No. 2104120     has been updated.
+02/07/2021 08:57:44: Order No. 2104120     has been updated.
+02/07/2021 08:57:44: Order No. 2106063     has been updated.
+02/07/2021 08:57:44: Order No. 2106063     has been updated.
+02/07/2021 08:57:44: Order No. 2107009     has been updated.
+02/07/2021 08:57:44: Order No. 2107009     has been updated.
+02/07/2021 08:57:44: Order No. 2107009     has been updated.
+02/07/2021 08:57:44: Order No. 2107009     has been updated.
+02/07/2021 08:57:44: Order No. 2107009     has been updated.
+02/07/2021 08:57:44: Order No. 2107009     has been updated.
+02/07/2021 08:57:44: Order No. 2107009     has been updated.
+02/07/2021 08:57:44: Order No. 2012190     has been updated.
+02/07/2021 08:57:44: Order No. 2012190     has been updated.
+02/07/2021 08:57:44: Order No. 2012190     has been updated.
+02/07/2021 08:57:44: Order No. 2012190     has been updated.
+02/07/2021 08:57:44: Order No. 2012190     has been updated.
+02/07/2021 08:57:44: Order No. 2012190     has been updated.
+02/07/2021 08:57:44: Order No. 2107016     has been updated.
+02/07/2021 08:57:44: Order No. 2107016     has been updated.
+02/07/2021 08:57:44: Order No. 2105261     has been updated.
+02/07/2021 08:57:44: Order No. 2104257     has been updated.
+02/07/2021 08:57:44: 36%
+02/07/2021 08:57:44: 38%
+02/07/2021 08:57:44: 50%
+02/07/2021 08:57:44: 56%
+02/07/2021 08:57:44: 60%
+02/07/2021 08:57:44: 70%
+02/07/2021 08:57:45: Order number ORF/003612 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:45: Order number ORF/003612 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:45: Order number ORF/003612 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:45: Order number ORF/003612 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:45: Order number ORF/003612 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:46: Order number ORF/003612 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:47: Order number ORF/3653 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:47: Order number ORF/3653 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:47: Order number ORF/3653 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:47: Order number ORF/3653 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:47: Order number ORF/3653 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:48: Order number GMN-P001187 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:48: Order number GMN-P001187 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:48: Order number GMN-P001187 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:48: Order number GMN-P001187 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:49: Order number GMN-P001187 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:49: Order number GMN-P001187 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:49: Order number GMN-P001187 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:49: Order number GMN-P001187 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:50: Order number GMN-P001187 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:50: Order number GMN-P001187 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:50: Order number 352863 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:50: Order number 352863 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:51: Order number 352863 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:51: Order number 352863 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:51: Order number 352863 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:51: Order number 352863 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:51: Order number 352858 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:51: Order number 352858 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:51: Order number 352858 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:52: Order number 352858 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:52: Order number 352858 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:52: Order number 352858 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:52: Order number 352859 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:52: Order number 352859 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:52: Order number 352859 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:53: Order number 352859 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:53: Order number 352859 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:53: Order number 352859 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:53: Order number 352860 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:53: Order number 352860 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:53: Order number 352860 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:54: Order number 352860 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:54: Order number 352860 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:54: Order number 352860 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:54: Order number 352850 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:54: Order number 352850 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:54: Order number 352850 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:54: Order number 352850 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:55: Order number 352850 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:55: Order number 352850 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:55: Order number MHSH20210104 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:55: Order number MHSH20210104 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:55: Order number MHSH20210104 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:55: Order number MHSH20210104 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:55: Order number MHSH20210104 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:55: Order number MHSH20210104 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:55: Order number 21062501 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:56: Order number 21062501 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:56: Order number 21062501 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:56: Order number 20210630 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:56: Order number 20210630 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:56: Order number MEY210058A. has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:56: Order number MEY210058A. has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:56: Order number MEY210058A. has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:56: Order number MEY210058A. has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:56: Order number MEY210058A. has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:57: Order number VR-40101 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:57: Order number VR-40101 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:57: Order number VR-40101 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:57: Order number VR-40101 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:58: Order number VR-40101 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:58: Order number VR-40101 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:58: Order number VR-40101 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:58: Order number 4300058423 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:57:58: Order number 4300058423 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:58:13: The changed order has the product number 20CM ROUND CASSEROLE HAND GRIP not found. Cannot import Order No. 2104120    -0002.
+02/07/2021 08:58:13: The changed order has the product number 24CM GRILL PAN WITH STEAK PRESS not found. Cannot import Order No. 2104120    -0002.
+02/07/2021 08:58:13: The changed order has the product number 24CM ROUND CASSEROLE HAND GRIP not found. Cannot import Order No. 2104120    -0002.
+02/07/2021 08:58:13: The changed order has the product number 24CM SQUARE CASSEROLE not found. Cannot import Order No. 2104120    -0002.
+02/07/2021 08:58:13: The changed order has the product number 28CM BRAISING OR SAUTE PAN HAND GRIP not found. Cannot import Order No. 2104120    -0002.
+02/07/2021 08:58:13: The changed order has the product number 28CM GRILL PAN & STEAK PRESS HAND GRIP not found. Cannot import Order No. 2104120    -0002.
+02/07/2021 08:58:13: The changed order has the product number 7.5L ROASTER HAND GRIP not found. Cannot import Order No. 2104143    -0001.
+02/07/2021 08:58:13: The changed order has the product number VB20 not found. Cannot import Order No. 2104188    -0002.
+02/07/2021 08:58:25: The changed order has the product number SILICONECOVER-SETOF2 not found. Cannot import Order No. 2106299    -0001.
+02/07/2021 08:58:37: Order No. 2008108     has been updated.
+02/07/2021 08:58:40: Order No. 2008108     has been updated.
+02/07/2021 08:58:40: Order No. 2008108     has been updated.
+02/07/2021 08:58:40: Order No. 2008108     has been updated.
+02/07/2021 08:58:40: Order No. 2008108     has been updated.
+02/07/2021 08:58:40: Order No. 2008108     has been updated.
+02/07/2021 08:58:40: Order No. 2008108     has been updated.
+02/07/2021 08:58:40: Order No. 2010240     has been updated.
+02/07/2021 08:58:40: Order No. 2010240     has been updated.
+02/07/2021 08:58:40: Order No. 2010240     has been updated.
+02/07/2021 08:58:40: Order No. 2010240     has been updated.
+02/07/2021 08:58:40: Order No. 2010240     has been updated.
+02/07/2021 08:58:40: Order No. 2010240     has been updated.
+02/07/2021 08:58:40: Order No. 2010242     has been updated.
+02/07/2021 08:58:40: Order No. 2010242     has been updated.
+02/07/2021 08:58:40: Order No. 2010242     has been updated.
+02/07/2021 08:58:40: Order No. 2010242     has been updated.
+02/07/2021 08:58:40: Order No. 2010242     has been updated.
+02/07/2021 08:58:40: Order No. 2010242     has been updated.
+02/07/2021 08:58:40: Order No. 2010242     has been updated.
+02/07/2021 08:58:40: Order No. 2011008     has been updated.
+02/07/2021 08:58:40: Order No. 2011008     has been updated.
+02/07/2021 08:58:40: Order No. 2011008     has been updated.
+02/07/2021 08:58:40: Order No. 2011008     has been updated.
+02/07/2021 08:58:40: Order No. 2011008     has been updated.
+02/07/2021 08:58:40: Order No. 2011008     has been updated.
+02/07/2021 08:58:40: Order No. 2011008     has been updated.
+02/07/2021 08:58:40: Order No. 2011008     has been updated.
+02/07/2021 08:58:40: Order No. 2011008     has been updated.
+02/07/2021 08:58:40: Order No. 2011008     has been updated.
+02/07/2021 08:58:40: Order No. 2011008     has been updated.
+02/07/2021 08:58:40: Order No. 2011247     has been updated.
+02/07/2021 08:58:40: Order No. 2011247     has been updated.
+02/07/2021 08:58:40: Order No. 2011247     has been updated.
+02/07/2021 08:58:40: Order No. 2011247     has been updated.
+02/07/2021 08:58:40: Order No. 2011247     has been updated.
+02/07/2021 08:58:40: Order No. 2011247     has been updated.
+02/07/2021 08:58:40: Order No. 2011247     has been updated.
+02/07/2021 08:58:40: Order No. 2011247     has been updated.
+02/07/2021 08:58:40: Order No. 2011297     has been updated.
+02/07/2021 08:58:40: Order No. 2011298     has been updated.
+02/07/2021 08:58:40: Order No. 2011298     has been updated.
+02/07/2021 08:58:40: Order No. 2011298     has been updated.
+02/07/2021 08:58:40: Order No. 2011298     has been updated.
+02/07/2021 08:58:40: Order No. 2011298     has been updated.
+02/07/2021 08:58:40: Order No. 2011298     has been updated.
+02/07/2021 08:58:40: Order No. 2011298     has been updated.
+02/07/2021 08:58:40: Order No. 2011298     has been updated.
+02/07/2021 08:58:40: Order No. 2011298     has been updated.
+02/07/2021 08:58:40: Order No. 2012190     has been updated.
+02/07/2021 08:58:40: Order No. 2012190     has been updated.
+02/07/2021 08:58:40: Order No. 2012190     has been updated.
+02/07/2021 08:58:40: Order No. 2012190     has been updated.
+02/07/2021 08:58:40: Order No. 2012190     has been updated.
+02/07/2021 08:58:40: Order No. 2012190     has been updated.
+02/07/2021 08:58:40: Order No. 2012232     has been updated.
+02/07/2021 08:58:40: Order No. 2012232     has been updated.
+02/07/2021 08:58:40: Order No. 2012232     has been updated.
+02/07/2021 08:58:40: Order No. 2012232     has been updated.
+02/07/2021 08:58:40: Order No. 2012232     has been updated.
+02/07/2021 08:58:40: Order No. 2012232     has been updated.
+02/07/2021 08:58:40: Order No. 2012232     has been updated.
+02/07/2021 08:58:40: Order No. 2012233     has been updated.
+02/07/2021 08:58:40: Order No. 2012233     has been updated.
+02/07/2021 08:58:40: Order No. 2012233     has been updated.
+02/07/2021 08:58:40: Order No. 2012233     has been updated.
+02/07/2021 08:58:40: Order No. 2012233     has been updated.
+02/07/2021 08:58:40: Order No. 2012234     has been updated.
+02/07/2021 08:58:40: Order No. 2101019     has been updated.
+02/07/2021 08:58:40: Order No. 2101209     has been updated.
+02/07/2021 08:58:40: Order No. 2101209     has been updated.
+02/07/2021 08:58:40: Order No. 2101209     has been updated.
+02/07/2021 08:58:40: Order No. 2101209     has been updated.
+02/07/2021 08:58:40: Order No. 2101209     has been updated.
+02/07/2021 08:58:40: Order No. 2101228     has been updated.
+02/07/2021 08:58:40: Order No. 2101228     has been updated.
+02/07/2021 08:58:40: Order No. 2101233     has been updated.
+02/07/2021 08:58:40: Order No. 2101233     has been updated.
+02/07/2021 08:58:40: Order No. 2101233     has been updated.
+02/07/2021 08:58:40: Order No. 2101233     has been updated.
+02/07/2021 08:58:40: Order No. 2101233     has been updated.
+02/07/2021 08:58:40: Order No. 2101233     has been updated.
+02/07/2021 08:58:40: Order No. 2101233     has been updated.
+02/07/2021 08:58:40: Order No. 2101233     has been updated.
+02/07/2021 08:58:40: Order No. 2101233     has been updated.
+02/07/2021 08:58:40: Order No. 2101233     has been updated.
+02/07/2021 08:58:40: Order No. 2101233     has been updated.
+02/07/2021 08:58:40: Order No. 2101235     has been updated.
+02/07/2021 08:58:40: Order No. 2101235     has been updated.
+02/07/2021 08:58:40: Order No. 2101235     has been updated.
+02/07/2021 08:58:40: Order No. 2101235     has been updated.
+02/07/2021 08:58:40: Order No. 2101235     has been updated.
+02/07/2021 08:58:40: Order No. 2101235     has been updated.
+02/07/2021 08:58:40: Order No. 2101235     has been updated.
+02/07/2021 08:58:40: Order No. 2101236     has been updated.
+02/07/2021 08:58:40: Order No. 2101236     has been updated.
+02/07/2021 08:58:40: Order No. 2101236     has been updated.
+02/07/2021 08:58:40: Order No. 2101236     has been updated.
+02/07/2021 08:58:40: Order No. 2101236     has been updated.
+02/07/2021 08:58:40: Order No. 2101236     has been updated.
+02/07/2021 08:58:40: Order No. 2101237     has been updated.
+02/07/2021 08:58:40: Order No. 2101239     has been updated.
+02/07/2021 08:58:40: Order No. 2101239     has been updated.
+02/07/2021 08:58:40: Order No. 2101239     has been updated.
+02/07/2021 08:58:40: Order No. 2101239     has been updated.
+02/07/2021 08:58:40: Order No. 2101239     has been updated.
+02/07/2021 08:58:41: Order No. 2101239     has been updated.
+02/07/2021 08:58:41: Order No. 2102196     has been updated.
+02/07/2021 08:58:41: Order No. 2103055     has been updated.
+02/07/2021 08:58:41: Order No. 2103055     has been updated.
+02/07/2021 08:58:41: Order No. 2103055     has been updated.
+02/07/2021 08:58:41: Order No. 2103265     has been updated.
+02/07/2021 08:58:41: Order No. 2104084     has been updated.
+02/07/2021 08:58:41: Order No. 2104203     has been updated.
+02/07/2021 08:58:41: Order No. 2104203     has been updated.
+02/07/2021 08:58:41: Order No. 2104203     has been updated.
+02/07/2021 08:58:41: Order No. 2104203     has been updated.
+02/07/2021 08:58:41: Order No. 2104203     has been updated.
+02/07/2021 08:58:41: Order No. 2104207     has been updated.
+02/07/2021 08:58:41: Order No. 2104257     has been updated.
+02/07/2021 08:58:41: Order No. 2105047     has been updated.
+02/07/2021 08:58:41: Order No. 2105048     has been updated.
+02/07/2021 08:58:41: Order No. 2105049     has been updated.
+02/07/2021 08:58:41: Order No. 2105050     has been updated.
+02/07/2021 08:58:41: Order No. 2105051     has been updated.
+02/07/2021 08:58:41: Order No. 2105056     has been updated.
+02/07/2021 08:58:41: Order No. 2105064     has been updated.
+02/07/2021 08:58:41: Order No. 2105139     has been updated.
+02/07/2021 08:58:41: Order No. 2105155     has been updated.
+02/07/2021 08:58:41: Order No. 2105163     has been updated.
+02/07/2021 08:58:41: Order No. 2105182     has been updated.
+02/07/2021 08:58:41: Order No. 2105261     has been updated.
+02/07/2021 08:58:41: Order No. 2105274     has been updated.
+02/07/2021 08:58:41: Order No. 2106063     has been updated.
+02/07/2021 08:58:41: Order No. 2106063     has been updated.
+02/07/2021 08:58:41: Order No. 2106079     has been updated.
+02/07/2021 08:58:41: Order No. 2106079     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106108     has been updated.
+02/07/2021 08:58:41: Order No. 2106125     has been updated.
+02/07/2021 08:58:41: Order No. 2106130     has been updated.
+02/07/2021 08:58:41: Order No. 2106130     has been updated.
+02/07/2021 08:58:41: Order No. 2106130     has been updated.
+02/07/2021 08:58:41: Order No. 2106130     has been updated.
+02/07/2021 08:58:41: Order No. 2106130     has been updated.
+02/07/2021 08:58:41: Order No. 2106130     has been updated.
+02/07/2021 08:58:41: Order No. 2106130     has been updated.
+02/07/2021 08:58:41: Order No. 2106130     has been updated.
+02/07/2021 08:58:41: Order No. 2106139     has been updated.
+02/07/2021 08:58:41: Order No. 2106140     has been updated.
+02/07/2021 08:58:41: Order No. 2106142     has been updated.
+02/07/2021 08:58:41: Order No. 2106142     has been updated.
+02/07/2021 08:58:41: Order No. 2106142     has been updated.
+02/07/2021 08:58:41: Order No. 2106142     has been updated.
+02/07/2021 08:58:41: Order No. 2106142     has been updated.
+02/07/2021 08:58:41: Order No. 2106142     has been updated.
+02/07/2021 08:58:41: Order No. 2106142     has been updated.
+02/07/2021 08:58:41: Order No. 2106142     has been updated.
+02/07/2021 08:58:41: Order No. 2106142     has been updated.
+02/07/2021 08:58:41: Order No. 2106142     has been updated.
+02/07/2021 08:58:41: Order No. 2106142     has been updated.
+02/07/2021 08:58:41: Order No. 2106142     has been updated.
+02/07/2021 08:58:41: Order No. 2106142     has been updated.
+02/07/2021 08:58:41: Order No. 2106142     has been updated.
+02/07/2021 08:58:41: Order No. 2106142     has been updated.
+02/07/2021 08:58:41: Order No. 2106143     has been updated.
+02/07/2021 08:58:41: Failed to update Order No. 2106300    . Error: Error converting data type varchar to numeric.
+02/07/2021 08:58:41: Failed to update Order No. 2106349    . Error: Error converting data type varchar to numeric.
+02/07/2021 08:58:41: 80%
+02/07/2021 08:58:41: The product number RABBIT SHAPE CHOCOLATE PA not found. Cannot import Order No. 2106145    -0001.
+02/07/2021 08:58:41: The product number RABBIT SHAPE CHOCOLATE PA not found. Cannot import Order No. 2106146    -0001.
+02/07/2021 08:58:41: The product number R45B-200/250 not found. Cannot import Order No. 2106165    -0021.
+02/07/2021 08:58:41: The product number R90-250/300 not found. Cannot import Order No. 2106165    -0023.
+02/07/2021 08:58:41: The product number SILICONECOVER-SETOF2 not found. Cannot import Order No. 2106257    -0002.
+02/07/2021 08:58:41: The product number ST01 not found. Cannot import Order No. 2106276    -0001.
+02/07/2021 08:58:41: The product number ST02 not found. Cannot import Order No. 2106276    -0002.
+02/07/2021 08:58:41: The product number ST03 not found. Cannot import Order No. 2106276    -0003.
+02/07/2021 08:58:41: The product number ST04 not found. Cannot import Order No. 2106276    -0004.
+02/07/2021 08:58:41: The product number ST05 not found. Cannot import Order No. 2106276    -0005.
+02/07/2021 08:58:41: The product number ST06 not found. Cannot import Order No. 2106276    -0006.
+02/07/2021 08:58:41: The product number ST07 not found. Cannot import Order No. 2106276    -0007.
+02/07/2021 08:58:41: The product number 1252401S01 AIR COST not found. Cannot import Order No. 2106284    -0001.
+02/07/2021 08:58:41: The product number FRT120PADE not found. Cannot import Order No. 2106288    -0001.
+02/07/2021 08:58:41: The product number TL-860HT not found. Cannot import Order No. 2106291    -0002.
+02/07/2021 08:58:41: The product number TL-860HT not found. Cannot import Order No. 2106291    -0001.
+02/07/2021 08:58:41: The product number SILICONECOVER-SETOF2 not found. Cannot import Order No. 2106299    -0001.
+02/07/2021 08:58:41: The product number TB-62/70 not found. Cannot import Order No. 2106306    -0001.
+02/07/2021 08:58:41: The product number TB-66/74 not found. Cannot import Order No. 2106306    -0002.
+02/07/2021 08:58:41: The product number TB-68/76 not found. Cannot import Order No. 2106306    -0003.
+02/07/2021 08:58:41: The product number TB-70/80 not found. Cannot import Order No. 2106306    -0004.
+02/07/2021 08:58:41: The product number TB-74/82 not found. Cannot import Order No. 2106306    -0005.
+02/07/2021 08:58:41: The product number TB-78/86 not found. Cannot import Order No. 2106306    -0006.
+02/07/2021 08:58:41: The product number TB-80/88 not found. Cannot import Order No. 2106306    -0007.
+02/07/2021 08:58:41: The product number TB-90/98 not found. Cannot import Order No. 2106306    -0008.
+02/07/2021 08:58:41: The product number TB-94/102 not found. Cannot import Order No. 2106306    -0009.
+02/07/2021 08:58:41: The product number TB-84/92 not found. Cannot import Order No. 2106306    -0010.
+02/07/2021 08:58:41: The product number K51713 - AQUA not found. Cannot import Order No. 2106316    -0001.
+02/07/2021 08:58:41: The product number K51713 - CORAL not found. Cannot import Order No. 2106316    -0004.
+02/07/2021 08:58:41: The product number K51713 - MINT not found. Cannot import Order No. 2106316    -0005.
+02/07/2021 08:58:41: The product number K51713 - AQUA not found. Cannot import Order No. 2106322    -0001.
+02/07/2021 08:58:41: The product number K51713 - CORAL not found. Cannot import Order No. 2106322    -0004.
+02/07/2021 08:58:41: The product number K51713 - MINT not found. Cannot import Order No. 2106322    -0005.
+02/07/2021 08:58:41: The product number K51713 - AQUA not found. Cannot import Order No. 2106328    -0001.
+02/07/2021 08:58:41: The product number K51713 - CORAL not found. Cannot import Order No. 2106328    -0004.
+02/07/2021 08:58:41: The product number K51713 - MINT not found. Cannot import Order No. 2106328    -0005.
+02/07/2021 08:58:41: The product number K51713 - AQUA not found. Cannot import Order No. 2106334    -0001.
+02/07/2021 08:58:41: The product number K51713 - CORAL not found. Cannot import Order No. 2106334    -0004.
+02/07/2021 08:58:41: The product number K51713 - MINT not found. Cannot import Order No. 2106334    -0005.
+02/07/2021 08:58:41: The product number K51713 - AQUA not found. Cannot import Order No. 2106340    -0001.
+02/07/2021 08:58:41: The product number K51713 - CORAL not found. Cannot import Order No. 2106340    -0004.
+02/07/2021 08:58:41: The product number K51713 - MINT not found. Cannot import Order No. 2106340    -0005.
+02/07/2021 08:58:41: The product number 76J200000006 not found. Cannot import Order No. 2107009    -0001.
+02/07/2021 08:58:41: The product number 628647 not found. Cannot import Order No. 2107016    -0001.
+02/07/2021 08:58:41: The product number 628647 not found. Cannot import Order No. 2107016    -0002.
+02/07/2021 08:58:41: 85%
+02/07/2021 08:58:45: The product number RABBIT SHAPE CHOCOLATE PA not found. Cannot import Order No. 2106352-0001.
+02/07/2021 08:58:45: The product number RABBIT SHAPE CHOCOLATE PA not found. Cannot import Order No. 2106353-0001.
+02/07/2021 08:58:50: The product number R45B-200/250 not found. Cannot import Order No. 2106372-0021.
+02/07/2021 08:58:50: The product number R90-250/300 not found. Cannot import Order No. 2106372-0023.
+02/07/2021 08:58:58: The product number SILICONECOVER-SETOF2 not found. Cannot import Order No. 2106464-0002.
+02/07/2021 08:59:00: The product number ST01 not found. Cannot import Order No. 2106483-0001.
+02/07/2021 08:59:00: The product number ST02 not found. Cannot import Order No. 2106483-0002.
+02/07/2021 08:59:00: The product number ST03 not found. Cannot import Order No. 2106483-0003.
+02/07/2021 08:59:00: The product number ST04 not found. Cannot import Order No. 2106483-0004.
+02/07/2021 08:59:00: The product number ST05 not found. Cannot import Order No. 2106483-0005.
+02/07/2021 08:59:00: The product number ST06 not found. Cannot import Order No. 2106483-0006.
+02/07/2021 08:59:00: The product number ST07 not found. Cannot import Order No. 2106483-0007.
+02/07/2021 08:59:00: The Order 2106490contains the item FREIGHT COST that is not transformed.
+02/07/2021 08:59:00: The product number 1252401S01 AIR COST not found. Cannot import Order No. 2106491-0001.
+02/07/2021 08:59:01: The product number FRT120PADE not found. Cannot import Order No. 2106495-0001.
+02/07/2021 08:59:01: The product number TL-860HT not found. Cannot import Order No. 2106498-0001.
+02/07/2021 08:59:01: The product number TL-860HT not found. Cannot import Order No. 2106498-0002.
+02/07/2021 08:59:02: 87%
+02/07/2021 08:59:02: Order No. 21AN06586 has been created.
+02/07/2021 08:59:02: Order No. 21CB06584 has been created.
+02/07/2021 08:59:02: Order No. 21CB06584 has been created.
+02/07/2021 08:59:02: Order No. 21CB06584 has been created.
+02/07/2021 08:59:02: Order No. 21CB06584 has been created.
+02/07/2021 08:59:02: Order No. 21CB06584 has been created.
+02/07/2021 08:59:02: Order No. 21CB06585 has been created.
+02/07/2021 08:59:02: Order No. 21CB06585 has been created.
+02/07/2021 08:59:02: Order No. 21CB06585 has been created.
+02/07/2021 08:59:02: Order No. 21CB06585 has been created.
+02/07/2021 08:59:02: Order No. 21CB06585 has been created.
+02/07/2021 08:59:02: Order No. 21CB06585 has been created.
+02/07/2021 08:59:02: Order No. 21CB06585 has been created.
+02/07/2021 08:59:02: Order No. 21CB06585 has been created.
+02/07/2021 08:59:02: Order No. 21CB06585 has been created.
+02/07/2021 08:59:02: Order No. 21CB06446 has been created.
+02/07/2021 08:59:02: Order No. 21CB06446 has been created.
+02/07/2021 08:59:02: Order No. 21CB06446 has been created.
+02/07/2021 08:59:02: Order No. 21CB06446 has been created.
+02/07/2021 08:59:02: Order No. 21CB06446 has been created.
+02/07/2021 08:59:02: Order No. 21CB06446 has been created.
+02/07/2021 08:59:02: Order No. 21CB06446 has been created.
+02/07/2021 08:59:02: Order No. 21CB06446 has been created.
+02/07/2021 08:59:02: Order No. 21CB06446 has been created.
+02/07/2021 08:59:02: Order No. 21CB06446 has been created.
+02/07/2021 08:59:02: Order No. 21CB06446 has been created.
+02/07/2021 08:59:02: Order No. 21CB06446 has been created.
+02/07/2021 08:59:02: Order No. 21CB06446 has been created.
+02/07/2021 08:59:02: Order No. 21CB06446 has been created.
+02/07/2021 08:59:02: Order No. 1170200700 has been created.
+02/07/2021 08:59:02: Order No. 7807300700 has been created.
+02/07/2021 08:59:02: Order No. 9324483398/10 has been created.
+02/07/2021 08:59:02: Order No. 9324484382 has been created.
+02/07/2021 08:59:02: Order No. 9324484382 has been created.
+02/07/2021 08:59:02: Order No. 9324484382 has been created.
+02/07/2021 08:59:02: Order No. 9324484382 has been created.
+02/07/2021 08:59:02: Order No. 9324484382 has been created.
+02/07/2021 08:59:02: Order No. 9324484382 has been created.
+02/07/2021 08:59:02: Order No. 9324484382 has been created.
+02/07/2021 08:59:02: Order No. 9324484382 has been created.
+02/07/2021 08:59:02: Order No. 9324484382 has been created.
+02/07/2021 08:59:02: Order No. 9324484382 has been created.
+02/07/2021 08:59:02: Order No. 9324483932/10 has been created.
+02/07/2021 08:59:02: Order No. 9324483930/10 has been created.
+02/07/2021 08:59:02: Order No. 9324483929/10 has been created.
+02/07/2021 08:59:02: Order No. 9324483198 has been created.
+02/07/2021 08:59:02: Order No. 9324483198 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001149 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001190 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001193 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001194 has been created.
+02/07/2021 08:59:02: Order No. POREQ21065882 has been created.
+02/07/2021 08:59:02: Order No. POORD-21/06/25-005 has been created.
+02/07/2021 08:59:02: Order No. POORD-21/06/25-005 has been created.
+02/07/2021 08:59:02: Order No. POORD-21/06/25-005 has been created.
+02/07/2021 08:59:02: Order No. 5500165986-0721VN has been created.
+02/07/2021 08:59:02: Order No. 5500165986-0721VN has been created.
+02/07/2021 08:59:02: Order No. 5500165986-0721VN has been created.
+02/07/2021 08:59:02: Order No. 5500147723-0721VN has been created.
+02/07/2021 08:59:02: Order No. 5500147723-0721VN has been created.
+02/07/2021 08:59:02: Order No. 5500147723-0721VN has been created.
+02/07/2021 08:59:02: Order No. 5500147725-0721VN has been created.
+02/07/2021 08:59:02: Order No. 5500147725-0721VN has been created.
+02/07/2021 08:59:02: Order No. 5500147725-0721VN has been created.
+02/07/2021 08:59:02: Order No. 5500165998-0721VN has been created.
+02/07/2021 08:59:02: Order No. 5500165998-0721VN has been created.
+02/07/2021 08:59:02: Order No. 5500165998-0721VN has been created.
+02/07/2021 08:59:02: Order No. 4502043244-0721VN has been created.
+02/07/2021 08:59:02: Order No. 2218502790 has been created.
+02/07/2021 08:59:02: Order No. 2218502791 has been created.
+02/07/2021 08:59:02: Order No. 65BSS22FRCA0120 has been created.
+02/07/2021 08:59:02: Order No. 65BSS22FRCA0120 has been created.
+02/07/2021 08:59:02: Order No. 20304 has been created.
+02/07/2021 08:59:02: Order No. 20305 has been created.
+02/07/2021 08:59:02: Order No. 4502158035 has been created.
+02/07/2021 08:59:02: Order No. 4502158035 has been created.
+02/07/2021 08:59:02: Order No. 9324485235 has been created.
+02/07/2021 08:59:02: Order No. 9324485235 has been created.
+02/07/2021 08:59:02: Order No. 9324485235 has been created.
+02/07/2021 08:59:02: Order No. 9324485235 has been created.
+02/07/2021 08:59:02: Order No. 9324485235 has been created.
+02/07/2021 08:59:02: Order No. 9324485230/20 has been created.
+02/07/2021 08:59:02: Order No. 9324485231/40 has been created.
+02/07/2021 08:59:02: Order No. 9324485228 has been created.
+02/07/2021 08:59:02: Order No. 9324485228 has been created.
+02/07/2021 08:59:02: Order No. POORD210601817 has been created.
+02/07/2021 08:59:02: Order No. POORD210601817 has been created.
+02/07/2021 08:59:02: Order No. 4502130946 has been created.
+02/07/2021 08:59:02: Order No. GMN-P001080 has been created.
+02/07/2021 08:59:02: Order No. 210624-01 has been created.
+02/07/2021 08:59:02: Order No. 210624-01 has been created.
+02/07/2021 08:59:02: Order No. 210624-01 has been created.
+02/07/2021 08:59:02: Order No. 210624-01 has been created.
+02/07/2021 08:59:02: Order No. 210624-01 has been created.
+02/07/2021 08:59:02: Order No. 210624-01 has been created.
+02/07/2021 08:59:02: Order No. 210624-01 has been created.
+02/07/2021 08:59:02: Order No. LV-FREIGHT COST-K51713 has been created.
+02/07/2021 08:59:02: Order No. 4502158517 has been created.
+02/07/2021 08:59:02: Order No. 9324487225/10 has been created.
+02/07/2021 08:59:02: Order No. ORF/3707 has been created.
+02/07/2021 08:59:02: Order No. ORF/3722 has been created.
+02/07/2021 08:59:02: Order No. ORF/3729 has been created.
+02/07/2021 08:59:02: Order No. 4502158870 has been created.
+02/07/2021 08:59:02: Order No. 4502158870 has been created.
+02/07/2021 08:59:02: Order No. W421-210600032 has been created.
+02/07/2021 08:59:02: Order No. W421-210600032 has been created.
+02/07/2021 08:59:02: Order No. 20306 has been created.
+02/07/2021 08:59:02: Order No. V421-210600011 has been created.
+02/07/2021 08:59:02: Order No. V421-210600011 has been created.
+02/07/2021 08:59:02: Order No. V421-210600011 has been created.
+02/07/2021 08:59:02: Order No. 0000002882 has been created.
+02/07/2021 08:59:02: Order No. 0000002882 has been created.
+02/07/2021 08:59:02: Order No. 0000002882 has been created.
+02/07/2021 08:59:02: Order No. 0000002882 has been created.
+02/07/2021 08:59:02: Order No. 2103357 has been created.
+02/07/2021 08:59:02: Order No. 2103358 has been created.
+02/07/2021 08:59:02: Order No. 2103358 has been created.
+02/07/2021 08:59:02: Order No. 2103358 has been created.
+02/07/2021 08:59:02: Order No. 2103358 has been created.
+02/07/2021 08:59:02: Order No. 2103358 has been created.
+02/07/2021 08:59:02: Order No. 2103363 has been created.
+02/07/2021 08:59:02: Order No. 2103363 has been created.
+02/07/2021 08:59:02: Order No. 2103363 has been created.
+02/07/2021 08:59:02: Order No. 2103363 has been created.
+02/07/2021 08:59:02: Order No. 2103363 has been created.
+02/07/2021 08:59:02: Order No. 2103363 has been created.
+02/07/2021 08:59:02: Order No. 2103363 has been created.
+02/07/2021 08:59:02: Order No. 2103363 has been created.
+02/07/2021 08:59:02: Order No. 2103363 has been created.
+02/07/2021 08:59:02: Order No. 2103372 has been created.
+02/07/2021 08:59:02: Order No. 2103372 has been created.
+02/07/2021 08:59:02: Order No. 2103372 has been created.
+02/07/2021 08:59:02: Order No. 2103372 has been created.
+02/07/2021 08:59:02: Order No. 2103372 has been created.
+02/07/2021 08:59:02: Order No. 2103372 has been created.
+02/07/2021 08:59:02: Order No. 2103372 has been created.
+02/07/2021 08:59:02: Order No. 2103372 has been created.
+02/07/2021 08:59:02: Order No. 2103372 has been created.
+02/07/2021 08:59:02: Order No. 2103372 has been created.
+02/07/2021 08:59:02: Order No. 2103372 has been created.
+02/07/2021 08:59:03: Order No. 2103372 has been created.
+02/07/2021 08:59:03: Order No. 2103372 has been created.
+02/07/2021 08:59:03: Order No. 2103372 has been created.
+02/07/2021 08:59:03: Order No. 2106354 has been created.
+02/07/2021 08:59:03: Order No. 2106355 has been created.
+02/07/2021 08:59:03: Order No. 2106355 has been created.
+02/07/2021 08:59:03: Order No. 2106355 has been created.
+02/07/2021 08:59:03: Order No. 2106355 has been created.
+02/07/2021 08:59:03: Order No. 2106355 has been created.
+02/07/2021 08:59:03: Order No. 2106355 has been created.
+02/07/2021 08:59:03: Order No. 2106355 has been created.
+02/07/2021 08:59:03: Order No. 2106355 has been created.
+02/07/2021 08:59:03: Order No. 2106355 has been created.
+02/07/2021 08:59:03: Order No. 2106355 has been created.
+02/07/2021 08:59:03: Order No. 2106365 has been created.
+02/07/2021 08:59:03: Order No. 2106366 has been created.
+02/07/2021 08:59:03: Order No. 2106367 has been created.
+02/07/2021 08:59:03: Order No. 2106368 has been created.
+02/07/2021 08:59:03: Order No. 2106368 has been created.
+02/07/2021 08:59:03: Order No. 2106370 has been created.
+02/07/2021 08:59:03: Order No. 2106371 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106372 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106421 has been created.
+02/07/2021 08:59:03: Order No. 2106445 has been created.
+02/07/2021 08:59:03: Order No. 2106446 has been created.
+02/07/2021 08:59:03: Order No. 2106446 has been created.
+02/07/2021 08:59:03: Order No. 2106446 has been created.
+02/07/2021 08:59:03: Order No. 2106449 has been created.
+02/07/2021 08:59:03: Order No. 2106449 has been created.
+02/07/2021 08:59:03: Order No. 2106449 has been created.
+02/07/2021 08:59:03: Order No. 2106452 has been created.
+02/07/2021 08:59:03: Order No. 2106452 has been created.
+02/07/2021 08:59:03: Order No. 2106452 has been created.
+02/07/2021 08:59:03: Order No. 2106455 has been created.
+02/07/2021 08:59:03: Order No. 2106455 has been created.
+02/07/2021 08:59:03: Order No. 2106455 has been created.
+02/07/2021 08:59:03: Order No. 2106458 has been created.
+02/07/2021 08:59:03: Order No. 2106458 has been created.
+02/07/2021 08:59:03: Order No. 2106458 has been created.
+02/07/2021 08:59:03: Order No. 2106461 has been created.
+02/07/2021 08:59:03: Order No. 2106462 has been created.
+02/07/2021 08:59:03: Order No. 2106463 has been created.
+02/07/2021 08:59:03: Order No. 2106464 has been created.
+02/07/2021 08:59:03: Order No. 2106466 has been created.
+02/07/2021 08:59:03: Order No. 2106467 has been created.
+02/07/2021 08:59:03: Order No. 2106468 has been created.
+02/07/2021 08:59:03: Order No. 2106468 has been created.
+02/07/2021 08:59:03: Order No. 2106470 has been created.
+02/07/2021 08:59:03: Order No. 2106470 has been created.
+02/07/2021 08:59:03: Order No. 2106470 has been created.
+02/07/2021 08:59:03: Order No. 2106470 has been created.
+02/07/2021 08:59:03: Order No. 2106470 has been created.
+02/07/2021 08:59:03: Order No. 2106475 has been created.
+02/07/2021 08:59:03: Order No. 2106476 has been created.
+02/07/2021 08:59:03: Order No. 2106477 has been created.
+02/07/2021 08:59:03: Order No. 2106477 has been created.
+02/07/2021 08:59:03: Order No. 2106479 has been created.
+02/07/2021 08:59:03: Order No. 2106479 has been created.
+02/07/2021 08:59:03: Order No. 2106481 has been created.
+02/07/2021 08:59:03: Order No. 2106482 has been created.
+02/07/2021 08:59:03: Order No. 2106492 has been created.
+02/07/2021 08:59:03: Order No. 2106493 has been created.
+02/07/2021 08:59:03: Order No. 2106494 has been created.
+02/07/2021 08:59:03: Order No. 2106496 has been created.
+02/07/2021 08:59:03: Order No. 2106496 has been created.
+02/07/2021 08:59:03: Order No. 2107018 has been created.
+02/07/2021 08:59:03: Order No. 2107019 has been created.
+02/07/2021 08:59:03: Order No. 2107019 has been created.
+02/07/2021 08:59:03: Order No. 2107019 has been created.
+02/07/2021 08:59:03: Order No. 2107022 has been created.
+02/07/2021 08:59:03: Order No. 2107022 has been created.
+02/07/2021 08:59:03: Order No. 2107022 has been created.
+02/07/2021 08:59:03: Order No. 2107022 has been created.
+02/07/2021 08:59:03: 94%
+02/07/2021 08:59:03: 98%
+02/07/2021 08:59:03: 100%
+02/07/2021 08:59:03: End point: 2021-07-02 09:55:19.417
+02/07/2021 08:59:03: Session 2107020857 completed.

@@ -1,0 +1,978 @@
+29/06/2021 10:00:48: Session 2106291000 has started.
+29/06/2021 10:00:48: Start point: 2021-06-24 00:00:00.000
+29/06/2021 10:00:49: Connection to 223.255.178.194 is opened.
+29/06/2021 10:00:59: Failed to update Order No. 2106207    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:00:59: Failed to update Order No. 2106207    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:00:59: Order No. 2106361     has been updated.
+29/06/2021 10:00:59: Failed to update Order No. 2106361    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:00:59: Order No. 2103282     has been updated.
+29/06/2021 10:00:59: Failed to update Order No. 2103282    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:00:59: Failed to update Order No. 2103282    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:00:59: Failed to update Order No. 2103282    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:00:59: Failed to update Order No. 2103282    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:00:59: Order No. 2103287     has been updated.
+29/06/2021 10:00:59: Failed to update Order No. 2103287    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:00:59: Failed to update Order No. 2103287    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2103287    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2103287    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Order No. 2103291     has been updated.
+29/06/2021 10:01:00: Order No. 2103292     has been updated.
+29/06/2021 10:01:00: Order No. 2103293     has been updated.
+29/06/2021 10:01:00: Order No. 2106362     has been updated.
+29/06/2021 10:01:00: Failed to update Order No. 2101045    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2101045    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2101045    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2101045    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2101045    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Order No. 2103294     has been updated.
+29/06/2021 10:01:00: Order No. 2105030     has been updated.
+29/06/2021 10:01:00: Failed to update Order No. 2105030    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Order No. 2104058     has been updated.
+29/06/2021 10:01:00: Failed to update Order No. 2104058    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2104058    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Order No. 2106364     has been updated.
+29/06/2021 10:01:00: Failed to update Order No. 2106364    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Order No. 2106366     has been updated.
+29/06/2021 10:01:00: Failed to update Order No. 2106366    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Order No. 2106367     has been updated.
+29/06/2021 10:01:00: Order No. 2105031     has been updated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Order No. 2106369     has been updated.
+29/06/2021 10:01:00: Failed to update Order No. 2106369    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106369    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106369    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:00: Failed to update Order No. 2106369    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2106369    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Order No. 2106374     has been updated.
+29/06/2021 10:01:01: Order No. 2010230     has been updated.
+29/06/2021 10:01:01: Failed to update Order No. 2010230    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2010230    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2010230    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2010230    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2010230    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Order No. 2103295     has been updated.
+29/06/2021 10:01:01: Order No. 2104060     has been updated.
+29/06/2021 10:01:01: Order No. 2104062     has been updated.
+29/06/2021 10:01:01: Failed to update Order No. 2104062    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2104062    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2104062    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2104062    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Order No. 2105032     has been updated.
+29/06/2021 10:01:01: Order No. 2101224     has been updated.
+29/06/2021 10:01:01: Failed to update Order No. 2101224    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2101224    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2101224    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2101224    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2101224    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2101224    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2101224    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2101224    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2101224    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2101224    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Order No. 2101235     has been updated.
+29/06/2021 10:01:01: Failed to update Order No. 2101235    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2101235    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2101235    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2101235    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2101235    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2101235    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Order No. 2010236     has been updated.
+29/06/2021 10:01:01: Failed to update Order No. 2010236    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2010236    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2010236    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2010236    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2010236    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2010236    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Order No. 2011286     has been updated.
+29/06/2021 10:01:01: Failed to update Order No. 2011286    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2011286    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2011286    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2011286    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2011286    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2011286    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2011286    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2011286    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Order No. 2012216     has been updated.
+29/06/2021 10:01:01: Failed to update Order No. 2012216    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2012216    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2012216    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2012216    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2012216    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Failed to update Order No. 2012216    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:01: Order No. 2012223     has been updated.
+29/06/2021 10:01:02: Failed to update Order No. 2012223    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2012223    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2012223    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2012223    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Order No. 2101242     has been updated.
+29/06/2021 10:01:02: Failed to update Order No. 2101242    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2101242    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2101242    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2101242    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2101242    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Order No. 2011294     has been updated.
+29/06/2021 10:01:02: Order No. 2012227     has been updated.
+29/06/2021 10:01:02: Order No. 2101247     has been updated.
+29/06/2021 10:01:02: Order No. 2104066     has been updated.
+29/06/2021 10:01:02: Order No. 2106375     has been updated.
+29/06/2021 10:01:02: Order No. 2106376     has been updated.
+29/06/2021 10:01:02: Order No. 2106377     has been updated.
+29/06/2021 10:01:02: Order No. 2105033     has been updated.
+29/06/2021 10:01:02: Order No. 2105034     has been updated.
+29/06/2021 10:01:02: Order No. 2105035     has been updated.
+29/06/2021 10:01:02: Order No. 2105036     has been updated.
+29/06/2021 10:01:02: Order No. 2105037     has been updated.
+29/06/2021 10:01:02: Order No. 2105038     has been updated.
+29/06/2021 10:01:02: Order No. 2101249     has been updated.
+29/06/2021 10:01:02: Failed to update Order No. 2101249    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2101249    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2101249    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2101249    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2101249    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Order No. 2101255     has been updated.
+29/06/2021 10:01:02: Failed to update Order No. 2101255    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Order No. 2106379     has been updated.
+29/06/2021 10:01:02: Failed to update Order No. 2106379    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2101019    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Order No. 2105039     has been updated.
+29/06/2021 10:01:02: Order No. 2106381     has been updated.
+29/06/2021 10:01:02: Failed to update Order No. 2106381    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2106381    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2106381    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Failed to update Order No. 2106381    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:02: Order No. 2106385     has been updated.
+29/06/2021 10:01:03: Order No. 2106386     has been updated.
+29/06/2021 10:01:03: Order No. 2105040     has been updated.
+29/06/2021 10:01:03: Order No. 2106387     has been updated.
+29/06/2021 10:01:03: Failed to update Order No. 2106387    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:03: Failed to update Order No. 2106387    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:03: Failed to update Order No. 2106387    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:03: Failed to update Order No. 2106387    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:03: Failed to update Order No. 2106387    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:03: Failed to update Order No. 2106387    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:03: Failed to update Order No. 2106387    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:03: Failed to update Order No. 2106387    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:03: Failed to update Order No. 2106387    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 10:01:04: Order number 21010 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:04: Order number 21010 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:04: Order number 65BSS22FRCA0081 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:04: Order number 65BSS22FRCA0081 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:04: Order number 5500053009 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:04: Order number 5500053009 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:04: Order number 5500053009 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:04: Order number 5500053009 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:04: Order number 5500053009 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:04: Order number 5500048534 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:04: Order number 5500048534 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:04: Order number 5500048534 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:04: Order number 5500048534 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:04: Order number 5500048534 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number 2218502016. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number 2218502016. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number 2218501399. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number 2218501399. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number 2218501399. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number CF21009761 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number CF21009761 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number LH7001871 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number LH7001871 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:05: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number ORF/003612 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number ORF/003612 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number ORF/003612 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number ORF/003612 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number ORF/003612 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number ORF/003612 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/10/22-033. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/10/22-033. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/10/22-033. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/10/22-033. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/10/22-033. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/10/22-033. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number 9324420989 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number 9324420989 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number 9324420989 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number 9324420989 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number 9324420989 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number MHBO2021. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number MHBO2021. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number MHBO2021. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number MHBO2021. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number MHBO2021. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number MHBO2021. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number MHBO2021. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number MHBO2021. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number MHBO2021. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number MHBO2021. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number MHBO2021. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number MHBOSTOCK. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number MHBOSTOCK. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number MHBOSTOCK. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number MHBOSTOCK. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number MHBOSTOCK. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number MHBOSTOCK. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number MHBOSTOCK. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/10/29-052. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/10/29-052. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/10/29-052. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/10/29-052. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/10/29-052. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/10/29-052. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/10/29-052. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/11/25-018. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/11/25-018. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/11/25-018. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/11/25-018. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/11/25-018. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/11/25-018. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/11/25-018. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/11/25-018. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/11/25-018. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/12/04-014. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/12/04-014. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/12/04-014. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/12/04-014. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/12/04-014. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/12/04-014. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/12/04-014. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/12/09-031. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/12/09-031. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/12/09-031. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/12/09-031. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-20/12/09-031. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-21/01/06-034. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-21/01/06-034. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-21/01/06-034. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-21/01/06-034. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-21/01/06-034. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:06: Order number POORD-21/01/06-034. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:07: Order number MHST2021. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:07: Order number MHST2021. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:07: Order number MHST2021. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:07: Order number MHST2021. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:07: Order number MHST2021. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:08: Order number MHST2021. has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:08: Order number 4300054601 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:08: Order number 4300054601 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:08: Order number 72037428 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:08: Order number 72037428 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:08: Order number ORF/3653 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:08: Order number ORF/3653 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:08: Order number ORF/3653 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:08: Order number ORF/3653 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:08: Order number ORF/3653 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:08: Order number GMN-P001187 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:08: Order number GMN-P001187 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:08: Order number GMN-P001187 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:08: Order number GMN-P001187 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:08: Order number GMN-P001187 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:08: Order number GMN-P001187 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:08: Order number GMN-P001187 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:08: Order number GMN-P001187 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:08: Order number GMN-P001187 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:08: Order number GMN-P001187 has more than one ERP Order No. System cannot decide!
+29/06/2021 10:01:11: The changed order has the product number T-12-M300-WHITE not found. Cannot import Order No. 2103293    -0001.
+29/06/2021 10:01:12: The changed order has the product number MEAA048 not found. Cannot import Order No. 2105031    -0007.
+29/06/2021 10:01:13: The changed order has the product number MCT1083 LID GASKET not found. Cannot import Order No. 2106367    -0007.
+29/06/2021 10:01:14: The changed order has the product number SILICONECOVER-SETOF2 not found. Cannot import Order No. 2106376    -0001.
+29/06/2021 10:01:14: The changed order has the product number FRT106LPADE not found. Cannot import Order No. 2106385    -0001.
+29/06/2021 10:01:14: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTF'. Cannot insert duplicate key in object 'dbo.COPTF'.
+The statement has been terminated.
+29/06/2021 10:01:14: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTF'. Cannot insert duplicate key in object 'dbo.COPTF'.
+The statement has been terminated.
+29/06/2021 10:01:14: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTF'. Cannot insert duplicate key in object 'dbo.COPTF'.
+The statement has been terminated.
+29/06/2021 10:01:14: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTF'. Cannot insert duplicate key in object 'dbo.COPTF'.
+The statement has been terminated.
+29/06/2021 10:01:14: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTF'. Cannot insert duplicate key in object 'dbo.COPTF'.
+The statement has been terminated.
+29/06/2021 10:01:14: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTF'. Cannot insert duplicate key in object 'dbo.COPTF'.
+The statement has been terminated.
+29/06/2021 10:01:14: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTF'. Cannot insert duplicate key in object 'dbo.COPTF'.
+The statement has been terminated.
+29/06/2021 10:01:14: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTF'. Cannot insert duplicate key in object 'dbo.COPTF'.
+The statement has been terminated.
+29/06/2021 10:01:14: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTF'. Cannot insert duplicate key in object 'dbo.COPTF'.
+The statement has been terminated.
+29/06/2021 10:01:14: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTF'. Cannot insert duplicate key in object 'dbo.COPTF'.
+The statement has been terminated.
+29/06/2021 10:01:14: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTF'. Cannot insert duplicate key in object 'dbo.COPTF'.
+The statement has been terminated.
+29/06/2021 10:01:14: Order No. 2011294     has been updated.
+29/06/2021 10:01:14: Order No. 2012227     has been updated.
+29/06/2021 10:01:14: Failed to update Order No. 2101019    . Error: Violation of PRIMARY KEY constraint 'PK_COPTF'. Cannot insert duplicate key in object 'dbo.COPTF'.
+The statement has been terminated.
+29/06/2021 10:01:14: Failed to update Order No. 2101045    . Error: Violation of PRIMARY KEY constraint 'PK_COPTF'. Cannot insert duplicate key in object 'dbo.COPTF'.
+The statement has been terminated.
+29/06/2021 10:01:14: Failed to update Order No. 2101045    . Error: Violation of PRIMARY KEY constraint 'PK_COPTF'. Cannot insert duplicate key in object 'dbo.COPTF'.
+The statement has been terminated.
+29/06/2021 10:01:14: Failed to update Order No. 2101045    . Error: Violation of PRIMARY KEY constraint 'PK_COPTF'. Cannot insert duplicate key in object 'dbo.COPTF'.
+The statement has been terminated.
+29/06/2021 10:01:14: Failed to update Order No. 2101045    . Error: Violation of PRIMARY KEY constraint 'PK_COPTF'. Cannot insert duplicate key in object 'dbo.COPTF'.
+The statement has been terminated.
+29/06/2021 10:01:14: Failed to update Order No. 2101045    . Error: Violation of PRIMARY KEY constraint 'PK_COPTF'. Cannot insert duplicate key in object 'dbo.COPTF'.
+The statement has been terminated.
+29/06/2021 10:01:14: Order No. 2101247     has been updated.
+29/06/2021 10:01:14: Order No. 2103291     has been updated.
+29/06/2021 10:01:14: Order No. 2103292     has been updated.
+29/06/2021 10:01:14: Order No. 2103294     has been updated.
+29/06/2021 10:01:14: Order No. 2103295     has been updated.
+29/06/2021 10:01:14: Order No. 2104060     has been updated.
+29/06/2021 10:01:14: Order No. 2104066     has been updated.
+29/06/2021 10:01:14: Order No. 2105032     has been updated.
+29/06/2021 10:01:14: Order No. 2105033     has been updated.
+29/06/2021 10:01:14: Order No. 2105034     has been updated.
+29/06/2021 10:01:14: Order No. 2105035     has been updated.
+29/06/2021 10:01:14: Order No. 2105036     has been updated.
+29/06/2021 10:01:14: Order No. 2105037     has been updated.
+29/06/2021 10:01:14: Order No. 2105038     has been updated.
+29/06/2021 10:01:14: Order No. 2105039     has been updated.
+29/06/2021 10:01:14: Order No. 2105040     has been updated.
+29/06/2021 10:01:14: Order No. 2106362     has been updated.
+29/06/2021 10:01:14: Order No. 2106374     has been updated.
+29/06/2021 10:01:14: Order No. 2106375     has been updated.
+29/06/2021 10:01:14: Order No. 2106377     has been updated.
+29/06/2021 10:01:14: Order No. 2106386     has been updated.
+29/06/2021 10:01:14: The product number T-12-M300-WHITE not found. Cannot import Order No. 2103293    -0001.
+29/06/2021 10:01:14: The product number LGDI-HW0814 not found. Cannot import Order No. 2104106    -0001.
+29/06/2021 10:01:14: The product number LGDI-HW0814 not found. Cannot import Order No. 2104106    -0001.
+29/06/2021 10:01:14: The product number MEAA048 not found. Cannot import Order No. 2105031    -0001.
+29/06/2021 10:01:14: The product number SILICONECOVER-SETOF2 not found. Cannot import Order No. 2106209    -0001.
+29/06/2021 10:01:14: The product number 4PRH-225 (2.25"ID X 36") not found. Cannot import Order No. 2106210    -0001.
+29/06/2021 10:01:15: The product number 4PRH-250 (2.25"ID X 36") not found. Cannot import Order No. 2106210    -0002.
+29/06/2021 10:01:15: The product number PRINTING JIG not found. Cannot import Order No. 2106210    -0003.
+29/06/2021 10:01:15: The product number PRINTING JIG not found. Cannot import Order No. 2106210    -0004.
+29/06/2021 10:01:15: The product number RABBIT SHAPE CHOCOLATE PA not found. Cannot import Order No. 2106214    -0001.
+29/06/2021 10:01:15: The product number RABBIT SHAPE CHOCOLATE PA not found. Cannot import Order No. 2106215    -0001.
+29/06/2021 10:01:15: The product number 45-112X10 not found. Cannot import Order No. 2106234    -0004.
+29/06/2021 10:01:15: The product number FXT-241 not found. Cannot import Order No. 2106234    -0008.
+29/06/2021 10:01:15: The product number R40-300/350X8 not found. Cannot import Order No. 2106234    -0019.
+29/06/2021 10:01:15: The product number R45B-200/250 not found. Cannot import Order No. 2106234    -0021.
+29/06/2021 10:01:15: The product number R90-250/300 not found. Cannot import Order No. 2106234    -0023.
+29/06/2021 10:01:15: The product number 11718533 not found. Cannot import Order No. 2106283    -0001.
+29/06/2021 10:01:15: The product number 11718534 not found. Cannot import Order No. 2106283    -0002.
+29/06/2021 10:01:15: The product number 59001191771 REV E not found. Cannot import Order No. 2106283    -0004.
+29/06/2021 10:01:15: The product number SILICONECOVER-SETOF2 not found. Cannot import Order No. 2106326    -0002.
+29/06/2021 10:01:15: The product number ST01 not found. Cannot import Order No. 2106345    -0001.
+29/06/2021 10:01:15: The product number ST02 not found. Cannot import Order No. 2106345    -0002.
+29/06/2021 10:01:15: The product number ST03 not found. Cannot import Order No. 2106345    -0003.
+29/06/2021 10:01:15: The product number ST04 not found. Cannot import Order No. 2106345    -0004.
+29/06/2021 10:01:15: The product number ST05 not found. Cannot import Order No. 2106345    -0005.
+29/06/2021 10:01:15: The product number ST06 not found. Cannot import Order No. 2106345    -0006.
+29/06/2021 10:01:15: The product number ST07 not found. Cannot import Order No. 2106345    -0007.
+29/06/2021 10:01:15: The product number P1024338A00 not found. Cannot import Order No. 2106352    -0001.
+29/06/2021 10:01:15: The product number P1024338A00 not found. Cannot import Order No. 2106352    -0002.
+29/06/2021 10:01:15: The product number P1024338A00 not found. Cannot import Order No. 2106352    -0003.
+29/06/2021 10:01:15: The product number P1024338A00 not found. Cannot import Order No. 2106352    -0004.
+29/06/2021 10:01:15: The product number P1024338A00 not found. Cannot import Order No. 2106352    -0005.
+29/06/2021 10:01:15: The product number P1024338A00 not found. Cannot import Order No. 2106352    -0006.
+29/06/2021 10:01:15: The product number P1024338A00 not found. Cannot import Order No. 2106352    -0007.
+29/06/2021 10:01:15: The product number P1024338A00 not found. Cannot import Order No. 2106352    -0008.
+29/06/2021 10:01:15: The product number SILICONECOVER-SETOF2 not found. Cannot import Order No. 2106360    -0002.
+29/06/2021 10:01:15: The product number TEDDYBEAR6723 not found. Cannot import Order No. 2106363    -0002.
+29/06/2021 10:01:15: The product number MCT1083 LID GASKET not found. Cannot import Order No. 2106367    -0001.
+29/06/2021 10:01:15: The product number SILICONECOVER-SETOF2 not found. Cannot import Order No. 2106376    -0001.
+29/06/2021 10:01:15: The product number FRT106LPADE not found. Cannot import Order No. 2106385    -0001.
+29/06/2021 10:01:15: The product number TB-62/70 not found. Cannot import Order No. 2106387    -0001.
+29/06/2021 10:01:15: The product number TB-66/74 not found. Cannot import Order No. 2106387    -0002.
+29/06/2021 10:01:15: The product number TB-68/76 not found. Cannot import Order No. 2106387    -0003.
+29/06/2021 10:01:15: The product number TB-70/80 not found. Cannot import Order No. 2106387    -0004.
+29/06/2021 10:01:15: The product number TB-74/82 not found. Cannot import Order No. 2106387    -0005.
+29/06/2021 10:01:15: The product number TB-78/86 not found. Cannot import Order No. 2106387    -0006.
+29/06/2021 10:01:15: The product number TB-80/88 not found. Cannot import Order No. 2106387    -0007.
+29/06/2021 10:01:15: The product number TB-90/98 not found. Cannot import Order No. 2106387    -0008.
+29/06/2021 10:01:15: The product number TB-94/102 not found. Cannot import Order No. 2106387    -0009.
+29/06/2021 10:01:15: The product number TB-84/92 not found. Cannot import Order No. 2106387    -0010.
+29/06/2021 10:01:19: The product number SILICONECOVER-SETOF2 not found. Cannot import Order No. 2106398-0001.
+29/06/2021 10:01:19: The product number 4PRH-225 (2.25"ID X 36") not found. Cannot import Order No. 2106399-0001.
+29/06/2021 10:01:19: The product number 4PRH-250 (2.25"ID X 36") not found. Cannot import Order No. 2106399-0002.
+29/06/2021 10:01:19: The product number PRINTING JIG not found. Cannot import Order No. 2106399-0003.
+29/06/2021 10:01:19: The product number PRINTING JIG not found. Cannot import Order No. 2106399-0004.
+29/06/2021 10:01:19: The product number RABBIT SHAPE CHOCOLATE PA not found. Cannot import Order No. 2106403-0001.
+29/06/2021 10:01:19: The product number RABBIT SHAPE CHOCOLATE PA not found. Cannot import Order No. 2106404-0001.
+29/06/2021 10:01:22: The product number 45-112X10 not found. Cannot import Order No. 2106423-0004.
+29/06/2021 10:01:22: The product number FXT-241 not found. Cannot import Order No. 2106423-0008.
+29/06/2021 10:01:23: The product number R40-300/350X8 not found. Cannot import Order No. 2106423-0019.
+29/06/2021 10:01:24: The product number R45B-200/250 not found. Cannot import Order No. 2106423-0021.
+29/06/2021 10:01:24: The product number R90-250/300 not found. Cannot import Order No. 2106423-0023.
+29/06/2021 10:01:27: The product number 11718533 not found. Cannot import Order No. 2106472-0001.
+29/06/2021 10:01:27: The product number 11718534 not found. Cannot import Order No. 2106472-0002.
+29/06/2021 10:01:27: The product number 59001191771 REV E not found. Cannot import Order No. 2106472-0004.
+29/06/2021 10:01:32: The product number SILICONECOVER-SETOF2 not found. Cannot import Order No. 2106515-0002.
+29/06/2021 10:01:35: The product number ST01 not found. Cannot import Order No. 2106534-0001.
+29/06/2021 10:01:35: The product number ST02 not found. Cannot import Order No. 2106534-0002.
+29/06/2021 10:01:35: The product number ST03 not found. Cannot import Order No. 2106534-0003.
+29/06/2021 10:01:35: The product number ST04 not found. Cannot import Order No. 2106534-0004.
+29/06/2021 10:01:35: The product number ST05 not found. Cannot import Order No. 2106534-0005.
+29/06/2021 10:01:35: The product number ST06 not found. Cannot import Order No. 2106534-0006.
+29/06/2021 10:01:35: The product number ST07 not found. Cannot import Order No. 2106534-0007.
+29/06/2021 10:01:35: The product number P1024338A00 not found. Cannot import Order No. 2106541-0001.
+29/06/2021 10:01:35: The product number P1024338A00 not found. Cannot import Order No. 2106541-0002.
+29/06/2021 10:01:35: The product number P1024338A00 not found. Cannot import Order No. 2106541-0003.
+29/06/2021 10:01:35: The product number P1024338A00 not found. Cannot import Order No. 2106541-0004.
+29/06/2021 10:01:35: The product number P1024338A00 not found. Cannot import Order No. 2106541-0005.
+29/06/2021 10:01:35: The product number P1024338A00 not found. Cannot import Order No. 2106541-0006.
+29/06/2021 10:01:35: The product number P1024338A00 not found. Cannot import Order No. 2106541-0007.
+29/06/2021 10:01:35: The product number P1024338A00 not found. Cannot import Order No. 2106541-0008.
+29/06/2021 10:01:35: Order No. 21AN06586 has been created.
+29/06/2021 10:01:35: Order No. 21CB06584 has been created.
+29/06/2021 10:01:35: Order No. 21CB06584 has been created.
+29/06/2021 10:01:35: Order No. 21CB06584 has been created.
+29/06/2021 10:01:35: Order No. 21CB06584 has been created.
+29/06/2021 10:01:35: Order No. 21CB06584 has been created.
+29/06/2021 10:01:35: Order No. 21CB06585 has been created.
+29/06/2021 10:01:35: Order No. 21CB06585 has been created.
+29/06/2021 10:01:35: Order No. 21CB06585 has been created.
+29/06/2021 10:01:35: Order No. 21CB06585 has been created.
+29/06/2021 10:01:35: Order No. 21CB06585 has been created.
+29/06/2021 10:01:35: Order No. 21CB06585 has been created.
+29/06/2021 10:01:35: Order No. 21CB06585 has been created.
+29/06/2021 10:01:35: Order No. 21CB06585 has been created.
+29/06/2021 10:01:35: Order No. 21CB06585 has been created.
+29/06/2021 10:01:35: Order No. 21CB06446 has been created.
+29/06/2021 10:01:35: Order No. 21CB06446 has been created.
+29/06/2021 10:01:35: Order No. 21CB06446 has been created.
+29/06/2021 10:01:35: Order No. 21CB06446 has been created.
+29/06/2021 10:01:35: Order No. 21CB06446 has been created.
+29/06/2021 10:01:35: Order No. 21CB06446 has been created.
+29/06/2021 10:01:35: Order No. 21CB06446 has been created.
+29/06/2021 10:01:35: Order No. 21CB06446 has been created.
+29/06/2021 10:01:35: Order No. 21CB06446 has been created.
+29/06/2021 10:01:35: Order No. 21CB06446 has been created.
+29/06/2021 10:01:35: Order No. 21CB06446 has been created.
+29/06/2021 10:01:35: Order No. 21CB06446 has been created.
+29/06/2021 10:01:35: Order No. 21CB06446 has been created.
+29/06/2021 10:01:35: Order No. 21CB06446 has been created.
+29/06/2021 10:01:35: Order No. 171004 has been created.
+29/06/2021 10:01:35: Order No. 65BSS22FRCA0082 has been created.
+29/06/2021 10:01:35: Order No. 20210624-TIECO has been created.
+29/06/2021 10:01:35: Order No. 20210624-TIECO has been created.
+29/06/2021 10:01:35: Order No. 20210624-TIECO has been created.
+29/06/2021 10:01:35: Order No. 20210624-TIECO has been created.
+29/06/2021 10:01:35: Order No. 1170200700 has been created.
+29/06/2021 10:01:35: Order No. 7807300700 has been created.
+29/06/2021 10:01:35: Order No. 9324483398/10 has been created.
+29/06/2021 10:01:35: Order No. 9324484382 has been created.
+29/06/2021 10:01:35: Order No. 9324484382 has been created.
+29/06/2021 10:01:35: Order No. 9324484382 has been created.
+29/06/2021 10:01:35: Order No. 9324484382 has been created.
+29/06/2021 10:01:35: Order No. 9324484382 has been created.
+29/06/2021 10:01:36: Order No. 9324484382 has been created.
+29/06/2021 10:01:36: Order No. 9324484382 has been created.
+29/06/2021 10:01:36: Order No. 9324484382 has been created.
+29/06/2021 10:01:36: Order No. 9324484382 has been created.
+29/06/2021 10:01:36: Order No. 9324484382 has been created.
+29/06/2021 10:01:36: Order No. 9324483932/10 has been created.
+29/06/2021 10:01:36: Order No. 9324483930/10 has been created.
+29/06/2021 10:01:36: Order No. 9324483929/10 has been created.
+29/06/2021 10:01:36: Order No. 9324483198 has been created.
+29/06/2021 10:01:36: Order No. 9324483198 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001149 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001190 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001193 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:36: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:37: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:37: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:37: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:37: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:37: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:37: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:37: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:37: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:37: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:37: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:37: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:37: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:37: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:37: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:37: Order No. GMN-P001194 has been created.
+29/06/2021 10:01:37: Order No. POREQ21065882 has been created.
+29/06/2021 10:01:37: Order No. POORD-21/06/25-005 has been created.
+29/06/2021 10:01:37: Order No. POORD-21/06/25-005 has been created.
+29/06/2021 10:01:37: Order No. POORD-21/06/25-005 has been created.
+29/06/2021 10:01:37: Order No. 5500165986-0721VN has been created.
+29/06/2021 10:01:37: Order No. 5500165986-0721VN has been created.
+29/06/2021 10:01:37: Order No. 5500165986-0721VN has been created.
+29/06/2021 10:01:37: Order No. 5500147723-0721VN has been created.
+29/06/2021 10:01:37: Order No. 5500147723-0721VN has been created.
+29/06/2021 10:01:37: Order No. 5500147723-0721VN has been created.
+29/06/2021 10:01:37: Order No. 5500147725-0721VN has been created.
+29/06/2021 10:01:37: Order No. 5500147725-0721VN has been created.
+29/06/2021 10:01:37: Order No. 5500147725-0721VN has been created.
+29/06/2021 10:01:37: Order No. 5500165998-0721VN has been created.
+29/06/2021 10:01:37: Order No. 5500165998-0721VN has been created.
+29/06/2021 10:01:37: Order No. 5500165998-0721VN has been created.
+29/06/2021 10:01:37: Order No. 4502043244-0721VN has been created.
+29/06/2021 10:01:37: Order No. 2218502790 has been created.
+29/06/2021 10:01:37: Order No. 2218502791 has been created.
+29/06/2021 10:01:37: Order No. 65BSS22FRCA0120 has been created.
+29/06/2021 10:01:37: Order No. 65BSS22FRCA0120 has been created.
+29/06/2021 10:01:37: Order No. 20304 has been created.
+29/06/2021 10:01:37: Order No. 20305 has been created.
+29/06/2021 10:01:37: Order No. 4502158035 has been created.
+29/06/2021 10:01:37: Order No. 4502158035 has been created.
+29/06/2021 10:01:37: Order No. 9324485235 has been created.
+29/06/2021 10:01:37: Order No. 9324485235 has been created.
+29/06/2021 10:01:37: Order No. 9324485235 has been created.
+29/06/2021 10:01:37: Order No. 9324485235 has been created.
+29/06/2021 10:01:37: Order No. 9324485235 has been created.
+29/06/2021 10:01:37: Order No. 9324485230/20 has been created.
+29/06/2021 10:01:37: Order No. 9324485231/40 has been created.
+29/06/2021 10:01:37: Order No. 9324485228 has been created.
+29/06/2021 10:01:37: Order No. 9324485228 has been created.
+29/06/2021 10:01:37: Order No. POORD210601817 has been created.
+29/06/2021 10:01:37: Order No. POORD210601817 has been created.
+29/06/2021 10:01:37: Order No. 4502130946 has been created.
+29/06/2021 10:01:37: Order No. GMN-P001080 has been created.
+29/06/2021 10:01:37: Order No. 210624-01 has been created.
+29/06/2021 10:01:37: Order No. 210624-01 has been created.
+29/06/2021 10:01:37: Order No. 210624-01 has been created.
+29/06/2021 10:01:37: Order No. 210624-01 has been created.
+29/06/2021 10:01:37: Order No. 210624-01 has been created.
+29/06/2021 10:01:37: Order No. 210624-01 has been created.
+29/06/2021 10:01:37: Order No. 210624-01 has been created.
+29/06/2021 10:01:37: Order No. 5101851 has been created.
+29/06/2021 10:01:37: Order No. 5101851 has been created.
+29/06/2021 10:01:37: Order No. 5101851 has been created.
+29/06/2021 10:01:37: Order No. 5101851 has been created.
+29/06/2021 10:01:37: Order No. 5101851 has been created.
+29/06/2021 10:01:37: Order No. 5101851 has been created.
+29/06/2021 10:01:37: Order No. 5101851 has been created.
+29/06/2021 10:01:37: Order No. 5101851 has been created.
+29/06/2021 10:01:37: Order No. 2103296 has been created.
+29/06/2021 10:01:37: Order No. 2103297 has been created.
+29/06/2021 10:01:38: Order No. 2103297 has been created.
+29/06/2021 10:01:38: Order No. 2103297 has been created.
+29/06/2021 10:01:38: Order No. 2103297 has been created.
+29/06/2021 10:01:38: Order No. 2103297 has been created.
+29/06/2021 10:01:38: Order No. 2103302 has been created.
+29/06/2021 10:01:38: Order No. 2103302 has been created.
+29/06/2021 10:01:38: Order No. 2103302 has been created.
+29/06/2021 10:01:38: Order No. 2103302 has been created.
+29/06/2021 10:01:38: Order No. 2103302 has been created.
+29/06/2021 10:01:38: Order No. 2103302 has been created.
+29/06/2021 10:01:38: Order No. 2103302 has been created.
+29/06/2021 10:01:38: Order No. 2103302 has been created.
+29/06/2021 10:01:38: Order No. 2103302 has been created.
+29/06/2021 10:01:38: Order No. 2103311 has been created.
+29/06/2021 10:01:38: Order No. 2103311 has been created.
+29/06/2021 10:01:38: Order No. 2103311 has been created.
+29/06/2021 10:01:38: Order No. 2103311 has been created.
+29/06/2021 10:01:38: Order No. 2103311 has been created.
+29/06/2021 10:01:38: Order No. 2103311 has been created.
+29/06/2021 10:01:38: Order No. 2103311 has been created.
+29/06/2021 10:01:38: Order No. 2103311 has been created.
+29/06/2021 10:01:38: Order No. 2103311 has been created.
+29/06/2021 10:01:38: Order No. 2103311 has been created.
+29/06/2021 10:01:38: Order No. 2103311 has been created.
+29/06/2021 10:01:38: Order No. 2103311 has been created.
+29/06/2021 10:01:38: Order No. 2103311 has been created.
+29/06/2021 10:01:38: Order No. 2103311 has been created.
+29/06/2021 10:01:38: Order No. 2106397 has been created.
+29/06/2021 10:01:38: Order No. 2106405 has been created.
+29/06/2021 10:01:38: Order No. 2106406 has been created.
+29/06/2021 10:01:38: Order No. 2106406 has been created.
+29/06/2021 10:01:38: Order No. 2106406 has been created.
+29/06/2021 10:01:38: Order No. 2106406 has been created.
+29/06/2021 10:01:38: Order No. 2106406 has been created.
+29/06/2021 10:01:38: Order No. 2106406 has been created.
+29/06/2021 10:01:38: Order No. 2106406 has been created.
+29/06/2021 10:01:38: Order No. 2106406 has been created.
+29/06/2021 10:01:38: Order No. 2106406 has been created.
+29/06/2021 10:01:38: Order No. 2106406 has been created.
+29/06/2021 10:01:38: Order No. 2106416 has been created.
+29/06/2021 10:01:38: Order No. 2106417 has been created.
+29/06/2021 10:01:38: Order No. 2106418 has been created.
+29/06/2021 10:01:38: Order No. 2106419 has been created.
+29/06/2021 10:01:38: Order No. 2106419 has been created.
+29/06/2021 10:01:38: Order No. 2106421 has been created.
+29/06/2021 10:01:38: Order No. 2106422 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:38: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106423 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106472 has been created.
+29/06/2021 10:01:39: Order No. 2106496 has been created.
+29/06/2021 10:01:39: Order No. 2106497 has been created.
+29/06/2021 10:01:39: Order No. 2106497 has been created.
+29/06/2021 10:01:39: Order No. 2106497 has been created.
+29/06/2021 10:01:39: Order No. 2106500 has been created.
+29/06/2021 10:01:39: Order No. 2106500 has been created.
+29/06/2021 10:01:39: Order No. 2106500 has been created.
+29/06/2021 10:01:39: Order No. 2106503 has been created.
+29/06/2021 10:01:39: Order No. 2106503 has been created.
+29/06/2021 10:01:39: Order No. 2106503 has been created.
+29/06/2021 10:01:39: Order No. 2106506 has been created.
+29/06/2021 10:01:39: Order No. 2106506 has been created.
+29/06/2021 10:01:39: Order No. 2106506 has been created.
+29/06/2021 10:01:39: Order No. 2106509 has been created.
+29/06/2021 10:01:39: Order No. 2106509 has been created.
+29/06/2021 10:01:39: Order No. 2106509 has been created.
+29/06/2021 10:01:39: Order No. 2106512 has been created.
+29/06/2021 10:01:39: Order No. 2106513 has been created.
+29/06/2021 10:01:39: Order No. 2106514 has been created.
+29/06/2021 10:01:39: Order No. 2106515 has been created.
+29/06/2021 10:01:39: Order No. 2106517 has been created.
+29/06/2021 10:01:39: Order No. 2106518 has been created.
+29/06/2021 10:01:39: Order No. 2106519 has been created.
+29/06/2021 10:01:39: Order No. 2106519 has been created.
+29/06/2021 10:01:39: Order No. 2106521 has been created.
+29/06/2021 10:01:39: Order No. 2106521 has been created.
+29/06/2021 10:01:39: Order No. 2106521 has been created.
+29/06/2021 10:01:40: Order No. 2106521 has been created.
+29/06/2021 10:01:40: Order No. 2106521 has been created.
+29/06/2021 10:01:40: Order No. 2106526 has been created.
+29/06/2021 10:01:40: Order No. 2106527 has been created.
+29/06/2021 10:01:40: Order No. 2106528 has been created.
+29/06/2021 10:01:40: Order No. 2106528 has been created.
+29/06/2021 10:01:40: Order No. 2106530 has been created.
+29/06/2021 10:01:40: Order No. 2106530 has been created.
+29/06/2021 10:01:40: Order No. 2106532 has been created.
+29/06/2021 10:01:40: Order No. 2106533 has been created.
+29/06/2021 10:01:40: End point: 2021-06-29 10:52:17.143
+29/06/2021 10:01:40: Session 2106291000 completed.

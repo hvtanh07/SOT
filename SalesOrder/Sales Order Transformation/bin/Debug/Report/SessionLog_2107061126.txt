@@ -1,0 +1,790 @@
+06/07/2021 11:26:30: Session 2107061126 has started.
+06/07/2021 11:26:30: Start point: 2021-07-05 00:00:00.000
+06/07/2021 11:26:31: 16%
+06/07/2021 11:26:31: Connection to 223.255.178.194 is opened.
+06/07/2021 11:26:32: The Sale Order number 91675 not found.
+06/07/2021 11:26:32: The Sale Order number 91675 not found.
+06/07/2021 11:26:32: Failed to update Order No. 2101004    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:32: Failed to update Order No. 2102159    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:32: Failed to update Order No. 2102160    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:32: Order No. 2105248     has been updated.
+06/07/2021 11:26:32: Order No. 2106029     has been updated.
+06/07/2021 11:26:32: Failed to update Order No. 2106029    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:32: Failed to update Order No. 2106029    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:33: Failed to update Order No. 2106029    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:33: Failed to update Order No. 2106029    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:33: Failed to update Order No. 2106029    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:33: Failed to update Order No. 2106029    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:33: Failed to update Order No. 2106029    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:33: Failed to update Order No. 2106029    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:33: Failed to update Order No. 2106029    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:33: Failed to update Order No. 2106029    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:33: Order No. 2106170     has been updated.
+06/07/2021 11:26:33: Failed to update Order No. 2106170    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:33: Order No. 2106171     has been updated.
+06/07/2021 11:26:33: Order No. 2106174     has been updated.
+06/07/2021 11:26:33: Failed to update Order No. 2106174    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:33: Order No. 2106175     has been updated.
+06/07/2021 11:26:33: Failed to update Order No. 2106175    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:33: Failed to update Order No. 2106175    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:33: Order No. 2106176     has been updated.
+06/07/2021 11:26:33: Failed to update Order No. 2106176    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:33: Failed to update Order No. 2106176    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:33: Order No. 2106177     has been updated.
+06/07/2021 11:26:33: Failed to update Order No. 2106177    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:33: Failed to update Order No. 2106177    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:33: Order No. 2104054     has been updated.
+06/07/2021 11:26:33: Failed to update Order No. 2104054    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:33: Order No. 2104142     has been updated.
+06/07/2021 11:26:33: Order No. 2105006     has been updated.
+06/07/2021 11:26:34: Failed to update Order No. 2105006    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:34: Failed to update Order No. 2105006    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:34: Failed to update Order No. 2105006    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:34: Failed to update Order No. 2105006    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:34: Failed to update Order No. 2105006    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:34: Order No. 2105096     has been updated.
+06/07/2021 11:26:34: Failed to update Order No. 2012190    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:34: Failed to update Order No. 2012190    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:34: Failed to update Order No. 2012190    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:34: Failed to update Order No. 2012190    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:34: Failed to update Order No. 2012190    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:34: Order No. 2106119     has been updated.
+06/07/2021 11:26:34: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:34: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:34: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:34: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:34: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:34: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:34: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:34: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:34: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:34: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:34: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:35: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:36: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:37: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:38: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:39: Failed to update Order No. 2106119    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:39: Order No. 2105203     has been updated.
+06/07/2021 11:26:39: Failed to update Order No. 2105203    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:39: Failed to update Order No. 2105203    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:39: Failed to update Order No. 2105203    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:39: Order No. 2106122     has been updated.
+06/07/2021 11:26:39: Order No. 2106237     has been updated.
+06/07/2021 11:26:39: Failed to update Order No. 2106237    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:39: Order No. 2106099     has been updated.
+06/07/2021 11:26:39: Failed to update Order No. 2106099    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:39: Order No. 2106227     has been updated.
+06/07/2021 11:26:39: Order No. 2105169     has been updated.
+06/07/2021 11:26:39: Failed to update Order No. 2105169    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:39: Failed to update Order No. 2105169    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:39: Failed to update Order No. 2105169    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:39: Failed to update Order No. 2105169    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:39: Failed to update Order No. 2105169    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:39: Failed to update Order No. 2105169    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:39: Order No. 2106183     has been updated.
+06/07/2021 11:26:39: Order No. 2106182     has been updated.
+06/07/2021 11:26:39: Order No. 2106151     has been updated.
+06/07/2021 11:26:39: Failed to update Order No. 2106151    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:39: Failed to update Order No. 2106151    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:39: Failed to update Order No. 2106151    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:39: Failed to update Order No. 2106151    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:39: Failed to update Order No. 2106151    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:40: Order No. 2106152     has been updated.
+06/07/2021 11:26:40: Failed to update Order No. 2106152    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:40: Failed to update Order No. 2106152    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:40: Failed to update Order No. 2106152    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:40: Failed to update Order No. 2106152    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:40: Failed to update Order No. 2106152    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:40: Order No. 2106153     has been updated.
+06/07/2021 11:26:40: Failed to update Order No. 2106153    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:40: Failed to update Order No. 2106153    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:40: Failed to update Order No. 2106153    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:40: Failed to update Order No. 2106153    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:40: Failed to update Order No. 2106153    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:40: Order No. 2106155     has been updated.
+06/07/2021 11:26:40: Failed to update Order No. 2106155    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:40: Failed to update Order No. 2106155    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:40: Failed to update Order No. 2106155    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:40: Failed to update Order No. 2106155    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:40: Failed to update Order No. 2106155    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:40: Order No. 2106154     has been updated.
+06/07/2021 11:26:40: Failed to update Order No. 2106154    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:40: Failed to update Order No. 2106154    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:40: Failed to update Order No. 2106154    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:41: Failed to update Order No. 2106154    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:41: Failed to update Order No. 2106154    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:41: Order No. 2106117     has been updated.
+06/07/2021 11:26:41: Failed to update Order No. 2106117    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+06/07/2021 11:26:41: Order No. 2104179     has been updated.
+06/07/2021 11:26:41: 36%
+06/07/2021 11:26:41: 38%
+06/07/2021 11:26:41: 50%
+06/07/2021 11:26:41: 56%
+06/07/2021 11:26:41: 60%
+06/07/2021 11:26:41: 65%
+06/07/2021 11:26:41: 70%
+06/07/2021 11:26:43: The Sale Order number 91675 not found.
+06/07/2021 11:26:43: The Sale Order number 91675 not found.
+06/07/2021 11:26:55: The changed order has the product number 1432491S01 not found. Cannot import Order No. 2106117    -0001.
+06/07/2021 11:26:55: The changed order has the product number 1432491S01 not found. Cannot import Order No. 2106117    -0001.
+06/07/2021 11:26:57: The changed order has the product number PR05BHY not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:26:58: The changed order has the product number PS141BHY not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:02: The changed order has the product number PS62GHY not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:02: The changed order has the product number PS85BH not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:03: The changed order has the product number PS227BHZ-VN not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:03: The changed order has the product number PC98WN not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:03: The changed order has the product number PD106BHY not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:03: The changed order has the product number PD110BHY not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:03: The changed order has the product number PD74BHY not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:03: The changed order has the product number PR01BSY not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:03: The changed order has the product number PR06BSY not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:03: The changed order has the product number PR13BSY not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:04: The changed order has the product number PR17BSY not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:04: The changed order has the product number PR21BSY not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:04: The changed order has the product number PR27BSY not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:04: The changed order has the product number PR28BSY not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:04: The changed order has the product number PS118A not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:04: The changed order has the product number PS121BHY not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:04: The changed order has the product number PS173BHY not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:04: The changed order has the product number PR04BHY not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:06: The changed order has the product number P04T-PB+N not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:06: The changed order has the product number PS35BHY+N not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:06: The changed order has the product number PT65BP not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:06: The changed order has the product number PT54BP not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:06: The changed order has the product number T70730 not found. Cannot import Order No. 2106119    -0004.
+06/07/2021 11:27:13: The changed order has the product number CAKE PAN RABBIT - ROSE 691C not found. Cannot import Order No. 2106182    -0001.
+06/07/2021 11:27:13: The changed order has the product number CAKE PAN RABBIT - GREEN 7485C not found. Cannot import Order No. 2106183    -0001.
+06/07/2021 11:27:18: Order No. 2012190     has been updated.
+06/07/2021 11:27:18: Order No. 2012190     has been updated.
+06/07/2021 11:27:18: Order No. 2012190     has been updated.
+06/07/2021 11:27:18: Order No. 2012190     has been updated.
+06/07/2021 11:27:18: Order No. 2012190     has been updated.
+06/07/2021 11:27:18: Failed to update Order No. 2101004    . Error: Violation of PRIMARY KEY constraint 'PK_COPTF'. Cannot insert duplicate key in object 'dbo.COPTF'.
+The statement has been terminated.
+06/07/2021 11:27:18: Failed to update Order No. 2102159    . Error: Violation of PRIMARY KEY constraint 'PK_COPTF'. Cannot insert duplicate key in object 'dbo.COPTF'.
+The statement has been terminated.
+06/07/2021 11:27:18: Failed to update Order No. 2102160    . Error: Violation of PRIMARY KEY constraint 'PK_COPTF'. Cannot insert duplicate key in object 'dbo.COPTF'.
+The statement has been terminated.
+06/07/2021 11:27:18: Order No. 2104054     has been updated.
+06/07/2021 11:27:18: Order No. 2104054     has been updated.
+06/07/2021 11:27:18: Order No. 2104142     has been updated.
+06/07/2021 11:27:18: Order No. 2104179     has been updated.
+06/07/2021 11:27:18: Order No. 2105006     has been updated.
+06/07/2021 11:27:18: Order No. 2105006     has been updated.
+06/07/2021 11:27:18: Order No. 2105006     has been updated.
+06/07/2021 11:27:18: Order No. 2105006     has been updated.
+06/07/2021 11:27:18: Order No. 2105006     has been updated.
+06/07/2021 11:27:18: Order No. 2105006     has been updated.
+06/07/2021 11:27:18: Order No. 2105096     has been updated.
+06/07/2021 11:27:18: Order No. 2105169     has been updated.
+06/07/2021 11:27:18: Order No. 2105169     has been updated.
+06/07/2021 11:27:18: Order No. 2105169     has been updated.
+06/07/2021 11:27:18: Order No. 2105169     has been updated.
+06/07/2021 11:27:18: Order No. 2105169     has been updated.
+06/07/2021 11:27:18: Order No. 2105169     has been updated.
+06/07/2021 11:27:18: Order No. 2105169     has been updated.
+06/07/2021 11:27:18: Order No. 2105203     has been updated.
+06/07/2021 11:27:18: Order No. 2105203     has been updated.
+06/07/2021 11:27:18: Order No. 2105203     has been updated.
+06/07/2021 11:27:18: Order No. 2105203     has been updated.
+06/07/2021 11:27:18: Order No. 2105248     has been updated.
+06/07/2021 11:27:18: Order No. 2106029     has been updated.
+06/07/2021 11:27:18: Order No. 2106029     has been updated.
+06/07/2021 11:27:18: Order No. 2106029     has been updated.
+06/07/2021 11:27:18: Order No. 2106029     has been updated.
+06/07/2021 11:27:18: Order No. 2106029     has been updated.
+06/07/2021 11:27:18: Order No. 2106029     has been updated.
+06/07/2021 11:27:18: Order No. 2106029     has been updated.
+06/07/2021 11:27:18: Order No. 2106029     has been updated.
+06/07/2021 11:27:19: Order No. 2106029     has been updated.
+06/07/2021 11:27:19: Order No. 2106029     has been updated.
+06/07/2021 11:27:19: Order No. 2106029     has been updated.
+06/07/2021 11:27:19: Order No. 2106099     has been updated.
+06/07/2021 11:27:19: Order No. 2106099     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:19: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106119     has been updated.
+06/07/2021 11:27:20: Order No. 2106122     has been updated.
+06/07/2021 11:27:20: Order No. 2106151     has been updated.
+06/07/2021 11:27:20: Order No. 2106151     has been updated.
+06/07/2021 11:27:20: Order No. 2106151     has been updated.
+06/07/2021 11:27:20: Order No. 2106151     has been updated.
+06/07/2021 11:27:20: Order No. 2106151     has been updated.
+06/07/2021 11:27:20: Order No. 2106151     has been updated.
+06/07/2021 11:27:20: Order No. 2106152     has been updated.
+06/07/2021 11:27:20: Order No. 2106152     has been updated.
+06/07/2021 11:27:20: Order No. 2106152     has been updated.
+06/07/2021 11:27:20: Order No. 2106152     has been updated.
+06/07/2021 11:27:20: Order No. 2106152     has been updated.
+06/07/2021 11:27:20: Order No. 2106152     has been updated.
+06/07/2021 11:27:20: Order No. 2106153     has been updated.
+06/07/2021 11:27:20: Order No. 2106153     has been updated.
+06/07/2021 11:27:20: Order No. 2106153     has been updated.
+06/07/2021 11:27:20: Order No. 2106153     has been updated.
+06/07/2021 11:27:20: Order No. 2106153     has been updated.
+06/07/2021 11:27:20: Order No. 2106153     has been updated.
+06/07/2021 11:27:20: Order No. 2106154     has been updated.
+06/07/2021 11:27:20: Order No. 2106154     has been updated.
+06/07/2021 11:27:20: Order No. 2106154     has been updated.
+06/07/2021 11:27:20: Order No. 2106154     has been updated.
+06/07/2021 11:27:20: Order No. 2106154     has been updated.
+06/07/2021 11:27:20: Order No. 2106154     has been updated.
+06/07/2021 11:27:20: Order No. 2106155     has been updated.
+06/07/2021 11:27:20: Order No. 2106155     has been updated.
+06/07/2021 11:27:20: Order No. 2106155     has been updated.
+06/07/2021 11:27:20: Order No. 2106155     has been updated.
+06/07/2021 11:27:20: Order No. 2106155     has been updated.
+06/07/2021 11:27:20: Order No. 2106155     has been updated.
+06/07/2021 11:27:20: Order No. 2106170     has been updated.
+06/07/2021 11:27:20: Order No. 2106170     has been updated.
+06/07/2021 11:27:20: Order No. 2106171     has been updated.
+06/07/2021 11:27:20: Order No. 2106174     has been updated.
+06/07/2021 11:27:20: Order No. 2106174     has been updated.
+06/07/2021 11:27:20: Order No. 2106175     has been updated.
+06/07/2021 11:27:20: Order No. 2106175     has been updated.
+06/07/2021 11:27:20: Order No. 2106175     has been updated.
+06/07/2021 11:27:20: Order No. 2106176     has been updated.
+06/07/2021 11:27:20: Order No. 2106176     has been updated.
+06/07/2021 11:27:20: Order No. 2106176     has been updated.
+06/07/2021 11:27:20: Order No. 2106177     has been updated.
+06/07/2021 11:27:20: Order No. 2106177     has been updated.
+06/07/2021 11:27:20: Order No. 2106177     has been updated.
+06/07/2021 11:27:20: Order No. 2106227     has been updated.
+06/07/2021 11:27:20: Order No. 2106237     has been updated.
+06/07/2021 11:27:20: Order No. 2106237     has been updated.
+06/07/2021 11:27:20: 80%
+06/07/2021 11:27:21: 85%
+06/07/2021 11:27:21: The product number PRINTING JIG not found. Cannot import Order No. 2106238-0001.
+06/07/2021 11:27:21: The product number 4PRH-225 not found. Cannot import Order No. 2106239-0001.
+06/07/2021 11:27:21: The product number 4PRH-250 not found. Cannot import Order No. 2106239-0002.
+06/07/2021 11:27:21: The product number 4PRH-225 (TL) not found. Cannot import Order No. 2106241-0001.
+06/07/2021 11:27:21: The product number 4PRH-250 (TL) not found. Cannot import Order No. 2106241-0002.
+06/07/2021 11:27:21: The product number 902A00108 not found. Cannot import Order No. 2107014-0001.
+06/07/2021 11:27:22: The product number BIN ONE GURT ELEMENT SILIKON not found. Cannot import Order No. 2107019-0001.
+06/07/2021 11:27:22: The product number BIN ONE GURT ELEMENT SILIKON not found. Cannot import Order No. 2107019-0002.
+06/07/2021 11:27:28: The product number 1079904S01 not found. Cannot import Order No. 2107074-0001.
+06/07/2021 11:27:28: 87%
+06/07/2021 11:27:28: Failed to create Order No. 91677. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:28: Failed to create Order No. 91676. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:28: Failed to create Order No. 91676. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:28: Failed to create Order No. 91675. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:28: Failed to create Order No. 91675. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:28: Order No. 248054762 has been created.
+06/07/2021 11:27:28: Order No. 248054763 has been created.
+06/07/2021 11:27:28: Order No. 248054757 has been created.
+06/07/2021 11:27:28: Order No. 248054759 has been created.
+06/07/2021 11:27:28: Failed to create Order No. YY210701. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:28: Failed to create Order No. 0000002886. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:28: Failed to create Order No. 0000002886. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:28: Failed to create Order No. 0000002886. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:28: Failed to create Order No. 0000002886. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:29: Failed to create Order No. LB1090. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:29: Order No. LB1090 has been created.
+06/07/2021 11:27:29: Order No. 5500157076-0921VN has been created.
+06/07/2021 11:27:29: Order No. 5500182570-0921VN has been created.
+06/07/2021 11:27:29: Order No. 5500182569-0921VN has been created.
+06/07/2021 11:27:29: Failed to create Order No. 5500182569-0921VN. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:29: Failed to create Order No. 5500182569-0921VN. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:29: Order No. 4700033152-0921VN has been created.
+06/07/2021 11:27:29: Failed to create Order No. 4700033152-0921VN. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:29: Failed to create Order No. 4700033152-0921VN. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:29: Failed to create Order No. 4700033255-0921VN. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:29: Failed to create Order No. 4700033255-0921VN. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:29: Order No. 5500157072-0921VN has been created.
+06/07/2021 11:27:29: Failed to create Order No. 5500157072-0921VN. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:29: Failed to create Order No. 5500157072-0921VN. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:29: Order No. 5500157073-0921VN has been created.
+06/07/2021 11:27:29: Failed to create Order No. 5500157073-0921VN. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:29: Failed to create Order No. 5500157073-0921VN. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:29: Order No. 5500168418-0921VN has been created.
+06/07/2021 11:27:29: Failed to create Order No. 5500168418-0921VN. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:29: Failed to create Order No. 5500168418-0921VN. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:29: Order No. 5500168417-0921VN has been created.
+06/07/2021 11:27:29: Failed to create Order No. 5500168417-0921VN. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:29: Failed to create Order No. 5500168417-0921VN. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:29: Order No. 5500182570-0821VN has been created.
+06/07/2021 11:27:29: Order No. 9324492612 has been created.
+06/07/2021 11:27:29: Failed to create Order No. 9324492612. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:29: Order No. 9324492638/10 has been created.
+06/07/2021 11:27:29: Order No. 9324492640/20 has been created.
+06/07/2021 11:27:29: Order No. 9324492647 has been created.
+06/07/2021 11:27:29: Failed to create Order No. 9324492647. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:29: Failed to create Order No. 9324492647. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:30: Failed to create Order No. 9324492647. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:30: Failed to create Order No. 9324492647. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:30: Failed to create Order No. 9324492647. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:30: Failed to create Order No. 9324492647. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:30: Order No. 9324492641/10 has been created.
+06/07/2021 11:27:30: Order No. 9324492729/10 has been created.
+06/07/2021 11:27:30: Order No. 05072021 has been created.
+06/07/2021 11:27:30: Order No. 20308 has been created.
+06/07/2021 11:27:30: Order No. 630008172 has been created.
+06/07/2021 11:27:30: Failed to create Order No. 630008172. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:30: Failed to create Order No. 630008172. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:30: Failed to create Order No. 630008172. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:30: Failed to create Order No. 630008172. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:30: Failed to create Order No. 630008172. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:30: Failed to create Order No. 630008172. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:30: Failed to create Order No. 630008172. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:30: Failed to create Order No. 630008172. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:30: Failed to create Order No. 630008172. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:30: Failed to create Order No. 630008172. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:30: Failed to create Order No. 630008172. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:30: Failed to create Order No. 630008172. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:30: Order No. 630008177 has been created.
+06/07/2021 11:27:30: Failed to create Order No. 630008177. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:30: Failed to create Order No. PO#1470. Error: Violation of PRIMARY KEY constraint 'PK_COPTC'. Cannot insert duplicate key in object 'dbo.COPTC'.
+The statement has been terminated.
+06/07/2021 11:27:30: Order No. 2107010 has been created.
+06/07/2021 11:27:30: Order No. 2107011 has been created.
+06/07/2021 11:27:30: Order No. 2107012 has been created.
+06/07/2021 11:27:30: Order No. 2107013 has been created.
+06/07/2021 11:27:30: Failed to create Order No. 2107015. Error: Violation of PRIMARY KEY constraint 'PK_COPTD'. Cannot insert duplicate key in object 'dbo.COPTD'.
+The statement has been terminated.
+06/07/2021 11:27:31: Order No. 2107015 has been created.
+06/07/2021 11:27:31: Order No. 2107015 has been created.
+06/07/2021 11:27:31: Order No. 2107015 has been created.
+06/07/2021 11:27:31: Order No. 2107021 has been created.
+06/07/2021 11:27:31: Order No. 2107022 has been created.
+06/07/2021 11:27:31: Order No. 2107023 has been created.
+06/07/2021 11:27:31: Order No. 2107023 has been created.
+06/07/2021 11:27:31: Order No. 2107023 has been created.
+06/07/2021 11:27:31: Order No. 2107026 has been created.
+06/07/2021 11:27:31: Order No. 2107026 has been created.
+06/07/2021 11:27:31: Order No. 2107026 has been created.
+06/07/2021 11:27:31: Failed to create Order No. 2107029. Error: Violation of PRIMARY KEY constraint 'PK_COPTD'. Cannot insert duplicate key in object 'dbo.COPTD'.
+The statement has been terminated.
+06/07/2021 11:27:31: Failed to create Order No. 2107029. Error: Violation of PRIMARY KEY constraint 'PK_COPTD'. Cannot insert duplicate key in object 'dbo.COPTD'.
+The statement has been terminated.
+06/07/2021 11:27:31: Order No. 2107031 has been created.
+06/07/2021 11:27:31: Order No. 2107031 has been created.
+06/07/2021 11:27:31: Order No. 2107031 has been created.
+06/07/2021 11:27:31: Order No. 2107034 has been created.
+06/07/2021 11:27:31: Order No. 2107034 has been created.
+06/07/2021 11:27:31: Order No. 2107034 has been created.
+06/07/2021 11:27:31: Order No. 2107037 has been created.
+06/07/2021 11:27:31: Order No. 2107037 has been created.
+06/07/2021 11:27:31: Order No. 2107037 has been created.
+06/07/2021 11:27:31: Order No. 2107040 has been created.
+06/07/2021 11:27:31: Order No. 2107040 has been created.
+06/07/2021 11:27:31: Order No. 2107040 has been created.
+06/07/2021 11:27:31: Order No. 2107043 has been created.
+06/07/2021 11:27:31: Order No. 2107044 has been created.
+06/07/2021 11:27:31: Order No. 2107044 has been created.
+06/07/2021 11:27:31: Order No. 2107046 has been created.
+06/07/2021 11:27:31: Order No. 2107047 has been created.
+06/07/2021 11:27:31: Order No. 2107048 has been created.
+06/07/2021 11:27:31: Order No. 2107048 has been created.
+06/07/2021 11:27:31: Order No. 2107048 has been created.
+06/07/2021 11:27:31: Order No. 2107048 has been created.
+06/07/2021 11:27:31: Order No. 2107048 has been created.
+06/07/2021 11:27:31: Order No. 2107048 has been created.
+06/07/2021 11:27:31: Order No. 2107048 has been created.
+06/07/2021 11:27:31: Order No. 2107055 has been created.
+06/07/2021 11:27:31: Order No. 2107056 has been created.
+06/07/2021 11:27:31: Order No. 2107057 has been created.
+06/07/2021 11:27:31: Order No. 2107058 has been created.
+06/07/2021 11:27:31: Order No. 2107059 has been created.
+06/07/2021 11:27:31: Order No. 2107059 has been created.
+06/07/2021 11:27:31: Order No. 2107059 has been created.
+06/07/2021 11:27:31: Order No. 2107059 has been created.
+06/07/2021 11:27:31: Order No. 2107059 has been created.
+06/07/2021 11:27:31: Order No. 2107059 has been created.
+06/07/2021 11:27:31: Order No. 2107059 has been created.
+06/07/2021 11:27:31: Order No. 2107059 has been created.
+06/07/2021 11:27:31: Order No. 2107059 has been created.
+06/07/2021 11:27:31: Order No. 2107059 has been created.
+06/07/2021 11:27:31: Order No. 2107059 has been created.
+06/07/2021 11:27:31: Order No. 2107059 has been created.
+06/07/2021 11:27:31: Order No. 2107059 has been created.
+06/07/2021 11:27:31: Order No. 2107072 has been created.
+06/07/2021 11:27:31: Order No. 2107072 has been created.
+06/07/2021 11:27:31: 94%
+06/07/2021 11:27:31: 98%
+06/07/2021 11:27:31: 100%
+06/07/2021 11:27:31: End point: 2021-07-06 12:00:05.770
+06/07/2021 11:27:31: Session 2107061126 completed.

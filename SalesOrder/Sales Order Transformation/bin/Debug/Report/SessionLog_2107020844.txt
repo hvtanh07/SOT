@@ -1,0 +1,1303 @@
+02/07/2021 08:44:32: Session 2107020844 has started.
+02/07/2021 08:44:32: Start point: 2021-06-25 00:00:00.000
+02/07/2021 08:44:40: 16%
+02/07/2021 08:44:40: Connection to 223.255.178.194 is opened.
+02/07/2021 08:44:40: 31%
+02/07/2021 08:44:40: The Sale Order number ORF/003612 not found.
+02/07/2021 08:44:40: The Sale Order number ORF/003612 not found.
+02/07/2021 08:44:40: The Sale Order number ORF/003612 not found.
+02/07/2021 08:44:40: The Sale Order number ORF/003612 not found.
+02/07/2021 08:44:40: The Sale Order number ORF/003612 not found.
+02/07/2021 08:44:40: The Sale Order number ORF/003612 not found.
+02/07/2021 08:44:41: The Sale Order number 65BSS22BECA0116 not found.
+02/07/2021 08:44:41: The Sale Order number 65BSS22BECA0115 not found.
+02/07/2021 08:44:41: The Sale Order number ORF/3653 not found.
+02/07/2021 08:44:41: The Sale Order number ORF/3653 not found.
+02/07/2021 08:44:41: The Sale Order number ORF/3653 not found.
+02/07/2021 08:44:41: The Sale Order number ORF/3653 not found.
+02/07/2021 08:44:41: The Sale Order number ORF/3653 not found.
+02/07/2021 08:44:41: The Sale Order number GMN-P001187 not found.
+02/07/2021 08:44:41: The Sale Order number GMN-P001187 not found.
+02/07/2021 08:44:41: The Sale Order number GMN-P001187 not found.
+02/07/2021 08:44:41: The Sale Order number GMN-P001187 not found.
+02/07/2021 08:44:41: The Sale Order number GMN-P001187 not found.
+02/07/2021 08:44:41: The Sale Order number GMN-P001187 not found.
+02/07/2021 08:44:41: The Sale Order number GMN-P001187 not found.
+02/07/2021 08:44:41: The Sale Order number GMN-P001187 not found.
+02/07/2021 08:44:41: The Sale Order number GMN-P001187 not found.
+02/07/2021 08:44:41: The Sale Order number GMN-P001187 not found.
+02/07/2021 08:44:41: The Sale Order number 352863 not found.
+02/07/2021 08:44:41: The Sale Order number 352863 not found.
+02/07/2021 08:44:41: The Sale Order number 352863 not found.
+02/07/2021 08:44:41: The Sale Order number 352863 not found.
+02/07/2021 08:44:41: The Sale Order number 352863 not found.
+02/07/2021 08:44:41: The Sale Order number 352863 not found.
+02/07/2021 08:44:41: The Sale Order number 352858 not found.
+02/07/2021 08:44:41: The Sale Order number 352858 not found.
+02/07/2021 08:44:41: The Sale Order number 352858 not found.
+02/07/2021 08:44:41: The Sale Order number 352858 not found.
+02/07/2021 08:44:41: The Sale Order number 352858 not found.
+02/07/2021 08:44:41: The Sale Order number 352858 not found.
+02/07/2021 08:44:41: The Sale Order number 352859 not found.
+02/07/2021 08:44:41: The Sale Order number 352859 not found.
+02/07/2021 08:44:41: The Sale Order number 352859 not found.
+02/07/2021 08:44:41: The Sale Order number 352859 not found.
+02/07/2021 08:44:41: The Sale Order number 352859 not found.
+02/07/2021 08:44:41: The Sale Order number 352859 not found.
+02/07/2021 08:44:41: The Sale Order number 352860 not found.
+02/07/2021 08:44:41: The Sale Order number 352860 not found.
+02/07/2021 08:44:41: The Sale Order number 352860 not found.
+02/07/2021 08:44:41: The Sale Order number 352860 not found.
+02/07/2021 08:44:41: The Sale Order number 352860 not found.
+02/07/2021 08:44:41: The Sale Order number 352860 not found.
+02/07/2021 08:44:41: The Sale Order number 352850 not found.
+02/07/2021 08:44:41: The Sale Order number 352850 not found.
+02/07/2021 08:44:41: The Sale Order number 352850 not found.
+02/07/2021 08:44:41: The Sale Order number 352850 not found.
+02/07/2021 08:44:41: The Sale Order number 352850 not found.
+02/07/2021 08:44:41: The Sale Order number 352850 not found.
+02/07/2021 08:44:41: The Sale Order number 21062501 not found.
+02/07/2021 08:44:41: The Sale Order number 21062501 not found.
+02/07/2021 08:44:41: The Sale Order number 21062501 not found.
+02/07/2021 08:44:41: The Sale Order number ORF/3716 not found.
+02/07/2021 08:44:41: The Sale Order number 20210630 not found.
+02/07/2021 08:44:41: The Sale Order number 20210630 not found.
+02/07/2021 08:44:41: The Sale Order number MEY210058A. not found.
+02/07/2021 08:44:41: The Sale Order number MEY210058A. not found.
+02/07/2021 08:44:41: The Sale Order number MEY210058A. not found.
+02/07/2021 08:44:41: The Sale Order number MEY210058A. not found.
+02/07/2021 08:44:41: The Sale Order number MEY210058A. not found.
+02/07/2021 08:44:41: The Sale Order number VR-40101 not found.
+02/07/2021 08:44:41: The Sale Order number VR-40101 not found.
+02/07/2021 08:44:41: The Sale Order number VR-40101 not found.
+02/07/2021 08:44:41: The Sale Order number VR-40101 not found.
+02/07/2021 08:44:41: The Sale Order number VR-40101 not found.
+02/07/2021 08:44:41: The Sale Order number VR-40101 not found.
+02/07/2021 08:44:41: The Sale Order number VR-40101 not found.
+02/07/2021 08:44:41: The Sale Order number 4300058423 not found.
+02/07/2021 08:44:41: The Sale Order number 4300058423 not found.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:41: Order No. 2106108     has been updated.
+02/07/2021 08:44:42: Order No. 2106108     has been updated.
+02/07/2021 08:44:42: Order No. 2106108     has been updated.
+02/07/2021 08:44:42: Order No. 2106108     has been updated.
+02/07/2021 08:44:42: Order No. 2106108     has been updated.
+02/07/2021 08:44:42: Order No. 2106108     has been updated.
+02/07/2021 08:44:42: Order No. 2106108     has been updated.
+02/07/2021 08:44:42: Order No. 2106108     has been updated.
+02/07/2021 08:44:42: Order No. 2106108     has been updated.
+02/07/2021 08:44:42: Order No. 2106108     has been updated.
+02/07/2021 08:44:42: Order No. 2106108     has been updated.
+02/07/2021 08:44:42: Order No. 2106108     has been updated.
+02/07/2021 08:44:42: Order No. 2106108     has been updated.
+02/07/2021 08:44:42: Order No. 2106108     has been updated.
+02/07/2021 08:44:42: Order No. 2010240     has been updated.
+02/07/2021 08:44:42: Order No. 2010240     has been updated.
+02/07/2021 08:44:42: Order No. 2010240     has been updated.
+02/07/2021 08:44:42: Order No. 2010240     has been updated.
+02/07/2021 08:44:42: Order No. 2010240     has been updated.
+02/07/2021 08:44:42: Order No. 2010240     has been updated.
+02/07/2021 08:44:42: Order No. 2103265     has been updated.
+02/07/2021 08:44:42: Order No. 2104084     has been updated.
+02/07/2021 08:44:42: Order No. 2104203     has been updated.
+02/07/2021 08:44:42: Order No. 2104203     has been updated.
+02/07/2021 08:44:42: Order No. 2104203     has been updated.
+02/07/2021 08:44:42: Order No. 2104203     has been updated.
+02/07/2021 08:44:42: Order No. 2104203     has been updated.
+02/07/2021 08:44:42: Order No. 2105064     has been updated.
+02/07/2021 08:44:42: Order No. 2101233     has been updated.
+02/07/2021 08:44:42: Order No. 2101233     has been updated.
+02/07/2021 08:44:42: Order No. 2101233     has been updated.
+02/07/2021 08:44:42: Order No. 2101233     has been updated.
+02/07/2021 08:44:42: Order No. 2101233     has been updated.
+02/07/2021 08:44:42: Order No. 2101233     has been updated.
+02/07/2021 08:44:42: Order No. 2101233     has been updated.
+02/07/2021 08:44:42: Order No. 2101233     has been updated.
+02/07/2021 08:44:42: Order No. 2101233     has been updated.
+02/07/2021 08:44:42: Order No. 2101233     has been updated.
+02/07/2021 08:44:42: Order No. 2101233     has been updated.
+02/07/2021 08:44:42: Order No. 2101235     has been updated.
+02/07/2021 08:44:42: Order No. 2101235     has been updated.
+02/07/2021 08:44:42: Order No. 2101235     has been updated.
+02/07/2021 08:44:42: Order No. 2101235     has been updated.
+02/07/2021 08:44:42: Order No. 2101235     has been updated.
+02/07/2021 08:44:42: Order No. 2101235     has been updated.
+02/07/2021 08:44:42: Order No. 2101235     has been updated.
+02/07/2021 08:44:42: Order No. 2010242     has been updated.
+02/07/2021 08:44:42: Order No. 2010242     has been updated.
+02/07/2021 08:44:42: Order No. 2010242     has been updated.
+02/07/2021 08:44:42: Order No. 2010242     has been updated.
+02/07/2021 08:44:42: Order No. 2010242     has been updated.
+02/07/2021 08:44:42: Order No. 2010242     has been updated.
+02/07/2021 08:44:42: Order No. 2010242     has been updated.
+02/07/2021 08:44:42: Order No. 2011298     has been updated.
+02/07/2021 08:44:42: Order No. 2011298     has been updated.
+02/07/2021 08:44:42: Order No. 2011298     has been updated.
+02/07/2021 08:44:42: Order No. 2011298     has been updated.
+02/07/2021 08:44:42: Order No. 2011298     has been updated.
+02/07/2021 08:44:42: Order No. 2011298     has been updated.
+02/07/2021 08:44:42: Order No. 2011298     has been updated.
+02/07/2021 08:44:42: Order No. 2011298     has been updated.
+02/07/2021 08:44:42: Order No. 2011298     has been updated.
+02/07/2021 08:44:42: Order No. 2012232     has been updated.
+02/07/2021 08:44:42: Order No. 2012232     has been updated.
+02/07/2021 08:44:42: Order No. 2012232     has been updated.
+02/07/2021 08:44:42: Order No. 2012232     has been updated.
+02/07/2021 08:44:42: Order No. 2012232     has been updated.
+02/07/2021 08:44:42: Order No. 2012232     has been updated.
+02/07/2021 08:44:42: Order No. 2012232     has been updated.
+02/07/2021 08:44:42: Order No. 2012233     has been updated.
+02/07/2021 08:44:42: Order No. 2012233     has been updated.
+02/07/2021 08:44:42: Order No. 2012233     has been updated.
+02/07/2021 08:44:42: Order No. 2012233     has been updated.
+02/07/2021 08:44:42: Order No. 2012233     has been updated.
+02/07/2021 08:44:42: Order No. 2101236     has been updated.
+02/07/2021 08:44:42: Order No. 2101236     has been updated.
+02/07/2021 08:44:42: Order No. 2101236     has been updated.
+02/07/2021 08:44:42: Order No. 2101236     has been updated.
+02/07/2021 08:44:42: Order No. 2101236     has been updated.
+02/07/2021 08:44:42: Order No. 2101236     has been updated.
+02/07/2021 08:44:42: Order No. 2011297     has been updated.
+02/07/2021 08:44:42: Order No. 2012234     has been updated.
+02/07/2021 08:44:42: Order No. 2101237     has been updated.
+02/07/2021 08:44:42: Order No. 2104207     has been updated.
+02/07/2021 08:44:42: Order No. 2106125     has been updated.
+02/07/2021 08:44:42: Order No. 2105056     has been updated.
+02/07/2021 08:44:42: Order No. 2105051     has been updated.
+02/07/2021 08:44:42: Order No. 2105048     has been updated.
+02/07/2021 08:44:42: Order No. 2105049     has been updated.
+02/07/2021 08:44:42: Order No. 2105050     has been updated.
+02/07/2021 08:44:42: Order No. 2105047     has been updated.
+02/07/2021 08:44:42: Order No. 2101239     has been updated.
+02/07/2021 08:44:42: Order No. 2101239     has been updated.
+02/07/2021 08:44:42: Order No. 2101239     has been updated.
+02/07/2021 08:44:42: Order No. 2101239     has been updated.
+02/07/2021 08:44:42: Order No. 2101239     has been updated.
+02/07/2021 08:44:42: Order No. 2101239     has been updated.
+02/07/2021 08:44:42: Order No. 2101228     has been updated.
+02/07/2021 08:44:42: Order No. 2101228     has been updated.
+02/07/2021 08:44:42: Order No. 2106079     has been updated.
+02/07/2021 08:44:42: Order No. 2106079     has been updated.
+02/07/2021 08:44:42: Order No. 2011008     has been updated.
+02/07/2021 08:44:42: Order No. 2011008     has been updated.
+02/07/2021 08:44:42: Order No. 2011008     has been updated.
+02/07/2021 08:44:42: Order No. 2011008     has been updated.
+02/07/2021 08:44:42: Order No. 2011008     has been updated.
+02/07/2021 08:44:42: Order No. 2011008     has been updated.
+02/07/2021 08:44:42: Order No. 2011008     has been updated.
+02/07/2021 08:44:42: Order No. 2011008     has been updated.
+02/07/2021 08:44:42: Order No. 2011008     has been updated.
+02/07/2021 08:44:42: Order No. 2011008     has been updated.
+02/07/2021 08:44:42: Order No. 2011008     has been updated.
+02/07/2021 08:44:42: Order No. 2105139     has been updated.
+02/07/2021 08:44:42: Order No. 2106139     has been updated.
+02/07/2021 08:44:42: Order No. 2106140     has been updated.
+02/07/2021 08:44:42: Order No. 2105155     has been updated.
+02/07/2021 08:44:42: Order No. 2106130     has been updated.
+02/07/2021 08:44:42: Order No. 2106130     has been updated.
+02/07/2021 08:44:42: Order No. 2106130     has been updated.
+02/07/2021 08:44:42: Order No. 2106130     has been updated.
+02/07/2021 08:44:42: Order No. 2106130     has been updated.
+02/07/2021 08:44:42: Order No. 2106130     has been updated.
+02/07/2021 08:44:42: Order No. 2106130     has been updated.
+02/07/2021 08:44:42: Order No. 2106130     has been updated.
+02/07/2021 08:44:42: Order No. 2105163     has been updated.
+02/07/2021 08:44:42: Order No. 2106143     has been updated.
+02/07/2021 08:44:42: Order No. 2106142     has been updated.
+02/07/2021 08:44:42: Order No. 2106142     has been updated.
+02/07/2021 08:44:42: Order No. 2106142     has been updated.
+02/07/2021 08:44:42: Order No. 2106142     has been updated.
+02/07/2021 08:44:42: Order No. 2106142     has been updated.
+02/07/2021 08:44:42: Order No. 2106142     has been updated.
+02/07/2021 08:44:42: Order No. 2106142     has been updated.
+02/07/2021 08:44:42: Order No. 2106142     has been updated.
+02/07/2021 08:44:42: Order No. 2106142     has been updated.
+02/07/2021 08:44:42: Order No. 2106142     has been updated.
+02/07/2021 08:44:42: Order No. 2106142     has been updated.
+02/07/2021 08:44:42: Order No. 2106142     has been updated.
+02/07/2021 08:44:42: Order No. 2106142     has been updated.
+02/07/2021 08:44:42: Order No. 2106142     has been updated.
+02/07/2021 08:44:42: Order No. 2106142     has been updated.
+02/07/2021 08:44:42: Order No. 2101009     has been updated.
+02/07/2021 08:44:42: Order No. 2101009     has been updated.
+02/07/2021 08:44:42: Order No. 2101009     has been updated.
+02/07/2021 08:44:42: Order No. 2101009     has been updated.
+02/07/2021 08:44:42: Order No. 2101009     has been updated.
+02/07/2021 08:44:42: Order No. 2101009     has been updated.
+02/07/2021 08:44:42: Order No. 2011247     has been updated.
+02/07/2021 08:44:42: Order No. 2011247     has been updated.
+02/07/2021 08:44:42: Order No. 2011247     has been updated.
+02/07/2021 08:44:42: Order No. 2011247     has been updated.
+02/07/2021 08:44:42: Order No. 2011247     has been updated.
+02/07/2021 08:44:42: Order No. 2011247     has been updated.
+02/07/2021 08:44:42: Order No. 2011247     has been updated.
+02/07/2021 08:44:42: Order No. 2011247     has been updated.
+02/07/2021 08:44:42: Order No. 2103055     has been updated.
+02/07/2021 08:44:42: Order No. 2103055     has been updated.
+02/07/2021 08:44:42: Order No. 2103055     has been updated.
+02/07/2021 08:44:42: Order No. 2105182     has been updated.
+02/07/2021 08:44:42: Order No. 2102196     has been updated.
+02/07/2021 08:44:42: Order No. 2105274     has been updated.
+02/07/2021 08:44:42: Order No. 2104188     has been updated.
+02/07/2021 08:44:42: Order No. 2101019     has been updated.
+02/07/2021 08:44:42: Order No. 2008108     has been updated.
+02/07/2021 08:44:42: Order No. 2008108     has been updated.
+02/07/2021 08:44:42: Order No. 2008108     has been updated.
+02/07/2021 08:44:42: Order No. 2008108     has been updated.
+02/07/2021 08:44:42: Order No. 2008108     has been updated.
+02/07/2021 08:44:42: Order No. 2008108     has been updated.
+02/07/2021 08:44:42: Order No. 2008108     has been updated.
+02/07/2021 08:44:42: Order No. 2101209     has been updated.
+02/07/2021 08:44:42: Order No. 2101209     has been updated.
+02/07/2021 08:44:42: Order No. 2101209     has been updated.
+02/07/2021 08:44:42: Order No. 2101209     has been updated.
+02/07/2021 08:44:42: Order No. 2101209     has been updated.
+02/07/2021 08:44:42: Order No. 2104143     has been updated.
+02/07/2021 08:44:42: Order No. 2104120     has been updated.
+02/07/2021 08:44:42: Order No. 2104120     has been updated.
+02/07/2021 08:44:42: Order No. 2104120     has been updated.
+02/07/2021 08:44:42: Order No. 2104120     has been updated.
+02/07/2021 08:44:42: Order No. 2104120     has been updated.
+02/07/2021 08:44:42: Order No. 2104120     has been updated.
+02/07/2021 08:44:42: Order No. 2106063     has been updated.
+02/07/2021 08:44:42: Order No. 2106063     has been updated.
+02/07/2021 08:44:42: Order No. 2012190     has been updated.
+02/07/2021 08:44:42: Order No. 2012190     has been updated.
+02/07/2021 08:44:42: Order No. 2012190     has been updated.
+02/07/2021 08:44:42: Order No. 2012190     has been updated.
+02/07/2021 08:44:42: Order No. 2012190     has been updated.
+02/07/2021 08:44:42: Order No. 2012190     has been updated.
+02/07/2021 08:44:42: 36%
+02/07/2021 08:44:45: 38%
+02/07/2021 08:44:45: 50%
+02/07/2021 08:44:45: 56%
+02/07/2021 08:44:45: 60%
+02/07/2021 08:44:45: 70%
+02/07/2021 08:44:46: The Sale Order number ORF/003612 not found.
+02/07/2021 08:44:46: The Sale Order number ORF/003612 not found.
+02/07/2021 08:44:46: The Sale Order number ORF/003612 not found.
+02/07/2021 08:44:46: The Sale Order number ORF/003612 not found.
+02/07/2021 08:44:46: The Sale Order number ORF/003612 not found.
+02/07/2021 08:44:46: The Sale Order number ORF/003612 not found.
+02/07/2021 08:44:47: The Sale Order number 65BSS22BECA0116 not found.
+02/07/2021 08:44:47: The Sale Order number 65BSS22BECA0115 not found.
+02/07/2021 08:44:47: The Sale Order number ORF/3653 not found.
+02/07/2021 08:44:47: The Sale Order number ORF/3653 not found.
+02/07/2021 08:44:47: The Sale Order number ORF/3653 not found.
+02/07/2021 08:44:47: The Sale Order number ORF/3653 not found.
+02/07/2021 08:44:47: The Sale Order number ORF/3653 not found.
+02/07/2021 08:44:47: The Sale Order number GMN-P001187 not found.
+02/07/2021 08:44:47: The Sale Order number GMN-P001187 not found.
+02/07/2021 08:44:47: The Sale Order number GMN-P001187 not found.
+02/07/2021 08:44:47: The Sale Order number GMN-P001187 not found.
+02/07/2021 08:44:47: The Sale Order number GMN-P001187 not found.
+02/07/2021 08:44:47: The Sale Order number GMN-P001187 not found.
+02/07/2021 08:44:47: The Sale Order number GMN-P001187 not found.
+02/07/2021 08:44:47: The Sale Order number GMN-P001187 not found.
+02/07/2021 08:44:47: The Sale Order number GMN-P001187 not found.
+02/07/2021 08:44:47: The Sale Order number GMN-P001187 not found.
+02/07/2021 08:44:48: The Sale Order number 352863 not found.
+02/07/2021 08:44:48: The Sale Order number 352863 not found.
+02/07/2021 08:44:48: The Sale Order number 352863 not found.
+02/07/2021 08:44:48: The Sale Order number 352863 not found.
+02/07/2021 08:44:48: The Sale Order number 352863 not found.
+02/07/2021 08:44:48: The Sale Order number 352863 not found.
+02/07/2021 08:44:48: The Sale Order number 352858 not found.
+02/07/2021 08:44:48: The Sale Order number 352858 not found.
+02/07/2021 08:44:48: The Sale Order number 352858 not found.
+02/07/2021 08:44:48: The Sale Order number 352858 not found.
+02/07/2021 08:44:48: The Sale Order number 352858 not found.
+02/07/2021 08:44:48: The Sale Order number 352858 not found.
+02/07/2021 08:44:48: The Sale Order number 352859 not found.
+02/07/2021 08:44:48: The Sale Order number 352859 not found.
+02/07/2021 08:44:48: The Sale Order number 352859 not found.
+02/07/2021 08:44:48: The Sale Order number 352859 not found.
+02/07/2021 08:44:48: The Sale Order number 352859 not found.
+02/07/2021 08:44:48: The Sale Order number 352859 not found.
+02/07/2021 08:44:48: The Sale Order number 352860 not found.
+02/07/2021 08:44:48: The Sale Order number 352860 not found.
+02/07/2021 08:44:48: The Sale Order number 352860 not found.
+02/07/2021 08:44:48: The Sale Order number 352860 not found.
+02/07/2021 08:44:48: The Sale Order number 352860 not found.
+02/07/2021 08:44:48: The Sale Order number 352860 not found.
+02/07/2021 08:44:48: The Sale Order number 352850 not found.
+02/07/2021 08:44:48: The Sale Order number 352850 not found.
+02/07/2021 08:44:48: The Sale Order number 352850 not found.
+02/07/2021 08:44:48: The Sale Order number 352850 not found.
+02/07/2021 08:44:48: The Sale Order number 352850 not found.
+02/07/2021 08:44:48: The Sale Order number 352850 not found.
+02/07/2021 08:44:48: Order number MHSH20210104 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:44:48: Order number MHSH20210104 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:44:48: Order number MHSH20210104 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:44:48: Order number MHSH20210104 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:44:48: Order number MHSH20210104 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:44:48: Order number MHSH20210104 has more than one ERP Order No. System cannot decide!
+02/07/2021 08:44:48: The Sale Order number 21062501 not found.
+02/07/2021 08:44:48: The Sale Order number 21062501 not found.
+02/07/2021 08:44:48: The Sale Order number 21062501 not found.
+02/07/2021 08:44:48: The Sale Order number ORF/3716 not found.
+02/07/2021 08:44:48: The Sale Order number 20210630 not found.
+02/07/2021 08:44:48: The Sale Order number 20210630 not found.
+02/07/2021 08:44:49: The Sale Order number MEY210058A. not found.
+02/07/2021 08:44:49: The Sale Order number MEY210058A. not found.
+02/07/2021 08:44:49: The Sale Order number MEY210058A. not found.
+02/07/2021 08:44:49: The Sale Order number MEY210058A. not found.
+02/07/2021 08:44:49: The Sale Order number MEY210058A. not found.
+02/07/2021 08:44:49: The Sale Order number VR-40101 not found.
+02/07/2021 08:44:49: The Sale Order number VR-40101 not found.
+02/07/2021 08:44:49: The Sale Order number VR-40101 not found.
+02/07/2021 08:44:49: The Sale Order number VR-40101 not found.
+02/07/2021 08:44:49: The Sale Order number VR-40101 not found.
+02/07/2021 08:44:49: The Sale Order number VR-40101 not found.
+02/07/2021 08:44:49: The Sale Order number VR-40101 not found.
+02/07/2021 08:44:49: The Sale Order number 4300058423 not found.
+02/07/2021 08:44:49: The Sale Order number 4300058423 not found.
+02/07/2021 08:45:09: The changed order has the product number 20CM ROUND CASSEROLE HAND GRIP not found. Cannot import Order No. 2104120    -0002.
+02/07/2021 08:45:09: The changed order has the product number 24CM GRILL PAN WITH STEAK PRESS not found. Cannot import Order No. 2104120    -0002.
+02/07/2021 08:45:09: The changed order has the product number 24CM ROUND CASSEROLE HAND GRIP not found. Cannot import Order No. 2104120    -0002.
+02/07/2021 08:45:09: The changed order has the product number 24CM SQUARE CASSEROLE not found. Cannot import Order No. 2104120    -0002.
+02/07/2021 08:45:09: The changed order has the product number 28CM BRAISING OR SAUTE PAN HAND GRIP not found. Cannot import Order No. 2104120    -0002.
+02/07/2021 08:45:09: The changed order has the product number 28CM GRILL PAN & STEAK PRESS HAND GRIP not found. Cannot import Order No. 2104120    -0002.
+02/07/2021 08:45:09: The changed order has the product number 7.5L ROASTER HAND GRIP not found. Cannot import Order No. 2104143    -0001.
+02/07/2021 08:45:09: The changed order has the product number VB20 not found. Cannot import Order No. 2104188    -0002.
+02/07/2021 08:45:21: Failed to update Order No. 2008108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:21: Failed to update Order No. 2008108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:21: Failed to update Order No. 2008108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:21: Failed to update Order No. 2008108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:21: Failed to update Order No. 2008108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:21: Failed to update Order No. 2008108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:21: Failed to update Order No. 2008108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:21: Failed to update Order No. 2010240    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:21: Failed to update Order No. 2010240    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:21: Failed to update Order No. 2010240    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:21: Failed to update Order No. 2010240    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:21: Failed to update Order No. 2010240    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:21: Failed to update Order No. 2010240    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:21: Failed to update Order No. 2010242    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2010242    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2010242    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2010242    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2010242    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2010242    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2010242    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2011008    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2011008    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2011008    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2011008    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2011008    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2011008    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2011008    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2011008    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2011008    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2011008    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2011008    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2011247    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2011247    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2011247    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2011247    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2011247    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2011247    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2011247    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:22: Failed to update Order No. 2011247    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2011297    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2011298    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2011298    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2011298    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2011298    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2011298    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2011298    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2011298    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2011298    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2011298    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2012190    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2012190    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2012190    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2012190    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2012190    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2012190    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2012232    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2012232    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2012232    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2012232    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2012232    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2012232    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2012232    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2012233    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:23: Failed to update Order No. 2012233    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2012233    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2012233    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2012233    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2012234    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2101019    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2101209    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2101209    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2101209    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2101209    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2101209    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2101228    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2101228    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2101233    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2101233    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2101233    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2101233    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2101233    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2101233    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2101233    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2101233    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2101233    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2101233    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2101233    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:24: Failed to update Order No. 2101235    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2101235    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2101235    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2101235    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2101235    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2101235    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2101235    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2101236    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2101236    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2101236    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2101236    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2101236    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2101236    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2101237    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2101239    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2101239    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2101239    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2101239    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2101239    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2101239    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2102196    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2103055    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2103055    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2103055    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2103265    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:25: Failed to update Order No. 2104084    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2104203    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2104203    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2104203    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2104203    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2104203    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2104207    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2105047    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2105048    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2105049    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2105050    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2105051    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2105056    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2105064    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2105139    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2105155    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2105163    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2105182    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2105274    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2106063    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'K'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2106063    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'K'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2106079    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2106079    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:26: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'I'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'I'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:27: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'F'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'E'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106108    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106125    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'K'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106130    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106130    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106130    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106130    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106130    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106130    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106130    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106130    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106139    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106140    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106142    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106142    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106142    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106142    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:28: Failed to update Order No. 2106142    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:29: Failed to update Order No. 2106142    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:29: Failed to update Order No. 2106142    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:29: Failed to update Order No. 2106142    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:29: Failed to update Order No. 2106142    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:29: Failed to update Order No. 2106142    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:29: Failed to update Order No. 2106142    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:29: Failed to update Order No. 2106142    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:29: Failed to update Order No. 2106142    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:29: Failed to update Order No. 2106142    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:29: Failed to update Order No. 2106142    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:29: Failed to update Order No. 2106143    . Error: String or binary data would be truncated in table 'SOT.dbo.COPTF', column 'TF036'. Truncated value: 'P'.
+The statement has been terminated.
+02/07/2021 08:45:29: 80%
+02/07/2021 08:45:32: 85%
+02/07/2021 08:45:36: The product number RABBIT SHAPE CHOCOLATE PA not found. Cannot import Order No. 2106145-0001.
+02/07/2021 08:45:36: The product number RABBIT SHAPE CHOCOLATE PA not found. Cannot import Order No. 2106146-0001.
+02/07/2021 08:45:41: The product number R45B-200/250 not found. Cannot import Order No. 2106165-0021.
+02/07/2021 08:45:41: The product number R90-250/300 not found. Cannot import Order No. 2106165-0023.
+02/07/2021 08:45:50: The product number SILICONECOVER-SETOF2 not found. Cannot import Order No. 2106257-0002.
+02/07/2021 08:45:52: The product number ST01 not found. Cannot import Order No. 2106276-0001.
+02/07/2021 08:45:52: The product number ST02 not found. Cannot import Order No. 2106276-0002.
+02/07/2021 08:45:52: The product number ST03 not found. Cannot import Order No. 2106276-0003.
+02/07/2021 08:45:52: The product number ST04 not found. Cannot import Order No. 2106276-0004.
+02/07/2021 08:45:52: The product number ST05 not found. Cannot import Order No. 2106276-0005.
+02/07/2021 08:45:52: The product number ST06 not found. Cannot import Order No. 2106276-0006.
+02/07/2021 08:45:52: The product number ST07 not found. Cannot import Order No. 2106276-0007.
+02/07/2021 08:45:52: The Order 2106283contains the item FREIGHT COST that is not transformed.
+02/07/2021 08:45:52: The product number 1252401S01 AIR COST not found. Cannot import Order No. 2106284-0001.
+02/07/2021 08:45:52: The product number FRT120PADE not found. Cannot import Order No. 2106288-0001.
+02/07/2021 08:45:53: The product number TL-860HT not found. Cannot import Order No. 2106291-0002.
+02/07/2021 08:45:53: The product number TL-860HT not found. Cannot import Order No. 2106291-0001.
+02/07/2021 08:45:53: The product number SILICONECOVER-SETOF2 not found. Cannot import Order No. 2106299-0001.
+02/07/2021 08:45:54: The product number TB-62/70 not found. Cannot import Order No. 2106306-0001.
+02/07/2021 08:45:54: The product number TB-66/74 not found. Cannot import Order No. 2106306-0002.
+02/07/2021 08:45:54: The product number TB-68/76 not found. Cannot import Order No. 2106306-0003.
+02/07/2021 08:45:54: The product number TB-70/80 not found. Cannot import Order No. 2106306-0004.
+02/07/2021 08:45:54: The product number TB-74/82 not found. Cannot import Order No. 2106306-0005.
+02/07/2021 08:45:54: The product number TB-78/86 not found. Cannot import Order No. 2106306-0006.
+02/07/2021 08:45:54: The product number TB-80/88 not found. Cannot import Order No. 2106306-0007.
+02/07/2021 08:45:54: The product number TB-90/98 not found. Cannot import Order No. 2106306-0008.
+02/07/2021 08:45:54: The product number TB-94/102 not found. Cannot import Order No. 2106306-0009.
+02/07/2021 08:45:54: The product number TB-84/92 not found. Cannot import Order No. 2106306-0010.
+02/07/2021 08:45:54: The product number K51713 - AQUA not found. Cannot import Order No. 2106316-0001.
+02/07/2021 08:45:54: The product number K51713 - CORAL not found. Cannot import Order No. 2106316-0004.
+02/07/2021 08:45:54: The product number K51713 - MINT not found. Cannot import Order No. 2106316-0005.
+02/07/2021 08:45:55: The product number K51713 - AQUA not found. Cannot import Order No. 2106322-0001.
+02/07/2021 08:45:55: The product number K51713 - CORAL not found. Cannot import Order No. 2106322-0004.
+02/07/2021 08:45:55: The product number K51713 - MINT not found. Cannot import Order No. 2106322-0005.
+02/07/2021 08:45:55: The product number K51713 - AQUA not found. Cannot import Order No. 2106328-0001.
+02/07/2021 08:45:55: The product number K51713 - CORAL not found. Cannot import Order No. 2106328-0004.
+02/07/2021 08:45:55: The product number K51713 - MINT not found. Cannot import Order No. 2106328-0005.
+02/07/2021 08:45:55: The product number K51713 - AQUA not found. Cannot import Order No. 2106334-0001.
+02/07/2021 08:45:56: The product number K51713 - CORAL not found. Cannot import Order No. 2106334-0004.
+02/07/2021 08:45:56: The product number K51713 - MINT not found. Cannot import Order No. 2106334-0005.
+02/07/2021 08:45:56: The product number K51713 - AQUA not found. Cannot import Order No. 2106340-0001.
+02/07/2021 08:45:56: The product number K51713 - CORAL not found. Cannot import Order No. 2106340-0004.
+02/07/2021 08:45:56: The product number K51713 - MINT not found. Cannot import Order No. 2106340-0005.
+02/07/2021 08:45:58: The product number 76J200000006 not found. Cannot import Order No. 2107009-0001.
+02/07/2021 08:45:59: The product number 628647 not found. Cannot import Order No. 2107016-0001.
+02/07/2021 08:45:59: The product number 628647 not found. Cannot import Order No. 2107016-0002.
+02/07/2021 08:45:59: 87%
+02/07/2021 08:45:59: Order No. 21AN06586 has been created.
+02/07/2021 08:45:59: Order No. 21CB06584 has been created.
+02/07/2021 08:45:59: Order No. 21CB06584 has been created.
+02/07/2021 08:45:59: Order No. 21CB06584 has been created.
+02/07/2021 08:45:59: Order No. 21CB06584 has been created.
+02/07/2021 08:45:59: Order No. 21CB06584 has been created.
+02/07/2021 08:45:59: Order No. 21CB06585 has been created.
+02/07/2021 08:45:59: Order No. 21CB06585 has been created.
+02/07/2021 08:45:59: Order No. 21CB06585 has been created.
+02/07/2021 08:45:59: Order No. 21CB06585 has been created.
+02/07/2021 08:45:59: Order No. 21CB06585 has been created.
+02/07/2021 08:45:59: Order No. 21CB06585 has been created.
+02/07/2021 08:45:59: Order No. 21CB06585 has been created.
+02/07/2021 08:45:59: Order No. 21CB06585 has been created.
+02/07/2021 08:45:59: Order No. 21CB06585 has been created.
+02/07/2021 08:45:59: Order No. 21CB06446 has been created.
+02/07/2021 08:45:59: Order No. 21CB06446 has been created.
+02/07/2021 08:45:59: Order No. 21CB06446 has been created.
+02/07/2021 08:45:59: Order No. 21CB06446 has been created.
+02/07/2021 08:45:59: Order No. 21CB06446 has been created.
+02/07/2021 08:45:59: Order No. 21CB06446 has been created.
+02/07/2021 08:45:59: Order No. 21CB06446 has been created.
+02/07/2021 08:45:59: Order No. 21CB06446 has been created.
+02/07/2021 08:45:59: Order No. 21CB06446 has been created.
+02/07/2021 08:45:59: Order No. 21CB06446 has been created.
+02/07/2021 08:45:59: Order No. 21CB06446 has been created.
+02/07/2021 08:45:59: Order No. 21CB06446 has been created.
+02/07/2021 08:45:59: Order No. 21CB06446 has been created.
+02/07/2021 08:45:59: Order No. 21CB06446 has been created.
+02/07/2021 08:45:59: Order No. MEY210058A. has been created.
+02/07/2021 08:45:59: Order No. MEY210058A. has been created.
+02/07/2021 08:45:59: Order No. MEY210058A. has been created.
+02/07/2021 08:45:59: Order No. MEY210058A. has been created.
+02/07/2021 08:45:59: Order No. MEY210058A. has been created.
+02/07/2021 08:45:59: Order No. 1170200700 has been created.
+02/07/2021 08:45:59: Order No. 7807300700 has been created.
+02/07/2021 08:45:59: Order No. 9324483398/10 has been created.
+02/07/2021 08:45:59: Order No. 9324484382 has been created.
+02/07/2021 08:45:59: Order No. 9324484382 has been created.
+02/07/2021 08:45:59: Order No. 9324484382 has been created.
+02/07/2021 08:45:59: Order No. 9324484382 has been created.
+02/07/2021 08:45:59: Order No. 9324484382 has been created.
+02/07/2021 08:45:59: Order No. 9324484382 has been created.
+02/07/2021 08:45:59: Order No. 9324484382 has been created.
+02/07/2021 08:45:59: Order No. 9324484382 has been created.
+02/07/2021 08:45:59: Order No. 9324484382 has been created.
+02/07/2021 08:45:59: Order No. 9324484382 has been created.
+02/07/2021 08:45:59: Order No. 9324483932/10 has been created.
+02/07/2021 08:45:59: Order No. 9324483930/10 has been created.
+02/07/2021 08:45:59: Order No. 9324483929/10 has been created.
+02/07/2021 08:45:59: Order No. 9324483198 has been created.
+02/07/2021 08:45:59: Order No. 9324483198 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001149 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001190 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001193 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001194 has been created.
+02/07/2021 08:45:59: Order No. POREQ21065882 has been created.
+02/07/2021 08:45:59: Order No. POORD-21/06/25-005 has been created.
+02/07/2021 08:45:59: Order No. POORD-21/06/25-005 has been created.
+02/07/2021 08:45:59: Order No. POORD-21/06/25-005 has been created.
+02/07/2021 08:45:59: Order No. 5500165986-0721VN has been created.
+02/07/2021 08:45:59: Order No. 5500165986-0721VN has been created.
+02/07/2021 08:45:59: Order No. 5500165986-0721VN has been created.
+02/07/2021 08:45:59: Order No. 5500147723-0721VN has been created.
+02/07/2021 08:45:59: Order No. 5500147723-0721VN has been created.
+02/07/2021 08:45:59: Order No. 5500147723-0721VN has been created.
+02/07/2021 08:45:59: Order No. 5500147725-0721VN has been created.
+02/07/2021 08:45:59: Order No. 5500147725-0721VN has been created.
+02/07/2021 08:45:59: Order No. 5500147725-0721VN has been created.
+02/07/2021 08:45:59: Order No. 5500165998-0721VN has been created.
+02/07/2021 08:45:59: Order No. 5500165998-0721VN has been created.
+02/07/2021 08:45:59: Order No. 5500165998-0721VN has been created.
+02/07/2021 08:45:59: Order No. 4502043244-0721VN has been created.
+02/07/2021 08:45:59: Order No. 2218502790 has been created.
+02/07/2021 08:45:59: Order No. 2218502791 has been created.
+02/07/2021 08:45:59: Order No. 65BSS22FRCA0120 has been created.
+02/07/2021 08:45:59: Order No. 65BSS22FRCA0120 has been created.
+02/07/2021 08:45:59: Order No. 20304 has been created.
+02/07/2021 08:45:59: Order No. 20305 has been created.
+02/07/2021 08:45:59: Order No. 4502158035 has been created.
+02/07/2021 08:45:59: Order No. 4502158035 has been created.
+02/07/2021 08:45:59: Order No. 9324485235 has been created.
+02/07/2021 08:45:59: Order No. 9324485235 has been created.
+02/07/2021 08:45:59: Order No. 9324485235 has been created.
+02/07/2021 08:45:59: Order No. 9324485235 has been created.
+02/07/2021 08:45:59: Order No. 9324485235 has been created.
+02/07/2021 08:45:59: Order No. 9324485230/20 has been created.
+02/07/2021 08:45:59: Order No. 9324485231/40 has been created.
+02/07/2021 08:45:59: Order No. 9324485228 has been created.
+02/07/2021 08:45:59: Order No. 9324485228 has been created.
+02/07/2021 08:45:59: Order No. POORD210601817 has been created.
+02/07/2021 08:45:59: Order No. POORD210601817 has been created.
+02/07/2021 08:45:59: Order No. 4502130946 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001080 has been created.
+02/07/2021 08:45:59: Order No. 210624-01 has been created.
+02/07/2021 08:45:59: Order No. 210624-01 has been created.
+02/07/2021 08:45:59: Order No. 210624-01 has been created.
+02/07/2021 08:45:59: Order No. 210624-01 has been created.
+02/07/2021 08:45:59: Order No. 210624-01 has been created.
+02/07/2021 08:45:59: Order No. 210624-01 has been created.
+02/07/2021 08:45:59: Order No. 210624-01 has been created.
+02/07/2021 08:45:59: Order No. LV-FREIGHT COST-K51713 has been created.
+02/07/2021 08:45:59: Order No. 4502158517 has been created.
+02/07/2021 08:45:59: Order No. 9324487225/10 has been created.
+02/07/2021 08:45:59: Order No. ORF/3707 has been created.
+02/07/2021 08:45:59: Order No. ORF/3722 has been created.
+02/07/2021 08:45:59: Order No. ORF/3729 has been created.
+02/07/2021 08:45:59: Order No. 4502158870 has been created.
+02/07/2021 08:45:59: Order No. 4502158870 has been created.
+02/07/2021 08:45:59: Order No. W421-210600032 has been created.
+02/07/2021 08:45:59: Order No. W421-210600032 has been created.
+02/07/2021 08:45:59: Order No. ORF/003612 has been created.
+02/07/2021 08:45:59: Order No. ORF/003612 has been created.
+02/07/2021 08:45:59: Order No. ORF/003612 has been created.
+02/07/2021 08:45:59: Order No. ORF/003612 has been created.
+02/07/2021 08:45:59: Order No. ORF/003612 has been created.
+02/07/2021 08:45:59: Order No. ORF/003612 has been created.
+02/07/2021 08:45:59: Order No. 65BSS22BECA0116 has been created.
+02/07/2021 08:45:59: Order No. 65BSS22BECA0115 has been created.
+02/07/2021 08:45:59: Order No. ORF/3653 has been created.
+02/07/2021 08:45:59: Order No. ORF/3653 has been created.
+02/07/2021 08:45:59: Order No. ORF/3653 has been created.
+02/07/2021 08:45:59: Order No. ORF/3653 has been created.
+02/07/2021 08:45:59: Order No. ORF/3653 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001187 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001187 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001187 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001187 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001187 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001187 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001187 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001187 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001187 has been created.
+02/07/2021 08:45:59: Order No. GMN-P001187 has been created.
+02/07/2021 08:45:59: Order No. 352863 has been created.
+02/07/2021 08:45:59: Order No. 352863 has been created.
+02/07/2021 08:45:59: Order No. 352863 has been created.
+02/07/2021 08:45:59: Order No. 352863 has been created.
+02/07/2021 08:45:59: Order No. 352863 has been created.
+02/07/2021 08:45:59: Order No. 352863 has been created.
+02/07/2021 08:45:59: Order No. 352858 has been created.
+02/07/2021 08:45:59: Order No. 352858 has been created.
+02/07/2021 08:45:59: Order No. 352858 has been created.
+02/07/2021 08:45:59: Order No. 352858 has been created.
+02/07/2021 08:45:59: Order No. 352858 has been created.
+02/07/2021 08:45:59: Order No. 352858 has been created.
+02/07/2021 08:45:59: Order No. 352859 has been created.
+02/07/2021 08:45:59: Order No. 352859 has been created.
+02/07/2021 08:45:59: Order No. 352859 has been created.
+02/07/2021 08:45:59: Order No. 352859 has been created.
+02/07/2021 08:45:59: Order No. 352859 has been created.
+02/07/2021 08:45:59: Order No. 352859 has been created.
+02/07/2021 08:45:59: Order No. 352860 has been created.
+02/07/2021 08:45:59: Order No. 352860 has been created.
+02/07/2021 08:45:59: Order No. 352860 has been created.
+02/07/2021 08:45:59: Order No. 352860 has been created.
+02/07/2021 08:45:59: Order No. 352860 has been created.
+02/07/2021 08:45:59: Order No. 352860 has been created.
+02/07/2021 08:45:59: Order No. 352850 has been created.
+02/07/2021 08:45:59: Order No. 352850 has been created.
+02/07/2021 08:45:59: Order No. 352850 has been created.
+02/07/2021 08:45:59: Order No. 352850 has been created.
+02/07/2021 08:45:59: Order No. 352850 has been created.
+02/07/2021 08:45:59: Order No. 352850 has been created.
+02/07/2021 08:45:59: Order No. 21062501 has been created.
+02/07/2021 08:45:59: Order No. 21062501 has been created.
+02/07/2021 08:45:59: Order No. 21062501 has been created.
+02/07/2021 08:45:59: Order No. ORF/3716 has been created.
+02/07/2021 08:45:59: Order No. 20210630 has been created.
+02/07/2021 08:45:59: Order No. 20210630 has been created.
+02/07/2021 08:45:59: Order No. 20306 has been created.
+02/07/2021 08:45:59: Order No. V421-210600011 has been created.
+02/07/2021 08:45:59: Order No. V421-210600011 has been created.
+02/07/2021 08:45:59: Order No. V421-210600011 has been created.
+02/07/2021 08:45:59: Order No. 0000002882 has been created.
+02/07/2021 08:45:59: Order No. 0000002882 has been created.
+02/07/2021 08:45:59: Order No. 0000002882 has been created.
+02/07/2021 08:45:59: Order No. 0000002882 has been created.
+02/07/2021 08:45:59: Order No. VR-40101 has been created.
+02/07/2021 08:45:59: Order No. VR-40101 has been created.
+02/07/2021 08:45:59: Order No. VR-40101 has been created.
+02/07/2021 08:45:59: Order No. VR-40101 has been created.
+02/07/2021 08:45:59: Order No. VR-40101 has been created.
+02/07/2021 08:45:59: Order No. VR-40101 has been created.
+02/07/2021 08:45:59: Order No. VR-40101 has been created.
+02/07/2021 08:45:59: Order No. 4300058423 has been created.
+02/07/2021 08:45:59: Order No. 4300058423 has been created.
+02/07/2021 08:45:59: Order No. 2103328 has been created.
+02/07/2021 08:45:59: Order No. 2103329 has been created.
+02/07/2021 08:45:59: Order No. 2103329 has been created.
+02/07/2021 08:45:59: Order No. 2103329 has been created.
+02/07/2021 08:45:59: Order No. 2103329 has been created.
+02/07/2021 08:45:59: Order No. 2103329 has been created.
+02/07/2021 08:45:59: Order No. 2103334 has been created.
+02/07/2021 08:45:59: Order No. 2103334 has been created.
+02/07/2021 08:45:59: Order No. 2103334 has been created.
+02/07/2021 08:45:59: Order No. 2103334 has been created.
+02/07/2021 08:45:59: Order No. 2103334 has been created.
+02/07/2021 08:45:59: Order No. 2103334 has been created.
+02/07/2021 08:45:59: Order No. 2103334 has been created.
+02/07/2021 08:45:59: Order No. 2103334 has been created.
+02/07/2021 08:45:59: Order No. 2103334 has been created.
+02/07/2021 08:45:59: Order No. 2103343 has been created.
+02/07/2021 08:45:59: Order No. 2103343 has been created.
+02/07/2021 08:45:59: Order No. 2103343 has been created.
+02/07/2021 08:45:59: Order No. 2103343 has been created.
+02/07/2021 08:45:59: Order No. 2103343 has been created.
+02/07/2021 08:45:59: Order No. 2103343 has been created.
+02/07/2021 08:45:59: Order No. 2103343 has been created.
+02/07/2021 08:45:59: Order No. 2103343 has been created.
+02/07/2021 08:45:59: Order No. 2103343 has been created.
+02/07/2021 08:45:59: Order No. 2103343 has been created.
+02/07/2021 08:45:59: Order No. 2103343 has been created.
+02/07/2021 08:45:59: Order No. 2103343 has been created.
+02/07/2021 08:45:59: Order No. 2103343 has been created.
+02/07/2021 08:45:59: Order No. 2103343 has been created.
+02/07/2021 08:45:59: Order No. 2104260 has been created.
+02/07/2021 08:45:59: Order No. 2104260 has been created.
+02/07/2021 08:45:59: Order No. 2104260 has been created.
+02/07/2021 08:45:59: Order No. 2104260 has been created.
+02/07/2021 08:45:59: Order No. 2104260 has been created.
+02/07/2021 08:45:59: Order No. 2106147 has been created.
+02/07/2021 08:45:59: Order No. 2106148 has been created.
+02/07/2021 08:45:59: Order No. 2106148 has been created.
+02/07/2021 08:45:59: Order No. 2106148 has been created.
+02/07/2021 08:45:59: Order No. 2106148 has been created.
+02/07/2021 08:45:59: Order No. 2106148 has been created.
+02/07/2021 08:45:59: Order No. 2106148 has been created.
+02/07/2021 08:45:59: Order No. 2106148 has been created.
+02/07/2021 08:45:59: Order No. 2106148 has been created.
+02/07/2021 08:45:59: Order No. 2106148 has been created.
+02/07/2021 08:45:59: Order No. 2106148 has been created.
+02/07/2021 08:45:59: Order No. 2106158 has been created.
+02/07/2021 08:45:59: Order No. 2106159 has been created.
+02/07/2021 08:45:59: Order No. 2106160 has been created.
+02/07/2021 08:45:59: Order No. 2106161 has been created.
+02/07/2021 08:45:59: Order No. 2106161 has been created.
+02/07/2021 08:45:59: Order No. 2106163 has been created.
+02/07/2021 08:45:59: Order No. 2106164 has been created.
+02/07/2021 08:45:59: Order No. 2106165 has been created.
+02/07/2021 08:45:59: Order No. 2106165 has been created.
+02/07/2021 08:45:59: Order No. 2106165 has been created.
+02/07/2021 08:45:59: Order No. 2106165 has been created.
+02/07/2021 08:45:59: Order No. 2106165 has been created.
+02/07/2021 08:45:59: Order No. 2106165 has been created.
+02/07/2021 08:45:59: Order No. 2106165 has been created.
+02/07/2021 08:45:59: Order No. 2106165 has been created.
+02/07/2021 08:45:59: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106165 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106214 has been created.
+02/07/2021 08:46:00: Order No. 2106238 has been created.
+02/07/2021 08:46:00: Order No. 2106239 has been created.
+02/07/2021 08:46:00: Order No. 2106239 has been created.
+02/07/2021 08:46:00: Order No. 2106239 has been created.
+02/07/2021 08:46:00: Order No. 2106242 has been created.
+02/07/2021 08:46:00: Order No. 2106242 has been created.
+02/07/2021 08:46:00: Order No. 2106242 has been created.
+02/07/2021 08:46:00: Order No. 2106245 has been created.
+02/07/2021 08:46:00: Order No. 2106245 has been created.
+02/07/2021 08:46:00: Order No. 2106245 has been created.
+02/07/2021 08:46:00: Order No. 2106248 has been created.
+02/07/2021 08:46:00: Order No. 2106248 has been created.
+02/07/2021 08:46:00: Order No. 2106248 has been created.
+02/07/2021 08:46:00: Order No. 2106251 has been created.
+02/07/2021 08:46:00: Order No. 2106251 has been created.
+02/07/2021 08:46:00: Order No. 2106251 has been created.
+02/07/2021 08:46:00: Order No. 2106254 has been created.
+02/07/2021 08:46:00: Order No. 2106255 has been created.
+02/07/2021 08:46:00: Order No. 2106256 has been created.
+02/07/2021 08:46:00: Order No. 2106257 has been created.
+02/07/2021 08:46:00: Order No. 2106259 has been created.
+02/07/2021 08:46:00: Order No. 2106260 has been created.
+02/07/2021 08:46:00: Order No. 2106261 has been created.
+02/07/2021 08:46:00: Order No. 2106261 has been created.
+02/07/2021 08:46:00: Order No. 2106263 has been created.
+02/07/2021 08:46:00: Order No. 2106263 has been created.
+02/07/2021 08:46:00: Order No. 2106263 has been created.
+02/07/2021 08:46:00: Order No. 2106263 has been created.
+02/07/2021 08:46:00: Order No. 2106263 has been created.
+02/07/2021 08:46:00: Order No. 2106268 has been created.
+02/07/2021 08:46:00: Order No. 2106269 has been created.
+02/07/2021 08:46:00: Order No. 2106270 has been created.
+02/07/2021 08:46:00: Order No. 2106270 has been created.
+02/07/2021 08:46:00: Order No. 2106272 has been created.
+02/07/2021 08:46:00: Order No. 2106272 has been created.
+02/07/2021 08:46:00: Order No. 2106274 has been created.
+02/07/2021 08:46:00: Order No. 2106275 has been created.
+02/07/2021 08:46:00: Order No. 2106285 has been created.
+02/07/2021 08:46:00: Order No. 2106286 has been created.
+02/07/2021 08:46:00: Order No. 2106287 has been created.
+02/07/2021 08:46:00: Order No. 2106289 has been created.
+02/07/2021 08:46:00: Order No. 2106289 has been created.
+02/07/2021 08:46:00: Order No. 2106293 has been created.
+02/07/2021 08:46:00: Order No. 2106293 has been created.
+02/07/2021 08:46:00: Order No. 2106293 has been created.
+02/07/2021 08:46:00: Order No. 2106293 has been created.
+02/07/2021 08:46:00: Order No. 2106293 has been created.
+02/07/2021 08:46:00: Order No. 2106293 has been created.
+02/07/2021 08:46:00: Order No. 2106300 has been created.
+02/07/2021 08:46:00: Order No. 2106301 has been created.
+02/07/2021 08:46:00: Order No. 2106301 has been created.
+02/07/2021 08:46:00: Order No. 2106301 has been created.
+02/07/2021 08:46:00: Order No. 2106301 has been created.
+02/07/2021 08:46:00: Order No. 2106301 has been created.
+02/07/2021 08:46:00: Order No. 2106316 has been created.
+02/07/2021 08:46:00: Order No. 2106316 has been created.
+02/07/2021 08:46:00: Order No. 2106316 has been created.
+02/07/2021 08:46:00: Order No. 2106322 has been created.
+02/07/2021 08:46:00: Order No. 2106322 has been created.
+02/07/2021 08:46:00: Order No. 2106322 has been created.
+02/07/2021 08:46:00: Order No. 2106328 has been created.
+02/07/2021 08:46:00: Order No. 2106328 has been created.
+02/07/2021 08:46:00: Order No. 2106328 has been created.
+02/07/2021 08:46:00: Order No. 2106334 has been created.
+02/07/2021 08:46:00: Order No. 2106334 has been created.
+02/07/2021 08:46:00: Order No. 2106334 has been created.
+02/07/2021 08:46:00: Order No. 2106340 has been created.
+02/07/2021 08:46:00: Order No. 2106340 has been created.
+02/07/2021 08:46:00: Order No. 2106340 has been created.
+02/07/2021 08:46:00: Order No. 2106346 has been created.
+02/07/2021 08:46:00: Order No. 2106346 has been created.
+02/07/2021 08:46:00: Order No. 2106346 has been created.
+02/07/2021 08:46:00: Order No. 2106349 has been created.
+02/07/2021 08:46:00: Order No. 2106350 has been created.
+02/07/2021 08:46:00: Order No. 2106350 has been created.
+02/07/2021 08:46:00: Order No. 2107001 has been created.
+02/07/2021 08:46:00: Order No. 2107002 has been created.
+02/07/2021 08:46:00: Order No. 2107002 has been created.
+02/07/2021 08:46:00: Order No. 2107002 has been created.
+02/07/2021 08:46:00: Order No. 2107005 has been created.
+02/07/2021 08:46:00: Order No. 2107005 has been created.
+02/07/2021 08:46:00: Order No. 2107005 has been created.
+02/07/2021 08:46:00: Order No. 2107005 has been created.
+02/07/2021 08:46:00: Order No. 2107009 has been created.
+02/07/2021 08:46:00: Order No. 2107009 has been created.
+02/07/2021 08:46:00: Order No. 2107009 has been created.
+02/07/2021 08:46:00: Order No. 2107009 has been created.
+02/07/2021 08:46:00: Order No. 2107009 has been created.
+02/07/2021 08:46:00: Order No. 2107009 has been created.
+02/07/2021 08:46:00: 94%
+02/07/2021 08:46:00: 98%
+02/07/2021 08:46:00: 100%
+02/07/2021 08:46:00: End point: 2021-07-02 09:35:32.277
+02/07/2021 08:46:00: Session 2107020844 completed.

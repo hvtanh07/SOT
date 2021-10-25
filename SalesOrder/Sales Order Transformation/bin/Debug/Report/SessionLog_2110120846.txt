@@ -1,0 +1,127 @@
+12/10/2021 08:46:25: Session 2110120846 has started.
+12/10/2021 08:46:25: Start point: 2021-10-11 11:53:32.433
+12/10/2021 08:46:25: 2%
+12/10/2021 08:46:27: 8%
+12/10/2021 08:46:27: 14%
+12/10/2021 08:46:27: 16%
+12/10/2021 08:46:27: Connection to 223.255.178.194 is opened.
+12/10/2021 08:46:30: The Sale Order number CY20211011001 not found.
+12/10/2021 08:46:30: The Sale Order number CY20211011001 not found.
+12/10/2021 08:46:30: The Sale Order number CY20211011001 not found.
+12/10/2021 08:46:30: The Sale Order number CY20211011001 not found.
+12/10/2021 08:46:30: The Sale Order number CY20211011001 not found.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110058     has been updated.
+12/10/2021 08:46:30: Order No. 2110042     has been updated.
+12/10/2021 08:46:30: Order No. 2110042     has been updated.
+12/10/2021 08:46:30: Order No. 2110042     has been updated.
+12/10/2021 08:46:30: Order No. 2110042     has been updated.
+12/10/2021 08:46:30: 36%
+12/10/2021 08:46:30: 38%
+12/10/2021 08:46:30: 50%
+12/10/2021 08:46:30: 56%
+12/10/2021 08:46:30: 60%
+12/10/2021 08:46:30: 65%
+12/10/2021 08:46:31: 70%
+12/10/2021 08:46:31: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:31: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:31: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:32: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:32: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:32: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:32: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:33: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:33: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:33: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:34: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:34: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:34: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:34: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:35: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:35: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:35: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:36: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:36: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:36: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:36: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:37: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:37: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:37: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:37: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:38: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:38: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:38: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:39: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:39: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:39: Order number GMN-P001327 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:39: Order number NK20211011 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:39: Order number NK20211011 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:39: Order number NK20211011 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:39: Order number NK20211011 has more than one ERP Order No. System cannot decide!
+12/10/2021 08:46:39: The Sale Order number CY20211011001 not found.
+12/10/2021 08:46:39: The Sale Order number CY20211011001 not found.
+12/10/2021 08:46:39: The Sale Order number CY20211011001 not found.
+12/10/2021 08:46:39: The Sale Order number CY20211011001 not found.
+12/10/2021 08:46:39: The Sale Order number CY20211011001 not found.
+12/10/2021 08:46:39: 80%
+12/10/2021 08:46:40: The product number HH-025 X 25 FP not found. Cannot import Order No. 2110051    -0023.
+12/10/2021 08:46:40: The product number HH-025 X 25 FP not found. Cannot import Order No. 2110051    -0023.
+12/10/2021 08:46:40: The product number HR-OLA1007-100 not found. Cannot import Order No. 2110085    -0001.
+12/10/2021 08:46:40: The product number HR-OLA1007-350 not found. Cannot import Order No. 2110085    -0002.
+12/10/2021 08:46:40: The product number HR-OLA1007-1000 not found. Cannot import Order No. 2110085    -0003.
+12/10/2021 08:46:40: 85%
+12/10/2021 08:46:40: The product number HR-OLA1007-100 not found. Cannot import Order No. 2110090-0001.
+12/10/2021 08:46:40: The product number HR-OLA1007-350 not found. Cannot import Order No. 2110090-0002.
+12/10/2021 08:46:40: The product number HR-OLA1007-1000 not found. Cannot import Order No. 2110090-0003.
+12/10/2021 08:46:41: 87%
+12/10/2021 08:46:41: Order No. 9324577516/10 has been created.
+12/10/2021 08:46:41: Order No. GMN-P001327-A has been created.
+12/10/2021 08:46:41: Order No. TL-211001H has been created.
+12/10/2021 08:46:41: Order No. TL-211001H has been created.
+12/10/2021 08:46:41: Order No. TL-211001H has been created.
+12/10/2021 08:46:41: Order No. CY20211011001 has been created.
+12/10/2021 08:46:41: Order No. CY20211011001 has been created.
+12/10/2021 08:46:41: Order No. CY20211011001 has been created.
+12/10/2021 08:46:41: Order No. CY20211011001 has been created.
+12/10/2021 08:46:41: Order No. CY20211011001 has been created.
+12/10/2021 08:46:41: Order No. 2110088 has been created.
+12/10/2021 08:46:41: Order No. 2110089 has been created.
+12/10/2021 08:46:41: Order No. 2110093 has been created.
+12/10/2021 08:46:41: Order No. 2110093 has been created.
+12/10/2021 08:46:41: Order No. 2110093 has been created.
+12/10/2021 08:46:41: Order No. 2110093 has been created.
+12/10/2021 08:46:41: Order No. 2110093 has been created.
+12/10/2021 08:46:41: 94%
+12/10/2021 08:46:41: 98%
+12/10/2021 08:46:41: 100%
+12/10/2021 08:46:41: End point: 2021-10-12 08:49:30.650
+12/10/2021 08:46:41: Session 2110120846 completed.

@@ -46,7 +46,7 @@ C:\Github\SOT\SalesOrder\Sales Order Transformation\bin\Debug\Sales Order Transf
 C:\Github\SOT\SalesOrder\Sales Order Transformation\bin\Debug\Sales Order Transformation.exe
 C:\Github\SOT\SalesOrder\Sales Order Transformation\bin\Debug\Sales Order Transformation.pdb
 C:\Github\SOT\SalesOrder\Sales Order Transformation\bin\Debug\Sales Order Transformation.xml
-C:\Github\SOT\SalesOrder\Sales Order Transformation\obj\Debug\Sales Order Transformation.vbprojAssemblyReference.cache
+C:\Github\SOT\SalesOrder\Sales Order Transformation\obj\Debug\Sales Order Transformation.vbproj.AssemblyReference.cache
 C:\Github\SOT\SalesOrder\Sales Order Transformation\obj\Debug\Sales Order Transformation.vbproj.ResolveComReference.cache
 C:\Github\SOT\SalesOrder\Sales Order Transformation\obj\Debug\Sales_Order_Transformation.SOT.resources
 C:\Github\SOT\SalesOrder\Sales Order Transformation\obj\Debug\Sales_Order_Transformation.Resources.resources
@@ -55,3 +55,6 @@ C:\Github\SOT\SalesOrder\Sales Order Transformation\obj\Debug\Sales Order Transf
 C:\Github\SOT\SalesOrder\Sales Order Transformation\obj\Debug\Sales Order Transformation.exe
 C:\Github\SOT\SalesOrder\Sales Order Transformation\obj\Debug\Sales Order Transformation.xml
 C:\Github\SOT\SalesOrder\Sales Order Transformation\obj\Debug\Sales Order Transformation.pdb
+C:\Github\SOT\SalesOrder\Sales Order Transformation\bin\Debug\System.Runtime.dll
+C:\Github\SOT\SalesOrder\Sales Order Transformation\bin\Debug\System.Runtime.InteropServices.dll
+C:\Github\SOT\SalesOrder\Sales Order Transformation\obj\Debug\Sales Order Transformation.vbproj.CopyComplete

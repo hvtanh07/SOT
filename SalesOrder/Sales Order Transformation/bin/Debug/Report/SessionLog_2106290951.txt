@@ -1,0 +1,451 @@
+29/06/2021 09:51:02: Session 2106290951 has started.
+29/06/2021 09:51:02: Start point: 2021-06-24 00:00:00.000
+29/06/2021 09:51:03: Connection to 223.255.178.194 is opened.
+29/06/2021 09:51:04: The Sale Order number 65BSS22FRCA0081 not found.
+29/06/2021 09:51:04: The Sale Order number 65BSS22FRCA0081 not found.
+29/06/2021 09:51:04: The Sale Order number 5500053009 not found.
+29/06/2021 09:51:04: The Sale Order number 5500053009 not found.
+29/06/2021 09:51:04: The Sale Order number 5500053009 not found.
+29/06/2021 09:51:05: The Sale Order number 5500053009 not found.
+29/06/2021 09:51:05: The Sale Order number 5500053009 not found.
+29/06/2021 09:51:05: The Sale Order number 5500048534 not found.
+29/06/2021 09:51:05: The Sale Order number 5500048534 not found.
+29/06/2021 09:51:05: The Sale Order number 5500048534 not found.
+29/06/2021 09:51:05: The Sale Order number 5500048534 not found.
+29/06/2021 09:51:05: The Sale Order number 5500048534 not found.
+29/06/2021 09:51:05: The Sale Order number 5500196980 not found.
+29/06/2021 09:51:05: The Sale Order number 5500196979 not found.
+29/06/2021 09:51:05: The Sale Order number VNGT04-23032021 not found.
+29/06/2021 09:51:05: The Sale Order number STB22155 not found.
+29/06/2021 09:51:05: The Sale Order number 2218501228. not found.
+29/06/2021 09:51:05: The Sale Order number 2218502016. not found.
+29/06/2021 09:51:05: The Sale Order number 2218502016. not found.
+29/06/2021 09:51:05: The Sale Order number 2218501399. not found.
+29/06/2021 09:51:05: The Sale Order number 2218501399. not found.
+29/06/2021 09:51:05: The Sale Order number 2218501399. not found.
+29/06/2021 09:51:05: The Sale Order number CF21009761 not found.
+29/06/2021 09:51:05: The Sale Order number CF21009761 not found.
+29/06/2021 09:51:05: The Sale Order number LH7001871 not found.
+29/06/2021 09:51:05: The Sale Order number LH7001871 not found.
+29/06/2021 09:51:05: The Sale Order number 20210602-02 not found.
+29/06/2021 09:51:05: The Sale Order number 20210513-01 not found.
+29/06/2021 09:51:06: The Sale Order number ORF/003612 not found.
+29/06/2021 09:51:06: The Sale Order number ORF/003612 not found.
+29/06/2021 09:51:06: The Sale Order number ORF/003612 not found.
+29/06/2021 09:51:06: The Sale Order number ORF/003612 not found.
+29/06/2021 09:51:06: The Sale Order number ORF/003612 not found.
+29/06/2021 09:51:06: The Sale Order number ORF/003612 not found.
+29/06/2021 09:51:06: The Sale Order number 2021-100556 not found.
+29/06/2021 09:51:06: The Sale Order number POORD-20/10/22-033. not found.
+29/06/2021 09:51:06: The Sale Order number POORD-20/10/22-033. not found.
+29/06/2021 09:51:06: The Sale Order number POORD-20/10/22-033. not found.
+29/06/2021 09:51:06: The Sale Order number POORD-20/10/22-033. not found.
+29/06/2021 09:51:06: The Sale Order number POORD-20/10/22-033. not found.
+29/06/2021 09:51:06: The Sale Order number POORD-20/10/22-033. not found.
+29/06/2021 09:51:06: The Sale Order number 9324389856/10 not found.
+29/06/2021 09:51:06: The Sale Order number 9324405009/10 not found.
+29/06/2021 09:51:06: The Sale Order number 9324420989 not found.
+29/06/2021 09:51:06: The Sale Order number 9324420989 not found.
+29/06/2021 09:51:06: The Sale Order number 9324420989 not found.
+29/06/2021 09:51:06: The Sale Order number 9324420989 not found.
+29/06/2021 09:51:06: The Sale Order number 9324420989 not found.
+29/06/2021 09:51:06: The Sale Order number 9324437623/30 not found.
+29/06/2021 09:51:06: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:06: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:06: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:06: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:06: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:06: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:06: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:06: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:06: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:06: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:06: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:06: The Sale Order number MHBOSTOCK. not found.
+29/06/2021 09:51:06: The Sale Order number MHBOSTOCK. not found.
+29/06/2021 09:51:06: The Sale Order number MHBOSTOCK. not found.
+29/06/2021 09:51:06: The Sale Order number MHBOSTOCK. not found.
+29/06/2021 09:51:06: The Sale Order number MHBOSTOCK. not found.
+29/06/2021 09:51:06: The Sale Order number MHBOSTOCK. not found.
+29/06/2021 09:51:06: The Sale Order number MHBOSTOCK. not found.
+29/06/2021 09:51:06: The Sale Order number POORD-20/10/29-052. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/10/29-052. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/10/29-052. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/10/29-052. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/10/29-052. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/10/29-052. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/10/29-052. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/11/25-018. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/11/25-018. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/11/25-018. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/11/25-018. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/11/25-018. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/11/25-018. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/11/25-018. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/11/25-018. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/11/25-018. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/12/04-014. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/12/04-014. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/12/04-014. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/12/04-014. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/12/04-014. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/12/04-014. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/12/04-014. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/12/09-031. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/12/09-031. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/12/09-031. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/12/09-031. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/12/09-031. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-21/01/06-034. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-21/01/06-034. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-21/01/06-034. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-21/01/06-034. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-21/01/06-034. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-21/01/06-034. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/10/31-029. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-20/12/10-029. not found.
+29/06/2021 09:51:07: The Sale Order number POORD-21/01/06-035. not found.
+29/06/2021 09:51:07: The Sale Order number 9324421087/10 not found.
+29/06/2021 09:51:07: The Sale Order number W2106170001 not found.
+29/06/2021 09:51:07: The Sale Order number 65BSS22BECA0116 not found.
+29/06/2021 09:51:07: The Sale Order number 65BSS22BECA0115 not found.
+29/06/2021 09:51:07: The Sale Order number 9324434611/10 not found.
+29/06/2021 09:51:07: The Sale Order number 9324434610/10 not found.
+29/06/2021 09:51:07: The Sale Order number 9324434613/10 not found.
+29/06/2021 09:51:07: The Sale Order number 9324434617/10 not found.
+29/06/2021 09:51:07: The Sale Order number 9324434614/10 not found.
+29/06/2021 09:51:07: The Sale Order number 9324434615/10 not found.
+29/06/2021 09:51:07: The Sale Order number MHST2021. not found.
+29/06/2021 09:51:07: The Sale Order number MHST2021. not found.
+29/06/2021 09:51:07: The Sale Order number MHST2021. not found.
+29/06/2021 09:51:07: The Sale Order number MHST2021. not found.
+29/06/2021 09:51:07: The Sale Order number MHST2021. not found.
+29/06/2021 09:51:07: The Sale Order number MHST2021. not found.
+29/06/2021 09:51:07: The Sale Order number 4300054601 not found.
+29/06/2021 09:51:07: The Sale Order number 4300054601 not found.
+29/06/2021 09:51:07: The Sale Order number 72037428 not found.
+29/06/2021 09:51:07: The Sale Order number 72037428 not found.
+29/06/2021 09:51:07: The Sale Order number 4502094772-0621VN not found.
+29/06/2021 09:51:07: The Sale Order number ORF/3653 not found.
+29/06/2021 09:51:07: The Sale Order number ORF/3653 not found.
+29/06/2021 09:51:07: The Sale Order number ORF/3653 not found.
+29/06/2021 09:51:07: The Sale Order number ORF/3653 not found.
+29/06/2021 09:51:07: The Sale Order number ORF/3653 not found.
+29/06/2021 09:51:07: The Sale Order number ORF/3578 not found.
+29/06/2021 09:51:07: The Sale Order number 230609 not found.
+29/06/2021 09:51:07: The Sale Order number 9324449183/10 not found.
+29/06/2021 09:51:07: The Sale Order number GMN-P001187 not found.
+29/06/2021 09:51:07: The Sale Order number GMN-P001187 not found.
+29/06/2021 09:51:07: The Sale Order number GMN-P001187 not found.
+29/06/2021 09:51:07: The Sale Order number GMN-P001187 not found.
+29/06/2021 09:51:07: The Sale Order number GMN-P001187 not found.
+29/06/2021 09:51:07: The Sale Order number GMN-P001187 not found.
+29/06/2021 09:51:07: The Sale Order number GMN-P001187 not found.
+29/06/2021 09:51:07: The Sale Order number GMN-P001187 not found.
+29/06/2021 09:51:07: The Sale Order number GMN-P001187 not found.
+29/06/2021 09:51:07: The Sale Order number GMN-P001187 not found.
+29/06/2021 09:51:08: Order No. 2106207     has been updated.
+29/06/2021 09:51:08: Failed to update Order No. 2106207    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Order No. 2101045     has been updated.
+29/06/2021 09:51:08: Failed to update Order No. 2101045    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2101045    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2101045    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2101045    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Order No. 2106129     has been updated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2106129    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Order No. 2011008     has been updated.
+29/06/2021 09:51:08: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:08: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:09: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:09: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:09: Failed to update Order No. 2011008    . Error: Violation of PRIMARY KEY constraint 'PK_COPTE'. Cannot insert duplicate key in object 'dbo.COPTE'.
+The statement has been terminated.
+29/06/2021 09:51:09: Order No. 2101019     has been updated.
+29/06/2021 09:51:16: Order number 21010 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number 21010 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: The Sale Order number 65BSS22FRCA0081 not found.
+29/06/2021 09:51:16: The Sale Order number 65BSS22FRCA0081 not found.
+29/06/2021 09:51:16: The Sale Order number 5500053009 not found.
+29/06/2021 09:51:16: The Sale Order number 5500053009 not found.
+29/06/2021 09:51:16: The Sale Order number 5500053009 not found.
+29/06/2021 09:51:16: The Sale Order number 5500053009 not found.
+29/06/2021 09:51:16: The Sale Order number 5500053009 not found.
+29/06/2021 09:51:16: The Sale Order number 5500048534 not found.
+29/06/2021 09:51:16: The Sale Order number 5500048534 not found.
+29/06/2021 09:51:16: The Sale Order number 5500048534 not found.
+29/06/2021 09:51:16: The Sale Order number 5500048534 not found.
+29/06/2021 09:51:16: The Sale Order number 5500048534 not found.
+29/06/2021 09:51:16: The Sale Order number 5500196980 not found.
+29/06/2021 09:51:16: The Sale Order number 5500196979 not found.
+29/06/2021 09:51:16: The Sale Order number VNGT04-23032021 not found.
+29/06/2021 09:51:16: The Sale Order number STB22155 not found.
+29/06/2021 09:51:16: The Sale Order number 2218501228. not found.
+29/06/2021 09:51:16: The Sale Order number 2218502016. not found.
+29/06/2021 09:51:16: The Sale Order number 2218502016. not found.
+29/06/2021 09:51:16: The Sale Order number 2218501399. not found.
+29/06/2021 09:51:16: The Sale Order number 2218501399. not found.
+29/06/2021 09:51:16: The Sale Order number 2218501399. not found.
+29/06/2021 09:51:16: The Sale Order number CF21009761 not found.
+29/06/2021 09:51:16: The Sale Order number CF21009761 not found.
+29/06/2021 09:51:16: The Sale Order number LH7001871 not found.
+29/06/2021 09:51:16: The Sale Order number LH7001871 not found.
+29/06/2021 09:51:16: The Sale Order number 20210602-02 not found.
+29/06/2021 09:51:16: The Sale Order number 20210513-01 not found.
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:16: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:17: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:17: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:17: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:17: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:17: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:17: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:17: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:17: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:17: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:17: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:17: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:17: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:17: Order number GMN-P001176 has more than one ERP Order No. System cannot decide!
+29/06/2021 09:51:17: The Sale Order number ORF/003612 not found.
+29/06/2021 09:51:17: The Sale Order number ORF/003612 not found.
+29/06/2021 09:51:17: The Sale Order number ORF/003612 not found.
+29/06/2021 09:51:17: The Sale Order number ORF/003612 not found.
+29/06/2021 09:51:17: The Sale Order number ORF/003612 not found.
+29/06/2021 09:51:17: The Sale Order number ORF/003612 not found.
+29/06/2021 09:51:17: The Sale Order number 2021-100556 not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/10/22-033. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/10/22-033. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/10/22-033. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/10/22-033. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/10/22-033. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/10/22-033. not found.
+29/06/2021 09:51:17: The Sale Order number 9324389856/10 not found.
+29/06/2021 09:51:17: The Sale Order number 9324405009/10 not found.
+29/06/2021 09:51:17: The Sale Order number 9324420989 not found.
+29/06/2021 09:51:17: The Sale Order number 9324420989 not found.
+29/06/2021 09:51:17: The Sale Order number 9324420989 not found.
+29/06/2021 09:51:17: The Sale Order number 9324420989 not found.
+29/06/2021 09:51:17: The Sale Order number 9324420989 not found.
+29/06/2021 09:51:17: The Sale Order number 9324437623/30 not found.
+29/06/2021 09:51:17: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:17: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:17: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:17: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:17: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:17: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:17: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:17: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:17: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:17: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:17: The Sale Order number MHBO2021. not found.
+29/06/2021 09:51:17: The Sale Order number MHBOSTOCK. not found.
+29/06/2021 09:51:17: The Sale Order number MHBOSTOCK. not found.
+29/06/2021 09:51:17: The Sale Order number MHBOSTOCK. not found.
+29/06/2021 09:51:17: The Sale Order number MHBOSTOCK. not found.
+29/06/2021 09:51:17: The Sale Order number MHBOSTOCK. not found.
+29/06/2021 09:51:17: The Sale Order number MHBOSTOCK. not found.
+29/06/2021 09:51:17: The Sale Order number MHBOSTOCK. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/10/29-052. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/10/29-052. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/10/29-052. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/10/29-052. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/10/29-052. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/10/29-052. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/10/29-052. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/11/25-018. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/11/25-018. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/11/25-018. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/11/25-018. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/11/25-018. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/11/25-018. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/11/25-018. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/11/25-018. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/11/25-018. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/12/04-014. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/12/04-014. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/12/04-014. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/12/04-014. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/12/04-014. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/12/04-014. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/12/04-014. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/12/09-031. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/12/09-031. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/12/09-031. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/12/09-031. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/12/09-031. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-21/01/06-034. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-21/01/06-034. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-21/01/06-034. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-21/01/06-034. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-21/01/06-034. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-21/01/06-034. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/10/31-029. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-20/12/10-029. not found.
+29/06/2021 09:51:17: The Sale Order number POORD-21/01/06-035. not found.
+29/06/2021 09:51:17: The Sale Order number 9324421087/10 not found.
+29/06/2021 09:51:17: The Sale Order number W2106170001 not found.
+29/06/2021 09:51:17: The Sale Order number 65BSS22BECA0116 not found.
+29/06/2021 09:51:17: The Sale Order number 65BSS22BECA0115 not found.
+29/06/2021 09:51:17: The Sale Order number 9324434611/10 not found.
+29/06/2021 09:51:17: The Sale Order number 9324434610/10 not found.
+29/06/2021 09:51:17: The Sale Order number 9324434613/10 not found.
+29/06/2021 09:51:17: The Sale Order number 9324434617/10 not found.
+29/06/2021 09:51:17: The Sale Order number 9324434614/10 not found.
+29/06/2021 09:51:17: The Sale Order number 9324434615/10 not found.
+29/06/2021 09:51:17: The Sale Order number MHST2021. not found.
+29/06/2021 09:51:17: The Sale Order number MHST2021. not found.
+29/06/2021 09:51:18: The Sale Order number MHST2021. not found.
+29/06/2021 09:51:18: The Sale Order number MHST2021. not found.
+29/06/2021 09:51:18: The Sale Order number MHST2021. not found.
+29/06/2021 09:51:18: The Sale Order number MHST2021. not found.
+29/06/2021 09:51:18: The Sale Order number 4300054601 not found.
+29/06/2021 09:51:18: The Sale Order number 4300054601 not found.
+29/06/2021 09:51:18: The Sale Order number 72037428 not found.
+29/06/2021 09:51:18: The Sale Order number 72037428 not found.
+29/06/2021 09:51:19: The Sale Order number 4502094772-0621VN not found.
+29/06/2021 09:51:19: The Sale Order number ORF/3653 not found.
+29/06/2021 09:51:19: The Sale Order number ORF/3653 not found.
+29/06/2021 09:51:19: The Sale Order number ORF/3653 not found.
+29/06/2021 09:51:19: The Sale Order number ORF/3653 not found.
+29/06/2021 09:51:19: The Sale Order number ORF/3653 not found.
+29/06/2021 09:51:19: The Sale Order number ORF/3578 not found.
+29/06/2021 09:51:19: The Sale Order number 230609 not found.
+29/06/2021 09:51:19: The Sale Order number 9324449183/10 not found.
+29/06/2021 09:51:19: The Sale Order number GMN-P001187 not found.
+29/06/2021 09:51:19: The Sale Order number GMN-P001187 not found.
+29/06/2021 09:51:19: The Sale Order number GMN-P001187 not found.
+29/06/2021 09:51:19: The Sale Order number GMN-P001187 not found.
+29/06/2021 09:51:19: The Sale Order number GMN-P001187 not found.
+29/06/2021 09:51:19: The Sale Order number GMN-P001187 not found.
+29/06/2021 09:51:19: The Sale Order number GMN-P001187 not found.
+29/06/2021 09:51:19: The Sale Order number GMN-P001187 not found.
+29/06/2021 09:51:19: The Sale Order number GMN-P001187 not found.
+29/06/2021 09:51:19: The Sale Order number GMN-P001187 not found.
+29/06/2021 09:51:21: Order No. 2011008     has been updated.
+29/06/2021 09:51:21: Order No. 2011008     has been updated.
+29/06/2021 09:51:21: Order No. 2011008     has been updated.
+29/06/2021 09:51:21: Order No. 2011008     has been updated.
+29/06/2021 09:51:21: Order No. 2011008     has been updated.
+29/06/2021 09:51:21: Order No. 2011008     has been updated.
+29/06/2021 09:51:21: Order No. 2011008     has been updated.
+29/06/2021 09:51:22: Order No. 2011008     has been updated.
+29/06/2021 09:51:22: Order No. 2011008     has been updated.
+29/06/2021 09:51:22: Order No. 2011008     has been updated.
+29/06/2021 09:51:22: Order No. 2011008     has been updated.
+29/06/2021 09:51:22: Order No. 2101019     has been updated.
+29/06/2021 09:51:22: Order No. 2101045     has been updated.
+29/06/2021 09:51:22: Order No. 2101045     has been updated.
+29/06/2021 09:51:22: Order No. 2101045     has been updated.
+29/06/2021 09:51:22: Order No. 2101045     has been updated.
+29/06/2021 09:51:22: Order No. 2101045     has been updated.
+29/06/2021 09:51:27: End point: 2021-06-29 10:22:40.237
+29/06/2021 09:51:27: Session 2106290951 completed.

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "670d846d-3f89-4eed-83b5-0a678f128664": {
+      "ProjectGuid": "670d846d-3f89-4eed-83b5-0a678f128664",
+      "DisplayName": "Sales Order Transformation",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

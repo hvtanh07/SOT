@@ -27,7 +27,7 @@ Partial Public Class TECHLINKDataSet
     
     Private tableCMSMG As CMSMGDataTable
     
-    Private tableCOPMA As COPMADataTable
+    Private tableCOPMA2 As COPMA2DataTable
     
     Private tableCOPTC As COPTCDataTable
     
@@ -44,6 +44,10 @@ Partial Public Class TECHLINKDataSet
     Private tableCOPTC2 As COPTC2DataTable
     
     Private tableCOPTB As COPTBDataTable
+    
+    Private tableSource As SourceDataTable
+    
+    Private tableCOPMA As COPMADataTable
     
     Private _schemaSerializationMode As Global.System.Data.SchemaSerializationMode = Global.System.Data.SchemaSerializationMode.IncludeSchema
     
@@ -77,8 +81,8 @@ Partial Public Class TECHLINKDataSet
             If (Not (ds.Tables("CMSMG")) Is Nothing) Then
                 MyBase.Tables.Add(New CMSMGDataTable(ds.Tables("CMSMG")))
             End If
-            If (Not (ds.Tables("COPMA")) Is Nothing) Then
-                MyBase.Tables.Add(New COPMADataTable(ds.Tables("COPMA")))
+            If (Not (ds.Tables("COPMA2")) Is Nothing) Then
+                MyBase.Tables.Add(New COPMA2DataTable(ds.Tables("COPMA2")))
             End If
             If (Not (ds.Tables("COPTC")) Is Nothing) Then
                 MyBase.Tables.Add(New COPTCDataTable(ds.Tables("COPTC")))
@@ -103,6 +107,12 @@ Partial Public Class TECHLINKDataSet
             End If
             If (Not (ds.Tables("COPTB")) Is Nothing) Then
                 MyBase.Tables.Add(New COPTBDataTable(ds.Tables("COPTB")))
+            End If
+            If (Not (ds.Tables("Source")) Is Nothing) Then
+                MyBase.Tables.Add(New SourceDataTable(ds.Tables("Source")))
+            End If
+            If (Not (ds.Tables("COPMA")) Is Nothing) Then
+                MyBase.Tables.Add(New COPMADataTable(ds.Tables("COPMA")))
             End If
             Me.DataSetName = ds.DataSetName
             Me.Prefix = ds.Prefix
@@ -135,9 +145,9 @@ Partial Public Class TECHLINKDataSet
      Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
      Global.System.ComponentModel.Browsable(false),  _
      Global.System.ComponentModel.DesignerSerializationVisibility(Global.System.ComponentModel.DesignerSerializationVisibility.Content)>  _
-    Public ReadOnly Property COPMA() As COPMADataTable
+    Public ReadOnly Property COPMA2() As COPMA2DataTable
         Get
-            Return Me.tableCOPMA
+            Return Me.tableCOPMA2
         End Get
     End Property
     
@@ -223,6 +233,26 @@ Partial Public Class TECHLINKDataSet
     
     <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
+     Global.System.ComponentModel.Browsable(false),  _
+     Global.System.ComponentModel.DesignerSerializationVisibility(Global.System.ComponentModel.DesignerSerializationVisibility.Content)>  _
+    Public ReadOnly Property Source() As SourceDataTable
+        Get
+            Return Me.tableSource
+        End Get
+    End Property
+    
+    <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
+     Global.System.ComponentModel.Browsable(false),  _
+     Global.System.ComponentModel.DesignerSerializationVisibility(Global.System.ComponentModel.DesignerSerializationVisibility.Content)>  _
+    Public ReadOnly Property COPMA() As COPMADataTable
+        Get
+            Return Me.tableCOPMA
+        End Get
+    End Property
+    
+    <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
      Global.System.ComponentModel.BrowsableAttribute(true),  _
      Global.System.ComponentModel.DesignerSerializationVisibilityAttribute(Global.System.ComponentModel.DesignerSerializationVisibility.Visible)>  _
     Public Overrides Property SchemaSerializationMode() As Global.System.Data.SchemaSerializationMode
@@ -291,8 +321,8 @@ Partial Public Class TECHLINKDataSet
             If (Not (ds.Tables("CMSMG")) Is Nothing) Then
                 MyBase.Tables.Add(New CMSMGDataTable(ds.Tables("CMSMG")))
             End If
-            If (Not (ds.Tables("COPMA")) Is Nothing) Then
-                MyBase.Tables.Add(New COPMADataTable(ds.Tables("COPMA")))
+            If (Not (ds.Tables("COPMA2")) Is Nothing) Then
+                MyBase.Tables.Add(New COPMA2DataTable(ds.Tables("COPMA2")))
             End If
             If (Not (ds.Tables("COPTC")) Is Nothing) Then
                 MyBase.Tables.Add(New COPTCDataTable(ds.Tables("COPTC")))
@@ -317,6 +347,12 @@ Partial Public Class TECHLINKDataSet
             End If
             If (Not (ds.Tables("COPTB")) Is Nothing) Then
                 MyBase.Tables.Add(New COPTBDataTable(ds.Tables("COPTB")))
+            End If
+            If (Not (ds.Tables("Source")) Is Nothing) Then
+                MyBase.Tables.Add(New SourceDataTable(ds.Tables("Source")))
+            End If
+            If (Not (ds.Tables("COPMA")) Is Nothing) Then
+                MyBase.Tables.Add(New COPMADataTable(ds.Tables("COPMA")))
             End If
             Me.DataSetName = ds.DataSetName
             Me.Prefix = ds.Prefix
@@ -356,10 +392,10 @@ Partial Public Class TECHLINKDataSet
                 Me.tableCMSMG.InitVars
             End If
         End If
-        Me.tableCOPMA = CType(MyBase.Tables("COPMA"),COPMADataTable)
+        Me.tableCOPMA2 = CType(MyBase.Tables("COPMA2"),COPMA2DataTable)
         If (initTable = true) Then
-            If (Not (Me.tableCOPMA) Is Nothing) Then
-                Me.tableCOPMA.InitVars
+            If (Not (Me.tableCOPMA2) Is Nothing) Then
+                Me.tableCOPMA2.InitVars
             End If
         End If
         Me.tableCOPTC = CType(MyBase.Tables("COPTC"),COPTCDataTable)
@@ -410,6 +446,18 @@ Partial Public Class TECHLINKDataSet
                 Me.tableCOPTB.InitVars
             End If
         End If
+        Me.tableSource = CType(MyBase.Tables("Source"),SourceDataTable)
+        If (initTable = true) Then
+            If (Not (Me.tableSource) Is Nothing) Then
+                Me.tableSource.InitVars
+            End If
+        End If
+        Me.tableCOPMA = CType(MyBase.Tables("COPMA"),COPMADataTable)
+        If (initTable = true) Then
+            If (Not (Me.tableCOPMA) Is Nothing) Then
+                Me.tableCOPMA.InitVars
+            End If
+        End If
     End Sub
     
     <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -422,8 +470,8 @@ Partial Public Class TECHLINKDataSet
         Me.SchemaSerializationMode = Global.System.Data.SchemaSerializationMode.IncludeSchema
         Me.tableCMSMG = New CMSMGDataTable()
         MyBase.Tables.Add(Me.tableCMSMG)
-        Me.tableCOPMA = New COPMADataTable()
-        MyBase.Tables.Add(Me.tableCOPMA)
+        Me.tableCOPMA2 = New COPMA2DataTable()
+        MyBase.Tables.Add(Me.tableCOPMA2)
         Me.tableCOPTC = New COPTCDataTable()
         MyBase.Tables.Add(Me.tableCOPTC)
         Me.tableCOPTD = New COPTDDataTable()
@@ -440,6 +488,10 @@ Partial Public Class TECHLINKDataSet
         MyBase.Tables.Add(Me.tableCOPTC2)
         Me.tableCOPTB = New COPTBDataTable()
         MyBase.Tables.Add(Me.tableCOPTB)
+        Me.tableSource = New SourceDataTable()
+        MyBase.Tables.Add(Me.tableSource)
+        Me.tableCOPMA = New COPMADataTable()
+        MyBase.Tables.Add(Me.tableCOPMA)
     End Sub
     
     <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -450,7 +502,7 @@ Partial Public Class TECHLINKDataSet
     
     <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-    Private Function ShouldSerializeCOPMA() As Boolean
+    Private Function ShouldSerializeCOPMA2() As Boolean
         Return false
     End Function
     
@@ -499,6 +551,18 @@ Partial Public Class TECHLINKDataSet
     <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
      Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
     Private Function ShouldSerializeCOPTB() As Boolean
+        Return false
+    End Function
+    
+    <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+    Private Function ShouldSerializeSource() As Boolean
+        Return false
+    End Function
+    
+    <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+    Private Function ShouldSerializeCOPMA() As Boolean
         Return false
     End Function
     
@@ -564,7 +628,7 @@ Partial Public Class TECHLINKDataSet
     Public Delegate Sub CMSMGRowChangeEventHandler(ByVal sender As Object, ByVal e As CMSMGRowChangeEvent)
     
     <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-    Public Delegate Sub COPMARowChangeEventHandler(ByVal sender As Object, ByVal e As COPMARowChangeEvent)
+    Public Delegate Sub COPMA2RowChangeEventHandler(ByVal sender As Object, ByVal e As COPMA2RowChangeEvent)
     
     <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
     Public Delegate Sub COPTCRowChangeEventHandler(ByVal sender As Object, ByVal e As COPTCRowChangeEvent)
@@ -589,6 +653,12 @@ Partial Public Class TECHLINKDataSet
     
     <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
     Public Delegate Sub COPTBRowChangeEventHandler(ByVal sender As Object, ByVal e As COPTBRowChangeEvent)
+    
+    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+    Public Delegate Sub SourceRowChangeEventHandler(ByVal sender As Object, ByVal e As SourceRowChangeEvent)
+    
+    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+    Public Delegate Sub COPMARowChangeEventHandler(ByVal sender As Object, ByVal e As COPMARowChangeEvent)
     
     '''<summary>
     '''Represents the strongly named DataTable class.
@@ -847,8 +917,8 @@ Partial Public Class TECHLINKDataSet
     '''</summary>
     <Global.System.Serializable(),  _
      Global.System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")>  _
-    Partial Public Class COPMADataTable
-        Inherits Global.System.Data.TypedTableBase(Of COPMARow)
+    Partial Public Class COPMA2DataTable
+        Inherits Global.System.Data.TypedTableBase(Of COPMA2Row)
         
         Private columnCOMPANY As Global.System.Data.DataColumn
         
@@ -1176,7 +1246,7 @@ Partial Public Class TECHLINKDataSet
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub New()
             MyBase.New
-            Me.TableName = "COPMA"
+            Me.TableName = "COPMA2"
             Me.BeginInit
             Me.InitClass
             Me.EndInit
@@ -2506,33 +2576,33 @@ Partial Public Class TECHLINKDataSet
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Default ReadOnly Property Item(ByVal index As Integer) As COPMARow
+        Public Default ReadOnly Property Item(ByVal index As Integer) As COPMA2Row
             Get
-                Return CType(Me.Rows(index),COPMARow)
+                Return CType(Me.Rows(index),COPMA2Row)
             End Get
         End Property
         
         <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Event COPMARowChanging As COPMARowChangeEventHandler
+        Public Event COPMA2RowChanging As COPMA2RowChangeEventHandler
         
         <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Event COPMARowChanged As COPMARowChangeEventHandler
+        Public Event COPMA2RowChanged As COPMA2RowChangeEventHandler
         
         <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Event COPMARowDeleting As COPMARowChangeEventHandler
+        Public Event COPMA2RowDeleting As COPMA2RowChangeEventHandler
         
         <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Event COPMARowDeleted As COPMARowChangeEventHandler
+        Public Event COPMA2RowDeleted As COPMA2RowChangeEventHandler
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Overloads Sub AddCOPMARow(ByVal row As COPMARow)
+        Public Overloads Sub AddCOPMA2Row(ByVal row As COPMA2Row)
             Me.Rows.Add(row)
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Overloads Function AddCOPMARow( _
+        Public Overloads Function AddCOPMA2Row( _
                     ByVal COMPANY As String,  _
                     ByVal CREATOR As String,  _
                     ByVal USR_GROUP As String,  _
@@ -2693,24 +2763,24 @@ Partial Public Class TECHLINKDataSet
                     ByVal MA140 As String,  _
                     ByVal MA141 As String,  _
                     ByVal MA142 As String,  _
-                    ByVal MA143 As String) As COPMARow
-            Dim rowCOPMARow As COPMARow = CType(Me.NewRow,COPMARow)
+                    ByVal MA143 As String) As COPMA2Row
+            Dim rowCOPMA2Row As COPMA2Row = CType(Me.NewRow,COPMA2Row)
             Dim columnValuesArray() As Object = New Object() {COMPANY, CREATOR, USR_GROUP, CREATE_DATE, MODIFIER, MODI_DATE, FLAG, CREATE_TIME, CREATE_AP, CREATE_PRID, MODI_TIME, MODI_AP, MODI_PRID, MA001, MA002, MA003, MA004, MA005, MA006, MA007, MA008, MA009, MA010, MA011, MA012, MA013, MA014, MA015, MA016, MA017, MA018, MA019, MA020, MA021, MA022, MA023, MA024, MA025, MA026, MA027, MA028, MA029, MA030, MA031, MA032, MA033, MA034, MA035, MA036, MA037, MA038, MA039, MA040, MA041, MA042, MA043, MA044, MA045, MA046, MA047, MA048, MA049, MA050, MA051, MA052, MA053, MA054, MA055, MA056, MA057, MA058, MA059, MA060, MA061, MA062, MA063, MA064, MA065, MA066, MA067, MA068, MA069, MA070, MA071, MA072, MA073, MA074, MA075, MA076, MA077, MA078, MA079, MA080, MA081, MA082, MA083, MA084, MA085, MA086, MA087, MA088, MA089, MA090, MA091, MA092, MA093, MA094, MA095, MA096, MA097, MA098, MA099, MA100, MA101, MA102, MA103, MA104, MA105, MA106, MA107, MA108, MA109, MA110, MA111, MA112, MA113, MA114, MA115, MA116, MA117, MA118, MA119, MA120, MA121, MA122, MA123, MA124, MA125, MA126, MA127, MA132, MA133, UDF01, UDF02, UDF03, UDF04, UDF05, UDF06, UDF07, UDF08, UDF09, UDF10, MA134, MA135, MA136, MA137, MA139, MA140, MA141, MA142, MA143}
-            rowCOPMARow.ItemArray = columnValuesArray
-            Me.Rows.Add(rowCOPMARow)
-            Return rowCOPMARow
+            rowCOPMA2Row.ItemArray = columnValuesArray
+            Me.Rows.Add(rowCOPMA2Row)
+            Return rowCOPMA2Row
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Function FindByMA001(ByVal MA001 As String) As COPMARow
-            Return CType(Me.Rows.Find(New Object() {MA001}),COPMARow)
+        Public Function FindByMA001(ByVal MA001 As String) As COPMA2Row
+            Return CType(Me.Rows.Find(New Object() {MA001}),COPMA2Row)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Overrides Function Clone() As Global.System.Data.DataTable
-            Dim cln As COPMADataTable = CType(MyBase.Clone,COPMADataTable)
+            Dim cln As COPMA2DataTable = CType(MyBase.Clone,COPMA2DataTable)
             cln.InitVars
             Return cln
         End Function
@@ -2718,7 +2788,7 @@ Partial Public Class TECHLINKDataSet
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Protected Overrides Function CreateInstance() As Global.System.Data.DataTable
-            Return New COPMADataTable()
+            Return New COPMA2DataTable()
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -3350,28 +3420,28 @@ Partial Public Class TECHLINKDataSet
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Function NewCOPMARow() As COPMARow
-            Return CType(Me.NewRow,COPMARow)
+        Public Function NewCOPMA2Row() As COPMA2Row
+            Return CType(Me.NewRow,COPMA2Row)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Protected Overrides Function NewRowFromBuilder(ByVal builder As Global.System.Data.DataRowBuilder) As Global.System.Data.DataRow
-            Return New COPMARow(builder)
+            Return New COPMA2Row(builder)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Protected Overrides Function GetRowType() As Global.System.Type
-            Return GetType(COPMARow)
+            Return GetType(COPMA2Row)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Protected Overrides Sub OnRowChanged(ByVal e As Global.System.Data.DataRowChangeEventArgs)
             MyBase.OnRowChanged(e)
-            If (Not (Me.COPMARowChangedEvent) Is Nothing) Then
-                RaiseEvent COPMARowChanged(Me, New COPMARowChangeEvent(CType(e.Row,COPMARow), e.Action))
+            If (Not (Me.COPMA2RowChangedEvent) Is Nothing) Then
+                RaiseEvent COPMA2RowChanged(Me, New COPMA2RowChangeEvent(CType(e.Row,COPMA2Row), e.Action))
             End If
         End Sub
         
@@ -3379,8 +3449,8 @@ Partial Public Class TECHLINKDataSet
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Protected Overrides Sub OnRowChanging(ByVal e As Global.System.Data.DataRowChangeEventArgs)
             MyBase.OnRowChanging(e)
-            If (Not (Me.COPMARowChangingEvent) Is Nothing) Then
-                RaiseEvent COPMARowChanging(Me, New COPMARowChangeEvent(CType(e.Row,COPMARow), e.Action))
+            If (Not (Me.COPMA2RowChangingEvent) Is Nothing) Then
+                RaiseEvent COPMA2RowChanging(Me, New COPMA2RowChangeEvent(CType(e.Row,COPMA2Row), e.Action))
             End If
         End Sub
         
@@ -3388,8 +3458,8 @@ Partial Public Class TECHLINKDataSet
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Protected Overrides Sub OnRowDeleted(ByVal e As Global.System.Data.DataRowChangeEventArgs)
             MyBase.OnRowDeleted(e)
-            If (Not (Me.COPMARowDeletedEvent) Is Nothing) Then
-                RaiseEvent COPMARowDeleted(Me, New COPMARowChangeEvent(CType(e.Row,COPMARow), e.Action))
+            If (Not (Me.COPMA2RowDeletedEvent) Is Nothing) Then
+                RaiseEvent COPMA2RowDeleted(Me, New COPMA2RowChangeEvent(CType(e.Row,COPMA2Row), e.Action))
             End If
         End Sub
         
@@ -3397,14 +3467,14 @@ Partial Public Class TECHLINKDataSet
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Protected Overrides Sub OnRowDeleting(ByVal e As Global.System.Data.DataRowChangeEventArgs)
             MyBase.OnRowDeleting(e)
-            If (Not (Me.COPMARowDeletingEvent) Is Nothing) Then
-                RaiseEvent COPMARowDeleting(Me, New COPMARowChangeEvent(CType(e.Row,COPMARow), e.Action))
+            If (Not (Me.COPMA2RowDeletingEvent) Is Nothing) Then
+                RaiseEvent COPMA2RowDeleting(Me, New COPMA2RowChangeEvent(CType(e.Row,COPMA2Row), e.Action))
             End If
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Sub RemoveCOPMARow(ByVal row As COPMARow)
+        Public Sub RemoveCOPMA2Row(ByVal row As COPMA2Row)
             Me.Rows.Remove(row)
         End Sub
         
@@ -3431,7 +3501,7 @@ Partial Public Class TECHLINKDataSet
             type.Attributes.Add(attribute1)
             Dim attribute2 As Global.System.Xml.Schema.XmlSchemaAttribute = New Global.System.Xml.Schema.XmlSchemaAttribute()
             attribute2.Name = "tableTypeName"
-            attribute2.FixedValue = "COPMADataTable"
+            attribute2.FixedValue = "COPMA2DataTable"
             type.Attributes.Add(attribute2)
             type.Particle = sequence
             Dim dsSchema As Global.System.Xml.Schema.XmlSchema = ds.GetSchemaSerializable
@@ -8875,6 +8945,2884 @@ Partial Public Class TECHLINKDataSet
     End Class
     
     '''<summary>
+    '''Represents the strongly named DataTable class.
+    '''</summary>
+    <Global.System.Serializable(),  _
+     Global.System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")>  _
+    Partial Public Class SourceDataTable
+        Inherits Global.System.Data.TypedTableBase(Of SourceRow)
+        
+        Private columnTC005 As Global.System.Data.DataColumn
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub New()
+            MyBase.New
+            Me.TableName = "Source"
+            Me.BeginInit
+            Me.InitClass
+            Me.EndInit
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Friend Sub New(ByVal table As Global.System.Data.DataTable)
+            MyBase.New
+            Me.TableName = table.TableName
+            If (table.CaseSensitive <> table.DataSet.CaseSensitive) Then
+                Me.CaseSensitive = table.CaseSensitive
+            End If
+            If (table.Locale.ToString <> table.DataSet.Locale.ToString) Then
+                Me.Locale = table.Locale
+            End If
+            If (table.Namespace <> table.DataSet.Namespace) Then
+                Me.Namespace = table.Namespace
+            End If
+            Me.Prefix = table.Prefix
+            Me.MinimumCapacity = table.MinimumCapacity
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Protected Sub New(ByVal info As Global.System.Runtime.Serialization.SerializationInfo, ByVal context As Global.System.Runtime.Serialization.StreamingContext)
+            MyBase.New(info, context)
+            Me.InitVars
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property TC005Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnTC005
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
+         Global.System.ComponentModel.Browsable(false)>  _
+        Public ReadOnly Property Count() As Integer
+            Get
+                Return Me.Rows.Count
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Default ReadOnly Property Item(ByVal index As Integer) As SourceRow
+            Get
+                Return CType(Me.Rows(index),SourceRow)
+            End Get
+        End Property
+        
+        <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Event SourceRowChanging As SourceRowChangeEventHandler
+        
+        <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Event SourceRowChanged As SourceRowChangeEventHandler
+        
+        <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Event SourceRowDeleting As SourceRowChangeEventHandler
+        
+        <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Event SourceRowDeleted As SourceRowChangeEventHandler
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Overloads Sub AddSourceRow(ByVal row As SourceRow)
+            Me.Rows.Add(row)
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Overloads Function AddSourceRow(ByVal TC005 As String) As SourceRow
+            Dim rowSourceRow As SourceRow = CType(Me.NewRow,SourceRow)
+            Dim columnValuesArray() As Object = New Object() {TC005}
+            rowSourceRow.ItemArray = columnValuesArray
+            Me.Rows.Add(rowSourceRow)
+            Return rowSourceRow
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Overrides Function Clone() As Global.System.Data.DataTable
+            Dim cln As SourceDataTable = CType(MyBase.Clone,SourceDataTable)
+            cln.InitVars
+            Return cln
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Protected Overrides Function CreateInstance() As Global.System.Data.DataTable
+            Return New SourceDataTable()
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Friend Sub InitVars()
+            Me.columnTC005 = MyBase.Columns("TC005")
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Private Sub InitClass()
+            Me.columnTC005 = New Global.System.Data.DataColumn("TC005", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnTC005)
+            Me.columnTC005.MaxLength = 10
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function NewSourceRow() As SourceRow
+            Return CType(Me.NewRow,SourceRow)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Protected Overrides Function NewRowFromBuilder(ByVal builder As Global.System.Data.DataRowBuilder) As Global.System.Data.DataRow
+            Return New SourceRow(builder)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Protected Overrides Function GetRowType() As Global.System.Type
+            Return GetType(SourceRow)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Protected Overrides Sub OnRowChanged(ByVal e As Global.System.Data.DataRowChangeEventArgs)
+            MyBase.OnRowChanged(e)
+            If (Not (Me.SourceRowChangedEvent) Is Nothing) Then
+                RaiseEvent SourceRowChanged(Me, New SourceRowChangeEvent(CType(e.Row,SourceRow), e.Action))
+            End If
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Protected Overrides Sub OnRowChanging(ByVal e As Global.System.Data.DataRowChangeEventArgs)
+            MyBase.OnRowChanging(e)
+            If (Not (Me.SourceRowChangingEvent) Is Nothing) Then
+                RaiseEvent SourceRowChanging(Me, New SourceRowChangeEvent(CType(e.Row,SourceRow), e.Action))
+            End If
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Protected Overrides Sub OnRowDeleted(ByVal e As Global.System.Data.DataRowChangeEventArgs)
+            MyBase.OnRowDeleted(e)
+            If (Not (Me.SourceRowDeletedEvent) Is Nothing) Then
+                RaiseEvent SourceRowDeleted(Me, New SourceRowChangeEvent(CType(e.Row,SourceRow), e.Action))
+            End If
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Protected Overrides Sub OnRowDeleting(ByVal e As Global.System.Data.DataRowChangeEventArgs)
+            MyBase.OnRowDeleting(e)
+            If (Not (Me.SourceRowDeletingEvent) Is Nothing) Then
+                RaiseEvent SourceRowDeleting(Me, New SourceRowChangeEvent(CType(e.Row,SourceRow), e.Action))
+            End If
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub RemoveSourceRow(ByVal row As SourceRow)
+            Me.Rows.Remove(row)
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Shared Function GetTypedTableSchema(ByVal xs As Global.System.Xml.Schema.XmlSchemaSet) As Global.System.Xml.Schema.XmlSchemaComplexType
+            Dim type As Global.System.Xml.Schema.XmlSchemaComplexType = New Global.System.Xml.Schema.XmlSchemaComplexType()
+            Dim sequence As Global.System.Xml.Schema.XmlSchemaSequence = New Global.System.Xml.Schema.XmlSchemaSequence()
+            Dim ds As TECHLINKDataSet = New TECHLINKDataSet()
+            Dim any1 As Global.System.Xml.Schema.XmlSchemaAny = New Global.System.Xml.Schema.XmlSchemaAny()
+            any1.Namespace = "http://www.w3.org/2001/XMLSchema"
+            any1.MinOccurs = New Decimal(0)
+            any1.MaxOccurs = Decimal.MaxValue
+            any1.ProcessContents = Global.System.Xml.Schema.XmlSchemaContentProcessing.Lax
+            sequence.Items.Add(any1)
+            Dim any2 As Global.System.Xml.Schema.XmlSchemaAny = New Global.System.Xml.Schema.XmlSchemaAny()
+            any2.Namespace = "urn:schemas-microsoft-com:xml-diffgram-v1"
+            any2.MinOccurs = New Decimal(1)
+            any2.ProcessContents = Global.System.Xml.Schema.XmlSchemaContentProcessing.Lax
+            sequence.Items.Add(any2)
+            Dim attribute1 As Global.System.Xml.Schema.XmlSchemaAttribute = New Global.System.Xml.Schema.XmlSchemaAttribute()
+            attribute1.Name = "namespace"
+            attribute1.FixedValue = ds.Namespace
+            type.Attributes.Add(attribute1)
+            Dim attribute2 As Global.System.Xml.Schema.XmlSchemaAttribute = New Global.System.Xml.Schema.XmlSchemaAttribute()
+            attribute2.Name = "tableTypeName"
+            attribute2.FixedValue = "SourceDataTable"
+            type.Attributes.Add(attribute2)
+            type.Particle = sequence
+            Dim dsSchema As Global.System.Xml.Schema.XmlSchema = ds.GetSchemaSerializable
+            If xs.Contains(dsSchema.TargetNamespace) Then
+                Dim s1 As Global.System.IO.MemoryStream = New Global.System.IO.MemoryStream()
+                Dim s2 As Global.System.IO.MemoryStream = New Global.System.IO.MemoryStream()
+                Try 
+                    Dim schema As Global.System.Xml.Schema.XmlSchema = Nothing
+                    dsSchema.Write(s1)
+                    Dim schemas As Global.System.Collections.IEnumerator = xs.Schemas(dsSchema.TargetNamespace).GetEnumerator
+                    Do While schemas.MoveNext
+                        schema = CType(schemas.Current,Global.System.Xml.Schema.XmlSchema)
+                        s2.SetLength(0)
+                        schema.Write(s2)
+                        If (s1.Length = s2.Length) Then
+                            s1.Position = 0
+                            s2.Position = 0
+                            
+                            Do While ((s1.Position <> s1.Length)  _
+                                        AndAlso (s1.ReadByte = s2.ReadByte))
+                                
+                                
+                            Loop
+                            If (s1.Position = s1.Length) Then
+                                Return type
+                            End If
+                        End If
+                        
+                    Loop
+                Finally
+                    If (Not (s1) Is Nothing) Then
+                        s1.Close
+                    End If
+                    If (Not (s2) Is Nothing) Then
+                        s2.Close
+                    End If
+                End Try
+            End If
+            xs.Add(dsSchema)
+            Return type
+        End Function
+    End Class
+    
+    '''<summary>
+    '''Represents the strongly named DataTable class.
+    '''</summary>
+    <Global.System.Serializable(),  _
+     Global.System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")>  _
+    Partial Public Class COPMADataTable
+        Inherits Global.System.Data.TypedTableBase(Of COPMARow)
+        
+        Private columnCOMPANY As Global.System.Data.DataColumn
+        
+        Private columnCREATOR As Global.System.Data.DataColumn
+        
+        Private columnUSR_GROUP As Global.System.Data.DataColumn
+        
+        Private columnCREATE_DATE As Global.System.Data.DataColumn
+        
+        Private columnMODIFIER As Global.System.Data.DataColumn
+        
+        Private columnMODI_DATE As Global.System.Data.DataColumn
+        
+        Private columnFLAG As Global.System.Data.DataColumn
+        
+        Private columnCREATE_TIME As Global.System.Data.DataColumn
+        
+        Private columnCREATE_AP As Global.System.Data.DataColumn
+        
+        Private columnCREATE_PRID As Global.System.Data.DataColumn
+        
+        Private columnMODI_TIME As Global.System.Data.DataColumn
+        
+        Private columnMODI_AP As Global.System.Data.DataColumn
+        
+        Private columnMODI_PRID As Global.System.Data.DataColumn
+        
+        Private columnMA001 As Global.System.Data.DataColumn
+        
+        Private columnMA002 As Global.System.Data.DataColumn
+        
+        Private columnMA003 As Global.System.Data.DataColumn
+        
+        Private columnMA004 As Global.System.Data.DataColumn
+        
+        Private columnMA005 As Global.System.Data.DataColumn
+        
+        Private columnMA006 As Global.System.Data.DataColumn
+        
+        Private columnMA007 As Global.System.Data.DataColumn
+        
+        Private columnMA008 As Global.System.Data.DataColumn
+        
+        Private columnMA009 As Global.System.Data.DataColumn
+        
+        Private columnMA010 As Global.System.Data.DataColumn
+        
+        Private columnMA011 As Global.System.Data.DataColumn
+        
+        Private columnMA012 As Global.System.Data.DataColumn
+        
+        Private columnMA013 As Global.System.Data.DataColumn
+        
+        Private columnMA014 As Global.System.Data.DataColumn
+        
+        Private columnMA015 As Global.System.Data.DataColumn
+        
+        Private columnMA016 As Global.System.Data.DataColumn
+        
+        Private columnMA017 As Global.System.Data.DataColumn
+        
+        Private columnMA018 As Global.System.Data.DataColumn
+        
+        Private columnMA019 As Global.System.Data.DataColumn
+        
+        Private columnMA020 As Global.System.Data.DataColumn
+        
+        Private columnMA021 As Global.System.Data.DataColumn
+        
+        Private columnMA022 As Global.System.Data.DataColumn
+        
+        Private columnMA023 As Global.System.Data.DataColumn
+        
+        Private columnMA024 As Global.System.Data.DataColumn
+        
+        Private columnMA025 As Global.System.Data.DataColumn
+        
+        Private columnMA026 As Global.System.Data.DataColumn
+        
+        Private columnMA027 As Global.System.Data.DataColumn
+        
+        Private columnMA028 As Global.System.Data.DataColumn
+        
+        Private columnMA029 As Global.System.Data.DataColumn
+        
+        Private columnMA030 As Global.System.Data.DataColumn
+        
+        Private columnMA031 As Global.System.Data.DataColumn
+        
+        Private columnMA032 As Global.System.Data.DataColumn
+        
+        Private columnMA033 As Global.System.Data.DataColumn
+        
+        Private columnMA034 As Global.System.Data.DataColumn
+        
+        Private columnMA035 As Global.System.Data.DataColumn
+        
+        Private columnMA036 As Global.System.Data.DataColumn
+        
+        Private columnMA037 As Global.System.Data.DataColumn
+        
+        Private columnMA038 As Global.System.Data.DataColumn
+        
+        Private columnMA039 As Global.System.Data.DataColumn
+        
+        Private columnMA040 As Global.System.Data.DataColumn
+        
+        Private columnMA041 As Global.System.Data.DataColumn
+        
+        Private columnMA042 As Global.System.Data.DataColumn
+        
+        Private columnMA043 As Global.System.Data.DataColumn
+        
+        Private columnMA044 As Global.System.Data.DataColumn
+        
+        Private columnMA045 As Global.System.Data.DataColumn
+        
+        Private columnMA046 As Global.System.Data.DataColumn
+        
+        Private columnMA047 As Global.System.Data.DataColumn
+        
+        Private columnMA048 As Global.System.Data.DataColumn
+        
+        Private columnMA049 As Global.System.Data.DataColumn
+        
+        Private columnMA050 As Global.System.Data.DataColumn
+        
+        Private columnMA051 As Global.System.Data.DataColumn
+        
+        Private columnMA052 As Global.System.Data.DataColumn
+        
+        Private columnMA053 As Global.System.Data.DataColumn
+        
+        Private columnMA054 As Global.System.Data.DataColumn
+        
+        Private columnMA055 As Global.System.Data.DataColumn
+        
+        Private columnMA056 As Global.System.Data.DataColumn
+        
+        Private columnMA057 As Global.System.Data.DataColumn
+        
+        Private columnMA058 As Global.System.Data.DataColumn
+        
+        Private columnMA059 As Global.System.Data.DataColumn
+        
+        Private columnMA060 As Global.System.Data.DataColumn
+        
+        Private columnMA061 As Global.System.Data.DataColumn
+        
+        Private columnMA062 As Global.System.Data.DataColumn
+        
+        Private columnMA063 As Global.System.Data.DataColumn
+        
+        Private columnMA064 As Global.System.Data.DataColumn
+        
+        Private columnMA065 As Global.System.Data.DataColumn
+        
+        Private columnMA066 As Global.System.Data.DataColumn
+        
+        Private columnMA067 As Global.System.Data.DataColumn
+        
+        Private columnMA068 As Global.System.Data.DataColumn
+        
+        Private columnMA069 As Global.System.Data.DataColumn
+        
+        Private columnMA070 As Global.System.Data.DataColumn
+        
+        Private columnMA071 As Global.System.Data.DataColumn
+        
+        Private columnMA072 As Global.System.Data.DataColumn
+        
+        Private columnMA073 As Global.System.Data.DataColumn
+        
+        Private columnMA074 As Global.System.Data.DataColumn
+        
+        Private columnMA075 As Global.System.Data.DataColumn
+        
+        Private columnMA076 As Global.System.Data.DataColumn
+        
+        Private columnMA077 As Global.System.Data.DataColumn
+        
+        Private columnMA078 As Global.System.Data.DataColumn
+        
+        Private columnMA079 As Global.System.Data.DataColumn
+        
+        Private columnMA080 As Global.System.Data.DataColumn
+        
+        Private columnMA081 As Global.System.Data.DataColumn
+        
+        Private columnMA082 As Global.System.Data.DataColumn
+        
+        Private columnMA083 As Global.System.Data.DataColumn
+        
+        Private columnMA084 As Global.System.Data.DataColumn
+        
+        Private columnMA085 As Global.System.Data.DataColumn
+        
+        Private columnMA086 As Global.System.Data.DataColumn
+        
+        Private columnMA087 As Global.System.Data.DataColumn
+        
+        Private columnMA088 As Global.System.Data.DataColumn
+        
+        Private columnMA089 As Global.System.Data.DataColumn
+        
+        Private columnMA090 As Global.System.Data.DataColumn
+        
+        Private columnMA091 As Global.System.Data.DataColumn
+        
+        Private columnMA092 As Global.System.Data.DataColumn
+        
+        Private columnMA093 As Global.System.Data.DataColumn
+        
+        Private columnMA094 As Global.System.Data.DataColumn
+        
+        Private columnMA095 As Global.System.Data.DataColumn
+        
+        Private columnMA096 As Global.System.Data.DataColumn
+        
+        Private columnMA097 As Global.System.Data.DataColumn
+        
+        Private columnMA098 As Global.System.Data.DataColumn
+        
+        Private columnMA099 As Global.System.Data.DataColumn
+        
+        Private columnMA100 As Global.System.Data.DataColumn
+        
+        Private columnMA101 As Global.System.Data.DataColumn
+        
+        Private columnMA102 As Global.System.Data.DataColumn
+        
+        Private columnMA103 As Global.System.Data.DataColumn
+        
+        Private columnMA104 As Global.System.Data.DataColumn
+        
+        Private columnMA105 As Global.System.Data.DataColumn
+        
+        Private columnMA106 As Global.System.Data.DataColumn
+        
+        Private columnMA107 As Global.System.Data.DataColumn
+        
+        Private columnMA108 As Global.System.Data.DataColumn
+        
+        Private columnMA109 As Global.System.Data.DataColumn
+        
+        Private columnMA110 As Global.System.Data.DataColumn
+        
+        Private columnMA111 As Global.System.Data.DataColumn
+        
+        Private columnMA112 As Global.System.Data.DataColumn
+        
+        Private columnMA113 As Global.System.Data.DataColumn
+        
+        Private columnMA114 As Global.System.Data.DataColumn
+        
+        Private columnMA115 As Global.System.Data.DataColumn
+        
+        Private columnMA116 As Global.System.Data.DataColumn
+        
+        Private columnMA117 As Global.System.Data.DataColumn
+        
+        Private columnMA118 As Global.System.Data.DataColumn
+        
+        Private columnMA119 As Global.System.Data.DataColumn
+        
+        Private columnMA120 As Global.System.Data.DataColumn
+        
+        Private columnMA121 As Global.System.Data.DataColumn
+        
+        Private columnMA122 As Global.System.Data.DataColumn
+        
+        Private columnMA123 As Global.System.Data.DataColumn
+        
+        Private columnMA124 As Global.System.Data.DataColumn
+        
+        Private columnMA125 As Global.System.Data.DataColumn
+        
+        Private columnMA126 As Global.System.Data.DataColumn
+        
+        Private columnMA127 As Global.System.Data.DataColumn
+        
+        Private columnMA132 As Global.System.Data.DataColumn
+        
+        Private columnMA133 As Global.System.Data.DataColumn
+        
+        Private columnUDF01 As Global.System.Data.DataColumn
+        
+        Private columnUDF02 As Global.System.Data.DataColumn
+        
+        Private columnUDF03 As Global.System.Data.DataColumn
+        
+        Private columnUDF04 As Global.System.Data.DataColumn
+        
+        Private columnUDF05 As Global.System.Data.DataColumn
+        
+        Private columnUDF06 As Global.System.Data.DataColumn
+        
+        Private columnUDF07 As Global.System.Data.DataColumn
+        
+        Private columnUDF08 As Global.System.Data.DataColumn
+        
+        Private columnUDF09 As Global.System.Data.DataColumn
+        
+        Private columnUDF10 As Global.System.Data.DataColumn
+        
+        Private columnMA134 As Global.System.Data.DataColumn
+        
+        Private columnMA135 As Global.System.Data.DataColumn
+        
+        Private columnMA136 As Global.System.Data.DataColumn
+        
+        Private columnMA137 As Global.System.Data.DataColumn
+        
+        Private columnMA139 As Global.System.Data.DataColumn
+        
+        Private columnMA140 As Global.System.Data.DataColumn
+        
+        Private columnMA141 As Global.System.Data.DataColumn
+        
+        Private columnMA142 As Global.System.Data.DataColumn
+        
+        Private columnMA143 As Global.System.Data.DataColumn
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub New()
+            MyBase.New
+            Me.TableName = "COPMA"
+            Me.BeginInit
+            Me.InitClass
+            Me.EndInit
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Friend Sub New(ByVal table As Global.System.Data.DataTable)
+            MyBase.New
+            Me.TableName = table.TableName
+            If (table.CaseSensitive <> table.DataSet.CaseSensitive) Then
+                Me.CaseSensitive = table.CaseSensitive
+            End If
+            If (table.Locale.ToString <> table.DataSet.Locale.ToString) Then
+                Me.Locale = table.Locale
+            End If
+            If (table.Namespace <> table.DataSet.Namespace) Then
+                Me.Namespace = table.Namespace
+            End If
+            Me.Prefix = table.Prefix
+            Me.MinimumCapacity = table.MinimumCapacity
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Protected Sub New(ByVal info As Global.System.Runtime.Serialization.SerializationInfo, ByVal context As Global.System.Runtime.Serialization.StreamingContext)
+            MyBase.New(info, context)
+            Me.InitVars
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property COMPANYColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnCOMPANY
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property CREATORColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnCREATOR
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property USR_GROUPColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnUSR_GROUP
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property CREATE_DATEColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnCREATE_DATE
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MODIFIERColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMODIFIER
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MODI_DATEColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMODI_DATE
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property FLAGColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnFLAG
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property CREATE_TIMEColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnCREATE_TIME
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property CREATE_APColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnCREATE_AP
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property CREATE_PRIDColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnCREATE_PRID
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MODI_TIMEColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMODI_TIME
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MODI_APColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMODI_AP
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MODI_PRIDColumn() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMODI_PRID
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA001Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA001
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA002Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA002
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA003Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA003
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA004Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA004
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA005Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA005
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA006Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA006
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA007Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA007
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA008Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA008
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA009Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA009
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA010Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA010
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA011Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA011
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA012Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA012
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA013Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA013
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA014Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA014
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA015Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA015
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA016Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA016
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA017Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA017
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA018Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA018
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA019Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA019
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA020Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA020
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA021Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA021
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA022Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA022
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA023Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA023
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA024Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA024
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA025Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA025
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA026Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA026
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA027Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA027
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA028Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA028
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA029Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA029
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA030Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA030
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA031Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA031
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA032Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA032
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA033Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA033
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA034Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA034
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA035Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA035
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA036Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA036
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA037Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA037
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA038Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA038
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA039Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA039
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA040Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA040
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA041Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA041
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA042Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA042
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA043Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA043
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA044Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA044
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA045Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA045
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA046Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA046
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA047Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA047
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA048Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA048
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA049Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA049
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA050Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA050
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA051Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA051
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA052Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA052
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA053Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA053
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA054Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA054
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA055Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA055
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA056Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA056
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA057Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA057
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA058Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA058
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA059Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA059
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA060Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA060
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA061Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA061
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA062Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA062
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA063Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA063
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA064Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA064
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA065Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA065
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA066Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA066
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA067Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA067
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA068Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA068
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA069Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA069
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA070Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA070
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA071Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA071
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA072Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA072
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA073Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA073
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA074Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA074
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA075Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA075
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA076Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA076
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA077Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA077
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA078Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA078
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA079Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA079
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA080Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA080
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA081Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA081
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA082Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA082
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA083Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA083
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA084Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA084
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA085Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA085
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA086Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA086
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA087Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA087
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA088Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA088
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA089Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA089
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA090Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA090
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA091Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA091
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA092Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA092
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA093Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA093
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA094Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA094
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA095Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA095
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA096Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA096
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA097Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA097
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA098Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA098
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA099Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA099
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA100Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA100
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA101Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA101
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA102Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA102
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA103Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA103
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA104Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA104
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA105Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA105
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA106Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA106
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA107Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA107
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA108Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA108
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA109Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA109
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA110Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA110
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA111Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA111
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA112Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA112
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA113Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA113
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA114Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA114
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA115Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA115
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA116Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA116
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA117Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA117
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA118Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA118
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA119Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA119
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA120Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA120
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA121Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA121
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA122Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA122
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA123Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA123
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA124Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA124
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA125Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA125
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA126Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA126
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA127Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA127
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA132Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA132
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA133Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA133
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property UDF01Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnUDF01
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property UDF02Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnUDF02
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property UDF03Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnUDF03
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property UDF04Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnUDF04
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property UDF05Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnUDF05
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property UDF06Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnUDF06
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property UDF07Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnUDF07
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property UDF08Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnUDF08
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property UDF09Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnUDF09
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property UDF10Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnUDF10
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA134Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA134
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA135Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA135
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA136Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA136
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA137Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA137
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA139Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA139
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA140Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA140
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA141Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA141
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA142Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA142
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property MA143Column() As Global.System.Data.DataColumn
+            Get
+                Return Me.columnMA143
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
+         Global.System.ComponentModel.Browsable(false)>  _
+        Public ReadOnly Property Count() As Integer
+            Get
+                Return Me.Rows.Count
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Default ReadOnly Property Item(ByVal index As Integer) As COPMARow
+            Get
+                Return CType(Me.Rows(index),COPMARow)
+            End Get
+        End Property
+        
+        <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Event COPMARowChanging As COPMARowChangeEventHandler
+        
+        <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Event COPMARowChanged As COPMARowChangeEventHandler
+        
+        <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Event COPMARowDeleting As COPMARowChangeEventHandler
+        
+        <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Event COPMARowDeleted As COPMARowChangeEventHandler
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Overloads Sub AddCOPMARow(ByVal row As COPMARow)
+            Me.Rows.Add(row)
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Overloads Function AddCOPMARow( _
+                    ByVal COMPANY As String,  _
+                    ByVal CREATOR As String,  _
+                    ByVal USR_GROUP As String,  _
+                    ByVal CREATE_DATE As String,  _
+                    ByVal MODIFIER As String,  _
+                    ByVal MODI_DATE As String,  _
+                    ByVal FLAG As Decimal,  _
+                    ByVal CREATE_TIME As String,  _
+                    ByVal CREATE_AP As String,  _
+                    ByVal CREATE_PRID As String,  _
+                    ByVal MODI_TIME As String,  _
+                    ByVal MODI_AP As String,  _
+                    ByVal MODI_PRID As String,  _
+                    ByVal MA001 As String,  _
+                    ByVal MA002 As String,  _
+                    ByVal MA003 As String,  _
+                    ByVal MA004 As String,  _
+                    ByVal MA005 As String,  _
+                    ByVal MA006 As String,  _
+                    ByVal MA007 As String,  _
+                    ByVal MA008 As String,  _
+                    ByVal MA009 As String,  _
+                    ByVal MA010 As String,  _
+                    ByVal MA011 As Decimal,  _
+                    ByVal MA012 As Decimal,  _
+                    ByVal MA013 As Decimal,  _
+                    ByVal MA014 As String,  _
+                    ByVal MA015 As String,  _
+                    ByVal MA016 As String,  _
+                    ByVal MA017 As String,  _
+                    ByVal MA018 As String,  _
+                    ByVal MA019 As String,  _
+                    ByVal MA020 As String,  _
+                    ByVal MA021 As String,  _
+                    ByVal MA022 As String,  _
+                    ByVal MA023 As String,  _
+                    ByVal MA024 As String,  _
+                    ByVal MA025 As String,  _
+                    ByVal MA026 As String,  _
+                    ByVal MA027 As String,  _
+                    ByVal MA028 As String,  _
+                    ByVal MA029 As String,  _
+                    ByVal MA030 As String,  _
+                    ByVal MA031 As String,  _
+                    ByVal MA032 As String,  _
+                    ByVal MA033 As Decimal,  _
+                    ByVal MA034 As Decimal,  _
+                    ByVal MA035 As String,  _
+                    ByVal MA036 As Decimal,  _
+                    ByVal MA037 As String,  _
+                    ByVal MA038 As String,  _
+                    ByVal MA039 As String,  _
+                    ByVal MA040 As String,  _
+                    ByVal MA041 As String,  _
+                    ByVal MA042 As String,  _
+                    ByVal MA043 As String,  _
+                    ByVal MA044 As Decimal,  _
+                    ByVal MA045 As Decimal,  _
+                    ByVal MA046 As String,  _
+                    ByVal MA047 As String,  _
+                    ByVal MA048 As String,  _
+                    ByVal MA049 As String,  _
+                    ByVal MA050 As String,  _
+                    ByVal MA051 As String,  _
+                    ByVal MA052 As String,  _
+                    ByVal MA053 As String,  _
+                    ByVal MA054 As String,  _
+                    ByVal MA055 As String,  _
+                    ByVal MA056 As String,  _
+                    ByVal MA057 As String,  _
+                    ByVal MA058 As String,  _
+                    ByVal MA059 As Decimal,  _
+                    ByVal MA060 As Decimal,  _
+                    ByVal MA061 As Decimal,  _
+                    ByVal MA062 As String,  _
+                    ByVal MA063 As String,  _
+                    ByVal MA064 As String,  _
+                    ByVal MA065 As String,  _
+                    ByVal MA066 As String,  _
+                    ByVal MA067 As Decimal,  _
+                    ByVal MA068 As String,  _
+                    ByVal MA069 As String,  _
+                    ByVal MA070 As String,  _
+                    ByVal MA071 As String,  _
+                    ByVal MA072 As String,  _
+                    ByVal MA073 As String,  _
+                    ByVal MA074 As String,  _
+                    ByVal MA075 As String,  _
+                    ByVal MA076 As String,  _
+                    ByVal MA077 As String,  _
+                    ByVal MA078 As String,  _
+                    ByVal MA079 As String,  _
+                    ByVal MA080 As String,  _
+                    ByVal MA081 As String,  _
+                    ByVal MA082 As String,  _
+                    ByVal MA083 As String,  _
+                    ByVal MA084 As String,  _
+                    ByVal MA085 As String,  _
+                    ByVal MA086 As String,  _
+                    ByVal MA087 As String,  _
+                    ByVal MA088 As String,  _
+                    ByVal MA089 As String,  _
+                    ByVal MA090 As Decimal,  _
+                    ByVal MA091 As Decimal,  _
+                    ByVal MA092 As Decimal,  _
+                    ByVal MA093 As Decimal,  _
+                    ByVal MA094 As Decimal,  _
+                    ByVal MA095 As Decimal,  _
+                    ByVal MA096 As String,  _
+                    ByVal MA097 As String,  _
+                    ByVal MA098 As String,  _
+                    ByVal MA099 As String,  _
+                    ByVal MA100 As String,  _
+                    ByVal MA101 As String,  _
+                    ByVal MA102 As Decimal,  _
+                    ByVal MA103 As String,  _
+                    ByVal MA104 As String,  _
+                    ByVal MA105 As String,  _
+                    ByVal MA106 As String,  _
+                    ByVal MA107 As String,  _
+                    ByVal MA108 As String,  _
+                    ByVal MA109 As String,  _
+                    ByVal MA110 As String,  _
+                    ByVal MA111 As String,  _
+                    ByVal MA112 As String,  _
+                    ByVal MA113 As Decimal,  _
+                    ByVal MA114 As Decimal,  _
+                    ByVal MA115 As String,  _
+                    ByVal MA116 As String,  _
+                    ByVal MA117 As String,  _
+                    ByVal MA118 As String,  _
+                    ByVal MA119 As String,  _
+                    ByVal MA120 As String,  _
+                    ByVal MA121 As String,  _
+                    ByVal MA122 As String,  _
+                    ByVal MA123 As String,  _
+                    ByVal MA124 As String,  _
+                    ByVal MA125 As Decimal,  _
+                    ByVal MA126 As Decimal,  _
+                    ByVal MA127 As Decimal,  _
+                    ByVal MA132 As String,  _
+                    ByVal MA133 As String,  _
+                    ByVal UDF01 As String,  _
+                    ByVal UDF02 As String,  _
+                    ByVal UDF03 As String,  _
+                    ByVal UDF04 As String,  _
+                    ByVal UDF05 As String,  _
+                    ByVal UDF06 As Decimal,  _
+                    ByVal UDF07 As Decimal,  _
+                    ByVal UDF08 As Decimal,  _
+                    ByVal UDF09 As Decimal,  _
+                    ByVal UDF10 As Decimal,  _
+                    ByVal MA134 As String,  _
+                    ByVal MA135 As String,  _
+                    ByVal MA136 As String,  _
+                    ByVal MA137 As String,  _
+                    ByVal MA139 As String,  _
+                    ByVal MA140 As String,  _
+                    ByVal MA141 As String,  _
+                    ByVal MA142 As String,  _
+                    ByVal MA143 As String) As COPMARow
+            Dim rowCOPMARow As COPMARow = CType(Me.NewRow,COPMARow)
+            Dim columnValuesArray() As Object = New Object() {COMPANY, CREATOR, USR_GROUP, CREATE_DATE, MODIFIER, MODI_DATE, FLAG, CREATE_TIME, CREATE_AP, CREATE_PRID, MODI_TIME, MODI_AP, MODI_PRID, MA001, MA002, MA003, MA004, MA005, MA006, MA007, MA008, MA009, MA010, MA011, MA012, MA013, MA014, MA015, MA016, MA017, MA018, MA019, MA020, MA021, MA022, MA023, MA024, MA025, MA026, MA027, MA028, MA029, MA030, MA031, MA032, MA033, MA034, MA035, MA036, MA037, MA038, MA039, MA040, MA041, MA042, MA043, MA044, MA045, MA046, MA047, MA048, MA049, MA050, MA051, MA052, MA053, MA054, MA055, MA056, MA057, MA058, MA059, MA060, MA061, MA062, MA063, MA064, MA065, MA066, MA067, MA068, MA069, MA070, MA071, MA072, MA073, MA074, MA075, MA076, MA077, MA078, MA079, MA080, MA081, MA082, MA083, MA084, MA085, MA086, MA087, MA088, MA089, MA090, MA091, MA092, MA093, MA094, MA095, MA096, MA097, MA098, MA099, MA100, MA101, MA102, MA103, MA104, MA105, MA106, MA107, MA108, MA109, MA110, MA111, MA112, MA113, MA114, MA115, MA116, MA117, MA118, MA119, MA120, MA121, MA122, MA123, MA124, MA125, MA126, MA127, MA132, MA133, UDF01, UDF02, UDF03, UDF04, UDF05, UDF06, UDF07, UDF08, UDF09, UDF10, MA134, MA135, MA136, MA137, MA139, MA140, MA141, MA142, MA143}
+            rowCOPMARow.ItemArray = columnValuesArray
+            Me.Rows.Add(rowCOPMARow)
+            Return rowCOPMARow
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Overrides Function Clone() As Global.System.Data.DataTable
+            Dim cln As COPMADataTable = CType(MyBase.Clone,COPMADataTable)
+            cln.InitVars
+            Return cln
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Protected Overrides Function CreateInstance() As Global.System.Data.DataTable
+            Return New COPMADataTable()
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Friend Sub InitVars()
+            Me.columnCOMPANY = MyBase.Columns("COMPANY")
+            Me.columnCREATOR = MyBase.Columns("CREATOR")
+            Me.columnUSR_GROUP = MyBase.Columns("USR_GROUP")
+            Me.columnCREATE_DATE = MyBase.Columns("CREATE_DATE")
+            Me.columnMODIFIER = MyBase.Columns("MODIFIER")
+            Me.columnMODI_DATE = MyBase.Columns("MODI_DATE")
+            Me.columnFLAG = MyBase.Columns("FLAG")
+            Me.columnCREATE_TIME = MyBase.Columns("CREATE_TIME")
+            Me.columnCREATE_AP = MyBase.Columns("CREATE_AP")
+            Me.columnCREATE_PRID = MyBase.Columns("CREATE_PRID")
+            Me.columnMODI_TIME = MyBase.Columns("MODI_TIME")
+            Me.columnMODI_AP = MyBase.Columns("MODI_AP")
+            Me.columnMODI_PRID = MyBase.Columns("MODI_PRID")
+            Me.columnMA001 = MyBase.Columns("MA001")
+            Me.columnMA002 = MyBase.Columns("MA002")
+            Me.columnMA003 = MyBase.Columns("MA003")
+            Me.columnMA004 = MyBase.Columns("MA004")
+            Me.columnMA005 = MyBase.Columns("MA005")
+            Me.columnMA006 = MyBase.Columns("MA006")
+            Me.columnMA007 = MyBase.Columns("MA007")
+            Me.columnMA008 = MyBase.Columns("MA008")
+            Me.columnMA009 = MyBase.Columns("MA009")
+            Me.columnMA010 = MyBase.Columns("MA010")
+            Me.columnMA011 = MyBase.Columns("MA011")
+            Me.columnMA012 = MyBase.Columns("MA012")
+            Me.columnMA013 = MyBase.Columns("MA013")
+            Me.columnMA014 = MyBase.Columns("MA014")
+            Me.columnMA015 = MyBase.Columns("MA015")
+            Me.columnMA016 = MyBase.Columns("MA016")
+            Me.columnMA017 = MyBase.Columns("MA017")
+            Me.columnMA018 = MyBase.Columns("MA018")
+            Me.columnMA019 = MyBase.Columns("MA019")
+            Me.columnMA020 = MyBase.Columns("MA020")
+            Me.columnMA021 = MyBase.Columns("MA021")
+            Me.columnMA022 = MyBase.Columns("MA022")
+            Me.columnMA023 = MyBase.Columns("MA023")
+            Me.columnMA024 = MyBase.Columns("MA024")
+            Me.columnMA025 = MyBase.Columns("MA025")
+            Me.columnMA026 = MyBase.Columns("MA026")
+            Me.columnMA027 = MyBase.Columns("MA027")
+            Me.columnMA028 = MyBase.Columns("MA028")
+            Me.columnMA029 = MyBase.Columns("MA029")
+            Me.columnMA030 = MyBase.Columns("MA030")
+            Me.columnMA031 = MyBase.Columns("MA031")
+            Me.columnMA032 = MyBase.Columns("MA032")
+            Me.columnMA033 = MyBase.Columns("MA033")
+            Me.columnMA034 = MyBase.Columns("MA034")
+            Me.columnMA035 = MyBase.Columns("MA035")
+            Me.columnMA036 = MyBase.Columns("MA036")
+            Me.columnMA037 = MyBase.Columns("MA037")
+            Me.columnMA038 = MyBase.Columns("MA038")
+            Me.columnMA039 = MyBase.Columns("MA039")
+            Me.columnMA040 = MyBase.Columns("MA040")
+            Me.columnMA041 = MyBase.Columns("MA041")
+            Me.columnMA042 = MyBase.Columns("MA042")
+            Me.columnMA043 = MyBase.Columns("MA043")
+            Me.columnMA044 = MyBase.Columns("MA044")
+            Me.columnMA045 = MyBase.Columns("MA045")
+            Me.columnMA046 = MyBase.Columns("MA046")
+            Me.columnMA047 = MyBase.Columns("MA047")
+            Me.columnMA048 = MyBase.Columns("MA048")
+            Me.columnMA049 = MyBase.Columns("MA049")
+            Me.columnMA050 = MyBase.Columns("MA050")
+            Me.columnMA051 = MyBase.Columns("MA051")
+            Me.columnMA052 = MyBase.Columns("MA052")
+            Me.columnMA053 = MyBase.Columns("MA053")
+            Me.columnMA054 = MyBase.Columns("MA054")
+            Me.columnMA055 = MyBase.Columns("MA055")
+            Me.columnMA056 = MyBase.Columns("MA056")
+            Me.columnMA057 = MyBase.Columns("MA057")
+            Me.columnMA058 = MyBase.Columns("MA058")
+            Me.columnMA059 = MyBase.Columns("MA059")
+            Me.columnMA060 = MyBase.Columns("MA060")
+            Me.columnMA061 = MyBase.Columns("MA061")
+            Me.columnMA062 = MyBase.Columns("MA062")
+            Me.columnMA063 = MyBase.Columns("MA063")
+            Me.columnMA064 = MyBase.Columns("MA064")
+            Me.columnMA065 = MyBase.Columns("MA065")
+            Me.columnMA066 = MyBase.Columns("MA066")
+            Me.columnMA067 = MyBase.Columns("MA067")
+            Me.columnMA068 = MyBase.Columns("MA068")
+            Me.columnMA069 = MyBase.Columns("MA069")
+            Me.columnMA070 = MyBase.Columns("MA070")
+            Me.columnMA071 = MyBase.Columns("MA071")
+            Me.columnMA072 = MyBase.Columns("MA072")
+            Me.columnMA073 = MyBase.Columns("MA073")
+            Me.columnMA074 = MyBase.Columns("MA074")
+            Me.columnMA075 = MyBase.Columns("MA075")
+            Me.columnMA076 = MyBase.Columns("MA076")
+            Me.columnMA077 = MyBase.Columns("MA077")
+            Me.columnMA078 = MyBase.Columns("MA078")
+            Me.columnMA079 = MyBase.Columns("MA079")
+            Me.columnMA080 = MyBase.Columns("MA080")
+            Me.columnMA081 = MyBase.Columns("MA081")
+            Me.columnMA082 = MyBase.Columns("MA082")
+            Me.columnMA083 = MyBase.Columns("MA083")
+            Me.columnMA084 = MyBase.Columns("MA084")
+            Me.columnMA085 = MyBase.Columns("MA085")
+            Me.columnMA086 = MyBase.Columns("MA086")
+            Me.columnMA087 = MyBase.Columns("MA087")
+            Me.columnMA088 = MyBase.Columns("MA088")
+            Me.columnMA089 = MyBase.Columns("MA089")
+            Me.columnMA090 = MyBase.Columns("MA090")
+            Me.columnMA091 = MyBase.Columns("MA091")
+            Me.columnMA092 = MyBase.Columns("MA092")
+            Me.columnMA093 = MyBase.Columns("MA093")
+            Me.columnMA094 = MyBase.Columns("MA094")
+            Me.columnMA095 = MyBase.Columns("MA095")
+            Me.columnMA096 = MyBase.Columns("MA096")
+            Me.columnMA097 = MyBase.Columns("MA097")
+            Me.columnMA098 = MyBase.Columns("MA098")
+            Me.columnMA099 = MyBase.Columns("MA099")
+            Me.columnMA100 = MyBase.Columns("MA100")
+            Me.columnMA101 = MyBase.Columns("MA101")
+            Me.columnMA102 = MyBase.Columns("MA102")
+            Me.columnMA103 = MyBase.Columns("MA103")
+            Me.columnMA104 = MyBase.Columns("MA104")
+            Me.columnMA105 = MyBase.Columns("MA105")
+            Me.columnMA106 = MyBase.Columns("MA106")
+            Me.columnMA107 = MyBase.Columns("MA107")
+            Me.columnMA108 = MyBase.Columns("MA108")
+            Me.columnMA109 = MyBase.Columns("MA109")
+            Me.columnMA110 = MyBase.Columns("MA110")
+            Me.columnMA111 = MyBase.Columns("MA111")
+            Me.columnMA112 = MyBase.Columns("MA112")
+            Me.columnMA113 = MyBase.Columns("MA113")
+            Me.columnMA114 = MyBase.Columns("MA114")
+            Me.columnMA115 = MyBase.Columns("MA115")
+            Me.columnMA116 = MyBase.Columns("MA116")
+            Me.columnMA117 = MyBase.Columns("MA117")
+            Me.columnMA118 = MyBase.Columns("MA118")
+            Me.columnMA119 = MyBase.Columns("MA119")
+            Me.columnMA120 = MyBase.Columns("MA120")
+            Me.columnMA121 = MyBase.Columns("MA121")
+            Me.columnMA122 = MyBase.Columns("MA122")
+            Me.columnMA123 = MyBase.Columns("MA123")
+            Me.columnMA124 = MyBase.Columns("MA124")
+            Me.columnMA125 = MyBase.Columns("MA125")
+            Me.columnMA126 = MyBase.Columns("MA126")
+            Me.columnMA127 = MyBase.Columns("MA127")
+            Me.columnMA132 = MyBase.Columns("MA132")
+            Me.columnMA133 = MyBase.Columns("MA133")
+            Me.columnUDF01 = MyBase.Columns("UDF01")
+            Me.columnUDF02 = MyBase.Columns("UDF02")
+            Me.columnUDF03 = MyBase.Columns("UDF03")
+            Me.columnUDF04 = MyBase.Columns("UDF04")
+            Me.columnUDF05 = MyBase.Columns("UDF05")
+            Me.columnUDF06 = MyBase.Columns("UDF06")
+            Me.columnUDF07 = MyBase.Columns("UDF07")
+            Me.columnUDF08 = MyBase.Columns("UDF08")
+            Me.columnUDF09 = MyBase.Columns("UDF09")
+            Me.columnUDF10 = MyBase.Columns("UDF10")
+            Me.columnMA134 = MyBase.Columns("MA134")
+            Me.columnMA135 = MyBase.Columns("MA135")
+            Me.columnMA136 = MyBase.Columns("MA136")
+            Me.columnMA137 = MyBase.Columns("MA137")
+            Me.columnMA139 = MyBase.Columns("MA139")
+            Me.columnMA140 = MyBase.Columns("MA140")
+            Me.columnMA141 = MyBase.Columns("MA141")
+            Me.columnMA142 = MyBase.Columns("MA142")
+            Me.columnMA143 = MyBase.Columns("MA143")
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Private Sub InitClass()
+            Me.columnCOMPANY = New Global.System.Data.DataColumn("COMPANY", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnCOMPANY)
+            Me.columnCREATOR = New Global.System.Data.DataColumn("CREATOR", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnCREATOR)
+            Me.columnUSR_GROUP = New Global.System.Data.DataColumn("USR_GROUP", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnUSR_GROUP)
+            Me.columnCREATE_DATE = New Global.System.Data.DataColumn("CREATE_DATE", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnCREATE_DATE)
+            Me.columnMODIFIER = New Global.System.Data.DataColumn("MODIFIER", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMODIFIER)
+            Me.columnMODI_DATE = New Global.System.Data.DataColumn("MODI_DATE", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMODI_DATE)
+            Me.columnFLAG = New Global.System.Data.DataColumn("FLAG", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnFLAG)
+            Me.columnCREATE_TIME = New Global.System.Data.DataColumn("CREATE_TIME", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnCREATE_TIME)
+            Me.columnCREATE_AP = New Global.System.Data.DataColumn("CREATE_AP", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnCREATE_AP)
+            Me.columnCREATE_PRID = New Global.System.Data.DataColumn("CREATE_PRID", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnCREATE_PRID)
+            Me.columnMODI_TIME = New Global.System.Data.DataColumn("MODI_TIME", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMODI_TIME)
+            Me.columnMODI_AP = New Global.System.Data.DataColumn("MODI_AP", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMODI_AP)
+            Me.columnMODI_PRID = New Global.System.Data.DataColumn("MODI_PRID", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMODI_PRID)
+            Me.columnMA001 = New Global.System.Data.DataColumn("MA001", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA001)
+            Me.columnMA002 = New Global.System.Data.DataColumn("MA002", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA002)
+            Me.columnMA003 = New Global.System.Data.DataColumn("MA003", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA003)
+            Me.columnMA004 = New Global.System.Data.DataColumn("MA004", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA004)
+            Me.columnMA005 = New Global.System.Data.DataColumn("MA005", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA005)
+            Me.columnMA006 = New Global.System.Data.DataColumn("MA006", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA006)
+            Me.columnMA007 = New Global.System.Data.DataColumn("MA007", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA007)
+            Me.columnMA008 = New Global.System.Data.DataColumn("MA008", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA008)
+            Me.columnMA009 = New Global.System.Data.DataColumn("MA009", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA009)
+            Me.columnMA010 = New Global.System.Data.DataColumn("MA010", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA010)
+            Me.columnMA011 = New Global.System.Data.DataColumn("MA011", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA011)
+            Me.columnMA012 = New Global.System.Data.DataColumn("MA012", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA012)
+            Me.columnMA013 = New Global.System.Data.DataColumn("MA013", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA013)
+            Me.columnMA014 = New Global.System.Data.DataColumn("MA014", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA014)
+            Me.columnMA015 = New Global.System.Data.DataColumn("MA015", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA015)
+            Me.columnMA016 = New Global.System.Data.DataColumn("MA016", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA016)
+            Me.columnMA017 = New Global.System.Data.DataColumn("MA017", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA017)
+            Me.columnMA018 = New Global.System.Data.DataColumn("MA018", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA018)
+            Me.columnMA019 = New Global.System.Data.DataColumn("MA019", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA019)
+            Me.columnMA020 = New Global.System.Data.DataColumn("MA020", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA020)
+            Me.columnMA021 = New Global.System.Data.DataColumn("MA021", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA021)
+            Me.columnMA022 = New Global.System.Data.DataColumn("MA022", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA022)
+            Me.columnMA023 = New Global.System.Data.DataColumn("MA023", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA023)
+            Me.columnMA024 = New Global.System.Data.DataColumn("MA024", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA024)
+            Me.columnMA025 = New Global.System.Data.DataColumn("MA025", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA025)
+            Me.columnMA026 = New Global.System.Data.DataColumn("MA026", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA026)
+            Me.columnMA027 = New Global.System.Data.DataColumn("MA027", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA027)
+            Me.columnMA028 = New Global.System.Data.DataColumn("MA028", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA028)
+            Me.columnMA029 = New Global.System.Data.DataColumn("MA029", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA029)
+            Me.columnMA030 = New Global.System.Data.DataColumn("MA030", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA030)
+            Me.columnMA031 = New Global.System.Data.DataColumn("MA031", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA031)
+            Me.columnMA032 = New Global.System.Data.DataColumn("MA032", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA032)
+            Me.columnMA033 = New Global.System.Data.DataColumn("MA033", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA033)
+            Me.columnMA034 = New Global.System.Data.DataColumn("MA034", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA034)
+            Me.columnMA035 = New Global.System.Data.DataColumn("MA035", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA035)
+            Me.columnMA036 = New Global.System.Data.DataColumn("MA036", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA036)
+            Me.columnMA037 = New Global.System.Data.DataColumn("MA037", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA037)
+            Me.columnMA038 = New Global.System.Data.DataColumn("MA038", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA038)
+            Me.columnMA039 = New Global.System.Data.DataColumn("MA039", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA039)
+            Me.columnMA040 = New Global.System.Data.DataColumn("MA040", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA040)
+            Me.columnMA041 = New Global.System.Data.DataColumn("MA041", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA041)
+            Me.columnMA042 = New Global.System.Data.DataColumn("MA042", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA042)
+            Me.columnMA043 = New Global.System.Data.DataColumn("MA043", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA043)
+            Me.columnMA044 = New Global.System.Data.DataColumn("MA044", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA044)
+            Me.columnMA045 = New Global.System.Data.DataColumn("MA045", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA045)
+            Me.columnMA046 = New Global.System.Data.DataColumn("MA046", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA046)
+            Me.columnMA047 = New Global.System.Data.DataColumn("MA047", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA047)
+            Me.columnMA048 = New Global.System.Data.DataColumn("MA048", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA048)
+            Me.columnMA049 = New Global.System.Data.DataColumn("MA049", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA049)
+            Me.columnMA050 = New Global.System.Data.DataColumn("MA050", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA050)
+            Me.columnMA051 = New Global.System.Data.DataColumn("MA051", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA051)
+            Me.columnMA052 = New Global.System.Data.DataColumn("MA052", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA052)
+            Me.columnMA053 = New Global.System.Data.DataColumn("MA053", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA053)
+            Me.columnMA054 = New Global.System.Data.DataColumn("MA054", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA054)
+            Me.columnMA055 = New Global.System.Data.DataColumn("MA055", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA055)
+            Me.columnMA056 = New Global.System.Data.DataColumn("MA056", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA056)
+            Me.columnMA057 = New Global.System.Data.DataColumn("MA057", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA057)
+            Me.columnMA058 = New Global.System.Data.DataColumn("MA058", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA058)
+            Me.columnMA059 = New Global.System.Data.DataColumn("MA059", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA059)
+            Me.columnMA060 = New Global.System.Data.DataColumn("MA060", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA060)
+            Me.columnMA061 = New Global.System.Data.DataColumn("MA061", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA061)
+            Me.columnMA062 = New Global.System.Data.DataColumn("MA062", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA062)
+            Me.columnMA063 = New Global.System.Data.DataColumn("MA063", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA063)
+            Me.columnMA064 = New Global.System.Data.DataColumn("MA064", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA064)
+            Me.columnMA065 = New Global.System.Data.DataColumn("MA065", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA065)
+            Me.columnMA066 = New Global.System.Data.DataColumn("MA066", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA066)
+            Me.columnMA067 = New Global.System.Data.DataColumn("MA067", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA067)
+            Me.columnMA068 = New Global.System.Data.DataColumn("MA068", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA068)
+            Me.columnMA069 = New Global.System.Data.DataColumn("MA069", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA069)
+            Me.columnMA070 = New Global.System.Data.DataColumn("MA070", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA070)
+            Me.columnMA071 = New Global.System.Data.DataColumn("MA071", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA071)
+            Me.columnMA072 = New Global.System.Data.DataColumn("MA072", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA072)
+            Me.columnMA073 = New Global.System.Data.DataColumn("MA073", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA073)
+            Me.columnMA074 = New Global.System.Data.DataColumn("MA074", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA074)
+            Me.columnMA075 = New Global.System.Data.DataColumn("MA075", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA075)
+            Me.columnMA076 = New Global.System.Data.DataColumn("MA076", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA076)
+            Me.columnMA077 = New Global.System.Data.DataColumn("MA077", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA077)
+            Me.columnMA078 = New Global.System.Data.DataColumn("MA078", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA078)
+            Me.columnMA079 = New Global.System.Data.DataColumn("MA079", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA079)
+            Me.columnMA080 = New Global.System.Data.DataColumn("MA080", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA080)
+            Me.columnMA081 = New Global.System.Data.DataColumn("MA081", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA081)
+            Me.columnMA082 = New Global.System.Data.DataColumn("MA082", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA082)
+            Me.columnMA083 = New Global.System.Data.DataColumn("MA083", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA083)
+            Me.columnMA084 = New Global.System.Data.DataColumn("MA084", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA084)
+            Me.columnMA085 = New Global.System.Data.DataColumn("MA085", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA085)
+            Me.columnMA086 = New Global.System.Data.DataColumn("MA086", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA086)
+            Me.columnMA087 = New Global.System.Data.DataColumn("MA087", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA087)
+            Me.columnMA088 = New Global.System.Data.DataColumn("MA088", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA088)
+            Me.columnMA089 = New Global.System.Data.DataColumn("MA089", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA089)
+            Me.columnMA090 = New Global.System.Data.DataColumn("MA090", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA090)
+            Me.columnMA091 = New Global.System.Data.DataColumn("MA091", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA091)
+            Me.columnMA092 = New Global.System.Data.DataColumn("MA092", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA092)
+            Me.columnMA093 = New Global.System.Data.DataColumn("MA093", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA093)
+            Me.columnMA094 = New Global.System.Data.DataColumn("MA094", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA094)
+            Me.columnMA095 = New Global.System.Data.DataColumn("MA095", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA095)
+            Me.columnMA096 = New Global.System.Data.DataColumn("MA096", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA096)
+            Me.columnMA097 = New Global.System.Data.DataColumn("MA097", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA097)
+            Me.columnMA098 = New Global.System.Data.DataColumn("MA098", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA098)
+            Me.columnMA099 = New Global.System.Data.DataColumn("MA099", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA099)
+            Me.columnMA100 = New Global.System.Data.DataColumn("MA100", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA100)
+            Me.columnMA101 = New Global.System.Data.DataColumn("MA101", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA101)
+            Me.columnMA102 = New Global.System.Data.DataColumn("MA102", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA102)
+            Me.columnMA103 = New Global.System.Data.DataColumn("MA103", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA103)
+            Me.columnMA104 = New Global.System.Data.DataColumn("MA104", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA104)
+            Me.columnMA105 = New Global.System.Data.DataColumn("MA105", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA105)
+            Me.columnMA106 = New Global.System.Data.DataColumn("MA106", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA106)
+            Me.columnMA107 = New Global.System.Data.DataColumn("MA107", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA107)
+            Me.columnMA108 = New Global.System.Data.DataColumn("MA108", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA108)
+            Me.columnMA109 = New Global.System.Data.DataColumn("MA109", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA109)
+            Me.columnMA110 = New Global.System.Data.DataColumn("MA110", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA110)
+            Me.columnMA111 = New Global.System.Data.DataColumn("MA111", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA111)
+            Me.columnMA112 = New Global.System.Data.DataColumn("MA112", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA112)
+            Me.columnMA113 = New Global.System.Data.DataColumn("MA113", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA113)
+            Me.columnMA114 = New Global.System.Data.DataColumn("MA114", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA114)
+            Me.columnMA115 = New Global.System.Data.DataColumn("MA115", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA115)
+            Me.columnMA116 = New Global.System.Data.DataColumn("MA116", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA116)
+            Me.columnMA117 = New Global.System.Data.DataColumn("MA117", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA117)
+            Me.columnMA118 = New Global.System.Data.DataColumn("MA118", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA118)
+            Me.columnMA119 = New Global.System.Data.DataColumn("MA119", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA119)
+            Me.columnMA120 = New Global.System.Data.DataColumn("MA120", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA120)
+            Me.columnMA121 = New Global.System.Data.DataColumn("MA121", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA121)
+            Me.columnMA122 = New Global.System.Data.DataColumn("MA122", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA122)
+            Me.columnMA123 = New Global.System.Data.DataColumn("MA123", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA123)
+            Me.columnMA124 = New Global.System.Data.DataColumn("MA124", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA124)
+            Me.columnMA125 = New Global.System.Data.DataColumn("MA125", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA125)
+            Me.columnMA126 = New Global.System.Data.DataColumn("MA126", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA126)
+            Me.columnMA127 = New Global.System.Data.DataColumn("MA127", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA127)
+            Me.columnMA132 = New Global.System.Data.DataColumn("MA132", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA132)
+            Me.columnMA133 = New Global.System.Data.DataColumn("MA133", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA133)
+            Me.columnUDF01 = New Global.System.Data.DataColumn("UDF01", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnUDF01)
+            Me.columnUDF02 = New Global.System.Data.DataColumn("UDF02", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnUDF02)
+            Me.columnUDF03 = New Global.System.Data.DataColumn("UDF03", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnUDF03)
+            Me.columnUDF04 = New Global.System.Data.DataColumn("UDF04", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnUDF04)
+            Me.columnUDF05 = New Global.System.Data.DataColumn("UDF05", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnUDF05)
+            Me.columnUDF06 = New Global.System.Data.DataColumn("UDF06", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnUDF06)
+            Me.columnUDF07 = New Global.System.Data.DataColumn("UDF07", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnUDF07)
+            Me.columnUDF08 = New Global.System.Data.DataColumn("UDF08", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnUDF08)
+            Me.columnUDF09 = New Global.System.Data.DataColumn("UDF09", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnUDF09)
+            Me.columnUDF10 = New Global.System.Data.DataColumn("UDF10", GetType(Decimal), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnUDF10)
+            Me.columnMA134 = New Global.System.Data.DataColumn("MA134", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA134)
+            Me.columnMA135 = New Global.System.Data.DataColumn("MA135", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA135)
+            Me.columnMA136 = New Global.System.Data.DataColumn("MA136", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA136)
+            Me.columnMA137 = New Global.System.Data.DataColumn("MA137", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA137)
+            Me.columnMA139 = New Global.System.Data.DataColumn("MA139", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA139)
+            Me.columnMA140 = New Global.System.Data.DataColumn("MA140", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA140)
+            Me.columnMA141 = New Global.System.Data.DataColumn("MA141", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA141)
+            Me.columnMA142 = New Global.System.Data.DataColumn("MA142", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA142)
+            Me.columnMA143 = New Global.System.Data.DataColumn("MA143", GetType(String), Nothing, Global.System.Data.MappingType.Element)
+            MyBase.Columns.Add(Me.columnMA143)
+            Me.columnCOMPANY.MaxLength = 20
+            Me.columnCREATOR.MaxLength = 10
+            Me.columnUSR_GROUP.MaxLength = 10
+            Me.columnCREATE_DATE.MaxLength = 8
+            Me.columnMODIFIER.MaxLength = 10
+            Me.columnMODI_DATE.MaxLength = 8
+            Me.columnCREATE_TIME.MaxLength = 20
+            Me.columnCREATE_AP.MaxLength = 50
+            Me.columnCREATE_PRID.MaxLength = 50
+            Me.columnMODI_TIME.MaxLength = 20
+            Me.columnMODI_AP.MaxLength = 50
+            Me.columnMODI_PRID.MaxLength = 50
+            Me.columnMA001.AllowDBNull = false
+            Me.columnMA001.MaxLength = 10
+            Me.columnMA002.MaxLength = 30
+            Me.columnMA003.MaxLength = 80
+            Me.columnMA004.MaxLength = 30
+            Me.columnMA005.MaxLength = 30
+            Me.columnMA006.MaxLength = 20
+            Me.columnMA007.MaxLength = 20
+            Me.columnMA008.MaxLength = 20
+            Me.columnMA009.MaxLength = 60
+            Me.columnMA010.MaxLength = 20
+            Me.columnMA014.MaxLength = 4
+            Me.columnMA015.MaxLength = 10
+            Me.columnMA016.MaxLength = 10
+            Me.columnMA017.MaxLength = 6
+            Me.columnMA018.MaxLength = 6
+            Me.columnMA019.MaxLength = 6
+            Me.columnMA020.MaxLength = 8
+            Me.columnMA021.MaxLength = 8
+            Me.columnMA022.MaxLength = 8
+            Me.columnMA023.MaxLength = 255
+            Me.columnMA024.MaxLength = 255
+            Me.columnMA025.MaxLength = 255
+            Me.columnMA026.MaxLength = 255
+            Me.columnMA027.MaxLength = 255
+            Me.columnMA028.MaxLength = 1
+            Me.columnMA029.MaxLength = 1
+            Me.columnMA030.MaxLength = 40
+            Me.columnMA031.MaxLength = 16
+            Me.columnMA032.MaxLength = 1
+            Me.columnMA035.MaxLength = 1
+            Me.columnMA037.MaxLength = 1
+            Me.columnMA038.MaxLength = 1
+            Me.columnMA039.MaxLength = 1
+            Me.columnMA040.MaxLength = 6
+            Me.columnMA041.MaxLength = 1
+            Me.columnMA042.MaxLength = 1
+            Me.columnMA043.MaxLength = 2
+            Me.columnMA046.MaxLength = 20
+            Me.columnMA047.MaxLength = 20
+            Me.columnMA048.MaxLength = 1
+            Me.columnMA049.MaxLength = 255
+            Me.columnMA050.MaxLength = 40
+            Me.columnMA051.MaxLength = 40
+            Me.columnMA052.MaxLength = 40
+            Me.columnMA053.MaxLength = 40
+            Me.columnMA054.MaxLength = 10
+            Me.columnMA055.MaxLength = 10
+            Me.columnMA056.MaxLength = 10
+            Me.columnMA057.MaxLength = 10
+            Me.columnMA058.MaxLength = 10
+            Me.columnMA062.MaxLength = 255
+            Me.columnMA063.MaxLength = 255
+            Me.columnMA064.MaxLength = 255
+            Me.columnMA065.MaxLength = 10
+            Me.columnMA066.MaxLength = 1
+            Me.columnMA068.MaxLength = 8
+            Me.columnMA069.MaxLength = 20
+            Me.columnMA070.MaxLength = 20
+            Me.columnMA071.MaxLength = 30
+            Me.columnMA072.MaxLength = 30
+            Me.columnMA073.MaxLength = 30
+            Me.columnMA074.MaxLength = 20
+            Me.columnMA075.MaxLength = 10
+            Me.columnMA076.MaxLength = 6
+            Me.columnMA077.MaxLength = 6
+            Me.columnMA078.MaxLength = 6
+            Me.columnMA079.MaxLength = 6
+            Me.columnMA080.MaxLength = 6
+            Me.columnMA081.MaxLength = 6
+            Me.columnMA082.MaxLength = 1
+            Me.columnMA083.MaxLength = 6
+            Me.columnMA084.MaxLength = 1
+            Me.columnMA085.MaxLength = 10
+            Me.columnMA086.MaxLength = 1
+            Me.columnMA087.MaxLength = 1
+            Me.columnMA088.MaxLength = 1
+            Me.columnMA089.MaxLength = 1
+            Me.columnMA096.MaxLength = 1
+            Me.columnMA097.MaxLength = 1
+            Me.columnMA098.MaxLength = 6
+            Me.columnMA099.MaxLength = 255
+            Me.columnMA100.MaxLength = 255
+            Me.columnMA101.MaxLength = 30
+            Me.columnMA103.MaxLength = 1
+            Me.columnMA104.MaxLength = 1
+            Me.columnMA105.MaxLength = 1
+            Me.columnMA106.MaxLength = 10
+            Me.columnMA107.MaxLength = 4
+            Me.columnMA108.MaxLength = 6
+            Me.columnMA109.MaxLength = 1
+            Me.columnMA110.MaxLength = 80
+            Me.columnMA111.MaxLength = 8
+            Me.columnMA112.MaxLength = 4
+            Me.columnMA115.MaxLength = 1
+            Me.columnMA116.MaxLength = 30
+            Me.columnMA117.MaxLength = 60
+            Me.columnMA118.MaxLength = 3
+            Me.columnMA119.MaxLength = 1
+            Me.columnMA120.MaxLength = 1
+            Me.columnMA121.MaxLength = 20
+            Me.columnMA122.MaxLength = 20
+            Me.columnMA123.MaxLength = 1
+            Me.columnMA124.MaxLength = 20
+            Me.columnMA132.MaxLength = 1
+            Me.columnMA133.MaxLength = 1
+            Me.columnUDF01.MaxLength = 255
+            Me.columnUDF02.MaxLength = 255
+            Me.columnUDF03.MaxLength = 255
+            Me.columnUDF04.MaxLength = 255
+            Me.columnUDF05.MaxLength = 255
+            Me.columnMA134.MaxLength = 20
+            Me.columnMA135.MaxLength = 1
+            Me.columnMA136.MaxLength = 255
+            Me.columnMA137.MaxLength = 1
+            Me.columnMA139.MaxLength = 20
+            Me.columnMA140.MaxLength = 60
+            Me.columnMA141.MaxLength = 1
+            Me.columnMA142.MaxLength = 1
+            Me.columnMA143.MaxLength = 1
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function NewCOPMARow() As COPMARow
+            Return CType(Me.NewRow,COPMARow)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Protected Overrides Function NewRowFromBuilder(ByVal builder As Global.System.Data.DataRowBuilder) As Global.System.Data.DataRow
+            Return New COPMARow(builder)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Protected Overrides Function GetRowType() As Global.System.Type
+            Return GetType(COPMARow)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Protected Overrides Sub OnRowChanged(ByVal e As Global.System.Data.DataRowChangeEventArgs)
+            MyBase.OnRowChanged(e)
+            If (Not (Me.COPMARowChangedEvent) Is Nothing) Then
+                RaiseEvent COPMARowChanged(Me, New COPMARowChangeEvent(CType(e.Row,COPMARow), e.Action))
+            End If
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Protected Overrides Sub OnRowChanging(ByVal e As Global.System.Data.DataRowChangeEventArgs)
+            MyBase.OnRowChanging(e)
+            If (Not (Me.COPMARowChangingEvent) Is Nothing) Then
+                RaiseEvent COPMARowChanging(Me, New COPMARowChangeEvent(CType(e.Row,COPMARow), e.Action))
+            End If
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Protected Overrides Sub OnRowDeleted(ByVal e As Global.System.Data.DataRowChangeEventArgs)
+            MyBase.OnRowDeleted(e)
+            If (Not (Me.COPMARowDeletedEvent) Is Nothing) Then
+                RaiseEvent COPMARowDeleted(Me, New COPMARowChangeEvent(CType(e.Row,COPMARow), e.Action))
+            End If
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Protected Overrides Sub OnRowDeleting(ByVal e As Global.System.Data.DataRowChangeEventArgs)
+            MyBase.OnRowDeleting(e)
+            If (Not (Me.COPMARowDeletingEvent) Is Nothing) Then
+                RaiseEvent COPMARowDeleting(Me, New COPMARowChangeEvent(CType(e.Row,COPMARow), e.Action))
+            End If
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub RemoveCOPMARow(ByVal row As COPMARow)
+            Me.Rows.Remove(row)
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Shared Function GetTypedTableSchema(ByVal xs As Global.System.Xml.Schema.XmlSchemaSet) As Global.System.Xml.Schema.XmlSchemaComplexType
+            Dim type As Global.System.Xml.Schema.XmlSchemaComplexType = New Global.System.Xml.Schema.XmlSchemaComplexType()
+            Dim sequence As Global.System.Xml.Schema.XmlSchemaSequence = New Global.System.Xml.Schema.XmlSchemaSequence()
+            Dim ds As TECHLINKDataSet = New TECHLINKDataSet()
+            Dim any1 As Global.System.Xml.Schema.XmlSchemaAny = New Global.System.Xml.Schema.XmlSchemaAny()
+            any1.Namespace = "http://www.w3.org/2001/XMLSchema"
+            any1.MinOccurs = New Decimal(0)
+            any1.MaxOccurs = Decimal.MaxValue
+            any1.ProcessContents = Global.System.Xml.Schema.XmlSchemaContentProcessing.Lax
+            sequence.Items.Add(any1)
+            Dim any2 As Global.System.Xml.Schema.XmlSchemaAny = New Global.System.Xml.Schema.XmlSchemaAny()
+            any2.Namespace = "urn:schemas-microsoft-com:xml-diffgram-v1"
+            any2.MinOccurs = New Decimal(1)
+            any2.ProcessContents = Global.System.Xml.Schema.XmlSchemaContentProcessing.Lax
+            sequence.Items.Add(any2)
+            Dim attribute1 As Global.System.Xml.Schema.XmlSchemaAttribute = New Global.System.Xml.Schema.XmlSchemaAttribute()
+            attribute1.Name = "namespace"
+            attribute1.FixedValue = ds.Namespace
+            type.Attributes.Add(attribute1)
+            Dim attribute2 As Global.System.Xml.Schema.XmlSchemaAttribute = New Global.System.Xml.Schema.XmlSchemaAttribute()
+            attribute2.Name = "tableTypeName"
+            attribute2.FixedValue = "COPMADataTable"
+            type.Attributes.Add(attribute2)
+            type.Particle = sequence
+            Dim dsSchema As Global.System.Xml.Schema.XmlSchema = ds.GetSchemaSerializable
+            If xs.Contains(dsSchema.TargetNamespace) Then
+                Dim s1 As Global.System.IO.MemoryStream = New Global.System.IO.MemoryStream()
+                Dim s2 As Global.System.IO.MemoryStream = New Global.System.IO.MemoryStream()
+                Try 
+                    Dim schema As Global.System.Xml.Schema.XmlSchema = Nothing
+                    dsSchema.Write(s1)
+                    Dim schemas As Global.System.Collections.IEnumerator = xs.Schemas(dsSchema.TargetNamespace).GetEnumerator
+                    Do While schemas.MoveNext
+                        schema = CType(schemas.Current,Global.System.Xml.Schema.XmlSchema)
+                        s2.SetLength(0)
+                        schema.Write(s2)
+                        If (s1.Length = s2.Length) Then
+                            s1.Position = 0
+                            s2.Position = 0
+                            
+                            Do While ((s1.Position <> s1.Length)  _
+                                        AndAlso (s1.ReadByte = s2.ReadByte))
+                                
+                                
+                            Loop
+                            If (s1.Position = s1.Length) Then
+                                Return type
+                            End If
+                        End If
+                        
+                    Loop
+                Finally
+                    If (Not (s1) Is Nothing) Then
+                        s1.Close
+                    End If
+                    If (Not (s2) Is Nothing) Then
+                        s2.Close
+                    End If
+                End Try
+            End If
+            xs.Add(dsSchema)
+            Return type
+        End Function
+    End Class
+    
+    '''<summary>
     '''Represents strongly named DataRow class.
     '''</summary>
     Partial Public Class CMSMGRow
@@ -8920,16 +11868,16 @@ Partial Public Class TECHLINKDataSet
     '''<summary>
     '''Represents strongly named DataRow class.
     '''</summary>
-    Partial Public Class COPMARow
+    Partial Public Class COPMA2Row
         Inherits Global.System.Data.DataRow
         
-        Private tableCOPMA As COPMADataTable
+        Private tableCOPMA2 As COPMA2DataTable
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Friend Sub New(ByVal rb As Global.System.Data.DataRowBuilder)
             MyBase.New(rb)
-            Me.tableCOPMA = CType(Me.Table,COPMADataTable)
+            Me.tableCOPMA2 = CType(Me.Table,COPMA2DataTable)
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -8937,13 +11885,13 @@ Partial Public Class TECHLINKDataSet
         Public Property COMPANY() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.COMPANYColumn),String)
+                    Return CType(Me(Me.tableCOPMA2.COMPANYColumn),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'COMPANY' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'COMPANY' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.COMPANYColumn) = value
+                Me(Me.tableCOPMA2.COMPANYColumn) = value
             End Set
         End Property
         
@@ -8952,13 +11900,13 @@ Partial Public Class TECHLINKDataSet
         Public Property CREATOR() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.CREATORColumn),String)
+                    Return CType(Me(Me.tableCOPMA2.CREATORColumn),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'CREATOR' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'CREATOR' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.CREATORColumn) = value
+                Me(Me.tableCOPMA2.CREATORColumn) = value
             End Set
         End Property
         
@@ -8967,13 +11915,13 @@ Partial Public Class TECHLINKDataSet
         Public Property USR_GROUP() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.USR_GROUPColumn),String)
+                    Return CType(Me(Me.tableCOPMA2.USR_GROUPColumn),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'USR_GROUP' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'USR_GROUP' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.USR_GROUPColumn) = value
+                Me(Me.tableCOPMA2.USR_GROUPColumn) = value
             End Set
         End Property
         
@@ -8982,13 +11930,13 @@ Partial Public Class TECHLINKDataSet
         Public Property CREATE_DATE() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.CREATE_DATEColumn),String)
+                    Return CType(Me(Me.tableCOPMA2.CREATE_DATEColumn),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'CREATE_DATE' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'CREATE_DATE' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.CREATE_DATEColumn) = value
+                Me(Me.tableCOPMA2.CREATE_DATEColumn) = value
             End Set
         End Property
         
@@ -8997,13 +11945,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MODIFIER() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MODIFIERColumn),String)
+                    Return CType(Me(Me.tableCOPMA2.MODIFIERColumn),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MODIFIER' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MODIFIER' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MODIFIERColumn) = value
+                Me(Me.tableCOPMA2.MODIFIERColumn) = value
             End Set
         End Property
         
@@ -9012,13 +11960,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MODI_DATE() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MODI_DATEColumn),String)
+                    Return CType(Me(Me.tableCOPMA2.MODI_DATEColumn),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MODI_DATE' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MODI_DATE' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MODI_DATEColumn) = value
+                Me(Me.tableCOPMA2.MODI_DATEColumn) = value
             End Set
         End Property
         
@@ -9027,13 +11975,13 @@ Partial Public Class TECHLINKDataSet
         Public Property FLAG() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.FLAGColumn),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.FLAGColumn),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'FLAG' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'FLAG' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.FLAGColumn) = value
+                Me(Me.tableCOPMA2.FLAGColumn) = value
             End Set
         End Property
         
@@ -9042,13 +11990,13 @@ Partial Public Class TECHLINKDataSet
         Public Property CREATE_TIME() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.CREATE_TIMEColumn),String)
+                    Return CType(Me(Me.tableCOPMA2.CREATE_TIMEColumn),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'CREATE_TIME' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'CREATE_TIME' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.CREATE_TIMEColumn) = value
+                Me(Me.tableCOPMA2.CREATE_TIMEColumn) = value
             End Set
         End Property
         
@@ -9057,13 +12005,13 @@ Partial Public Class TECHLINKDataSet
         Public Property CREATE_AP() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.CREATE_APColumn),String)
+                    Return CType(Me(Me.tableCOPMA2.CREATE_APColumn),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'CREATE_AP' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'CREATE_AP' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.CREATE_APColumn) = value
+                Me(Me.tableCOPMA2.CREATE_APColumn) = value
             End Set
         End Property
         
@@ -9072,13 +12020,13 @@ Partial Public Class TECHLINKDataSet
         Public Property CREATE_PRID() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.CREATE_PRIDColumn),String)
+                    Return CType(Me(Me.tableCOPMA2.CREATE_PRIDColumn),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'CREATE_PRID' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'CREATE_PRID' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.CREATE_PRIDColumn) = value
+                Me(Me.tableCOPMA2.CREATE_PRIDColumn) = value
             End Set
         End Property
         
@@ -9087,13 +12035,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MODI_TIME() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MODI_TIMEColumn),String)
+                    Return CType(Me(Me.tableCOPMA2.MODI_TIMEColumn),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MODI_TIME' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MODI_TIME' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MODI_TIMEColumn) = value
+                Me(Me.tableCOPMA2.MODI_TIMEColumn) = value
             End Set
         End Property
         
@@ -9102,13 +12050,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MODI_AP() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MODI_APColumn),String)
+                    Return CType(Me(Me.tableCOPMA2.MODI_APColumn),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MODI_AP' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MODI_AP' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MODI_APColumn) = value
+                Me(Me.tableCOPMA2.MODI_APColumn) = value
             End Set
         End Property
         
@@ -9117,13 +12065,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MODI_PRID() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MODI_PRIDColumn),String)
+                    Return CType(Me(Me.tableCOPMA2.MODI_PRIDColumn),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MODI_PRID' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MODI_PRID' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MODI_PRIDColumn) = value
+                Me(Me.tableCOPMA2.MODI_PRIDColumn) = value
             End Set
         End Property
         
@@ -9131,10 +12079,10 @@ Partial Public Class TECHLINKDataSet
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Property MA001() As String
             Get
-                Return CType(Me(Me.tableCOPMA.MA001Column),String)
+                Return CType(Me(Me.tableCOPMA2.MA001Column),String)
             End Get
             Set
-                Me(Me.tableCOPMA.MA001Column) = value
+                Me(Me.tableCOPMA2.MA001Column) = value
             End Set
         End Property
         
@@ -9143,13 +12091,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA002() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA002Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA002Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA002' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA002' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA002Column) = value
+                Me(Me.tableCOPMA2.MA002Column) = value
             End Set
         End Property
         
@@ -9158,13 +12106,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA003() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA003Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA003Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA003' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA003' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA003Column) = value
+                Me(Me.tableCOPMA2.MA003Column) = value
             End Set
         End Property
         
@@ -9173,13 +12121,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA004() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA004Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA004Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA004' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA004' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA004Column) = value
+                Me(Me.tableCOPMA2.MA004Column) = value
             End Set
         End Property
         
@@ -9188,13 +12136,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA005() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA005Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA005Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA005' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA005' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA005Column) = value
+                Me(Me.tableCOPMA2.MA005Column) = value
             End Set
         End Property
         
@@ -9203,13 +12151,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA006() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA006Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA006Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA006' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA006' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA006Column) = value
+                Me(Me.tableCOPMA2.MA006Column) = value
             End Set
         End Property
         
@@ -9218,13 +12166,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA007() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA007Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA007Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA007' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA007' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA007Column) = value
+                Me(Me.tableCOPMA2.MA007Column) = value
             End Set
         End Property
         
@@ -9233,13 +12181,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA008() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA008Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA008Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA008' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA008' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA008Column) = value
+                Me(Me.tableCOPMA2.MA008Column) = value
             End Set
         End Property
         
@@ -9248,13 +12196,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA009() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA009Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA009Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA009' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA009' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA009Column) = value
+                Me(Me.tableCOPMA2.MA009Column) = value
             End Set
         End Property
         
@@ -9263,13 +12211,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA010() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA010Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA010Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA010' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA010' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA010Column) = value
+                Me(Me.tableCOPMA2.MA010Column) = value
             End Set
         End Property
         
@@ -9278,13 +12226,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA011() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA011Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA011Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA011' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA011' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA011Column) = value
+                Me(Me.tableCOPMA2.MA011Column) = value
             End Set
         End Property
         
@@ -9293,13 +12241,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA012() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA012Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA012Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA012' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA012' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA012Column) = value
+                Me(Me.tableCOPMA2.MA012Column) = value
             End Set
         End Property
         
@@ -9308,13 +12256,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA013() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA013Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA013Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA013' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA013' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA013Column) = value
+                Me(Me.tableCOPMA2.MA013Column) = value
             End Set
         End Property
         
@@ -9323,13 +12271,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA014() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA014Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA014Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA014' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA014' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA014Column) = value
+                Me(Me.tableCOPMA2.MA014Column) = value
             End Set
         End Property
         
@@ -9338,13 +12286,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA015() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA015Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA015Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA015' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA015' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA015Column) = value
+                Me(Me.tableCOPMA2.MA015Column) = value
             End Set
         End Property
         
@@ -9353,13 +12301,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA016() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA016Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA016Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA016' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA016' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA016Column) = value
+                Me(Me.tableCOPMA2.MA016Column) = value
             End Set
         End Property
         
@@ -9368,13 +12316,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA017() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA017Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA017Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA017' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA017' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA017Column) = value
+                Me(Me.tableCOPMA2.MA017Column) = value
             End Set
         End Property
         
@@ -9383,13 +12331,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA018() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA018Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA018Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA018' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA018' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA018Column) = value
+                Me(Me.tableCOPMA2.MA018Column) = value
             End Set
         End Property
         
@@ -9398,13 +12346,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA019() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA019Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA019Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA019' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA019' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA019Column) = value
+                Me(Me.tableCOPMA2.MA019Column) = value
             End Set
         End Property
         
@@ -9413,13 +12361,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA020() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA020Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA020Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA020' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA020' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA020Column) = value
+                Me(Me.tableCOPMA2.MA020Column) = value
             End Set
         End Property
         
@@ -9428,13 +12376,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA021() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA021Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA021Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA021' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA021' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA021Column) = value
+                Me(Me.tableCOPMA2.MA021Column) = value
             End Set
         End Property
         
@@ -9443,13 +12391,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA022() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA022Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA022Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA022' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA022' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA022Column) = value
+                Me(Me.tableCOPMA2.MA022Column) = value
             End Set
         End Property
         
@@ -9458,13 +12406,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA023() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA023Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA023Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA023' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA023' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA023Column) = value
+                Me(Me.tableCOPMA2.MA023Column) = value
             End Set
         End Property
         
@@ -9473,13 +12421,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA024() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA024Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA024Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA024' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA024' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA024Column) = value
+                Me(Me.tableCOPMA2.MA024Column) = value
             End Set
         End Property
         
@@ -9488,13 +12436,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA025() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA025Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA025Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA025' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA025' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA025Column) = value
+                Me(Me.tableCOPMA2.MA025Column) = value
             End Set
         End Property
         
@@ -9503,13 +12451,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA026() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA026Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA026Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA026' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA026' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA026Column) = value
+                Me(Me.tableCOPMA2.MA026Column) = value
             End Set
         End Property
         
@@ -9518,13 +12466,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA027() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA027Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA027Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA027' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA027' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA027Column) = value
+                Me(Me.tableCOPMA2.MA027Column) = value
             End Set
         End Property
         
@@ -9533,13 +12481,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA028() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA028Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA028Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA028' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA028' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA028Column) = value
+                Me(Me.tableCOPMA2.MA028Column) = value
             End Set
         End Property
         
@@ -9548,13 +12496,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA029() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA029Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA029Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA029' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA029' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA029Column) = value
+                Me(Me.tableCOPMA2.MA029Column) = value
             End Set
         End Property
         
@@ -9563,13 +12511,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA030() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA030Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA030Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA030' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA030' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA030Column) = value
+                Me(Me.tableCOPMA2.MA030Column) = value
             End Set
         End Property
         
@@ -9578,13 +12526,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA031() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA031Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA031Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA031' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA031' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA031Column) = value
+                Me(Me.tableCOPMA2.MA031Column) = value
             End Set
         End Property
         
@@ -9593,13 +12541,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA032() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA032Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA032Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA032' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA032' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA032Column) = value
+                Me(Me.tableCOPMA2.MA032Column) = value
             End Set
         End Property
         
@@ -9608,13 +12556,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA033() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA033Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA033Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA033' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA033' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA033Column) = value
+                Me(Me.tableCOPMA2.MA033Column) = value
             End Set
         End Property
         
@@ -9623,13 +12571,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA034() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA034Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA034Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA034' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA034' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA034Column) = value
+                Me(Me.tableCOPMA2.MA034Column) = value
             End Set
         End Property
         
@@ -9638,13 +12586,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA035() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA035Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA035Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA035' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA035' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA035Column) = value
+                Me(Me.tableCOPMA2.MA035Column) = value
             End Set
         End Property
         
@@ -9653,13 +12601,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA036() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA036Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA036Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA036' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA036' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA036Column) = value
+                Me(Me.tableCOPMA2.MA036Column) = value
             End Set
         End Property
         
@@ -9668,13 +12616,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA037() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA037Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA037Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA037' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA037' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA037Column) = value
+                Me(Me.tableCOPMA2.MA037Column) = value
             End Set
         End Property
         
@@ -9683,13 +12631,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA038() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA038Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA038Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA038' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA038' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA038Column) = value
+                Me(Me.tableCOPMA2.MA038Column) = value
             End Set
         End Property
         
@@ -9698,13 +12646,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA039() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA039Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA039Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA039' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA039' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA039Column) = value
+                Me(Me.tableCOPMA2.MA039Column) = value
             End Set
         End Property
         
@@ -9713,13 +12661,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA040() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA040Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA040Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA040' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA040' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA040Column) = value
+                Me(Me.tableCOPMA2.MA040Column) = value
             End Set
         End Property
         
@@ -9728,13 +12676,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA041() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA041Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA041Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA041' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA041' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA041Column) = value
+                Me(Me.tableCOPMA2.MA041Column) = value
             End Set
         End Property
         
@@ -9743,13 +12691,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA042() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA042Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA042Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA042' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA042' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA042Column) = value
+                Me(Me.tableCOPMA2.MA042Column) = value
             End Set
         End Property
         
@@ -9758,13 +12706,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA043() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA043Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA043Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA043' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA043' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA043Column) = value
+                Me(Me.tableCOPMA2.MA043Column) = value
             End Set
         End Property
         
@@ -9773,13 +12721,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA044() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA044Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA044Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA044' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA044' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA044Column) = value
+                Me(Me.tableCOPMA2.MA044Column) = value
             End Set
         End Property
         
@@ -9788,13 +12736,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA045() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA045Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA045Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA045' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA045' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA045Column) = value
+                Me(Me.tableCOPMA2.MA045Column) = value
             End Set
         End Property
         
@@ -9803,13 +12751,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA046() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA046Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA046Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA046' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA046' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA046Column) = value
+                Me(Me.tableCOPMA2.MA046Column) = value
             End Set
         End Property
         
@@ -9818,13 +12766,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA047() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA047Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA047Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA047' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA047' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA047Column) = value
+                Me(Me.tableCOPMA2.MA047Column) = value
             End Set
         End Property
         
@@ -9833,13 +12781,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA048() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA048Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA048Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA048' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA048' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA048Column) = value
+                Me(Me.tableCOPMA2.MA048Column) = value
             End Set
         End Property
         
@@ -9848,13 +12796,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA049() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA049Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA049Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA049' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA049' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA049Column) = value
+                Me(Me.tableCOPMA2.MA049Column) = value
             End Set
         End Property
         
@@ -9863,13 +12811,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA050() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA050Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA050Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA050' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA050' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA050Column) = value
+                Me(Me.tableCOPMA2.MA050Column) = value
             End Set
         End Property
         
@@ -9878,13 +12826,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA051() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA051Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA051Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA051' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA051' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA051Column) = value
+                Me(Me.tableCOPMA2.MA051Column) = value
             End Set
         End Property
         
@@ -9893,13 +12841,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA052() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA052Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA052Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA052' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA052' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA052Column) = value
+                Me(Me.tableCOPMA2.MA052Column) = value
             End Set
         End Property
         
@@ -9908,13 +12856,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA053() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA053Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA053Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA053' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA053' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA053Column) = value
+                Me(Me.tableCOPMA2.MA053Column) = value
             End Set
         End Property
         
@@ -9923,13 +12871,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA054() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA054Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA054Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA054' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA054' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA054Column) = value
+                Me(Me.tableCOPMA2.MA054Column) = value
             End Set
         End Property
         
@@ -9938,13 +12886,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA055() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA055Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA055Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA055' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA055' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA055Column) = value
+                Me(Me.tableCOPMA2.MA055Column) = value
             End Set
         End Property
         
@@ -9953,13 +12901,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA056() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA056Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA056Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA056' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA056' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA056Column) = value
+                Me(Me.tableCOPMA2.MA056Column) = value
             End Set
         End Property
         
@@ -9968,13 +12916,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA057() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA057Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA057Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA057' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA057' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA057Column) = value
+                Me(Me.tableCOPMA2.MA057Column) = value
             End Set
         End Property
         
@@ -9983,13 +12931,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA058() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA058Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA058Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA058' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA058' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA058Column) = value
+                Me(Me.tableCOPMA2.MA058Column) = value
             End Set
         End Property
         
@@ -9998,13 +12946,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA059() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA059Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA059Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA059' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA059' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA059Column) = value
+                Me(Me.tableCOPMA2.MA059Column) = value
             End Set
         End Property
         
@@ -10013,13 +12961,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA060() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA060Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA060Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA060' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA060' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA060Column) = value
+                Me(Me.tableCOPMA2.MA060Column) = value
             End Set
         End Property
         
@@ -10028,13 +12976,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA061() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA061Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA061Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA061' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA061' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA061Column) = value
+                Me(Me.tableCOPMA2.MA061Column) = value
             End Set
         End Property
         
@@ -10043,13 +12991,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA062() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA062Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA062Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA062' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA062' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA062Column) = value
+                Me(Me.tableCOPMA2.MA062Column) = value
             End Set
         End Property
         
@@ -10058,13 +13006,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA063() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA063Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA063Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA063' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA063' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA063Column) = value
+                Me(Me.tableCOPMA2.MA063Column) = value
             End Set
         End Property
         
@@ -10073,13 +13021,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA064() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA064Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA064Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA064' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA064' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA064Column) = value
+                Me(Me.tableCOPMA2.MA064Column) = value
             End Set
         End Property
         
@@ -10088,13 +13036,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA065() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA065Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA065Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA065' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA065' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA065Column) = value
+                Me(Me.tableCOPMA2.MA065Column) = value
             End Set
         End Property
         
@@ -10103,13 +13051,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA066() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA066Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA066Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA066' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA066' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA066Column) = value
+                Me(Me.tableCOPMA2.MA066Column) = value
             End Set
         End Property
         
@@ -10118,13 +13066,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA067() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA067Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA067Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA067' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA067' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA067Column) = value
+                Me(Me.tableCOPMA2.MA067Column) = value
             End Set
         End Property
         
@@ -10133,13 +13081,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA068() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA068Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA068Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA068' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA068' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA068Column) = value
+                Me(Me.tableCOPMA2.MA068Column) = value
             End Set
         End Property
         
@@ -10148,13 +13096,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA069() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA069Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA069Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA069' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA069' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA069Column) = value
+                Me(Me.tableCOPMA2.MA069Column) = value
             End Set
         End Property
         
@@ -10163,13 +13111,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA070() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA070Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA070Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA070' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA070' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA070Column) = value
+                Me(Me.tableCOPMA2.MA070Column) = value
             End Set
         End Property
         
@@ -10178,13 +13126,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA071() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA071Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA071Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA071' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA071' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA071Column) = value
+                Me(Me.tableCOPMA2.MA071Column) = value
             End Set
         End Property
         
@@ -10193,13 +13141,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA072() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA072Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA072Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA072' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA072' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA072Column) = value
+                Me(Me.tableCOPMA2.MA072Column) = value
             End Set
         End Property
         
@@ -10208,13 +13156,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA073() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA073Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA073Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA073' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA073' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA073Column) = value
+                Me(Me.tableCOPMA2.MA073Column) = value
             End Set
         End Property
         
@@ -10223,13 +13171,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA074() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA074Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA074Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA074' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA074' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA074Column) = value
+                Me(Me.tableCOPMA2.MA074Column) = value
             End Set
         End Property
         
@@ -10238,13 +13186,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA075() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA075Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA075Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA075' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA075' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA075Column) = value
+                Me(Me.tableCOPMA2.MA075Column) = value
             End Set
         End Property
         
@@ -10253,13 +13201,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA076() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA076Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA076Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA076' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA076' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA076Column) = value
+                Me(Me.tableCOPMA2.MA076Column) = value
             End Set
         End Property
         
@@ -10268,13 +13216,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA077() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA077Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA077Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA077' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA077' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA077Column) = value
+                Me(Me.tableCOPMA2.MA077Column) = value
             End Set
         End Property
         
@@ -10283,13 +13231,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA078() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA078Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA078Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA078' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA078' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA078Column) = value
+                Me(Me.tableCOPMA2.MA078Column) = value
             End Set
         End Property
         
@@ -10298,13 +13246,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA079() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA079Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA079Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA079' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA079' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA079Column) = value
+                Me(Me.tableCOPMA2.MA079Column) = value
             End Set
         End Property
         
@@ -10313,13 +13261,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA080() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA080Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA080Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA080' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA080' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA080Column) = value
+                Me(Me.tableCOPMA2.MA080Column) = value
             End Set
         End Property
         
@@ -10328,13 +13276,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA081() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA081Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA081Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA081' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA081' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA081Column) = value
+                Me(Me.tableCOPMA2.MA081Column) = value
             End Set
         End Property
         
@@ -10343,13 +13291,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA082() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA082Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA082Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA082' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA082' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA082Column) = value
+                Me(Me.tableCOPMA2.MA082Column) = value
             End Set
         End Property
         
@@ -10358,13 +13306,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA083() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA083Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA083Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA083' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA083' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA083Column) = value
+                Me(Me.tableCOPMA2.MA083Column) = value
             End Set
         End Property
         
@@ -10373,13 +13321,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA084() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA084Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA084Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA084' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA084' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA084Column) = value
+                Me(Me.tableCOPMA2.MA084Column) = value
             End Set
         End Property
         
@@ -10388,13 +13336,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA085() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA085Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA085Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA085' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA085' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA085Column) = value
+                Me(Me.tableCOPMA2.MA085Column) = value
             End Set
         End Property
         
@@ -10403,13 +13351,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA086() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA086Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA086Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA086' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA086' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA086Column) = value
+                Me(Me.tableCOPMA2.MA086Column) = value
             End Set
         End Property
         
@@ -10418,13 +13366,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA087() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA087Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA087Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA087' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA087' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA087Column) = value
+                Me(Me.tableCOPMA2.MA087Column) = value
             End Set
         End Property
         
@@ -10433,13 +13381,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA088() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA088Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA088Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA088' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA088' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA088Column) = value
+                Me(Me.tableCOPMA2.MA088Column) = value
             End Set
         End Property
         
@@ -10448,13 +13396,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA089() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA089Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA089Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA089' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA089' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA089Column) = value
+                Me(Me.tableCOPMA2.MA089Column) = value
             End Set
         End Property
         
@@ -10463,13 +13411,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA090() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA090Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA090Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA090' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA090' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA090Column) = value
+                Me(Me.tableCOPMA2.MA090Column) = value
             End Set
         End Property
         
@@ -10478,13 +13426,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA091() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA091Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA091Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA091' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA091' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA091Column) = value
+                Me(Me.tableCOPMA2.MA091Column) = value
             End Set
         End Property
         
@@ -10493,13 +13441,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA092() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA092Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA092Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA092' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA092' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA092Column) = value
+                Me(Me.tableCOPMA2.MA092Column) = value
             End Set
         End Property
         
@@ -10508,13 +13456,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA093() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA093Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA093Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA093' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA093' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA093Column) = value
+                Me(Me.tableCOPMA2.MA093Column) = value
             End Set
         End Property
         
@@ -10523,13 +13471,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA094() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA094Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA094Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA094' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA094' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA094Column) = value
+                Me(Me.tableCOPMA2.MA094Column) = value
             End Set
         End Property
         
@@ -10538,13 +13486,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA095() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA095Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA095Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA095' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA095' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA095Column) = value
+                Me(Me.tableCOPMA2.MA095Column) = value
             End Set
         End Property
         
@@ -10553,13 +13501,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA096() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA096Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA096Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA096' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA096' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA096Column) = value
+                Me(Me.tableCOPMA2.MA096Column) = value
             End Set
         End Property
         
@@ -10568,13 +13516,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA097() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA097Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA097Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA097' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA097' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA097Column) = value
+                Me(Me.tableCOPMA2.MA097Column) = value
             End Set
         End Property
         
@@ -10583,13 +13531,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA098() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA098Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA098Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA098' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA098' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA098Column) = value
+                Me(Me.tableCOPMA2.MA098Column) = value
             End Set
         End Property
         
@@ -10598,13 +13546,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA099() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA099Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA099Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA099' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA099' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA099Column) = value
+                Me(Me.tableCOPMA2.MA099Column) = value
             End Set
         End Property
         
@@ -10613,13 +13561,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA100() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA100Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA100Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA100' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA100' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA100Column) = value
+                Me(Me.tableCOPMA2.MA100Column) = value
             End Set
         End Property
         
@@ -10628,13 +13576,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA101() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA101Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA101Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA101' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA101' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA101Column) = value
+                Me(Me.tableCOPMA2.MA101Column) = value
             End Set
         End Property
         
@@ -10643,13 +13591,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA102() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA102Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA102Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA102' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA102' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA102Column) = value
+                Me(Me.tableCOPMA2.MA102Column) = value
             End Set
         End Property
         
@@ -10658,13 +13606,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA103() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA103Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA103Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA103' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA103' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA103Column) = value
+                Me(Me.tableCOPMA2.MA103Column) = value
             End Set
         End Property
         
@@ -10673,13 +13621,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA104() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA104Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA104Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA104' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA104' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA104Column) = value
+                Me(Me.tableCOPMA2.MA104Column) = value
             End Set
         End Property
         
@@ -10688,13 +13636,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA105() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA105Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA105Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA105' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA105' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA105Column) = value
+                Me(Me.tableCOPMA2.MA105Column) = value
             End Set
         End Property
         
@@ -10703,13 +13651,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA106() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA106Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA106Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA106' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA106' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA106Column) = value
+                Me(Me.tableCOPMA2.MA106Column) = value
             End Set
         End Property
         
@@ -10718,13 +13666,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA107() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA107Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA107Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA107' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA107' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA107Column) = value
+                Me(Me.tableCOPMA2.MA107Column) = value
             End Set
         End Property
         
@@ -10733,13 +13681,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA108() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA108Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA108Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA108' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA108' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA108Column) = value
+                Me(Me.tableCOPMA2.MA108Column) = value
             End Set
         End Property
         
@@ -10748,13 +13696,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA109() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA109Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA109Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA109' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA109' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA109Column) = value
+                Me(Me.tableCOPMA2.MA109Column) = value
             End Set
         End Property
         
@@ -10763,13 +13711,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA110() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA110Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA110Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA110' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA110' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA110Column) = value
+                Me(Me.tableCOPMA2.MA110Column) = value
             End Set
         End Property
         
@@ -10778,13 +13726,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA111() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA111Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA111Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA111' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA111' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA111Column) = value
+                Me(Me.tableCOPMA2.MA111Column) = value
             End Set
         End Property
         
@@ -10793,13 +13741,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA112() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA112Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA112Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA112' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA112' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA112Column) = value
+                Me(Me.tableCOPMA2.MA112Column) = value
             End Set
         End Property
         
@@ -10808,13 +13756,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA113() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA113Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA113Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA113' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA113' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA113Column) = value
+                Me(Me.tableCOPMA2.MA113Column) = value
             End Set
         End Property
         
@@ -10823,13 +13771,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA114() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA114Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA114Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA114' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA114' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA114Column) = value
+                Me(Me.tableCOPMA2.MA114Column) = value
             End Set
         End Property
         
@@ -10838,13 +13786,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA115() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA115Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA115Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA115' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA115' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA115Column) = value
+                Me(Me.tableCOPMA2.MA115Column) = value
             End Set
         End Property
         
@@ -10853,13 +13801,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA116() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA116Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA116Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA116' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA116' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA116Column) = value
+                Me(Me.tableCOPMA2.MA116Column) = value
             End Set
         End Property
         
@@ -10868,13 +13816,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA117() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA117Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA117Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA117' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA117' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA117Column) = value
+                Me(Me.tableCOPMA2.MA117Column) = value
             End Set
         End Property
         
@@ -10883,13 +13831,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA118() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA118Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA118Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA118' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA118' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA118Column) = value
+                Me(Me.tableCOPMA2.MA118Column) = value
             End Set
         End Property
         
@@ -10898,13 +13846,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA119() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA119Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA119Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA119' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA119' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA119Column) = value
+                Me(Me.tableCOPMA2.MA119Column) = value
             End Set
         End Property
         
@@ -10913,13 +13861,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA120() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA120Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA120Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA120' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA120' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA120Column) = value
+                Me(Me.tableCOPMA2.MA120Column) = value
             End Set
         End Property
         
@@ -10928,13 +13876,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA121() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA121Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA121Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA121' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA121' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA121Column) = value
+                Me(Me.tableCOPMA2.MA121Column) = value
             End Set
         End Property
         
@@ -10943,13 +13891,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA122() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA122Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA122Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA122' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA122' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA122Column) = value
+                Me(Me.tableCOPMA2.MA122Column) = value
             End Set
         End Property
         
@@ -10958,13 +13906,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA123() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA123Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA123Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA123' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA123' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA123Column) = value
+                Me(Me.tableCOPMA2.MA123Column) = value
             End Set
         End Property
         
@@ -10973,13 +13921,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA124() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA124Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA124Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA124' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA124' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA124Column) = value
+                Me(Me.tableCOPMA2.MA124Column) = value
             End Set
         End Property
         
@@ -10988,13 +13936,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA125() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA125Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA125Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA125' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA125' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA125Column) = value
+                Me(Me.tableCOPMA2.MA125Column) = value
             End Set
         End Property
         
@@ -11003,13 +13951,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA126() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA126Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA126Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA126' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA126' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA126Column) = value
+                Me(Me.tableCOPMA2.MA126Column) = value
             End Set
         End Property
         
@@ -11018,13 +13966,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA127() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA127Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.MA127Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA127' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA127' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA127Column) = value
+                Me(Me.tableCOPMA2.MA127Column) = value
             End Set
         End Property
         
@@ -11033,13 +13981,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA132() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA132Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA132Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA132' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA132' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA132Column) = value
+                Me(Me.tableCOPMA2.MA132Column) = value
             End Set
         End Property
         
@@ -11048,13 +13996,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA133() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA133Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA133Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA133' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA133' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA133Column) = value
+                Me(Me.tableCOPMA2.MA133Column) = value
             End Set
         End Property
         
@@ -11063,13 +14011,13 @@ Partial Public Class TECHLINKDataSet
         Public Property UDF01() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.UDF01Column),String)
+                    Return CType(Me(Me.tableCOPMA2.UDF01Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF01' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF01' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.UDF01Column) = value
+                Me(Me.tableCOPMA2.UDF01Column) = value
             End Set
         End Property
         
@@ -11078,13 +14026,13 @@ Partial Public Class TECHLINKDataSet
         Public Property UDF02() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.UDF02Column),String)
+                    Return CType(Me(Me.tableCOPMA2.UDF02Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF02' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF02' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.UDF02Column) = value
+                Me(Me.tableCOPMA2.UDF02Column) = value
             End Set
         End Property
         
@@ -11093,13 +14041,13 @@ Partial Public Class TECHLINKDataSet
         Public Property UDF03() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.UDF03Column),String)
+                    Return CType(Me(Me.tableCOPMA2.UDF03Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF03' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF03' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.UDF03Column) = value
+                Me(Me.tableCOPMA2.UDF03Column) = value
             End Set
         End Property
         
@@ -11108,13 +14056,13 @@ Partial Public Class TECHLINKDataSet
         Public Property UDF04() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.UDF04Column),String)
+                    Return CType(Me(Me.tableCOPMA2.UDF04Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF04' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF04' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.UDF04Column) = value
+                Me(Me.tableCOPMA2.UDF04Column) = value
             End Set
         End Property
         
@@ -11123,13 +14071,13 @@ Partial Public Class TECHLINKDataSet
         Public Property UDF05() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.UDF05Column),String)
+                    Return CType(Me(Me.tableCOPMA2.UDF05Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF05' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF05' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.UDF05Column) = value
+                Me(Me.tableCOPMA2.UDF05Column) = value
             End Set
         End Property
         
@@ -11138,13 +14086,13 @@ Partial Public Class TECHLINKDataSet
         Public Property UDF06() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.UDF06Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.UDF06Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF06' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF06' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.UDF06Column) = value
+                Me(Me.tableCOPMA2.UDF06Column) = value
             End Set
         End Property
         
@@ -11153,13 +14101,13 @@ Partial Public Class TECHLINKDataSet
         Public Property UDF07() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.UDF07Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.UDF07Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF07' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF07' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.UDF07Column) = value
+                Me(Me.tableCOPMA2.UDF07Column) = value
             End Set
         End Property
         
@@ -11168,13 +14116,13 @@ Partial Public Class TECHLINKDataSet
         Public Property UDF08() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.UDF08Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.UDF08Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF08' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF08' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.UDF08Column) = value
+                Me(Me.tableCOPMA2.UDF08Column) = value
             End Set
         End Property
         
@@ -11183,13 +14131,13 @@ Partial Public Class TECHLINKDataSet
         Public Property UDF09() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.UDF09Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.UDF09Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF09' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF09' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.UDF09Column) = value
+                Me(Me.tableCOPMA2.UDF09Column) = value
             End Set
         End Property
         
@@ -11198,13 +14146,13 @@ Partial Public Class TECHLINKDataSet
         Public Property UDF10() As Decimal
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.UDF10Column),Decimal)
+                    Return CType(Me(Me.tableCOPMA2.UDF10Column),Decimal)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF10' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF10' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.UDF10Column) = value
+                Me(Me.tableCOPMA2.UDF10Column) = value
             End Set
         End Property
         
@@ -11213,13 +14161,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA134() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA134Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA134Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA134' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA134' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA134Column) = value
+                Me(Me.tableCOPMA2.MA134Column) = value
             End Set
         End Property
         
@@ -11228,13 +14176,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA135() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA135Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA135Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA135' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA135' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA135Column) = value
+                Me(Me.tableCOPMA2.MA135Column) = value
             End Set
         End Property
         
@@ -11243,13 +14191,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA136() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA136Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA136Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA136' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA136' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA136Column) = value
+                Me(Me.tableCOPMA2.MA136Column) = value
             End Set
         End Property
         
@@ -11258,13 +14206,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA137() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA137Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA137Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA137' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA137' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA137Column) = value
+                Me(Me.tableCOPMA2.MA137Column) = value
             End Set
         End Property
         
@@ -11273,13 +14221,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA139() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA139Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA139Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA139' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA139' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA139Column) = value
+                Me(Me.tableCOPMA2.MA139Column) = value
             End Set
         End Property
         
@@ -11288,13 +14236,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA140() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA140Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA140Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA140' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA140' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA140Column) = value
+                Me(Me.tableCOPMA2.MA140Column) = value
             End Set
         End Property
         
@@ -11303,13 +14251,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA141() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA141Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA141Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA141' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA141' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA141Column) = value
+                Me(Me.tableCOPMA2.MA141Column) = value
             End Set
         End Property
         
@@ -11318,13 +14266,13 @@ Partial Public Class TECHLINKDataSet
         Public Property MA142() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA142Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA142Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA142' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA142' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA142Column) = value
+                Me(Me.tableCOPMA2.MA142Column) = value
             End Set
         End Property
         
@@ -11333,1934 +14281,1934 @@ Partial Public Class TECHLINKDataSet
         Public Property MA143() As String
             Get
                 Try 
-                    Return CType(Me(Me.tableCOPMA.MA143Column),String)
+                    Return CType(Me(Me.tableCOPMA2.MA143Column),String)
                 Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA143' in table 'COPMA' is DBNull.", e)
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA143' in table 'COPMA2' is DBNull.", e)
                 End Try
             End Get
             Set
-                Me(Me.tableCOPMA.MA143Column) = value
+                Me(Me.tableCOPMA2.MA143Column) = value
             End Set
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsCOMPANYNull() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.COMPANYColumn)
+            Return Me.IsNull(Me.tableCOPMA2.COMPANYColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetCOMPANYNull()
-            Me(Me.tableCOPMA.COMPANYColumn) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.COMPANYColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsCREATORNull() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.CREATORColumn)
+            Return Me.IsNull(Me.tableCOPMA2.CREATORColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetCREATORNull()
-            Me(Me.tableCOPMA.CREATORColumn) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.CREATORColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsUSR_GROUPNull() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.USR_GROUPColumn)
+            Return Me.IsNull(Me.tableCOPMA2.USR_GROUPColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetUSR_GROUPNull()
-            Me(Me.tableCOPMA.USR_GROUPColumn) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.USR_GROUPColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsCREATE_DATENull() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.CREATE_DATEColumn)
+            Return Me.IsNull(Me.tableCOPMA2.CREATE_DATEColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetCREATE_DATENull()
-            Me(Me.tableCOPMA.CREATE_DATEColumn) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.CREATE_DATEColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMODIFIERNull() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MODIFIERColumn)
+            Return Me.IsNull(Me.tableCOPMA2.MODIFIERColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMODIFIERNull()
-            Me(Me.tableCOPMA.MODIFIERColumn) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MODIFIERColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMODI_DATENull() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MODI_DATEColumn)
+            Return Me.IsNull(Me.tableCOPMA2.MODI_DATEColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMODI_DATENull()
-            Me(Me.tableCOPMA.MODI_DATEColumn) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MODI_DATEColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsFLAGNull() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.FLAGColumn)
+            Return Me.IsNull(Me.tableCOPMA2.FLAGColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetFLAGNull()
-            Me(Me.tableCOPMA.FLAGColumn) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.FLAGColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsCREATE_TIMENull() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.CREATE_TIMEColumn)
+            Return Me.IsNull(Me.tableCOPMA2.CREATE_TIMEColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetCREATE_TIMENull()
-            Me(Me.tableCOPMA.CREATE_TIMEColumn) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.CREATE_TIMEColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsCREATE_APNull() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.CREATE_APColumn)
+            Return Me.IsNull(Me.tableCOPMA2.CREATE_APColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetCREATE_APNull()
-            Me(Me.tableCOPMA.CREATE_APColumn) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.CREATE_APColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsCREATE_PRIDNull() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.CREATE_PRIDColumn)
+            Return Me.IsNull(Me.tableCOPMA2.CREATE_PRIDColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetCREATE_PRIDNull()
-            Me(Me.tableCOPMA.CREATE_PRIDColumn) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.CREATE_PRIDColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMODI_TIMENull() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MODI_TIMEColumn)
+            Return Me.IsNull(Me.tableCOPMA2.MODI_TIMEColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMODI_TIMENull()
-            Me(Me.tableCOPMA.MODI_TIMEColumn) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MODI_TIMEColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMODI_APNull() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MODI_APColumn)
+            Return Me.IsNull(Me.tableCOPMA2.MODI_APColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMODI_APNull()
-            Me(Me.tableCOPMA.MODI_APColumn) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MODI_APColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMODI_PRIDNull() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MODI_PRIDColumn)
+            Return Me.IsNull(Me.tableCOPMA2.MODI_PRIDColumn)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMODI_PRIDNull()
-            Me(Me.tableCOPMA.MODI_PRIDColumn) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MODI_PRIDColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA002Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA002Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA002Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA002Null()
-            Me(Me.tableCOPMA.MA002Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA002Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA003Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA003Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA003Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA003Null()
-            Me(Me.tableCOPMA.MA003Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA003Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA004Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA004Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA004Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA004Null()
-            Me(Me.tableCOPMA.MA004Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA004Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA005Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA005Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA005Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA005Null()
-            Me(Me.tableCOPMA.MA005Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA005Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA006Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA006Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA006Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA006Null()
-            Me(Me.tableCOPMA.MA006Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA006Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA007Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA007Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA007Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA007Null()
-            Me(Me.tableCOPMA.MA007Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA007Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA008Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA008Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA008Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA008Null()
-            Me(Me.tableCOPMA.MA008Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA008Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA009Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA009Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA009Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA009Null()
-            Me(Me.tableCOPMA.MA009Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA009Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA010Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA010Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA010Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA010Null()
-            Me(Me.tableCOPMA.MA010Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA010Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA011Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA011Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA011Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA011Null()
-            Me(Me.tableCOPMA.MA011Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA011Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA012Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA012Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA012Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA012Null()
-            Me(Me.tableCOPMA.MA012Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA012Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA013Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA013Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA013Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA013Null()
-            Me(Me.tableCOPMA.MA013Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA013Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA014Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA014Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA014Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA014Null()
-            Me(Me.tableCOPMA.MA014Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA014Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA015Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA015Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA015Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA015Null()
-            Me(Me.tableCOPMA.MA015Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA015Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA016Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA016Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA016Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA016Null()
-            Me(Me.tableCOPMA.MA016Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA016Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA017Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA017Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA017Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA017Null()
-            Me(Me.tableCOPMA.MA017Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA017Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA018Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA018Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA018Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA018Null()
-            Me(Me.tableCOPMA.MA018Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA018Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA019Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA019Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA019Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA019Null()
-            Me(Me.tableCOPMA.MA019Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA019Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA020Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA020Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA020Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA020Null()
-            Me(Me.tableCOPMA.MA020Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA020Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA021Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA021Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA021Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA021Null()
-            Me(Me.tableCOPMA.MA021Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA021Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA022Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA022Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA022Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA022Null()
-            Me(Me.tableCOPMA.MA022Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA022Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA023Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA023Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA023Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA023Null()
-            Me(Me.tableCOPMA.MA023Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA023Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA024Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA024Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA024Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA024Null()
-            Me(Me.tableCOPMA.MA024Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA024Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA025Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA025Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA025Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA025Null()
-            Me(Me.tableCOPMA.MA025Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA025Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA026Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA026Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA026Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA026Null()
-            Me(Me.tableCOPMA.MA026Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA026Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA027Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA027Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA027Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA027Null()
-            Me(Me.tableCOPMA.MA027Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA027Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA028Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA028Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA028Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA028Null()
-            Me(Me.tableCOPMA.MA028Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA028Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA029Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA029Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA029Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA029Null()
-            Me(Me.tableCOPMA.MA029Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA029Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA030Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA030Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA030Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA030Null()
-            Me(Me.tableCOPMA.MA030Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA030Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA031Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA031Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA031Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA031Null()
-            Me(Me.tableCOPMA.MA031Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA031Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA032Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA032Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA032Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA032Null()
-            Me(Me.tableCOPMA.MA032Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA032Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA033Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA033Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA033Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA033Null()
-            Me(Me.tableCOPMA.MA033Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA033Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA034Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA034Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA034Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA034Null()
-            Me(Me.tableCOPMA.MA034Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA034Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA035Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA035Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA035Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA035Null()
-            Me(Me.tableCOPMA.MA035Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA035Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA036Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA036Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA036Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA036Null()
-            Me(Me.tableCOPMA.MA036Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA036Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA037Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA037Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA037Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA037Null()
-            Me(Me.tableCOPMA.MA037Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA037Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA038Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA038Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA038Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA038Null()
-            Me(Me.tableCOPMA.MA038Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA038Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA039Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA039Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA039Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA039Null()
-            Me(Me.tableCOPMA.MA039Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA039Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA040Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA040Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA040Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA040Null()
-            Me(Me.tableCOPMA.MA040Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA040Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA041Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA041Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA041Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA041Null()
-            Me(Me.tableCOPMA.MA041Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA041Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA042Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA042Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA042Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA042Null()
-            Me(Me.tableCOPMA.MA042Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA042Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA043Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA043Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA043Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA043Null()
-            Me(Me.tableCOPMA.MA043Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA043Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA044Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA044Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA044Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA044Null()
-            Me(Me.tableCOPMA.MA044Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA044Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA045Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA045Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA045Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA045Null()
-            Me(Me.tableCOPMA.MA045Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA045Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA046Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA046Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA046Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA046Null()
-            Me(Me.tableCOPMA.MA046Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA046Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA047Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA047Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA047Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA047Null()
-            Me(Me.tableCOPMA.MA047Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA047Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA048Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA048Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA048Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA048Null()
-            Me(Me.tableCOPMA.MA048Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA048Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA049Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA049Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA049Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA049Null()
-            Me(Me.tableCOPMA.MA049Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA049Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA050Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA050Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA050Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA050Null()
-            Me(Me.tableCOPMA.MA050Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA050Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA051Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA051Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA051Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA051Null()
-            Me(Me.tableCOPMA.MA051Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA051Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA052Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA052Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA052Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA052Null()
-            Me(Me.tableCOPMA.MA052Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA052Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA053Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA053Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA053Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA053Null()
-            Me(Me.tableCOPMA.MA053Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA053Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA054Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA054Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA054Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA054Null()
-            Me(Me.tableCOPMA.MA054Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA054Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA055Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA055Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA055Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA055Null()
-            Me(Me.tableCOPMA.MA055Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA055Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA056Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA056Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA056Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA056Null()
-            Me(Me.tableCOPMA.MA056Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA056Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA057Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA057Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA057Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA057Null()
-            Me(Me.tableCOPMA.MA057Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA057Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA058Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA058Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA058Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA058Null()
-            Me(Me.tableCOPMA.MA058Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA058Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA059Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA059Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA059Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA059Null()
-            Me(Me.tableCOPMA.MA059Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA059Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA060Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA060Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA060Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA060Null()
-            Me(Me.tableCOPMA.MA060Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA060Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA061Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA061Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA061Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA061Null()
-            Me(Me.tableCOPMA.MA061Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA061Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA062Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA062Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA062Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA062Null()
-            Me(Me.tableCOPMA.MA062Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA062Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA063Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA063Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA063Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA063Null()
-            Me(Me.tableCOPMA.MA063Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA063Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA064Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA064Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA064Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA064Null()
-            Me(Me.tableCOPMA.MA064Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA064Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA065Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA065Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA065Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA065Null()
-            Me(Me.tableCOPMA.MA065Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA065Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA066Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA066Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA066Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA066Null()
-            Me(Me.tableCOPMA.MA066Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA066Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA067Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA067Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA067Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA067Null()
-            Me(Me.tableCOPMA.MA067Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA067Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA068Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA068Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA068Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA068Null()
-            Me(Me.tableCOPMA.MA068Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA068Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA069Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA069Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA069Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA069Null()
-            Me(Me.tableCOPMA.MA069Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA069Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA070Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA070Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA070Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA070Null()
-            Me(Me.tableCOPMA.MA070Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA070Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA071Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA071Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA071Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA071Null()
-            Me(Me.tableCOPMA.MA071Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA071Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA072Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA072Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA072Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA072Null()
-            Me(Me.tableCOPMA.MA072Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA072Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA073Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA073Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA073Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA073Null()
-            Me(Me.tableCOPMA.MA073Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA073Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA074Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA074Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA074Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA074Null()
-            Me(Me.tableCOPMA.MA074Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA074Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA075Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA075Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA075Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA075Null()
-            Me(Me.tableCOPMA.MA075Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA075Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA076Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA076Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA076Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA076Null()
-            Me(Me.tableCOPMA.MA076Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA076Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA077Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA077Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA077Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA077Null()
-            Me(Me.tableCOPMA.MA077Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA077Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA078Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA078Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA078Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA078Null()
-            Me(Me.tableCOPMA.MA078Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA078Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA079Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA079Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA079Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA079Null()
-            Me(Me.tableCOPMA.MA079Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA079Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA080Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA080Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA080Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA080Null()
-            Me(Me.tableCOPMA.MA080Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA080Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA081Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA081Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA081Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA081Null()
-            Me(Me.tableCOPMA.MA081Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA081Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA082Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA082Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA082Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA082Null()
-            Me(Me.tableCOPMA.MA082Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA082Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA083Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA083Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA083Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA083Null()
-            Me(Me.tableCOPMA.MA083Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA083Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA084Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA084Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA084Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA084Null()
-            Me(Me.tableCOPMA.MA084Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA084Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA085Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA085Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA085Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA085Null()
-            Me(Me.tableCOPMA.MA085Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA085Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA086Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA086Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA086Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA086Null()
-            Me(Me.tableCOPMA.MA086Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA086Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA087Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA087Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA087Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA087Null()
-            Me(Me.tableCOPMA.MA087Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA087Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA088Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA088Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA088Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA088Null()
-            Me(Me.tableCOPMA.MA088Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA088Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA089Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA089Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA089Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA089Null()
-            Me(Me.tableCOPMA.MA089Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA089Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA090Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA090Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA090Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA090Null()
-            Me(Me.tableCOPMA.MA090Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA090Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA091Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA091Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA091Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA091Null()
-            Me(Me.tableCOPMA.MA091Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA091Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA092Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA092Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA092Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA092Null()
-            Me(Me.tableCOPMA.MA092Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA092Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA093Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA093Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA093Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA093Null()
-            Me(Me.tableCOPMA.MA093Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA093Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA094Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA094Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA094Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA094Null()
-            Me(Me.tableCOPMA.MA094Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA094Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA095Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA095Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA095Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA095Null()
-            Me(Me.tableCOPMA.MA095Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA095Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA096Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA096Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA096Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA096Null()
-            Me(Me.tableCOPMA.MA096Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA096Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA097Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA097Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA097Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA097Null()
-            Me(Me.tableCOPMA.MA097Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA097Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA098Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA098Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA098Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA098Null()
-            Me(Me.tableCOPMA.MA098Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA098Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA099Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA099Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA099Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA099Null()
-            Me(Me.tableCOPMA.MA099Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA099Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA100Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA100Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA100Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA100Null()
-            Me(Me.tableCOPMA.MA100Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA100Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA101Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA101Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA101Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA101Null()
-            Me(Me.tableCOPMA.MA101Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA101Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA102Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA102Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA102Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA102Null()
-            Me(Me.tableCOPMA.MA102Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA102Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA103Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA103Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA103Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA103Null()
-            Me(Me.tableCOPMA.MA103Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA103Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA104Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA104Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA104Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA104Null()
-            Me(Me.tableCOPMA.MA104Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA104Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA105Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA105Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA105Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA105Null()
-            Me(Me.tableCOPMA.MA105Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA105Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA106Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA106Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA106Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA106Null()
-            Me(Me.tableCOPMA.MA106Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA106Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA107Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA107Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA107Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA107Null()
-            Me(Me.tableCOPMA.MA107Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA107Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA108Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA108Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA108Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA108Null()
-            Me(Me.tableCOPMA.MA108Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA108Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA109Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA109Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA109Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA109Null()
-            Me(Me.tableCOPMA.MA109Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA109Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA110Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA110Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA110Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA110Null()
-            Me(Me.tableCOPMA.MA110Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA110Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA111Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA111Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA111Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA111Null()
-            Me(Me.tableCOPMA.MA111Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA111Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA112Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA112Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA112Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA112Null()
-            Me(Me.tableCOPMA.MA112Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA112Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA113Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA113Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA113Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA113Null()
-            Me(Me.tableCOPMA.MA113Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA113Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA114Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA114Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA114Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA114Null()
-            Me(Me.tableCOPMA.MA114Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA114Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA115Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA115Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA115Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA115Null()
-            Me(Me.tableCOPMA.MA115Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA115Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA116Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA116Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA116Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA116Null()
-            Me(Me.tableCOPMA.MA116Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA116Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA117Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA117Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA117Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA117Null()
-            Me(Me.tableCOPMA.MA117Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA117Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA118Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA118Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA118Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA118Null()
-            Me(Me.tableCOPMA.MA118Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA118Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA119Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA119Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA119Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA119Null()
-            Me(Me.tableCOPMA.MA119Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA119Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA120Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA120Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA120Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA120Null()
-            Me(Me.tableCOPMA.MA120Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA120Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA121Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA121Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA121Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA121Null()
-            Me(Me.tableCOPMA.MA121Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA121Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA122Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA122Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA122Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA122Null()
-            Me(Me.tableCOPMA.MA122Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA122Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA123Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA123Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA123Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA123Null()
-            Me(Me.tableCOPMA.MA123Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA123Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA124Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA124Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA124Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA124Null()
-            Me(Me.tableCOPMA.MA124Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA124Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA125Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA125Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA125Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA125Null()
-            Me(Me.tableCOPMA.MA125Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA125Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA126Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA126Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA126Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA126Null()
-            Me(Me.tableCOPMA.MA126Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA126Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA127Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA127Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA127Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA127Null()
-            Me(Me.tableCOPMA.MA127Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA127Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA132Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA132Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA132Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA132Null()
-            Me(Me.tableCOPMA.MA132Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA132Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA133Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA133Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA133Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA133Null()
-            Me(Me.tableCOPMA.MA133Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA133Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsUDF01Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.UDF01Column)
+            Return Me.IsNull(Me.tableCOPMA2.UDF01Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetUDF01Null()
-            Me(Me.tableCOPMA.UDF01Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.UDF01Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsUDF02Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.UDF02Column)
+            Return Me.IsNull(Me.tableCOPMA2.UDF02Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetUDF02Null()
-            Me(Me.tableCOPMA.UDF02Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.UDF02Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsUDF03Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.UDF03Column)
+            Return Me.IsNull(Me.tableCOPMA2.UDF03Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetUDF03Null()
-            Me(Me.tableCOPMA.UDF03Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.UDF03Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsUDF04Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.UDF04Column)
+            Return Me.IsNull(Me.tableCOPMA2.UDF04Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetUDF04Null()
-            Me(Me.tableCOPMA.UDF04Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.UDF04Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsUDF05Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.UDF05Column)
+            Return Me.IsNull(Me.tableCOPMA2.UDF05Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetUDF05Null()
-            Me(Me.tableCOPMA.UDF05Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.UDF05Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsUDF06Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.UDF06Column)
+            Return Me.IsNull(Me.tableCOPMA2.UDF06Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetUDF06Null()
-            Me(Me.tableCOPMA.UDF06Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.UDF06Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsUDF07Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.UDF07Column)
+            Return Me.IsNull(Me.tableCOPMA2.UDF07Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetUDF07Null()
-            Me(Me.tableCOPMA.UDF07Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.UDF07Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsUDF08Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.UDF08Column)
+            Return Me.IsNull(Me.tableCOPMA2.UDF08Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetUDF08Null()
-            Me(Me.tableCOPMA.UDF08Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.UDF08Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsUDF09Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.UDF09Column)
+            Return Me.IsNull(Me.tableCOPMA2.UDF09Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetUDF09Null()
-            Me(Me.tableCOPMA.UDF09Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.UDF09Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsUDF10Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.UDF10Column)
+            Return Me.IsNull(Me.tableCOPMA2.UDF10Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetUDF10Null()
-            Me(Me.tableCOPMA.UDF10Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.UDF10Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA134Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA134Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA134Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA134Null()
-            Me(Me.tableCOPMA.MA134Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA134Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA135Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA135Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA135Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA135Null()
-            Me(Me.tableCOPMA.MA135Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA135Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA136Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA136Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA136Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA136Null()
-            Me(Me.tableCOPMA.MA136Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA136Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA137Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA137Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA137Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA137Null()
-            Me(Me.tableCOPMA.MA137Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA137Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA139Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA139Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA139Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA139Null()
-            Me(Me.tableCOPMA.MA139Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA139Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA140Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA140Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA140Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA140Null()
-            Me(Me.tableCOPMA.MA140Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA140Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA141Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA141Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA141Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA141Null()
-            Me(Me.tableCOPMA.MA141Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA141Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA142Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA142Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA142Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA142Null()
-            Me(Me.tableCOPMA.MA142Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA142Column) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Function IsMA143Null() As Boolean
-            Return Me.IsNull(Me.tableCOPMA.MA143Column)
+            Return Me.IsNull(Me.tableCOPMA2.MA143Column)
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Sub SetMA143Null()
-            Me(Me.tableCOPMA.MA143Column) = Global.System.Convert.DBNull
+            Me(Me.tableCOPMA2.MA143Column) = Global.System.Convert.DBNull
         End Sub
     End Class
     
@@ -19589,6 +22537,4396 @@ Partial Public Class TECHLINKDataSet
     End Class
     
     '''<summary>
+    '''Represents strongly named DataRow class.
+    '''</summary>
+    Partial Public Class SourceRow
+        Inherits Global.System.Data.DataRow
+        
+        Private tableSource As SourceDataTable
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Friend Sub New(ByVal rb As Global.System.Data.DataRowBuilder)
+            MyBase.New(rb)
+            Me.tableSource = CType(Me.Table,SourceDataTable)
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property TC005() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableSource.TC005Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'TC005' in table 'Source' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableSource.TC005Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsTC005Null() As Boolean
+            Return Me.IsNull(Me.tableSource.TC005Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetTC005Null()
+            Me(Me.tableSource.TC005Column) = Global.System.Convert.DBNull
+        End Sub
+    End Class
+    
+    '''<summary>
+    '''Represents strongly named DataRow class.
+    '''</summary>
+    Partial Public Class COPMARow
+        Inherits Global.System.Data.DataRow
+        
+        Private tableCOPMA As COPMADataTable
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Friend Sub New(ByVal rb As Global.System.Data.DataRowBuilder)
+            MyBase.New(rb)
+            Me.tableCOPMA = CType(Me.Table,COPMADataTable)
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property COMPANY() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.COMPANYColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'COMPANY' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.COMPANYColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property CREATOR() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.CREATORColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'CREATOR' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.CREATORColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property USR_GROUP() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.USR_GROUPColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'USR_GROUP' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.USR_GROUPColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property CREATE_DATE() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.CREATE_DATEColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'CREATE_DATE' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.CREATE_DATEColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MODIFIER() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MODIFIERColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MODIFIER' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MODIFIERColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MODI_DATE() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MODI_DATEColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MODI_DATE' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MODI_DATEColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property FLAG() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.FLAGColumn),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'FLAG' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.FLAGColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property CREATE_TIME() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.CREATE_TIMEColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'CREATE_TIME' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.CREATE_TIMEColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property CREATE_AP() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.CREATE_APColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'CREATE_AP' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.CREATE_APColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property CREATE_PRID() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.CREATE_PRIDColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'CREATE_PRID' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.CREATE_PRIDColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MODI_TIME() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MODI_TIMEColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MODI_TIME' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MODI_TIMEColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MODI_AP() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MODI_APColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MODI_AP' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MODI_APColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MODI_PRID() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MODI_PRIDColumn),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MODI_PRID' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MODI_PRIDColumn) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA001() As String
+            Get
+                Return CType(Me(Me.tableCOPMA.MA001Column),String)
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA001Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA002() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA002Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA002' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA002Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA003() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA003Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA003' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA003Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA004() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA004Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA004' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA004Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA005() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA005Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA005' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA005Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA006() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA006Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA006' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA006Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA007() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA007Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA007' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA007Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA008() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA008Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA008' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA008Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA009() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA009Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA009' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA009Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA010() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA010Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA010' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA010Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA011() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA011Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA011' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA011Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA012() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA012Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA012' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA012Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA013() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA013Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA013' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA013Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA014() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA014Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA014' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA014Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA015() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA015Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA015' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA015Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA016() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA016Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA016' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA016Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA017() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA017Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA017' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA017Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA018() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA018Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA018' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA018Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA019() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA019Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA019' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA019Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA020() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA020Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA020' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA020Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA021() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA021Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA021' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA021Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA022() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA022Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA022' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA022Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA023() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA023Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA023' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA023Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA024() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA024Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA024' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA024Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA025() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA025Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA025' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA025Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA026() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA026Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA026' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA026Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA027() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA027Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA027' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA027Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA028() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA028Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA028' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA028Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA029() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA029Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA029' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA029Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA030() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA030Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA030' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA030Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA031() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA031Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA031' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA031Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA032() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA032Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA032' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA032Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA033() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA033Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA033' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA033Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA034() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA034Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA034' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA034Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA035() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA035Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA035' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA035Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA036() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA036Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA036' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA036Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA037() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA037Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA037' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA037Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA038() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA038Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA038' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA038Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA039() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA039Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA039' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA039Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA040() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA040Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA040' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA040Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA041() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA041Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA041' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA041Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA042() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA042Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA042' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA042Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA043() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA043Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA043' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA043Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA044() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA044Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA044' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA044Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA045() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA045Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA045' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA045Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA046() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA046Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA046' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA046Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA047() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA047Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA047' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA047Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA048() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA048Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA048' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA048Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA049() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA049Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA049' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA049Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA050() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA050Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA050' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA050Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA051() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA051Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA051' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA051Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA052() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA052Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA052' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA052Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA053() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA053Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA053' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA053Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA054() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA054Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA054' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA054Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA055() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA055Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA055' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA055Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA056() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA056Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA056' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA056Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA057() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA057Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA057' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA057Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA058() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA058Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA058' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA058Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA059() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA059Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA059' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA059Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA060() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA060Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA060' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA060Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA061() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA061Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA061' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA061Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA062() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA062Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA062' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA062Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA063() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA063Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA063' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA063Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA064() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA064Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA064' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA064Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA065() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA065Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA065' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA065Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA066() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA066Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA066' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA066Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA067() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA067Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA067' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA067Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA068() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA068Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA068' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA068Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA069() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA069Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA069' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA069Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA070() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA070Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA070' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA070Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA071() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA071Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA071' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA071Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA072() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA072Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA072' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA072Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA073() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA073Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA073' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA073Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA074() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA074Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA074' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA074Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA075() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA075Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA075' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA075Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA076() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA076Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA076' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA076Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA077() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA077Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA077' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA077Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA078() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA078Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA078' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA078Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA079() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA079Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA079' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA079Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA080() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA080Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA080' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA080Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA081() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA081Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA081' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA081Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA082() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA082Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA082' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA082Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA083() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA083Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA083' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA083Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA084() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA084Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA084' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA084Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA085() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA085Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA085' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA085Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA086() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA086Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA086' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA086Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA087() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA087Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA087' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA087Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA088() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA088Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA088' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA088Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA089() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA089Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA089' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA089Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA090() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA090Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA090' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA090Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA091() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA091Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA091' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA091Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA092() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA092Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA092' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA092Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA093() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA093Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA093' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA093Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA094() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA094Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA094' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA094Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA095() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA095Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA095' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA095Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA096() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA096Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA096' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA096Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA097() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA097Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA097' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA097Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA098() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA098Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA098' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA098Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA099() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA099Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA099' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA099Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA100() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA100Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA100' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA100Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA101() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA101Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA101' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA101Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA102() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA102Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA102' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA102Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA103() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA103Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA103' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA103Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA104() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA104Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA104' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA104Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA105() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA105Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA105' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA105Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA106() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA106Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA106' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA106Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA107() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA107Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA107' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA107Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA108() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA108Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA108' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA108Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA109() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA109Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA109' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA109Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA110() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA110Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA110' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA110Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA111() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA111Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA111' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA111Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA112() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA112Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA112' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA112Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA113() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA113Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA113' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA113Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA114() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA114Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA114' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA114Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA115() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA115Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA115' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA115Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA116() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA116Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA116' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA116Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA117() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA117Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA117' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA117Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA118() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA118Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA118' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA118Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA119() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA119Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA119' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA119Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA120() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA120Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA120' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA120Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA121() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA121Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA121' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA121Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA122() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA122Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA122' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA122Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA123() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA123Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA123' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA123Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA124() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA124Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA124' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA124Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA125() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA125Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA125' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA125Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA126() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA126Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA126' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA126Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA127() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA127Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA127' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA127Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA132() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA132Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA132' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA132Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA133() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA133Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA133' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA133Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property UDF01() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.UDF01Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF01' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.UDF01Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property UDF02() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.UDF02Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF02' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.UDF02Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property UDF03() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.UDF03Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF03' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.UDF03Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property UDF04() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.UDF04Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF04' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.UDF04Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property UDF05() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.UDF05Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF05' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.UDF05Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property UDF06() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.UDF06Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF06' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.UDF06Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property UDF07() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.UDF07Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF07' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.UDF07Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property UDF08() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.UDF08Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF08' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.UDF08Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property UDF09() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.UDF09Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF09' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.UDF09Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property UDF10() As Decimal
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.UDF10Column),Decimal)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'UDF10' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.UDF10Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA134() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA134Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA134' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA134Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA135() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA135Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA135' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA135Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA136() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA136Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA136' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA136Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA137() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA137Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA137' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA137Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA139() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA139Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA139' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA139Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA140() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA140Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA140' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA140Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA141() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA141Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA141' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA141Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA142() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA142Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA142' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA142Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property MA143() As String
+            Get
+                Try 
+                    Return CType(Me(Me.tableCOPMA.MA143Column),String)
+                Catch e As Global.System.InvalidCastException
+                    Throw New Global.System.Data.StrongTypingException("The value for column 'MA143' in table 'COPMA' is DBNull.", e)
+                End Try
+            End Get
+            Set
+                Me(Me.tableCOPMA.MA143Column) = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsCOMPANYNull() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.COMPANYColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetCOMPANYNull()
+            Me(Me.tableCOPMA.COMPANYColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsCREATORNull() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.CREATORColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetCREATORNull()
+            Me(Me.tableCOPMA.CREATORColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsUSR_GROUPNull() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.USR_GROUPColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetUSR_GROUPNull()
+            Me(Me.tableCOPMA.USR_GROUPColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsCREATE_DATENull() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.CREATE_DATEColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetCREATE_DATENull()
+            Me(Me.tableCOPMA.CREATE_DATEColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMODIFIERNull() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MODIFIERColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMODIFIERNull()
+            Me(Me.tableCOPMA.MODIFIERColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMODI_DATENull() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MODI_DATEColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMODI_DATENull()
+            Me(Me.tableCOPMA.MODI_DATEColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsFLAGNull() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.FLAGColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetFLAGNull()
+            Me(Me.tableCOPMA.FLAGColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsCREATE_TIMENull() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.CREATE_TIMEColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetCREATE_TIMENull()
+            Me(Me.tableCOPMA.CREATE_TIMEColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsCREATE_APNull() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.CREATE_APColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetCREATE_APNull()
+            Me(Me.tableCOPMA.CREATE_APColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsCREATE_PRIDNull() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.CREATE_PRIDColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetCREATE_PRIDNull()
+            Me(Me.tableCOPMA.CREATE_PRIDColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMODI_TIMENull() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MODI_TIMEColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMODI_TIMENull()
+            Me(Me.tableCOPMA.MODI_TIMEColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMODI_APNull() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MODI_APColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMODI_APNull()
+            Me(Me.tableCOPMA.MODI_APColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMODI_PRIDNull() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MODI_PRIDColumn)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMODI_PRIDNull()
+            Me(Me.tableCOPMA.MODI_PRIDColumn) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA002Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA002Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA002Null()
+            Me(Me.tableCOPMA.MA002Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA003Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA003Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA003Null()
+            Me(Me.tableCOPMA.MA003Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA004Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA004Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA004Null()
+            Me(Me.tableCOPMA.MA004Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA005Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA005Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA005Null()
+            Me(Me.tableCOPMA.MA005Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA006Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA006Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA006Null()
+            Me(Me.tableCOPMA.MA006Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA007Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA007Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA007Null()
+            Me(Me.tableCOPMA.MA007Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA008Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA008Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA008Null()
+            Me(Me.tableCOPMA.MA008Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA009Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA009Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA009Null()
+            Me(Me.tableCOPMA.MA009Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA010Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA010Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA010Null()
+            Me(Me.tableCOPMA.MA010Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA011Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA011Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA011Null()
+            Me(Me.tableCOPMA.MA011Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA012Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA012Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA012Null()
+            Me(Me.tableCOPMA.MA012Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA013Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA013Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA013Null()
+            Me(Me.tableCOPMA.MA013Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA014Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA014Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA014Null()
+            Me(Me.tableCOPMA.MA014Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA015Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA015Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA015Null()
+            Me(Me.tableCOPMA.MA015Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA016Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA016Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA016Null()
+            Me(Me.tableCOPMA.MA016Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA017Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA017Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA017Null()
+            Me(Me.tableCOPMA.MA017Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA018Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA018Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA018Null()
+            Me(Me.tableCOPMA.MA018Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA019Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA019Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA019Null()
+            Me(Me.tableCOPMA.MA019Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA020Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA020Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA020Null()
+            Me(Me.tableCOPMA.MA020Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA021Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA021Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA021Null()
+            Me(Me.tableCOPMA.MA021Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA022Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA022Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA022Null()
+            Me(Me.tableCOPMA.MA022Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA023Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA023Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA023Null()
+            Me(Me.tableCOPMA.MA023Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA024Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA024Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA024Null()
+            Me(Me.tableCOPMA.MA024Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA025Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA025Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA025Null()
+            Me(Me.tableCOPMA.MA025Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA026Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA026Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA026Null()
+            Me(Me.tableCOPMA.MA026Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA027Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA027Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA027Null()
+            Me(Me.tableCOPMA.MA027Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA028Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA028Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA028Null()
+            Me(Me.tableCOPMA.MA028Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA029Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA029Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA029Null()
+            Me(Me.tableCOPMA.MA029Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA030Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA030Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA030Null()
+            Me(Me.tableCOPMA.MA030Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA031Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA031Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA031Null()
+            Me(Me.tableCOPMA.MA031Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA032Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA032Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA032Null()
+            Me(Me.tableCOPMA.MA032Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA033Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA033Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA033Null()
+            Me(Me.tableCOPMA.MA033Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA034Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA034Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA034Null()
+            Me(Me.tableCOPMA.MA034Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA035Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA035Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA035Null()
+            Me(Me.tableCOPMA.MA035Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA036Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA036Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA036Null()
+            Me(Me.tableCOPMA.MA036Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA037Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA037Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA037Null()
+            Me(Me.tableCOPMA.MA037Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA038Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA038Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA038Null()
+            Me(Me.tableCOPMA.MA038Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA039Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA039Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA039Null()
+            Me(Me.tableCOPMA.MA039Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA040Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA040Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA040Null()
+            Me(Me.tableCOPMA.MA040Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA041Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA041Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA041Null()
+            Me(Me.tableCOPMA.MA041Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA042Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA042Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA042Null()
+            Me(Me.tableCOPMA.MA042Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA043Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA043Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA043Null()
+            Me(Me.tableCOPMA.MA043Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA044Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA044Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA044Null()
+            Me(Me.tableCOPMA.MA044Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA045Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA045Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA045Null()
+            Me(Me.tableCOPMA.MA045Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA046Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA046Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA046Null()
+            Me(Me.tableCOPMA.MA046Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA047Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA047Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA047Null()
+            Me(Me.tableCOPMA.MA047Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA048Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA048Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA048Null()
+            Me(Me.tableCOPMA.MA048Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA049Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA049Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA049Null()
+            Me(Me.tableCOPMA.MA049Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA050Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA050Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA050Null()
+            Me(Me.tableCOPMA.MA050Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA051Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA051Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA051Null()
+            Me(Me.tableCOPMA.MA051Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA052Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA052Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA052Null()
+            Me(Me.tableCOPMA.MA052Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA053Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA053Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA053Null()
+            Me(Me.tableCOPMA.MA053Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA054Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA054Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA054Null()
+            Me(Me.tableCOPMA.MA054Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA055Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA055Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA055Null()
+            Me(Me.tableCOPMA.MA055Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA056Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA056Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA056Null()
+            Me(Me.tableCOPMA.MA056Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA057Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA057Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA057Null()
+            Me(Me.tableCOPMA.MA057Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA058Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA058Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA058Null()
+            Me(Me.tableCOPMA.MA058Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA059Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA059Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA059Null()
+            Me(Me.tableCOPMA.MA059Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA060Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA060Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA060Null()
+            Me(Me.tableCOPMA.MA060Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA061Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA061Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA061Null()
+            Me(Me.tableCOPMA.MA061Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA062Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA062Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA062Null()
+            Me(Me.tableCOPMA.MA062Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA063Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA063Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA063Null()
+            Me(Me.tableCOPMA.MA063Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA064Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA064Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA064Null()
+            Me(Me.tableCOPMA.MA064Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA065Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA065Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA065Null()
+            Me(Me.tableCOPMA.MA065Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA066Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA066Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA066Null()
+            Me(Me.tableCOPMA.MA066Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA067Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA067Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA067Null()
+            Me(Me.tableCOPMA.MA067Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA068Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA068Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA068Null()
+            Me(Me.tableCOPMA.MA068Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA069Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA069Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA069Null()
+            Me(Me.tableCOPMA.MA069Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA070Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA070Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA070Null()
+            Me(Me.tableCOPMA.MA070Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA071Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA071Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA071Null()
+            Me(Me.tableCOPMA.MA071Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA072Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA072Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA072Null()
+            Me(Me.tableCOPMA.MA072Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA073Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA073Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA073Null()
+            Me(Me.tableCOPMA.MA073Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA074Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA074Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA074Null()
+            Me(Me.tableCOPMA.MA074Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA075Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA075Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA075Null()
+            Me(Me.tableCOPMA.MA075Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA076Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA076Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA076Null()
+            Me(Me.tableCOPMA.MA076Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA077Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA077Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA077Null()
+            Me(Me.tableCOPMA.MA077Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA078Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA078Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA078Null()
+            Me(Me.tableCOPMA.MA078Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA079Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA079Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA079Null()
+            Me(Me.tableCOPMA.MA079Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA080Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA080Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA080Null()
+            Me(Me.tableCOPMA.MA080Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA081Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA081Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA081Null()
+            Me(Me.tableCOPMA.MA081Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA082Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA082Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA082Null()
+            Me(Me.tableCOPMA.MA082Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA083Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA083Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA083Null()
+            Me(Me.tableCOPMA.MA083Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA084Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA084Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA084Null()
+            Me(Me.tableCOPMA.MA084Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA085Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA085Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA085Null()
+            Me(Me.tableCOPMA.MA085Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA086Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA086Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA086Null()
+            Me(Me.tableCOPMA.MA086Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA087Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA087Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA087Null()
+            Me(Me.tableCOPMA.MA087Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA088Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA088Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA088Null()
+            Me(Me.tableCOPMA.MA088Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA089Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA089Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA089Null()
+            Me(Me.tableCOPMA.MA089Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA090Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA090Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA090Null()
+            Me(Me.tableCOPMA.MA090Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA091Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA091Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA091Null()
+            Me(Me.tableCOPMA.MA091Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA092Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA092Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA092Null()
+            Me(Me.tableCOPMA.MA092Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA093Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA093Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA093Null()
+            Me(Me.tableCOPMA.MA093Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA094Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA094Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA094Null()
+            Me(Me.tableCOPMA.MA094Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA095Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA095Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA095Null()
+            Me(Me.tableCOPMA.MA095Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA096Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA096Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA096Null()
+            Me(Me.tableCOPMA.MA096Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA097Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA097Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA097Null()
+            Me(Me.tableCOPMA.MA097Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA098Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA098Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA098Null()
+            Me(Me.tableCOPMA.MA098Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA099Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA099Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA099Null()
+            Me(Me.tableCOPMA.MA099Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA100Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA100Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA100Null()
+            Me(Me.tableCOPMA.MA100Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA101Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA101Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA101Null()
+            Me(Me.tableCOPMA.MA101Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA102Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA102Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA102Null()
+            Me(Me.tableCOPMA.MA102Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA103Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA103Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA103Null()
+            Me(Me.tableCOPMA.MA103Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA104Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA104Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA104Null()
+            Me(Me.tableCOPMA.MA104Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA105Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA105Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA105Null()
+            Me(Me.tableCOPMA.MA105Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA106Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA106Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA106Null()
+            Me(Me.tableCOPMA.MA106Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA107Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA107Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA107Null()
+            Me(Me.tableCOPMA.MA107Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA108Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA108Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA108Null()
+            Me(Me.tableCOPMA.MA108Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA109Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA109Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA109Null()
+            Me(Me.tableCOPMA.MA109Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA110Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA110Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA110Null()
+            Me(Me.tableCOPMA.MA110Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA111Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA111Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA111Null()
+            Me(Me.tableCOPMA.MA111Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA112Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA112Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA112Null()
+            Me(Me.tableCOPMA.MA112Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA113Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA113Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA113Null()
+            Me(Me.tableCOPMA.MA113Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA114Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA114Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA114Null()
+            Me(Me.tableCOPMA.MA114Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA115Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA115Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA115Null()
+            Me(Me.tableCOPMA.MA115Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA116Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA116Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA116Null()
+            Me(Me.tableCOPMA.MA116Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA117Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA117Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA117Null()
+            Me(Me.tableCOPMA.MA117Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA118Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA118Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA118Null()
+            Me(Me.tableCOPMA.MA118Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA119Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA119Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA119Null()
+            Me(Me.tableCOPMA.MA119Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA120Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA120Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA120Null()
+            Me(Me.tableCOPMA.MA120Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA121Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA121Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA121Null()
+            Me(Me.tableCOPMA.MA121Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA122Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA122Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA122Null()
+            Me(Me.tableCOPMA.MA122Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA123Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA123Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA123Null()
+            Me(Me.tableCOPMA.MA123Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA124Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA124Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA124Null()
+            Me(Me.tableCOPMA.MA124Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA125Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA125Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA125Null()
+            Me(Me.tableCOPMA.MA125Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA126Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA126Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA126Null()
+            Me(Me.tableCOPMA.MA126Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA127Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA127Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA127Null()
+            Me(Me.tableCOPMA.MA127Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA132Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA132Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA132Null()
+            Me(Me.tableCOPMA.MA132Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA133Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA133Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA133Null()
+            Me(Me.tableCOPMA.MA133Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsUDF01Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.UDF01Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetUDF01Null()
+            Me(Me.tableCOPMA.UDF01Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsUDF02Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.UDF02Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetUDF02Null()
+            Me(Me.tableCOPMA.UDF02Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsUDF03Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.UDF03Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetUDF03Null()
+            Me(Me.tableCOPMA.UDF03Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsUDF04Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.UDF04Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetUDF04Null()
+            Me(Me.tableCOPMA.UDF04Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsUDF05Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.UDF05Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetUDF05Null()
+            Me(Me.tableCOPMA.UDF05Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsUDF06Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.UDF06Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetUDF06Null()
+            Me(Me.tableCOPMA.UDF06Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsUDF07Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.UDF07Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetUDF07Null()
+            Me(Me.tableCOPMA.UDF07Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsUDF08Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.UDF08Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetUDF08Null()
+            Me(Me.tableCOPMA.UDF08Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsUDF09Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.UDF09Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetUDF09Null()
+            Me(Me.tableCOPMA.UDF09Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsUDF10Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.UDF10Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetUDF10Null()
+            Me(Me.tableCOPMA.UDF10Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA134Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA134Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA134Null()
+            Me(Me.tableCOPMA.MA134Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA135Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA135Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA135Null()
+            Me(Me.tableCOPMA.MA135Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA136Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA136Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA136Null()
+            Me(Me.tableCOPMA.MA136Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA137Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA137Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA137Null()
+            Me(Me.tableCOPMA.MA137Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA139Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA139Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA139Null()
+            Me(Me.tableCOPMA.MA139Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA140Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA140Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA140Null()
+            Me(Me.tableCOPMA.MA140Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA141Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA141Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA141Null()
+            Me(Me.tableCOPMA.MA141Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA142Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA142Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA142Null()
+            Me(Me.tableCOPMA.MA142Column) = Global.System.Convert.DBNull
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Function IsMA143Null() As Boolean
+            Return Me.IsNull(Me.tableCOPMA.MA143Column)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub SetMA143Null()
+            Me(Me.tableCOPMA.MA143Column) = Global.System.Convert.DBNull
+        End Sub
+    End Class
+    
+    '''<summary>
     '''Row event argument class
     '''</summary>
     <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
@@ -19628,16 +26966,16 @@ Partial Public Class TECHLINKDataSet
     '''Row event argument class
     '''</summary>
     <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-    Public Class COPMARowChangeEvent
+    Public Class COPMA2RowChangeEvent
         Inherits Global.System.EventArgs
         
-        Private eventRow As COPMARow
+        Private eventRow As COPMA2Row
         
         Private eventAction As Global.System.Data.DataRowAction
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public Sub New(ByVal row As COPMARow, ByVal action As Global.System.Data.DataRowAction)
+        Public Sub New(ByVal row As COPMA2Row, ByVal action As Global.System.Data.DataRowAction)
             MyBase.New
             Me.eventRow = row
             Me.eventAction = action
@@ -19645,7 +26983,7 @@ Partial Public Class TECHLINKDataSet
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
-        Public ReadOnly Property Row() As COPMARow
+        Public ReadOnly Property Row() As COPMA2Row
             Get
                 Return Me.eventRow
             End Get
@@ -19947,6 +27285,78 @@ Partial Public Class TECHLINKDataSet
             End Get
         End Property
     End Class
+    
+    '''<summary>
+    '''Row event argument class
+    '''</summary>
+    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+    Public Class SourceRowChangeEvent
+        Inherits Global.System.EventArgs
+        
+        Private eventRow As SourceRow
+        
+        Private eventAction As Global.System.Data.DataRowAction
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub New(ByVal row As SourceRow, ByVal action As Global.System.Data.DataRowAction)
+            MyBase.New
+            Me.eventRow = row
+            Me.eventAction = action
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property Row() As SourceRow
+            Get
+                Return Me.eventRow
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property Action() As Global.System.Data.DataRowAction
+            Get
+                Return Me.eventAction
+            End Get
+        End Property
+    End Class
+    
+    '''<summary>
+    '''Row event argument class
+    '''</summary>
+    <Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+    Public Class COPMARowChangeEvent
+        Inherits Global.System.EventArgs
+        
+        Private eventRow As COPMARow
+        
+        Private eventAction As Global.System.Data.DataRowAction
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub New(ByVal row As COPMARow, ByVal action As Global.System.Data.DataRowAction)
+            MyBase.New
+            Me.eventRow = row
+            Me.eventAction = action
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property Row() As COPMARow
+            Get
+                Return Me.eventRow
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public ReadOnly Property Action() As Global.System.Data.DataRowAction
+            Get
+                Return Me.eventAction
+            End Get
+        End Property
+    End Class
 End Class
 
 Namespace TECHLINKDataSetTableAdapters
@@ -20095,8 +27505,8 @@ Namespace TECHLINKDataSetTableAdapters
             Me._commandCollection = New Global.System.Data.SqlClient.SqlCommand(0) {}
             Me._commandCollection(0) = New Global.System.Data.SqlClient.SqlCommand()
             Me._commandCollection(0).Connection = Me.Connection
-            Me._commandCollection(0).CommandText = "SELECT TOP (1) MG012"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"FROM     CMSMG"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE  (MG001 = @currency)"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"ORDER BY MG002 "& _ 
-                "DESC"
+            Me._commandCollection(0).CommandText = "SELECT TOP (1) MG012"&Global.Microsoft.VisualBasic.ChrW(10)&"FROM     CMSMG"&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE  (MG001 = @currency)"&Global.Microsoft.VisualBasic.ChrW(10)&"ORDER BY MG002 DES"& _ 
+                "C"
             Me._commandCollection(0).CommandType = Global.System.Data.CommandType.Text
             Me._commandCollection(0).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@currency", Global.System.Data.SqlDbType.NChar, 4, Global.System.Data.ParameterDirection.Input, 0, 0, "MG001", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
         End Sub
@@ -20262,7 +27672,7 @@ Namespace TECHLINKDataSetTableAdapters
             Me._adapter = New Global.System.Data.SqlClient.SqlDataAdapter()
             Dim tableMapping As Global.System.Data.Common.DataTableMapping = New Global.System.Data.Common.DataTableMapping()
             tableMapping.SourceTable = "Table"
-            tableMapping.DataSetTable = "COPMA"
+            tableMapping.DataSetTable = "COPMA2"
             tableMapping.ColumnMappings.Add("COMPANY", "COMPANY")
             tableMapping.ColumnMappings.Add("CREATOR", "CREATOR")
             tableMapping.ColumnMappings.Add("USR_GROUP", "USR_GROUP")
@@ -20944,22 +28354,22 @@ Namespace TECHLINKDataSetTableAdapters
                 "MA111, @MA112, @MA113, @MA114, @MA115, @MA116, @MA117, @MA118, @MA119, @MA120, @"& _ 
                 "MA121, @MA122, @MA123, @MA124, @MA125, @MA126, @MA127, @MA132, @MA133, @UDF01, @"& _ 
                 "UDF02, @UDF03, @UDF04, @UDF05, @UDF06, @UDF07, @UDF08, @UDF09, @UDF10, @MA134, @"& _ 
-                "MA135, @MA136, @MA137, @MA139, @MA140, @MA141, @MA142, @MA143);"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT COMPANY,"& _ 
-                " CREATOR, USR_GROUP, CREATE_DATE, MODIFIER, MODI_DATE, FLAG, CREATE_TIME, CREATE"& _ 
-                "_AP, CREATE_PRID, MODI_TIME, MODI_AP, MODI_PRID, MA001, MA002, MA003, MA004, MA0"& _ 
-                "05, MA006, MA007, MA008, MA009, MA010, MA011, MA012, MA013, MA014, MA015, MA016,"& _ 
-                " MA017, MA018, MA019, MA020, MA021, MA022, MA023, MA024, MA025, MA026, MA027, MA"& _ 
-                "028, MA029, MA030, MA031, MA032, MA033, MA034, MA035, MA036, MA037, MA038, MA039"& _ 
-                ", MA040, MA041, MA042, MA043, MA044, MA045, MA046, MA047, MA048, MA049, MA050, M"& _ 
-                "A051, MA052, MA053, MA054, MA055, MA056, MA057, MA058, MA059, MA060, MA061, MA06"& _ 
-                "2, MA063, MA064, MA065, MA066, MA067, MA068, MA069, MA070, MA071, MA072, MA073, "& _ 
-                "MA074, MA075, MA076, MA077, MA078, MA079, MA080, MA081, MA082, MA083, MA084, MA0"& _ 
-                "85, MA086, MA087, MA088, MA089, MA090, MA091, MA092, MA093, MA094, MA095, MA096,"& _ 
-                " MA097, MA098, MA099, MA100, MA101, MA102, MA103, MA104, MA105, MA106, MA107, MA"& _ 
-                "108, MA109, MA110, MA111, MA112, MA113, MA114, MA115, MA116, MA117, MA118, MA119"& _ 
-                ", MA120, MA121, MA122, MA123, MA124, MA125, MA126, MA127, MA132, MA133, UDF01, U"& _ 
-                "DF02, UDF03, UDF04, UDF05, UDF06, UDF07, UDF08, UDF09, UDF10, MA134, MA135, MA13"& _ 
-                "6, MA137, MA139, MA140, MA141, MA142, MA143 FROM COPMA WHERE (MA001 = @MA001)"
+                "MA135, @MA136, @MA137, @MA139, @MA140, @MA141, @MA142, @MA143);"&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT COMPANY, "& _ 
+                "CREATOR, USR_GROUP, CREATE_DATE, MODIFIER, MODI_DATE, FLAG, CREATE_TIME, CREATE_"& _ 
+                "AP, CREATE_PRID, MODI_TIME, MODI_AP, MODI_PRID, MA001, MA002, MA003, MA004, MA00"& _ 
+                "5, MA006, MA007, MA008, MA009, MA010, MA011, MA012, MA013, MA014, MA015, MA016, "& _ 
+                "MA017, MA018, MA019, MA020, MA021, MA022, MA023, MA024, MA025, MA026, MA027, MA0"& _ 
+                "28, MA029, MA030, MA031, MA032, MA033, MA034, MA035, MA036, MA037, MA038, MA039,"& _ 
+                " MA040, MA041, MA042, MA043, MA044, MA045, MA046, MA047, MA048, MA049, MA050, MA"& _ 
+                "051, MA052, MA053, MA054, MA055, MA056, MA057, MA058, MA059, MA060, MA061, MA062"& _ 
+                ", MA063, MA064, MA065, MA066, MA067, MA068, MA069, MA070, MA071, MA072, MA073, M"& _ 
+                "A074, MA075, MA076, MA077, MA078, MA079, MA080, MA081, MA082, MA083, MA084, MA08"& _ 
+                "5, MA086, MA087, MA088, MA089, MA090, MA091, MA092, MA093, MA094, MA095, MA096, "& _ 
+                "MA097, MA098, MA099, MA100, MA101, MA102, MA103, MA104, MA105, MA106, MA107, MA1"& _ 
+                "08, MA109, MA110, MA111, MA112, MA113, MA114, MA115, MA116, MA117, MA118, MA119,"& _ 
+                " MA120, MA121, MA122, MA123, MA124, MA125, MA126, MA127, MA132, MA133, UDF01, UD"& _ 
+                "F02, UDF03, UDF04, UDF05, UDF06, UDF07, UDF08, UDF09, UDF10, MA134, MA135, MA136"& _ 
+                ", MA137, MA139, MA140, MA141, MA142, MA143 FROM COPMA WHERE (MA001 = @MA001)"
             Me._adapter.InsertCommand.CommandType = Global.System.Data.CommandType.Text
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@COMPANY", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "COMPANY", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@CREATOR", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "CREATOR", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
@@ -21318,22 +28728,22 @@ Namespace TECHLINKDataSetTableAdapters
                 "IS NULL) OR ([MA140] = @Original_MA140)) AND ((@IsNull_MA141 = 1 AND [MA141] IS "& _ 
                 "NULL) OR ([MA141] = @Original_MA141)) AND ((@IsNull_MA142 = 1 AND [MA142] IS NUL"& _ 
                 "L) OR ([MA142] = @Original_MA142)) AND ((@IsNull_MA143 = 1 AND [MA143] IS NULL) "& _ 
-                "OR ([MA143] = @Original_MA143)));"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT COMPANY, CREATOR, USR_GROUP, CREATE_DA"& _ 
-                "TE, MODIFIER, MODI_DATE, FLAG, CREATE_TIME, CREATE_AP, CREATE_PRID, MODI_TIME, M"& _ 
-                "ODI_AP, MODI_PRID, MA001, MA002, MA003, MA004, MA005, MA006, MA007, MA008, MA009"& _ 
-                ", MA010, MA011, MA012, MA013, MA014, MA015, MA016, MA017, MA018, MA019, MA020, M"& _ 
-                "A021, MA022, MA023, MA024, MA025, MA026, MA027, MA028, MA029, MA030, MA031, MA03"& _ 
-                "2, MA033, MA034, MA035, MA036, MA037, MA038, MA039, MA040, MA041, MA042, MA043, "& _ 
-                "MA044, MA045, MA046, MA047, MA048, MA049, MA050, MA051, MA052, MA053, MA054, MA0"& _ 
-                "55, MA056, MA057, MA058, MA059, MA060, MA061, MA062, MA063, MA064, MA065, MA066,"& _ 
-                " MA067, MA068, MA069, MA070, MA071, MA072, MA073, MA074, MA075, MA076, MA077, MA"& _ 
-                "078, MA079, MA080, MA081, MA082, MA083, MA084, MA085, MA086, MA087, MA088, MA089"& _ 
-                ", MA090, MA091, MA092, MA093, MA094, MA095, MA096, MA097, MA098, MA099, MA100, M"& _ 
-                "A101, MA102, MA103, MA104, MA105, MA106, MA107, MA108, MA109, MA110, MA111, MA11"& _ 
-                "2, MA113, MA114, MA115, MA116, MA117, MA118, MA119, MA120, MA121, MA122, MA123, "& _ 
-                "MA124, MA125, MA126, MA127, MA132, MA133, UDF01, UDF02, UDF03, UDF04, UDF05, UDF"& _ 
-                "06, UDF07, UDF08, UDF09, UDF10, MA134, MA135, MA136, MA137, MA139, MA140, MA141,"& _ 
-                " MA142, MA143 FROM COPMA WHERE (MA001 = @MA001)"
+                "OR ([MA143] = @Original_MA143)));"&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT COMPANY, CREATOR, USR_GROUP, CREATE_DAT"& _ 
+                "E, MODIFIER, MODI_DATE, FLAG, CREATE_TIME, CREATE_AP, CREATE_PRID, MODI_TIME, MO"& _ 
+                "DI_AP, MODI_PRID, MA001, MA002, MA003, MA004, MA005, MA006, MA007, MA008, MA009,"& _ 
+                " MA010, MA011, MA012, MA013, MA014, MA015, MA016, MA017, MA018, MA019, MA020, MA"& _ 
+                "021, MA022, MA023, MA024, MA025, MA026, MA027, MA028, MA029, MA030, MA031, MA032"& _ 
+                ", MA033, MA034, MA035, MA036, MA037, MA038, MA039, MA040, MA041, MA042, MA043, M"& _ 
+                "A044, MA045, MA046, MA047, MA048, MA049, MA050, MA051, MA052, MA053, MA054, MA05"& _ 
+                "5, MA056, MA057, MA058, MA059, MA060, MA061, MA062, MA063, MA064, MA065, MA066, "& _ 
+                "MA067, MA068, MA069, MA070, MA071, MA072, MA073, MA074, MA075, MA076, MA077, MA0"& _ 
+                "78, MA079, MA080, MA081, MA082, MA083, MA084, MA085, MA086, MA087, MA088, MA089,"& _ 
+                " MA090, MA091, MA092, MA093, MA094, MA095, MA096, MA097, MA098, MA099, MA100, MA"& _ 
+                "101, MA102, MA103, MA104, MA105, MA106, MA107, MA108, MA109, MA110, MA111, MA112"& _ 
+                ", MA113, MA114, MA115, MA116, MA117, MA118, MA119, MA120, MA121, MA122, MA123, M"& _ 
+                "A124, MA125, MA126, MA127, MA132, MA133, UDF01, UDF02, UDF03, UDF04, UDF05, UDF0"& _ 
+                "6, UDF07, UDF08, UDF09, UDF10, MA134, MA135, MA136, MA137, MA139, MA140, MA141, "& _ 
+                "MA142, MA143 FROM COPMA WHERE (MA001 = @MA001)"
             Me._adapter.UpdateCommand.CommandType = Global.System.Data.CommandType.Text
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@COMPANY", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "COMPANY", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@CREATOR", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "CREATOR", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
@@ -21854,7 +29264,7 @@ Namespace TECHLINKDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
          Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
          Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Fill, true)>  _
-        Public Overloads Overridable Function Fill(ByVal dataTable As TECHLINKDataSet.COPMADataTable) As Integer
+        Public Overloads Overridable Function Fill(ByVal dataTable As TECHLINKDataSet.COPMA2DataTable) As Integer
             Me.Adapter.SelectCommand = Me.CommandCollection(0)
             If (Me.ClearBeforeFill = true) Then
                 dataTable.Clear
@@ -21867,9 +29277,9 @@ Namespace TECHLINKDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
          Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
          Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.[Select], true)>  _
-        Public Overloads Overridable Function GetData() As TECHLINKDataSet.COPMADataTable
+        Public Overloads Overridable Function GetData() As TECHLINKDataSet.COPMA2DataTable
             Me.Adapter.SelectCommand = Me.CommandCollection(0)
-            Dim dataTable As TECHLINKDataSet.COPMADataTable = New TECHLINKDataSet.COPMADataTable()
+            Dim dataTable As TECHLINKDataSet.COPMA2DataTable = New TECHLINKDataSet.COPMA2DataTable()
             Me.Adapter.Fill(dataTable)
             Return dataTable
         End Function
@@ -21877,7 +29287,7 @@ Namespace TECHLINKDataSetTableAdapters
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
          Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")>  _
-        Public Overloads Overridable Function Update(ByVal dataTable As TECHLINKDataSet.COPMADataTable) As Integer
+        Public Overloads Overridable Function Update(ByVal dataTable As TECHLINKDataSet.COPMA2DataTable) As Integer
             Return Me.Adapter.Update(dataTable)
         End Function
         
@@ -21885,7 +29295,7 @@ Namespace TECHLINKDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
          Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")>  _
         Public Overloads Overridable Function Update(ByVal dataSet As TECHLINKDataSet) As Integer
-            Return Me.Adapter.Update(dataSet, "COPMA")
+            Return Me.Adapter.Update(dataSet, "COPMA2")
         End Function
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -26940,8 +34350,8 @@ Namespace TECHLINKDataSetTableAdapters
             Me._commandCollection = New Global.System.Data.SqlClient.SqlCommand(0) {}
             Me._commandCollection(0) = New Global.System.Data.SqlClient.SqlCommand()
             Me._commandCollection(0).Connection = Me.Connection
-            Me._commandCollection(0).CommandText = "SELECT ISNULL(MAX(TC002), 0) AS TC002"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"FROM     COPTC"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE  (TC002 LIKE @yymm +"& _ 
-                " '%')"
+            Me._commandCollection(0).CommandText = "SELECT ISNULL(MAX(TC002), 0) AS TC002"&Global.Microsoft.VisualBasic.ChrW(10)&"FROM     COPTC"&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE  (TC002 LIKE @yymm + '"& _ 
+                "%')"
             Me._commandCollection(0).CommandType = Global.System.Data.CommandType.Text
             Me._commandCollection(0).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@yymm", Global.System.Data.SqlDbType.NVarChar, 11, Global.System.Data.ParameterDirection.Input, 0, 0, "TC002", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
         End Sub
@@ -27564,18 +34974,18 @@ Namespace TECHLINKDataSetTableAdapters
                 ", @TD061, @TD062, @TD063, @TD064, @TD065, @TD066, @TD067, @TD068, @TD069, @TD070"& _ 
                 ", @TD071, @TD072, @TD073, @TD074, @TD075, @TD500, @TD501, @TD502, @TD503, @TD504"& _ 
                 ", @UDF01, @UDF02, @UDF03, @UDF04, @UDF05, @UDF06, @UDF07, @UDF08, @UDF09, @UDF10"& _ 
-                ", @TD076, @TD077, @TD078, @TD079, @TD080);"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT COMPANY, CREATOR, USR_GROUP, "& _ 
-                "CREATE_DATE, MODIFIER, MODI_DATE, FLAG, CREATE_TIME, CREATE_AP, CREATE_PRID, MOD"& _ 
-                "I_TIME, MODI_AP, MODI_PRID, TD001, TD002, TD003, TD004, TD005, TD006, TD007, TD0"& _ 
-                "08, TD009, TD010, TD011, TD012, TD013, TD014, TD015, TD016, TD017, TD018, TD019,"& _ 
-                " TD020, TD021, TD022, TD023, TD024, TD025, TD026, TD027, TD028, TD029, TD030, TD"& _ 
-                "031, TD032, TD033, TD034, TD035, TD036, TD037, TD038, TD039, TD040, TD041, TD042"& _ 
-                ", TD043, TD044, TD045, TD046, TD047, TD048, TD049, TD050, TD051, TD052, TD053, T"& _ 
-                "D054, TD055, TD056, TD057, TD058, TD059, TD060, TD061, TD062, TD063, TD064, TD06"& _ 
-                "5, TD066, TD067, TD068, TD069, TD070, TD071, TD072, TD073, TD074, TD075, TD500, "& _ 
-                "TD501, TD502, TD503, TD504, UDF01, UDF02, UDF03, UDF04, UDF05, UDF06, UDF07, UDF"& _ 
-                "08, UDF09, UDF10, TD076, TD077, TD078, TD079, TD080 FROM COPTD WHERE (TD001 = @T"& _ 
-                "D001) AND (TD002 = @TD002) AND (TD003 = @TD003)"
+                ", @TD076, @TD077, @TD078, @TD079, @TD080);"&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT COMPANY, CREATOR, USR_GROUP, C"& _ 
+                "REATE_DATE, MODIFIER, MODI_DATE, FLAG, CREATE_TIME, CREATE_AP, CREATE_PRID, MODI"& _ 
+                "_TIME, MODI_AP, MODI_PRID, TD001, TD002, TD003, TD004, TD005, TD006, TD007, TD00"& _ 
+                "8, TD009, TD010, TD011, TD012, TD013, TD014, TD015, TD016, TD017, TD018, TD019, "& _ 
+                "TD020, TD021, TD022, TD023, TD024, TD025, TD026, TD027, TD028, TD029, TD030, TD0"& _ 
+                "31, TD032, TD033, TD034, TD035, TD036, TD037, TD038, TD039, TD040, TD041, TD042,"& _ 
+                " TD043, TD044, TD045, TD046, TD047, TD048, TD049, TD050, TD051, TD052, TD053, TD"& _ 
+                "054, TD055, TD056, TD057, TD058, TD059, TD060, TD061, TD062, TD063, TD064, TD065"& _ 
+                ", TD066, TD067, TD068, TD069, TD070, TD071, TD072, TD073, TD074, TD075, TD500, T"& _ 
+                "D501, TD502, TD503, TD504, UDF01, UDF02, UDF03, UDF04, UDF05, UDF06, UDF07, UDF0"& _ 
+                "8, UDF09, UDF10, TD076, TD077, TD078, TD079, TD080 FROM COPTD WHERE (TD001 = @TD"& _ 
+                "001) AND (TD002 = @TD002) AND (TD003 = @TD003)"
             Me._adapter.InsertCommand.CommandType = Global.System.Data.CommandType.Text
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@COMPANY", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "COMPANY", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@CREATOR", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "CREATOR", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
@@ -27817,18 +35227,18 @@ Namespace TECHLINKDataSetTableAdapters
                 "LL) OR ([TD077] = @Original_TD077)) AND ((@IsNull_TD078 = 1 AND [TD078] IS NULL)"& _ 
                 " OR ([TD078] = @Original_TD078)) AND ((@IsNull_TD079 = 1 AND [TD079] IS NULL) OR"& _ 
                 " ([TD079] = @Original_TD079)) AND ((@IsNull_TD080 = 1 AND [TD080] IS NULL) OR (["& _ 
-                "TD080] = @Original_TD080)));"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT COMPANY, CREATOR, USR_GROUP, CREATE_DATE, M"& _ 
-                "ODIFIER, MODI_DATE, FLAG, CREATE_TIME, CREATE_AP, CREATE_PRID, MODI_TIME, MODI_A"& _ 
-                "P, MODI_PRID, TD001, TD002, TD003, TD004, TD005, TD006, TD007, TD008, TD009, TD0"& _ 
-                "10, TD011, TD012, TD013, TD014, TD015, TD016, TD017, TD018, TD019, TD020, TD021,"& _ 
-                " TD022, TD023, TD024, TD025, TD026, TD027, TD028, TD029, TD030, TD031, TD032, TD"& _ 
-                "033, TD034, TD035, TD036, TD037, TD038, TD039, TD040, TD041, TD042, TD043, TD044"& _ 
-                ", TD045, TD046, TD047, TD048, TD049, TD050, TD051, TD052, TD053, TD054, TD055, T"& _ 
-                "D056, TD057, TD058, TD059, TD060, TD061, TD062, TD063, TD064, TD065, TD066, TD06"& _ 
-                "7, TD068, TD069, TD070, TD071, TD072, TD073, TD074, TD075, TD500, TD501, TD502, "& _ 
-                "TD503, TD504, UDF01, UDF02, UDF03, UDF04, UDF05, UDF06, UDF07, UDF08, UDF09, UDF"& _ 
-                "10, TD076, TD077, TD078, TD079, TD080 FROM COPTD WHERE (TD001 = @TD001) AND (TD0"& _ 
-                "02 = @TD002) AND (TD003 = @TD003)"
+                "TD080] = @Original_TD080)));"&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT COMPANY, CREATOR, USR_GROUP, CREATE_DATE, MO"& _ 
+                "DIFIER, MODI_DATE, FLAG, CREATE_TIME, CREATE_AP, CREATE_PRID, MODI_TIME, MODI_AP"& _ 
+                ", MODI_PRID, TD001, TD002, TD003, TD004, TD005, TD006, TD007, TD008, TD009, TD01"& _ 
+                "0, TD011, TD012, TD013, TD014, TD015, TD016, TD017, TD018, TD019, TD020, TD021, "& _ 
+                "TD022, TD023, TD024, TD025, TD026, TD027, TD028, TD029, TD030, TD031, TD032, TD0"& _ 
+                "33, TD034, TD035, TD036, TD037, TD038, TD039, TD040, TD041, TD042, TD043, TD044,"& _ 
+                " TD045, TD046, TD047, TD048, TD049, TD050, TD051, TD052, TD053, TD054, TD055, TD"& _ 
+                "056, TD057, TD058, TD059, TD060, TD061, TD062, TD063, TD064, TD065, TD066, TD067"& _ 
+                ", TD068, TD069, TD070, TD071, TD072, TD073, TD074, TD075, TD500, TD501, TD502, T"& _ 
+                "D503, TD504, UDF01, UDF02, UDF03, UDF04, UDF05, UDF06, UDF07, UDF08, UDF09, UDF1"& _ 
+                "0, TD076, TD077, TD078, TD079, TD080 FROM COPTD WHERE (TD001 = @TD001) AND (TD00"& _ 
+                "2 = @TD002) AND (TD003 = @TD003)"
             Me._adapter.UpdateCommand.CommandType = Global.System.Data.CommandType.Text
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@COMPANY", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "COMPANY", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@CREATOR", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "CREATOR", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
@@ -28182,14 +35592,14 @@ Namespace TECHLINKDataSetTableAdapters
             Me._commandCollection(1).Connection = Me.Connection
             Me._commandCollection(1).CommandText = "SELECT TD001, TD002, TD003, TD004, TD005, TD006, TD007, TD008, TD009, TD010, TD01"& _ 
                 "1, TD012, TD013, TD014, TD015, TD016, TD017, TD018, TD019, TD020, TD021, TD022, "& _ 
-                "TD023, TD024, TD025, TD026, TD027, TD028, TD029, TD030, TD031, TD032, TD033, "&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&" "& _ 
-                "                 TD034, TD035, TD036, TD037, TD038, TD039, TD040, TD041, TD042, "& _ 
-                "TD043, TD044, TD045, TD046, TD047, TD048, TD049, TD050, TD051, TD052, TD053, TD0"& _ 
-                "54, TD055, TD056, TD057, TD058, TD059, TD060, TD061, TD062, TD063, TD064, TD065,"& _ 
-                " "&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"                  TD066, TD067, TD068, TD069, TD070, TD071, TD072, TD073, TD0"& _ 
-                "74, TD075, TD500, TD501, TD502, TD503, TD504, UDF01, UDF02, UDF03, UDF04, UDF05,"& _ 
-                " UDF06, UDF07, UDF08, UDF09, UDF10, TD076, TD077, TD078, TD079, TD080"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"FROM     "& _ 
-                "COPTD"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE  (TD001 = @TD001) AND (TD002 = @TD002) AND (TD003 = @TD003)"
+                "TD023, TD024, TD025, TD026, TD027, TD028, TD029, TD030, TD031, TD032, TD033, "&Global.Microsoft.VisualBasic.ChrW(10)&"  "& _ 
+                "                TD034, TD035, TD036, TD037, TD038, TD039, TD040, TD041, TD042, T"& _ 
+                "D043, TD044, TD045, TD046, TD047, TD048, TD049, TD050, TD051, TD052, TD053, TD05"& _ 
+                "4, TD055, TD056, TD057, TD058, TD059, TD060, TD061, TD062, TD063, TD064, TD065, "& _ 
+                ""&Global.Microsoft.VisualBasic.ChrW(10)&"                  TD066, TD067, TD068, TD069, TD070, TD071, TD072, TD073, TD074"& _ 
+                ", TD075, TD500, TD501, TD502, TD503, TD504, UDF01, UDF02, UDF03, UDF04, UDF05, U"& _ 
+                "DF06, UDF07, UDF08, UDF09, UDF10, TD076, TD077, TD078, TD079, TD080"&Global.Microsoft.VisualBasic.ChrW(10)&"FROM     COP"& _ 
+                "TD"&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE  (TD001 = @TD001) AND (TD002 = @TD002) AND (TD003 = @TD003)"
             Me._commandCollection(1).CommandType = Global.System.Data.CommandType.Text
             Me._commandCollection(1).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@TD001", Global.System.Data.SqlDbType.NChar, 4, Global.System.Data.ParameterDirection.Input, 0, 0, "TD001", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._commandCollection(1).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@TD002", Global.System.Data.SqlDbType.NChar, 11, Global.System.Data.ParameterDirection.Input, 0, 0, "TD002", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
@@ -31831,13 +39241,13 @@ Namespace TECHLINKDataSetTableAdapters
             Me._commandCollection(0).Connection = Me.Connection
             Me._commandCollection(0).CommandText = "SELECT MB001, MB002, MB003, MB004, MB005, MB006, MB007, MB008, MB009, MB010, MB01"& _ 
                 "1, MB012, MB013, MB014, MB015, MB016, MB017, MB018, MB019, MB020, MB021, MB022, "& _ 
-                "MB023, MB024, MB025, MB026, MB027, MB028, MB029, MB030, "&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"                  MB03"& _ 
-                "1, MB032, MB033, MB034, MB035, MB036, MB037, MB038, MB039, MB040, MB041, MB042, "& _ 
-                "MB043, MB044, MB045, MB046, MB047, MB048, MB049, MB050, MB051, MB052, MB053, MB0"& _ 
-                "54, MB055, MB056, MB057, MB058, MB059, MB060, "&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"                  MB061, MB062, "& _ 
-                "MB063, MB064, MB065, MB066, MB067, MB068, MB069, MB070, MB071, MB072, MB073, MB0"& _ 
-                "74, MB075, MB076, MB077, MB078, MB079, MB080, MB081, MB082, MB083, MB084, MB085,"& _ 
-                " MB086, MB087, MB088, MB089, MB090"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"FROM     INVMB"
+                "MB023, MB024, MB025, MB026, MB027, MB028, MB029, MB030, "&Global.Microsoft.VisualBasic.ChrW(10)&"                  MB031"& _ 
+                ", MB032, MB033, MB034, MB035, MB036, MB037, MB038, MB039, MB040, MB041, MB042, M"& _ 
+                "B043, MB044, MB045, MB046, MB047, MB048, MB049, MB050, MB051, MB052, MB053, MB05"& _ 
+                "4, MB055, MB056, MB057, MB058, MB059, MB060, "&Global.Microsoft.VisualBasic.ChrW(10)&"                  MB061, MB062, MB"& _ 
+                "063, MB064, MB065, MB066, MB067, MB068, MB069, MB070, MB071, MB072, MB073, MB074"& _ 
+                ", MB075, MB076, MB077, MB078, MB079, MB080, MB081, MB082, MB083, MB084, MB085, M"& _ 
+                "B086, MB087, MB088, MB089, MB090"&Global.Microsoft.VisualBasic.ChrW(10)&"FROM     INVMB"
             Me._commandCollection(0).CommandType = Global.System.Data.CommandType.Text
         End Sub
         
@@ -32010,7 +39420,7 @@ Namespace TECHLINKDataSetTableAdapters
             Me._commandCollection = New Global.System.Data.SqlClient.SqlCommand(0) {}
             Me._commandCollection(0) = New Global.System.Data.SqlClient.SqlCommand()
             Me._commandCollection(0).Connection = Me.Connection
-            Me._commandCollection(0).CommandText = "SELECT TC002"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"FROM     COPTC"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE  (TC012 = @SORNO)"
+            Me._commandCollection(0).CommandText = "SELECT TC002"&Global.Microsoft.VisualBasic.ChrW(10)&"FROM     COPTC"&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE  (TC012 = @SORNO)"
             Me._commandCollection(0).CommandType = Global.System.Data.CommandType.Text
             Me._commandCollection(0).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@SORNO", Global.System.Data.SqlDbType.NVarChar, 20, Global.System.Data.ParameterDirection.Input, 0, 0, "TC012", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
         End Sub
@@ -32217,7 +39627,7 @@ Namespace TECHLINKDataSetTableAdapters
             Me._commandCollection(0).Connection = Me.Connection
             Me._commandCollection(0).CommandText = "SELECT '' AS DATETIME, FLAG, CREATOR, CREATE_DATE, TC001, TC002, TC004, TC005, TC"& _ 
                 "007, TC008, TC009, TC010, TC012, TC014, TC019, TC032, TC042, TC053, TC065, TC069"& _ 
-                ", TC071, TC078"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"FROM     COPTC"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE  (TC012 = @SORNO)"
+                ", TC071, TC078"&Global.Microsoft.VisualBasic.ChrW(10)&"FROM     COPTC"&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE  (TC012 = @SORNO)"
             Me._commandCollection(0).CommandType = Global.System.Data.CommandType.Text
             Me._commandCollection(0).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@SORNO", Global.System.Data.SqlDbType.NVarChar, 20, Global.System.Data.ParameterDirection.Input, 0, 0, "TC012", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
         End Sub
@@ -32406,10 +39816,9 @@ Namespace TECHLINKDataSetTableAdapters
             Me._commandCollection(0) = New Global.System.Data.SqlClient.SqlCommand()
             Me._commandCollection(0).Connection = Me.Connection
             Me._commandCollection(0).CommandText = "SELECT COPMG.MG002 AS TD004, INVMB.MB002 AS TD005, INVMB.MB004 AS TD010, ISNULL(I"& _ 
-                "NVMD.MD003 / INVMD.MD004, 0) AS TD032, INVMB.MB090 AS TD036"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"FROM     COPMG INNE"& _ 
-                "R JOIN"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"                  INVMB ON COPMG.MG002 = INVMB.MB001 LEFT OUTER JOIN"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"  "& _ 
-                "                INVMD ON INVMB.MB001 = INVMD.MD001"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE  (COPMG.MG003 = @HKCOD"& _ 
-                "E)"
+                "NVMD.MD003 / INVMD.MD004, 0) AS TD032, INVMB.MB090 AS TD036"&Global.Microsoft.VisualBasic.ChrW(10)&"FROM     COPMG INNER"& _ 
+                " JOIN"&Global.Microsoft.VisualBasic.ChrW(10)&"                  INVMB ON COPMG.MG002 = INVMB.MB001 LEFT OUTER JOIN"&Global.Microsoft.VisualBasic.ChrW(10)&"     "& _ 
+                "             INVMD ON INVMB.MB001 = INVMD.MD001"&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE  (COPMG.MG003 = @HKCODE)"
             Me._commandCollection(0).CommandType = Global.System.Data.CommandType.Text
             Me._commandCollection(0).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@HKCODE", Global.System.Data.SqlDbType.NChar, 60, Global.System.Data.ParameterDirection.Input, 0, 0, "MG003", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
         End Sub
@@ -32604,8 +40013,8 @@ Namespace TECHLINKDataSetTableAdapters
             Me._adapter.InsertCommand = New Global.System.Data.SqlClient.SqlCommand()
             Me._adapter.InsertCommand.Connection = Me.Connection
             Me._adapter.InsertCommand.CommandText = "INSERT INTO [COPTC] ([TC001], [TC002], [TC005], [TC010], [TC031], [TC046]) VALUES"& _ 
-                " (@TC001, @TC002, @TC005, @TC010, @TC031, @TC046);"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT TC001, TC002, TC005, "& _ 
-                "TC010, TC031, TC046 FROM COPTC WHERE (TC001 = @TC001) AND (TC002 = @TC002)"
+                " (@TC001, @TC002, @TC005, @TC010, @TC031, @TC046);"&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT TC001, TC002, TC005, T"& _ 
+                "C010, TC031, TC046 FROM COPTC WHERE (TC001 = @TC001) AND (TC002 = @TC002)"
             Me._adapter.InsertCommand.CommandType = Global.System.Data.CommandType.Text
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@TC001", Global.System.Data.SqlDbType.NChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "TC001", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@TC002", Global.System.Data.SqlDbType.NChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "TC002", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
@@ -32621,8 +40030,8 @@ Namespace TECHLINKDataSetTableAdapters
                 "([TC005] = @Original_TC005)) AND ((@IsNull_TC010 = 1 AND [TC010] IS NULL) OR ([T"& _ 
                 "C010] = @Original_TC010)) AND ((@IsNull_TC031 = 1 AND [TC031] IS NULL) OR ([TC03"& _ 
                 "1] = @Original_TC031)) AND ((@IsNull_TC046 = 1 AND [TC046] IS NULL) OR ([TC046] "& _ 
-                "= @Original_TC046)));"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT TC001, TC002, TC005, TC010, TC031, TC046 FROM COPT"& _ 
-                "C WHERE (TC001 = @TC001) AND (TC002 = @TC002)"
+                "= @Original_TC046)));"&Global.Microsoft.VisualBasic.ChrW(10)&"SELECT TC001, TC002, TC005, TC010, TC031, TC046 FROM COPTC"& _ 
+                " WHERE (TC001 = @TC001) AND (TC002 = @TC002)"
             Me._adapter.UpdateCommand.CommandType = Global.System.Data.CommandType.Text
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@TC001", Global.System.Data.SqlDbType.NChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "TC001", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@TC002", Global.System.Data.SqlDbType.NChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "TC002", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
@@ -32655,14 +40064,14 @@ Namespace TECHLINKDataSetTableAdapters
             Me._commandCollection = New Global.System.Data.SqlClient.SqlCommand(1) {}
             Me._commandCollection(0) = New Global.System.Data.SqlClient.SqlCommand()
             Me._commandCollection(0).Connection = Me.Connection
-            Me._commandCollection(0).CommandText = "SELECT TC001, TC002, TC005, TC010, TC031, TC046"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"FROM     COPTC"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE  (TC002 = "& _ 
-                "@TC002)"
+            Me._commandCollection(0).CommandText = "SELECT TC001, TC002, TC005, TC010, TC031, TC046"&Global.Microsoft.VisualBasic.ChrW(10)&"FROM     COPTC"&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE  (TC002 = @T"& _ 
+                "C002)"
             Me._commandCollection(0).CommandType = Global.System.Data.CommandType.Text
             Me._commandCollection(0).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@TC002", Global.System.Data.SqlDbType.NChar, 11, Global.System.Data.ParameterDirection.Input, 0, 0, "TC002", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._commandCollection(1) = New Global.System.Data.SqlClient.SqlCommand()
             Me._commandCollection(1).Connection = Me.Connection
-            Me._commandCollection(1).CommandText = "UPDATE COPTC"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"SET          TC001 = @TC001, TC005 = @TC005, TC010 = @TC010, TC031 "& _ 
-                "= @TC031, TC046 = @TC046"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE  (TC002 = @TC002) AND (TC001 = '    ')"
+            Me._commandCollection(1).CommandText = "UPDATE COPTC"&Global.Microsoft.VisualBasic.ChrW(10)&"SET          TC001 = @TC001, TC005 = @TC005, TC010 = @TC010, TC031 ="& _ 
+                " @TC031, TC046 = @TC046"&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE  (TC002 = @TC002) AND (TC001 = '    ')"
             Me._commandCollection(1).CommandType = Global.System.Data.CommandType.Text
             Me._commandCollection(1).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@TC001", Global.System.Data.SqlDbType.NChar, 4, Global.System.Data.ParameterDirection.Input, 0, 0, "TC001", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
             Me._commandCollection(1).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@TC005", Global.System.Data.SqlDbType.NVarChar, 10, Global.System.Data.ParameterDirection.Input, 0, 0, "TC005", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
@@ -33136,8 +40545,8 @@ Namespace TECHLINKDataSetTableAdapters
             Me._commandCollection = New Global.System.Data.SqlClient.SqlCommand(0) {}
             Me._commandCollection(0) = New Global.System.Data.SqlClient.SqlCommand()
             Me._commandCollection(0).Connection = Me.Connection
-            Me._commandCollection(0).CommandText = "SELECT TB009, MAX(TB016) AS TB016"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"FROM     COPTB"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE  (TB004 = @TB004)"&Global.Microsoft.VisualBasic.ChrW(13)&Global.Microsoft.VisualBasic.ChrW(10)&"GROUP"& _ 
-                " BY TB004, TB009"
+            Me._commandCollection(0).CommandText = "SELECT TB009, MAX(TB016) AS TB016"&Global.Microsoft.VisualBasic.ChrW(10)&"FROM     COPTB"&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE  (TB004 = @TB004)"&Global.Microsoft.VisualBasic.ChrW(10)&"GROUP BY"& _ 
+                " TB004, TB009"
             Me._commandCollection(0).CommandType = Global.System.Data.CommandType.Text
             Me._commandCollection(0).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@TB004", Global.System.Data.SqlDbType.NVarChar, 40, Global.System.Data.ParameterDirection.Input, 0, 0, "TB004", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
         End Sub
@@ -33178,6 +40587,1787 @@ Namespace TECHLINKDataSetTableAdapters
     End Class
     
     '''<summary>
+    '''Represents the connection and commands used to retrieve and save data.
+    '''</summary>
+    <Global.System.ComponentModel.DesignerCategoryAttribute("code"),  _
+     Global.System.ComponentModel.ToolboxItem(true),  _
+     Global.System.ComponentModel.DataObjectAttribute(true),  _
+     Global.System.ComponentModel.DesignerAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterDesigner, Microsoft.VSDesigner"& _ 
+        ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"),  _
+     Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")>  _
+    Partial Public Class SourceTableAdapter
+        Inherits Global.System.ComponentModel.Component
+        
+        Private WithEvents _adapter As Global.System.Data.SqlClient.SqlDataAdapter
+        
+        Private _connection As Global.System.Data.SqlClient.SqlConnection
+        
+        Private _transaction As Global.System.Data.SqlClient.SqlTransaction
+        
+        Private _commandCollection() As Global.System.Data.SqlClient.SqlCommand
+        
+        Private _clearBeforeFill As Boolean
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub New()
+            MyBase.New
+            Me.ClearBeforeFill = true
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Protected Friend ReadOnly Property Adapter() As Global.System.Data.SqlClient.SqlDataAdapter
+            Get
+                If (Me._adapter Is Nothing) Then
+                    Me.InitAdapter
+                End If
+                Return Me._adapter
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Friend Property Connection() As Global.System.Data.SqlClient.SqlConnection
+            Get
+                If (Me._connection Is Nothing) Then
+                    Me.InitConnection
+                End If
+                Return Me._connection
+            End Get
+            Set
+                Me._connection = value
+                If (Not (Me.Adapter.InsertCommand) Is Nothing) Then
+                    Me.Adapter.InsertCommand.Connection = value
+                End If
+                If (Not (Me.Adapter.DeleteCommand) Is Nothing) Then
+                    Me.Adapter.DeleteCommand.Connection = value
+                End If
+                If (Not (Me.Adapter.UpdateCommand) Is Nothing) Then
+                    Me.Adapter.UpdateCommand.Connection = value
+                End If
+                Dim i As Integer = 0
+                Do While (i < Me.CommandCollection.Length)
+                    If (Not (Me.CommandCollection(i)) Is Nothing) Then
+                        CType(Me.CommandCollection(i),Global.System.Data.SqlClient.SqlCommand).Connection = value
+                    End If
+                    i = (i + 1)
+                Loop
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Friend Property Transaction() As Global.System.Data.SqlClient.SqlTransaction
+            Get
+                Return Me._transaction
+            End Get
+            Set
+                Me._transaction = value
+                Dim i As Integer = 0
+                Do While (i < Me.CommandCollection.Length)
+                    Me.CommandCollection(i).Transaction = Me._transaction
+                    i = (i + 1)
+                Loop
+                If ((Not (Me.Adapter) Is Nothing)  _
+                            AndAlso (Not (Me.Adapter.DeleteCommand) Is Nothing)) Then
+                    Me.Adapter.DeleteCommand.Transaction = Me._transaction
+                End If
+                If ((Not (Me.Adapter) Is Nothing)  _
+                            AndAlso (Not (Me.Adapter.InsertCommand) Is Nothing)) Then
+                    Me.Adapter.InsertCommand.Transaction = Me._transaction
+                End If
+                If ((Not (Me.Adapter) Is Nothing)  _
+                            AndAlso (Not (Me.Adapter.UpdateCommand) Is Nothing)) Then
+                    Me.Adapter.UpdateCommand.Transaction = Me._transaction
+                End If
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Protected ReadOnly Property CommandCollection() As Global.System.Data.SqlClient.SqlCommand()
+            Get
+                If (Me._commandCollection Is Nothing) Then
+                    Me.InitCommandCollection
+                End If
+                Return Me._commandCollection
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property ClearBeforeFill() As Boolean
+            Get
+                Return Me._clearBeforeFill
+            End Get
+            Set
+                Me._clearBeforeFill = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Private Sub InitAdapter()
+            Me._adapter = New Global.System.Data.SqlClient.SqlDataAdapter()
+            Dim tableMapping As Global.System.Data.Common.DataTableMapping = New Global.System.Data.Common.DataTableMapping()
+            tableMapping.SourceTable = "Table"
+            tableMapping.DataSetTable = "Source"
+            tableMapping.ColumnMappings.Add("TC005", "TC005")
+            Me._adapter.TableMappings.Add(tableMapping)
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Private Sub InitConnection()
+            Me._connection = New Global.System.Data.SqlClient.SqlConnection()
+            Me._connection.ConnectionString = Global.Sales_Order_Transformation.My.MySettings.Default.TECHLINKConnectionString
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Private Sub InitCommandCollection()
+            Me._commandCollection = New Global.System.Data.SqlClient.SqlCommand(1) {}
+            Me._commandCollection(0) = New Global.System.Data.SqlClient.SqlCommand()
+            Me._commandCollection(0).Connection = Me.Connection
+            Me._commandCollection(0).CommandText = "SELECT TC005 "&Global.Microsoft.VisualBasic.ChrW(10)&"FROM COPTC"&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE (TC002 = @SORNO)"
+            Me._commandCollection(0).CommandType = Global.System.Data.CommandType.Text
+            Me._commandCollection(0).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@SORNO", Global.System.Data.SqlDbType.NChar, 11, Global.System.Data.ParameterDirection.Input, 0, 0, "TC002", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._commandCollection(1) = New Global.System.Data.SqlClient.SqlCommand()
+            Me._commandCollection(1).Connection = Me.Connection
+            Me._commandCollection(1).CommandText = "SELECT TOP (1)TC005 "&Global.Microsoft.VisualBasic.ChrW(10)&"FROM COPTC"&Global.Microsoft.VisualBasic.ChrW(10)&"WHERE (TC012 = @SORNO)"
+            Me._commandCollection(1).CommandType = Global.System.Data.CommandType.Text
+            Me._commandCollection(1).Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@SORNO", Global.System.Data.SqlDbType.NVarChar, 40, Global.System.Data.ParameterDirection.Input, 0, 0, "TC012", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
+         Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Fill, true)>  _
+        Public Overloads Overridable Function Fill(ByVal dataTable As TECHLINKDataSet.SourceDataTable, ByVal SORNO As String) As Integer
+            Me.Adapter.SelectCommand = Me.CommandCollection(0)
+            If (SORNO Is Nothing) Then
+                Throw New Global.System.ArgumentNullException("SORNO")
+            Else
+                Me.Adapter.SelectCommand.Parameters(0).Value = CType(SORNO,String)
+            End If
+            If (Me.ClearBeforeFill = true) Then
+                dataTable.Clear
+            End If
+            Dim returnValue As Integer = Me.Adapter.Fill(dataTable)
+            Return returnValue
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
+         Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.[Select], true)>  _
+        Public Overloads Overridable Function GetSource(ByVal SORNO As String) As TECHLINKDataSet.SourceDataTable
+            Me.Adapter.SelectCommand = Me.CommandCollection(0)
+            If (SORNO Is Nothing) Then
+                Throw New Global.System.ArgumentNullException("SORNO")
+            Else
+                Me.Adapter.SelectCommand.Parameters(0).Value = CType(SORNO,String)
+            End If
+            Dim dataTable As TECHLINKDataSet.SourceDataTable = New TECHLINKDataSet.SourceDataTable()
+            Me.Adapter.Fill(dataTable)
+            Return dataTable
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")>  _
+        Public Overloads Overridable Function Getvalue(ByVal SORNO As String) As String
+            Dim command As Global.System.Data.SqlClient.SqlCommand = Me.CommandCollection(1)
+            If (SORNO Is Nothing) Then
+                command.Parameters(0).Value = Global.System.DBNull.Value
+            Else
+                command.Parameters(0).Value = CType(SORNO,String)
+            End If
+            Dim previousConnectionState As Global.System.Data.ConnectionState = command.Connection.State
+            If ((command.Connection.State And Global.System.Data.ConnectionState.Open)  _
+                        <> Global.System.Data.ConnectionState.Open) Then
+                command.Connection.Open
+            End If
+            Dim returnValue As Object
+            Try 
+                returnValue = command.ExecuteScalar
+            Finally
+                If (previousConnectionState = Global.System.Data.ConnectionState.Closed) Then
+                    command.Connection.Close
+                End If
+            End Try
+            If ((returnValue Is Nothing)  _
+                        OrElse (returnValue.GetType Is GetType(Global.System.DBNull))) Then
+                Return Nothing
+            Else
+                Return CType(returnValue,String)
+            End If
+        End Function
+    End Class
+    
+    '''<summary>
+    '''Represents the connection and commands used to retrieve and save data.
+    '''</summary>
+    <Global.System.ComponentModel.DesignerCategoryAttribute("code"),  _
+     Global.System.ComponentModel.ToolboxItem(true),  _
+     Global.System.ComponentModel.DataObjectAttribute(true),  _
+     Global.System.ComponentModel.DesignerAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterDesigner, Microsoft.VSDesigner"& _ 
+        ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"),  _
+     Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")>  _
+    Partial Public Class CusTableAdapter1
+        Inherits Global.System.ComponentModel.Component
+        
+        Private WithEvents _adapter As Global.System.Data.SqlClient.SqlDataAdapter
+        
+        Private _connection As Global.System.Data.SqlClient.SqlConnection
+        
+        Private _transaction As Global.System.Data.SqlClient.SqlTransaction
+        
+        Private _commandCollection() As Global.System.Data.SqlClient.SqlCommand
+        
+        Private _clearBeforeFill As Boolean
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Sub New()
+            MyBase.New
+            Me.ClearBeforeFill = true
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Protected Friend ReadOnly Property Adapter() As Global.System.Data.SqlClient.SqlDataAdapter
+            Get
+                If (Me._adapter Is Nothing) Then
+                    Me.InitAdapter
+                End If
+                Return Me._adapter
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Friend Property Connection() As Global.System.Data.SqlClient.SqlConnection
+            Get
+                If (Me._connection Is Nothing) Then
+                    Me.InitConnection
+                End If
+                Return Me._connection
+            End Get
+            Set
+                Me._connection = value
+                If (Not (Me.Adapter.InsertCommand) Is Nothing) Then
+                    Me.Adapter.InsertCommand.Connection = value
+                End If
+                If (Not (Me.Adapter.DeleteCommand) Is Nothing) Then
+                    Me.Adapter.DeleteCommand.Connection = value
+                End If
+                If (Not (Me.Adapter.UpdateCommand) Is Nothing) Then
+                    Me.Adapter.UpdateCommand.Connection = value
+                End If
+                Dim i As Integer = 0
+                Do While (i < Me.CommandCollection.Length)
+                    If (Not (Me.CommandCollection(i)) Is Nothing) Then
+                        CType(Me.CommandCollection(i),Global.System.Data.SqlClient.SqlCommand).Connection = value
+                    End If
+                    i = (i + 1)
+                Loop
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Friend Property Transaction() As Global.System.Data.SqlClient.SqlTransaction
+            Get
+                Return Me._transaction
+            End Get
+            Set
+                Me._transaction = value
+                Dim i As Integer = 0
+                Do While (i < Me.CommandCollection.Length)
+                    Me.CommandCollection(i).Transaction = Me._transaction
+                    i = (i + 1)
+                Loop
+                If ((Not (Me.Adapter) Is Nothing)  _
+                            AndAlso (Not (Me.Adapter.DeleteCommand) Is Nothing)) Then
+                    Me.Adapter.DeleteCommand.Transaction = Me._transaction
+                End If
+                If ((Not (Me.Adapter) Is Nothing)  _
+                            AndAlso (Not (Me.Adapter.InsertCommand) Is Nothing)) Then
+                    Me.Adapter.InsertCommand.Transaction = Me._transaction
+                End If
+                If ((Not (Me.Adapter) Is Nothing)  _
+                            AndAlso (Not (Me.Adapter.UpdateCommand) Is Nothing)) Then
+                    Me.Adapter.UpdateCommand.Transaction = Me._transaction
+                End If
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Protected ReadOnly Property CommandCollection() As Global.System.Data.SqlClient.SqlCommand()
+            Get
+                If (Me._commandCollection Is Nothing) Then
+                    Me.InitCommandCollection
+                End If
+                Return Me._commandCollection
+            End Get
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Public Property ClearBeforeFill() As Boolean
+            Get
+                Return Me._clearBeforeFill
+            End Get
+            Set
+                Me._clearBeforeFill = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Private Sub InitAdapter()
+            Me._adapter = New Global.System.Data.SqlClient.SqlDataAdapter()
+            Dim tableMapping As Global.System.Data.Common.DataTableMapping = New Global.System.Data.Common.DataTableMapping()
+            tableMapping.SourceTable = "Table"
+            tableMapping.DataSetTable = "COPMA"
+            tableMapping.ColumnMappings.Add("COMPANY", "COMPANY")
+            tableMapping.ColumnMappings.Add("CREATOR", "CREATOR")
+            tableMapping.ColumnMappings.Add("USR_GROUP", "USR_GROUP")
+            tableMapping.ColumnMappings.Add("CREATE_DATE", "CREATE_DATE")
+            tableMapping.ColumnMappings.Add("MODIFIER", "MODIFIER")
+            tableMapping.ColumnMappings.Add("MODI_DATE", "MODI_DATE")
+            tableMapping.ColumnMappings.Add("FLAG", "FLAG")
+            tableMapping.ColumnMappings.Add("CREATE_TIME", "CREATE_TIME")
+            tableMapping.ColumnMappings.Add("CREATE_AP", "CREATE_AP")
+            tableMapping.ColumnMappings.Add("CREATE_PRID", "CREATE_PRID")
+            tableMapping.ColumnMappings.Add("MODI_TIME", "MODI_TIME")
+            tableMapping.ColumnMappings.Add("MODI_AP", "MODI_AP")
+            tableMapping.ColumnMappings.Add("MODI_PRID", "MODI_PRID")
+            tableMapping.ColumnMappings.Add("MA001", "MA001")
+            tableMapping.ColumnMappings.Add("MA002", "MA002")
+            tableMapping.ColumnMappings.Add("MA003", "MA003")
+            tableMapping.ColumnMappings.Add("MA004", "MA004")
+            tableMapping.ColumnMappings.Add("MA005", "MA005")
+            tableMapping.ColumnMappings.Add("MA006", "MA006")
+            tableMapping.ColumnMappings.Add("MA007", "MA007")
+            tableMapping.ColumnMappings.Add("MA008", "MA008")
+            tableMapping.ColumnMappings.Add("MA009", "MA009")
+            tableMapping.ColumnMappings.Add("MA010", "MA010")
+            tableMapping.ColumnMappings.Add("MA011", "MA011")
+            tableMapping.ColumnMappings.Add("MA012", "MA012")
+            tableMapping.ColumnMappings.Add("MA013", "MA013")
+            tableMapping.ColumnMappings.Add("MA014", "MA014")
+            tableMapping.ColumnMappings.Add("MA015", "MA015")
+            tableMapping.ColumnMappings.Add("MA016", "MA016")
+            tableMapping.ColumnMappings.Add("MA017", "MA017")
+            tableMapping.ColumnMappings.Add("MA018", "MA018")
+            tableMapping.ColumnMappings.Add("MA019", "MA019")
+            tableMapping.ColumnMappings.Add("MA020", "MA020")
+            tableMapping.ColumnMappings.Add("MA021", "MA021")
+            tableMapping.ColumnMappings.Add("MA022", "MA022")
+            tableMapping.ColumnMappings.Add("MA023", "MA023")
+            tableMapping.ColumnMappings.Add("MA024", "MA024")
+            tableMapping.ColumnMappings.Add("MA025", "MA025")
+            tableMapping.ColumnMappings.Add("MA026", "MA026")
+            tableMapping.ColumnMappings.Add("MA027", "MA027")
+            tableMapping.ColumnMappings.Add("MA028", "MA028")
+            tableMapping.ColumnMappings.Add("MA029", "MA029")
+            tableMapping.ColumnMappings.Add("MA030", "MA030")
+            tableMapping.ColumnMappings.Add("MA031", "MA031")
+            tableMapping.ColumnMappings.Add("MA032", "MA032")
+            tableMapping.ColumnMappings.Add("MA033", "MA033")
+            tableMapping.ColumnMappings.Add("MA034", "MA034")
+            tableMapping.ColumnMappings.Add("MA035", "MA035")
+            tableMapping.ColumnMappings.Add("MA036", "MA036")
+            tableMapping.ColumnMappings.Add("MA037", "MA037")
+            tableMapping.ColumnMappings.Add("MA038", "MA038")
+            tableMapping.ColumnMappings.Add("MA039", "MA039")
+            tableMapping.ColumnMappings.Add("MA040", "MA040")
+            tableMapping.ColumnMappings.Add("MA041", "MA041")
+            tableMapping.ColumnMappings.Add("MA042", "MA042")
+            tableMapping.ColumnMappings.Add("MA043", "MA043")
+            tableMapping.ColumnMappings.Add("MA044", "MA044")
+            tableMapping.ColumnMappings.Add("MA045", "MA045")
+            tableMapping.ColumnMappings.Add("MA046", "MA046")
+            tableMapping.ColumnMappings.Add("MA047", "MA047")
+            tableMapping.ColumnMappings.Add("MA048", "MA048")
+            tableMapping.ColumnMappings.Add("MA049", "MA049")
+            tableMapping.ColumnMappings.Add("MA050", "MA050")
+            tableMapping.ColumnMappings.Add("MA051", "MA051")
+            tableMapping.ColumnMappings.Add("MA052", "MA052")
+            tableMapping.ColumnMappings.Add("MA053", "MA053")
+            tableMapping.ColumnMappings.Add("MA054", "MA054")
+            tableMapping.ColumnMappings.Add("MA055", "MA055")
+            tableMapping.ColumnMappings.Add("MA056", "MA056")
+            tableMapping.ColumnMappings.Add("MA057", "MA057")
+            tableMapping.ColumnMappings.Add("MA058", "MA058")
+            tableMapping.ColumnMappings.Add("MA059", "MA059")
+            tableMapping.ColumnMappings.Add("MA060", "MA060")
+            tableMapping.ColumnMappings.Add("MA061", "MA061")
+            tableMapping.ColumnMappings.Add("MA062", "MA062")
+            tableMapping.ColumnMappings.Add("MA063", "MA063")
+            tableMapping.ColumnMappings.Add("MA064", "MA064")
+            tableMapping.ColumnMappings.Add("MA065", "MA065")
+            tableMapping.ColumnMappings.Add("MA066", "MA066")
+            tableMapping.ColumnMappings.Add("MA067", "MA067")
+            tableMapping.ColumnMappings.Add("MA068", "MA068")
+            tableMapping.ColumnMappings.Add("MA069", "MA069")
+            tableMapping.ColumnMappings.Add("MA070", "MA070")
+            tableMapping.ColumnMappings.Add("MA071", "MA071")
+            tableMapping.ColumnMappings.Add("MA072", "MA072")
+            tableMapping.ColumnMappings.Add("MA073", "MA073")
+            tableMapping.ColumnMappings.Add("MA074", "MA074")
+            tableMapping.ColumnMappings.Add("MA075", "MA075")
+            tableMapping.ColumnMappings.Add("MA076", "MA076")
+            tableMapping.ColumnMappings.Add("MA077", "MA077")
+            tableMapping.ColumnMappings.Add("MA078", "MA078")
+            tableMapping.ColumnMappings.Add("MA079", "MA079")
+            tableMapping.ColumnMappings.Add("MA080", "MA080")
+            tableMapping.ColumnMappings.Add("MA081", "MA081")
+            tableMapping.ColumnMappings.Add("MA082", "MA082")
+            tableMapping.ColumnMappings.Add("MA083", "MA083")
+            tableMapping.ColumnMappings.Add("MA084", "MA084")
+            tableMapping.ColumnMappings.Add("MA085", "MA085")
+            tableMapping.ColumnMappings.Add("MA086", "MA086")
+            tableMapping.ColumnMappings.Add("MA087", "MA087")
+            tableMapping.ColumnMappings.Add("MA088", "MA088")
+            tableMapping.ColumnMappings.Add("MA089", "MA089")
+            tableMapping.ColumnMappings.Add("MA090", "MA090")
+            tableMapping.ColumnMappings.Add("MA091", "MA091")
+            tableMapping.ColumnMappings.Add("MA092", "MA092")
+            tableMapping.ColumnMappings.Add("MA093", "MA093")
+            tableMapping.ColumnMappings.Add("MA094", "MA094")
+            tableMapping.ColumnMappings.Add("MA095", "MA095")
+            tableMapping.ColumnMappings.Add("MA096", "MA096")
+            tableMapping.ColumnMappings.Add("MA097", "MA097")
+            tableMapping.ColumnMappings.Add("MA098", "MA098")
+            tableMapping.ColumnMappings.Add("MA099", "MA099")
+            tableMapping.ColumnMappings.Add("MA100", "MA100")
+            tableMapping.ColumnMappings.Add("MA101", "MA101")
+            tableMapping.ColumnMappings.Add("MA102", "MA102")
+            tableMapping.ColumnMappings.Add("MA103", "MA103")
+            tableMapping.ColumnMappings.Add("MA104", "MA104")
+            tableMapping.ColumnMappings.Add("MA105", "MA105")
+            tableMapping.ColumnMappings.Add("MA106", "MA106")
+            tableMapping.ColumnMappings.Add("MA107", "MA107")
+            tableMapping.ColumnMappings.Add("MA108", "MA108")
+            tableMapping.ColumnMappings.Add("MA109", "MA109")
+            tableMapping.ColumnMappings.Add("MA110", "MA110")
+            tableMapping.ColumnMappings.Add("MA111", "MA111")
+            tableMapping.ColumnMappings.Add("MA112", "MA112")
+            tableMapping.ColumnMappings.Add("MA113", "MA113")
+            tableMapping.ColumnMappings.Add("MA114", "MA114")
+            tableMapping.ColumnMappings.Add("MA115", "MA115")
+            tableMapping.ColumnMappings.Add("MA116", "MA116")
+            tableMapping.ColumnMappings.Add("MA117", "MA117")
+            tableMapping.ColumnMappings.Add("MA118", "MA118")
+            tableMapping.ColumnMappings.Add("MA119", "MA119")
+            tableMapping.ColumnMappings.Add("MA120", "MA120")
+            tableMapping.ColumnMappings.Add("MA121", "MA121")
+            tableMapping.ColumnMappings.Add("MA122", "MA122")
+            tableMapping.ColumnMappings.Add("MA123", "MA123")
+            tableMapping.ColumnMappings.Add("MA124", "MA124")
+            tableMapping.ColumnMappings.Add("MA125", "MA125")
+            tableMapping.ColumnMappings.Add("MA126", "MA126")
+            tableMapping.ColumnMappings.Add("MA127", "MA127")
+            tableMapping.ColumnMappings.Add("MA132", "MA132")
+            tableMapping.ColumnMappings.Add("MA133", "MA133")
+            tableMapping.ColumnMappings.Add("UDF01", "UDF01")
+            tableMapping.ColumnMappings.Add("UDF02", "UDF02")
+            tableMapping.ColumnMappings.Add("UDF03", "UDF03")
+            tableMapping.ColumnMappings.Add("UDF04", "UDF04")
+            tableMapping.ColumnMappings.Add("UDF05", "UDF05")
+            tableMapping.ColumnMappings.Add("UDF06", "UDF06")
+            tableMapping.ColumnMappings.Add("UDF07", "UDF07")
+            tableMapping.ColumnMappings.Add("UDF08", "UDF08")
+            tableMapping.ColumnMappings.Add("UDF09", "UDF09")
+            tableMapping.ColumnMappings.Add("UDF10", "UDF10")
+            tableMapping.ColumnMappings.Add("MA134", "MA134")
+            tableMapping.ColumnMappings.Add("MA135", "MA135")
+            tableMapping.ColumnMappings.Add("MA136", "MA136")
+            tableMapping.ColumnMappings.Add("MA137", "MA137")
+            tableMapping.ColumnMappings.Add("MA139", "MA139")
+            tableMapping.ColumnMappings.Add("MA140", "MA140")
+            tableMapping.ColumnMappings.Add("MA141", "MA141")
+            tableMapping.ColumnMappings.Add("MA142", "MA142")
+            tableMapping.ColumnMappings.Add("MA143", "MA143")
+            Me._adapter.TableMappings.Add(tableMapping)
+            Me._adapter.InsertCommand = New Global.System.Data.SqlClient.SqlCommand()
+            Me._adapter.InsertCommand.Connection = Me.Connection
+            Me._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[COPMA] ([COMPANY], [CREATOR], [USR_GROUP], [CREATE_DATE], [MOD"& _ 
+                "IFIER], [MODI_DATE], [FLAG], [CREATE_TIME], [CREATE_AP], [CREATE_PRID], [MODI_TI"& _ 
+                "ME], [MODI_AP], [MODI_PRID], [MA001], [MA002], [MA003], [MA004], [MA005], [MA006"& _ 
+                "], [MA007], [MA008], [MA009], [MA010], [MA011], [MA012], [MA013], [MA014], [MA01"& _ 
+                "5], [MA016], [MA017], [MA018], [MA019], [MA020], [MA021], [MA022], [MA023], [MA0"& _ 
+                "24], [MA025], [MA026], [MA027], [MA028], [MA029], [MA030], [MA031], [MA032], [MA"& _ 
+                "033], [MA034], [MA035], [MA036], [MA037], [MA038], [MA039], [MA040], [MA041], [M"& _ 
+                "A042], [MA043], [MA044], [MA045], [MA046], [MA047], [MA048], [MA049], [MA050], ["& _ 
+                "MA051], [MA052], [MA053], [MA054], [MA055], [MA056], [MA057], [MA058], [MA059], "& _ 
+                "[MA060], [MA061], [MA062], [MA063], [MA064], [MA065], [MA066], [MA067], [MA068],"& _ 
+                " [MA069], [MA070], [MA071], [MA072], [MA073], [MA074], [MA075], [MA076], [MA077]"& _ 
+                ", [MA078], [MA079], [MA080], [MA081], [MA082], [MA083], [MA084], [MA085], [MA086"& _ 
+                "], [MA087], [MA088], [MA089], [MA090], [MA091], [MA092], [MA093], [MA094], [MA09"& _ 
+                "5], [MA096], [MA097], [MA098], [MA099], [MA100], [MA101], [MA102], [MA103], [MA1"& _ 
+                "04], [MA105], [MA106], [MA107], [MA108], [MA109], [MA110], [MA111], [MA112], [MA"& _ 
+                "113], [MA114], [MA115], [MA116], [MA117], [MA118], [MA119], [MA120], [MA121], [M"& _ 
+                "A122], [MA123], [MA124], [MA125], [MA126], [MA127], [MA132], [MA133], [UDF01], ["& _ 
+                "UDF02], [UDF03], [UDF04], [UDF05], [UDF06], [UDF07], [UDF08], [UDF09], [UDF10], "& _ 
+                "[MA134], [MA135], [MA136], [MA137], [MA139], [MA140], [MA141], [MA142], [MA143])"& _ 
+                " VALUES (@COMPANY, @CREATOR, @USR_GROUP, @CREATE_DATE, @MODIFIER, @MODI_DATE, @F"& _ 
+                "LAG, @CREATE_TIME, @CREATE_AP, @CREATE_PRID, @MODI_TIME, @MODI_AP, @MODI_PRID, @"& _ 
+                "MA001, @MA002, @MA003, @MA004, @MA005, @MA006, @MA007, @MA008, @MA009, @MA010, @"& _ 
+                "MA011, @MA012, @MA013, @MA014, @MA015, @MA016, @MA017, @MA018, @MA019, @MA020, @"& _ 
+                "MA021, @MA022, @MA023, @MA024, @MA025, @MA026, @MA027, @MA028, @MA029, @MA030, @"& _ 
+                "MA031, @MA032, @MA033, @MA034, @MA035, @MA036, @MA037, @MA038, @MA039, @MA040, @"& _ 
+                "MA041, @MA042, @MA043, @MA044, @MA045, @MA046, @MA047, @MA048, @MA049, @MA050, @"& _ 
+                "MA051, @MA052, @MA053, @MA054, @MA055, @MA056, @MA057, @MA058, @MA059, @MA060, @"& _ 
+                "MA061, @MA062, @MA063, @MA064, @MA065, @MA066, @MA067, @MA068, @MA069, @MA070, @"& _ 
+                "MA071, @MA072, @MA073, @MA074, @MA075, @MA076, @MA077, @MA078, @MA079, @MA080, @"& _ 
+                "MA081, @MA082, @MA083, @MA084, @MA085, @MA086, @MA087, @MA088, @MA089, @MA090, @"& _ 
+                "MA091, @MA092, @MA093, @MA094, @MA095, @MA096, @MA097, @MA098, @MA099, @MA100, @"& _ 
+                "MA101, @MA102, @MA103, @MA104, @MA105, @MA106, @MA107, @MA108, @MA109, @MA110, @"& _ 
+                "MA111, @MA112, @MA113, @MA114, @MA115, @MA116, @MA117, @MA118, @MA119, @MA120, @"& _ 
+                "MA121, @MA122, @MA123, @MA124, @MA125, @MA126, @MA127, @MA132, @MA133, @UDF01, @"& _ 
+                "UDF02, @UDF03, @UDF04, @UDF05, @UDF06, @UDF07, @UDF08, @UDF09, @UDF10, @MA134, @"& _ 
+                "MA135, @MA136, @MA137, @MA139, @MA140, @MA141, @MA142, @MA143)"
+            Me._adapter.InsertCommand.CommandType = Global.System.Data.CommandType.Text
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@COMPANY", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "COMPANY", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@CREATOR", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "CREATOR", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@USR_GROUP", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "USR_GROUP", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@CREATE_DATE", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "CREATE_DATE", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MODIFIER", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MODIFIER", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MODI_DATE", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MODI_DATE", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@FLAG", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 3, 0, "FLAG", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@CREATE_TIME", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "CREATE_TIME", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@CREATE_AP", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "CREATE_AP", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@CREATE_PRID", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "CREATE_PRID", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MODI_TIME", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MODI_TIME", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MODI_AP", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MODI_AP", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MODI_PRID", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MODI_PRID", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA001", Global.System.Data.SqlDbType.NChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA001", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA002", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA002", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA003", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA003", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA004", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA004", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA005", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA005", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA006", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA006", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA007", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA007", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA008", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA008", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA009", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA009", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA010", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA010", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA011", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 16, 0, "MA011", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA012", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 16, 0, "MA012", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA013", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 5, 0, "MA013", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA014", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA014", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA015", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA015", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA016", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA016", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA017", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA017", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA018", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA018", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA019", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA019", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA020", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA020", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA021", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA021", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA022", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA022", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA023", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA023", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA024", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA024", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA025", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA025", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA026", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA026", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA027", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA027", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA028", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA028", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA029", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA029", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA030", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA030", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA031", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA031", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA032", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA032", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA033", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 21, 6, "MA033", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA034", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 8, 5, "MA034", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA035", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA035", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA036", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 8, 5, "MA036", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA037", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA037", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA038", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA038", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA039", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA039", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA040", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA040", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA041", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA041", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA042", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA042", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA043", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA043", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA044", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 3, 0, "MA044", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA045", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 3, 0, "MA045", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA046", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA046", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA047", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA047", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA048", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA048", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA049", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA049", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA050", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA050", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA051", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA051", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA052", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA052", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA053", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA053", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA054", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA054", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA055", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA055", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA056", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA056", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA057", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA057", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA058", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA058", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA059", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 8, 5, "MA059", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA060", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 8, 5, "MA060", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA061", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 8, 7, "MA061", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA062", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA062", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA063", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA063", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA064", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA064", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA065", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA065", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA066", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA066", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA067", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 5, 0, "MA067", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA068", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA068", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA069", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA069", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA070", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA070", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA071", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA071", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA072", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA072", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA073", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA073", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA074", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA074", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA075", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA075", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA076", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA076", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA077", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA077", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA078", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA078", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA079", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA079", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA080", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA080", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA081", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA081", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA082", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA082", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA083", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA083", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA084", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA084", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA085", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA085", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA086", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA086", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA087", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA087", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA088", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA088", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA089", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA089", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA090", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 8, 5, "MA090", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA091", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 8, 5, "MA091", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA092", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 8, 5, "MA092", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA093", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 8, 5, "MA093", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA094", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 8, 5, "MA094", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA095", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 8, 5, "MA095", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA096", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA096", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA097", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA097", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA098", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA098", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA099", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA099", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA100", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA100", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA101", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA101", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA102", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 8, 5, "MA102", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA103", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA103", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA104", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA104", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA105", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA105", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA106", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA106", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA107", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA107", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA108", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA108", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA109", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA109", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA110", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA110", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA111", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA111", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA112", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA112", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA113", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 21, 6, "MA113", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA114", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 15, 6, "MA114", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA115", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA115", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA116", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA116", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA117", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA117", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA118", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA118", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA119", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA119", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA120", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA120", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA121", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA121", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA122", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA122", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA123", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA123", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA124", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA124", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA125", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 2, 0, "MA125", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA126", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 2, 0, "MA126", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA127", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 3, 0, "MA127", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA132", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA132", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA133", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA133", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@UDF01", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "UDF01", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@UDF02", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "UDF02", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@UDF03", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "UDF03", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@UDF04", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "UDF04", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@UDF05", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "UDF05", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@UDF06", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 21, 6, "UDF06", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@UDF07", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 21, 6, "UDF07", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@UDF08", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 21, 6, "UDF08", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@UDF09", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 21, 6, "UDF09", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@UDF10", Global.System.Data.SqlDbType.[Decimal], 0, Global.System.Data.ParameterDirection.Input, 21, 6, "UDF10", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA134", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA134", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA135", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA135", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA136", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA136", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA137", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA137", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA139", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA139", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA140", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA140", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA141", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA141", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA142", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA142", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.SqlClient.SqlParameter("@MA143", Global.System.Data.SqlDbType.NVarChar, 0, Global.System.Data.ParameterDirection.Input, 0, 0, "MA143", Global.System.Data.DataRowVersion.Current, false, Nothing, "", "", ""))
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Private Sub InitConnection()
+            Me._connection = New Global.System.Data.SqlClient.SqlConnection()
+            Me._connection.ConnectionString = Global.Sales_Order_Transformation.My.MySettings.Default.TECHLINKConnectionString
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
+        Private Sub InitCommandCollection()
+            Me._commandCollection = New Global.System.Data.SqlClient.SqlCommand(0) {}
+            Me._commandCollection(0) = New Global.System.Data.SqlClient.SqlCommand()
+            Me._commandCollection(0).Connection = Me.Connection
+            Me._commandCollection(0).CommandText = "SELECT COMPANY, CREATOR, USR_GROUP, CREATE_DATE, MODIFIER, MODI_DATE, FLAG, CREAT"& _ 
+                "E_TIME, CREATE_AP, CREATE_PRID, MODI_TIME, MODI_AP, MODI_PRID, MA001, MA002, MA0"& _ 
+                "03, MA004, MA005, MA006, MA007, MA008, MA009, MA010, MA011, MA012, MA013, MA014,"& _ 
+                " MA015, MA016, MA017, MA018, MA019, MA020, MA021, MA022, MA023, MA024, MA025, MA"& _ 
+                "026, MA027, MA028, MA029, MA030, MA031, MA032, MA033, MA034, MA035, MA036, MA037"& _ 
+                ", MA038, MA039, MA040, MA041, MA042, MA043, MA044, MA045, MA046, MA047, MA048, M"& _ 
+                "A049, MA050, MA051, MA052, MA053, MA054, MA055, MA056, MA057, MA058, MA059, MA06"& _ 
+                "0, MA061, MA062, MA063, MA064, MA065, MA066, MA067, MA068, MA069, MA070, MA071, "& _ 
+                "MA072, MA073, MA074, MA075, MA076, MA077, MA078, MA079, MA080, MA081, MA082, MA0"& _ 
+                "83, MA084, MA085, MA086, MA087, MA088, MA089, MA090, MA091, MA092, MA093, MA094,"& _ 
+                " MA095, MA096, MA097, MA098, MA099, MA100, MA101, MA102, MA103, MA104, MA105, MA"& _ 
+                "106, MA107, MA108, MA109, MA110, MA111, MA112, MA113, MA114, MA115, MA116, MA117"& _ 
+                ", MA118, MA119, MA120, MA121, MA122, MA123, MA124, MA125, MA126, MA127, MA132, M"& _ 
+                "A133, UDF01, UDF02, UDF03, UDF04, UDF05, UDF06, UDF07, UDF08, UDF09, UDF10, MA13"& _ 
+                "4, MA135, MA136, MA137, MA139, MA140, MA141, MA142, MA143 FROM dbo.COPMA"
+            Me._commandCollection(0).CommandType = Global.System.Data.CommandType.Text
+        End Sub
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
+         Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Fill, true)>  _
+        Public Overloads Overridable Function Fill(ByVal dataTable As TECHLINKDataSet.COPMADataTable) As Integer
+            Me.Adapter.SelectCommand = Me.CommandCollection(0)
+            If (Me.ClearBeforeFill = true) Then
+                dataTable.Clear
+            End If
+            Dim returnValue As Integer = Me.Adapter.Fill(dataTable)
+            Return returnValue
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
+         Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.[Select], true)>  _
+        Public Overloads Overridable Function GetData() As TECHLINKDataSet.COPMADataTable
+            Me.Adapter.SelectCommand = Me.CommandCollection(0)
+            Dim dataTable As TECHLINKDataSet.COPMADataTable = New TECHLINKDataSet.COPMADataTable()
+            Me.Adapter.Fill(dataTable)
+            Return dataTable
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")>  _
+        Public Overloads Overridable Function Update(ByVal dataTable As TECHLINKDataSet.COPMADataTable) As Integer
+            Return Me.Adapter.Update(dataTable)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")>  _
+        Public Overloads Overridable Function Update(ByVal dataSet As TECHLINKDataSet) As Integer
+            Return Me.Adapter.Update(dataSet, "COPMA")
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")>  _
+        Public Overloads Overridable Function Update(ByVal dataRow As Global.System.Data.DataRow) As Integer
+            Return Me.Adapter.Update(New Global.System.Data.DataRow() {dataRow})
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")>  _
+        Public Overloads Overridable Function Update(ByVal dataRows() As Global.System.Data.DataRow) As Integer
+            Return Me.Adapter.Update(dataRows)
+        End Function
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
+         Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Insert, true)>  _
+        Public Overloads Overridable Function Insert( _
+                    ByVal COMPANY As String,  _
+                    ByVal CREATOR As String,  _
+                    ByVal USR_GROUP As String,  _
+                    ByVal CREATE_DATE As String,  _
+                    ByVal MODIFIER As String,  _
+                    ByVal MODI_DATE As String,  _
+                    ByVal FLAG As Global.System.Nullable(Of Decimal),  _
+                    ByVal CREATE_TIME As String,  _
+                    ByVal CREATE_AP As String,  _
+                    ByVal CREATE_PRID As String,  _
+                    ByVal MODI_TIME As String,  _
+                    ByVal MODI_AP As String,  _
+                    ByVal MODI_PRID As String,  _
+                    ByVal MA001 As String,  _
+                    ByVal MA002 As String,  _
+                    ByVal MA003 As String,  _
+                    ByVal MA004 As String,  _
+                    ByVal MA005 As String,  _
+                    ByVal MA006 As String,  _
+                    ByVal MA007 As String,  _
+                    ByVal MA008 As String,  _
+                    ByVal MA009 As String,  _
+                    ByVal MA010 As String,  _
+                    ByVal MA011 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA012 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA013 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA014 As String,  _
+                    ByVal MA015 As String,  _
+                    ByVal MA016 As String,  _
+                    ByVal MA017 As String,  _
+                    ByVal MA018 As String,  _
+                    ByVal MA019 As String,  _
+                    ByVal MA020 As String,  _
+                    ByVal MA021 As String,  _
+                    ByVal MA022 As String,  _
+                    ByVal MA023 As String,  _
+                    ByVal MA024 As String,  _
+                    ByVal MA025 As String,  _
+                    ByVal MA026 As String,  _
+                    ByVal MA027 As String,  _
+                    ByVal MA028 As String,  _
+                    ByVal MA029 As String,  _
+                    ByVal MA030 As String,  _
+                    ByVal MA031 As String,  _
+                    ByVal MA032 As String,  _
+                    ByVal MA033 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA034 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA035 As String,  _
+                    ByVal MA036 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA037 As String,  _
+                    ByVal MA038 As String,  _
+                    ByVal MA039 As String,  _
+                    ByVal MA040 As String,  _
+                    ByVal MA041 As String,  _
+                    ByVal MA042 As String,  _
+                    ByVal MA043 As String,  _
+                    ByVal MA044 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA045 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA046 As String,  _
+                    ByVal MA047 As String,  _
+                    ByVal MA048 As String,  _
+                    ByVal MA049 As String,  _
+                    ByVal MA050 As String,  _
+                    ByVal MA051 As String,  _
+                    ByVal MA052 As String,  _
+                    ByVal MA053 As String,  _
+                    ByVal MA054 As String,  _
+                    ByVal MA055 As String,  _
+                    ByVal MA056 As String,  _
+                    ByVal MA057 As String,  _
+                    ByVal MA058 As String,  _
+                    ByVal MA059 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA060 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA061 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA062 As String,  _
+                    ByVal MA063 As String,  _
+                    ByVal MA064 As String,  _
+                    ByVal MA065 As String,  _
+                    ByVal MA066 As String,  _
+                    ByVal MA067 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA068 As String,  _
+                    ByVal MA069 As String,  _
+                    ByVal MA070 As String,  _
+                    ByVal MA071 As String,  _
+                    ByVal MA072 As String,  _
+                    ByVal MA073 As String,  _
+                    ByVal MA074 As String,  _
+                    ByVal MA075 As String,  _
+                    ByVal MA076 As String,  _
+                    ByVal MA077 As String,  _
+                    ByVal MA078 As String,  _
+                    ByVal MA079 As String,  _
+                    ByVal MA080 As String,  _
+                    ByVal MA081 As String,  _
+                    ByVal MA082 As String,  _
+                    ByVal MA083 As String,  _
+                    ByVal MA084 As String,  _
+                    ByVal MA085 As String,  _
+                    ByVal MA086 As String,  _
+                    ByVal MA087 As String,  _
+                    ByVal MA088 As String,  _
+                    ByVal MA089 As String,  _
+                    ByVal MA090 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA091 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA092 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA093 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA094 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA095 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA096 As String,  _
+                    ByVal MA097 As String,  _
+                    ByVal MA098 As String,  _
+                    ByVal MA099 As String,  _
+                    ByVal MA100 As String,  _
+                    ByVal MA101 As String,  _
+                    ByVal MA102 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA103 As String,  _
+                    ByVal MA104 As String,  _
+                    ByVal MA105 As String,  _
+                    ByVal MA106 As String,  _
+                    ByVal MA107 As String,  _
+                    ByVal MA108 As String,  _
+                    ByVal MA109 As String,  _
+                    ByVal MA110 As String,  _
+                    ByVal MA111 As String,  _
+                    ByVal MA112 As String,  _
+                    ByVal MA113 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA114 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA115 As String,  _
+                    ByVal MA116 As String,  _
+                    ByVal MA117 As String,  _
+                    ByVal MA118 As String,  _
+                    ByVal MA119 As String,  _
+                    ByVal MA120 As String,  _
+                    ByVal MA121 As String,  _
+                    ByVal MA122 As String,  _
+                    ByVal MA123 As String,  _
+                    ByVal MA124 As String,  _
+                    ByVal MA125 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA126 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA127 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA132 As String,  _
+                    ByVal MA133 As String,  _
+                    ByVal UDF01 As String,  _
+                    ByVal UDF02 As String,  _
+                    ByVal UDF03 As String,  _
+                    ByVal UDF04 As String,  _
+                    ByVal UDF05 As String,  _
+                    ByVal UDF06 As Global.System.Nullable(Of Decimal),  _
+                    ByVal UDF07 As Global.System.Nullable(Of Decimal),  _
+                    ByVal UDF08 As Global.System.Nullable(Of Decimal),  _
+                    ByVal UDF09 As Global.System.Nullable(Of Decimal),  _
+                    ByVal UDF10 As Global.System.Nullable(Of Decimal),  _
+                    ByVal MA134 As String,  _
+                    ByVal MA135 As String,  _
+                    ByVal MA136 As String,  _
+                    ByVal MA137 As String,  _
+                    ByVal MA139 As String,  _
+                    ByVal MA140 As String,  _
+                    ByVal MA141 As String,  _
+                    ByVal MA142 As String,  _
+                    ByVal MA143 As String) As Integer
+            If (COMPANY Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(0).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(0).Value = CType(COMPANY,String)
+            End If
+            If (CREATOR Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(1).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(1).Value = CType(CREATOR,String)
+            End If
+            If (USR_GROUP Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(2).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(2).Value = CType(USR_GROUP,String)
+            End If
+            If (CREATE_DATE Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(3).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(3).Value = CType(CREATE_DATE,String)
+            End If
+            If (MODIFIER Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(4).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(4).Value = CType(MODIFIER,String)
+            End If
+            If (MODI_DATE Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(5).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(5).Value = CType(MODI_DATE,String)
+            End If
+            If (FLAG.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(6).Value = CType(FLAG.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(6).Value = Global.System.DBNull.Value
+            End If
+            If (CREATE_TIME Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(7).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(7).Value = CType(CREATE_TIME,String)
+            End If
+            If (CREATE_AP Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(8).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(8).Value = CType(CREATE_AP,String)
+            End If
+            If (CREATE_PRID Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(9).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(9).Value = CType(CREATE_PRID,String)
+            End If
+            If (MODI_TIME Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(10).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(10).Value = CType(MODI_TIME,String)
+            End If
+            If (MODI_AP Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(11).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(11).Value = CType(MODI_AP,String)
+            End If
+            If (MODI_PRID Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(12).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(12).Value = CType(MODI_PRID,String)
+            End If
+            If (MA001 Is Nothing) Then
+                Throw New Global.System.ArgumentNullException("MA001")
+            Else
+                Me.Adapter.InsertCommand.Parameters(13).Value = CType(MA001,String)
+            End If
+            If (MA002 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(14).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(14).Value = CType(MA002,String)
+            End If
+            If (MA003 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(15).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(15).Value = CType(MA003,String)
+            End If
+            If (MA004 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(16).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(16).Value = CType(MA004,String)
+            End If
+            If (MA005 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(17).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(17).Value = CType(MA005,String)
+            End If
+            If (MA006 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(18).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(18).Value = CType(MA006,String)
+            End If
+            If (MA007 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(19).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(19).Value = CType(MA007,String)
+            End If
+            If (MA008 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(20).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(20).Value = CType(MA008,String)
+            End If
+            If (MA009 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(21).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(21).Value = CType(MA009,String)
+            End If
+            If (MA010 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(22).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(22).Value = CType(MA010,String)
+            End If
+            If (MA011.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(23).Value = CType(MA011.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(23).Value = Global.System.DBNull.Value
+            End If
+            If (MA012.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(24).Value = CType(MA012.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(24).Value = Global.System.DBNull.Value
+            End If
+            If (MA013.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(25).Value = CType(MA013.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(25).Value = Global.System.DBNull.Value
+            End If
+            If (MA014 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(26).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(26).Value = CType(MA014,String)
+            End If
+            If (MA015 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(27).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(27).Value = CType(MA015,String)
+            End If
+            If (MA016 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(28).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(28).Value = CType(MA016,String)
+            End If
+            If (MA017 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(29).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(29).Value = CType(MA017,String)
+            End If
+            If (MA018 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(30).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(30).Value = CType(MA018,String)
+            End If
+            If (MA019 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(31).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(31).Value = CType(MA019,String)
+            End If
+            If (MA020 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(32).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(32).Value = CType(MA020,String)
+            End If
+            If (MA021 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(33).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(33).Value = CType(MA021,String)
+            End If
+            If (MA022 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(34).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(34).Value = CType(MA022,String)
+            End If
+            If (MA023 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(35).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(35).Value = CType(MA023,String)
+            End If
+            If (MA024 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(36).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(36).Value = CType(MA024,String)
+            End If
+            If (MA025 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(37).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(37).Value = CType(MA025,String)
+            End If
+            If (MA026 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(38).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(38).Value = CType(MA026,String)
+            End If
+            If (MA027 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(39).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(39).Value = CType(MA027,String)
+            End If
+            If (MA028 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(40).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(40).Value = CType(MA028,String)
+            End If
+            If (MA029 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(41).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(41).Value = CType(MA029,String)
+            End If
+            If (MA030 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(42).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(42).Value = CType(MA030,String)
+            End If
+            If (MA031 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(43).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(43).Value = CType(MA031,String)
+            End If
+            If (MA032 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(44).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(44).Value = CType(MA032,String)
+            End If
+            If (MA033.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(45).Value = CType(MA033.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(45).Value = Global.System.DBNull.Value
+            End If
+            If (MA034.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(46).Value = CType(MA034.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(46).Value = Global.System.DBNull.Value
+            End If
+            If (MA035 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(47).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(47).Value = CType(MA035,String)
+            End If
+            If (MA036.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(48).Value = CType(MA036.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(48).Value = Global.System.DBNull.Value
+            End If
+            If (MA037 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(49).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(49).Value = CType(MA037,String)
+            End If
+            If (MA038 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(50).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(50).Value = CType(MA038,String)
+            End If
+            If (MA039 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(51).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(51).Value = CType(MA039,String)
+            End If
+            If (MA040 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(52).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(52).Value = CType(MA040,String)
+            End If
+            If (MA041 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(53).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(53).Value = CType(MA041,String)
+            End If
+            If (MA042 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(54).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(54).Value = CType(MA042,String)
+            End If
+            If (MA043 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(55).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(55).Value = CType(MA043,String)
+            End If
+            If (MA044.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(56).Value = CType(MA044.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(56).Value = Global.System.DBNull.Value
+            End If
+            If (MA045.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(57).Value = CType(MA045.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(57).Value = Global.System.DBNull.Value
+            End If
+            If (MA046 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(58).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(58).Value = CType(MA046,String)
+            End If
+            If (MA047 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(59).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(59).Value = CType(MA047,String)
+            End If
+            If (MA048 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(60).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(60).Value = CType(MA048,String)
+            End If
+            If (MA049 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(61).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(61).Value = CType(MA049,String)
+            End If
+            If (MA050 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(62).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(62).Value = CType(MA050,String)
+            End If
+            If (MA051 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(63).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(63).Value = CType(MA051,String)
+            End If
+            If (MA052 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(64).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(64).Value = CType(MA052,String)
+            End If
+            If (MA053 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(65).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(65).Value = CType(MA053,String)
+            End If
+            If (MA054 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(66).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(66).Value = CType(MA054,String)
+            End If
+            If (MA055 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(67).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(67).Value = CType(MA055,String)
+            End If
+            If (MA056 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(68).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(68).Value = CType(MA056,String)
+            End If
+            If (MA057 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(69).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(69).Value = CType(MA057,String)
+            End If
+            If (MA058 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(70).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(70).Value = CType(MA058,String)
+            End If
+            If (MA059.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(71).Value = CType(MA059.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(71).Value = Global.System.DBNull.Value
+            End If
+            If (MA060.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(72).Value = CType(MA060.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(72).Value = Global.System.DBNull.Value
+            End If
+            If (MA061.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(73).Value = CType(MA061.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(73).Value = Global.System.DBNull.Value
+            End If
+            If (MA062 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(74).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(74).Value = CType(MA062,String)
+            End If
+            If (MA063 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(75).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(75).Value = CType(MA063,String)
+            End If
+            If (MA064 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(76).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(76).Value = CType(MA064,String)
+            End If
+            If (MA065 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(77).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(77).Value = CType(MA065,String)
+            End If
+            If (MA066 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(78).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(78).Value = CType(MA066,String)
+            End If
+            If (MA067.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(79).Value = CType(MA067.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(79).Value = Global.System.DBNull.Value
+            End If
+            If (MA068 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(80).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(80).Value = CType(MA068,String)
+            End If
+            If (MA069 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(81).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(81).Value = CType(MA069,String)
+            End If
+            If (MA070 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(82).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(82).Value = CType(MA070,String)
+            End If
+            If (MA071 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(83).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(83).Value = CType(MA071,String)
+            End If
+            If (MA072 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(84).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(84).Value = CType(MA072,String)
+            End If
+            If (MA073 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(85).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(85).Value = CType(MA073,String)
+            End If
+            If (MA074 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(86).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(86).Value = CType(MA074,String)
+            End If
+            If (MA075 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(87).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(87).Value = CType(MA075,String)
+            End If
+            If (MA076 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(88).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(88).Value = CType(MA076,String)
+            End If
+            If (MA077 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(89).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(89).Value = CType(MA077,String)
+            End If
+            If (MA078 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(90).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(90).Value = CType(MA078,String)
+            End If
+            If (MA079 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(91).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(91).Value = CType(MA079,String)
+            End If
+            If (MA080 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(92).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(92).Value = CType(MA080,String)
+            End If
+            If (MA081 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(93).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(93).Value = CType(MA081,String)
+            End If
+            If (MA082 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(94).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(94).Value = CType(MA082,String)
+            End If
+            If (MA083 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(95).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(95).Value = CType(MA083,String)
+            End If
+            If (MA084 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(96).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(96).Value = CType(MA084,String)
+            End If
+            If (MA085 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(97).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(97).Value = CType(MA085,String)
+            End If
+            If (MA086 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(98).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(98).Value = CType(MA086,String)
+            End If
+            If (MA087 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(99).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(99).Value = CType(MA087,String)
+            End If
+            If (MA088 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(100).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(100).Value = CType(MA088,String)
+            End If
+            If (MA089 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(101).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(101).Value = CType(MA089,String)
+            End If
+            If (MA090.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(102).Value = CType(MA090.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(102).Value = Global.System.DBNull.Value
+            End If
+            If (MA091.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(103).Value = CType(MA091.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(103).Value = Global.System.DBNull.Value
+            End If
+            If (MA092.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(104).Value = CType(MA092.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(104).Value = Global.System.DBNull.Value
+            End If
+            If (MA093.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(105).Value = CType(MA093.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(105).Value = Global.System.DBNull.Value
+            End If
+            If (MA094.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(106).Value = CType(MA094.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(106).Value = Global.System.DBNull.Value
+            End If
+            If (MA095.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(107).Value = CType(MA095.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(107).Value = Global.System.DBNull.Value
+            End If
+            If (MA096 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(108).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(108).Value = CType(MA096,String)
+            End If
+            If (MA097 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(109).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(109).Value = CType(MA097,String)
+            End If
+            If (MA098 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(110).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(110).Value = CType(MA098,String)
+            End If
+            If (MA099 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(111).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(111).Value = CType(MA099,String)
+            End If
+            If (MA100 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(112).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(112).Value = CType(MA100,String)
+            End If
+            If (MA101 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(113).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(113).Value = CType(MA101,String)
+            End If
+            If (MA102.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(114).Value = CType(MA102.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(114).Value = Global.System.DBNull.Value
+            End If
+            If (MA103 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(115).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(115).Value = CType(MA103,String)
+            End If
+            If (MA104 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(116).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(116).Value = CType(MA104,String)
+            End If
+            If (MA105 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(117).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(117).Value = CType(MA105,String)
+            End If
+            If (MA106 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(118).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(118).Value = CType(MA106,String)
+            End If
+            If (MA107 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(119).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(119).Value = CType(MA107,String)
+            End If
+            If (MA108 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(120).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(120).Value = CType(MA108,String)
+            End If
+            If (MA109 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(121).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(121).Value = CType(MA109,String)
+            End If
+            If (MA110 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(122).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(122).Value = CType(MA110,String)
+            End If
+            If (MA111 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(123).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(123).Value = CType(MA111,String)
+            End If
+            If (MA112 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(124).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(124).Value = CType(MA112,String)
+            End If
+            If (MA113.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(125).Value = CType(MA113.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(125).Value = Global.System.DBNull.Value
+            End If
+            If (MA114.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(126).Value = CType(MA114.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(126).Value = Global.System.DBNull.Value
+            End If
+            If (MA115 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(127).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(127).Value = CType(MA115,String)
+            End If
+            If (MA116 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(128).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(128).Value = CType(MA116,String)
+            End If
+            If (MA117 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(129).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(129).Value = CType(MA117,String)
+            End If
+            If (MA118 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(130).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(130).Value = CType(MA118,String)
+            End If
+            If (MA119 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(131).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(131).Value = CType(MA119,String)
+            End If
+            If (MA120 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(132).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(132).Value = CType(MA120,String)
+            End If
+            If (MA121 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(133).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(133).Value = CType(MA121,String)
+            End If
+            If (MA122 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(134).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(134).Value = CType(MA122,String)
+            End If
+            If (MA123 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(135).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(135).Value = CType(MA123,String)
+            End If
+            If (MA124 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(136).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(136).Value = CType(MA124,String)
+            End If
+            If (MA125.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(137).Value = CType(MA125.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(137).Value = Global.System.DBNull.Value
+            End If
+            If (MA126.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(138).Value = CType(MA126.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(138).Value = Global.System.DBNull.Value
+            End If
+            If (MA127.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(139).Value = CType(MA127.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(139).Value = Global.System.DBNull.Value
+            End If
+            If (MA132 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(140).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(140).Value = CType(MA132,String)
+            End If
+            If (MA133 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(141).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(141).Value = CType(MA133,String)
+            End If
+            If (UDF01 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(142).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(142).Value = CType(UDF01,String)
+            End If
+            If (UDF02 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(143).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(143).Value = CType(UDF02,String)
+            End If
+            If (UDF03 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(144).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(144).Value = CType(UDF03,String)
+            End If
+            If (UDF04 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(145).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(145).Value = CType(UDF04,String)
+            End If
+            If (UDF05 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(146).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(146).Value = CType(UDF05,String)
+            End If
+            If (UDF06.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(147).Value = CType(UDF06.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(147).Value = Global.System.DBNull.Value
+            End If
+            If (UDF07.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(148).Value = CType(UDF07.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(148).Value = Global.System.DBNull.Value
+            End If
+            If (UDF08.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(149).Value = CType(UDF08.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(149).Value = Global.System.DBNull.Value
+            End If
+            If (UDF09.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(150).Value = CType(UDF09.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(150).Value = Global.System.DBNull.Value
+            End If
+            If (UDF10.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(151).Value = CType(UDF10.Value,Decimal)
+            Else
+                Me.Adapter.InsertCommand.Parameters(151).Value = Global.System.DBNull.Value
+            End If
+            If (MA134 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(152).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(152).Value = CType(MA134,String)
+            End If
+            If (MA135 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(153).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(153).Value = CType(MA135,String)
+            End If
+            If (MA136 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(154).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(154).Value = CType(MA136,String)
+            End If
+            If (MA137 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(155).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(155).Value = CType(MA137,String)
+            End If
+            If (MA139 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(156).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(156).Value = CType(MA139,String)
+            End If
+            If (MA140 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(157).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(157).Value = CType(MA140,String)
+            End If
+            If (MA141 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(158).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(158).Value = CType(MA141,String)
+            End If
+            If (MA142 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(159).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(159).Value = CType(MA142,String)
+            End If
+            If (MA143 Is Nothing) Then
+                Me.Adapter.InsertCommand.Parameters(160).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(160).Value = CType(MA143,String)
+            End If
+            Dim previousConnectionState As Global.System.Data.ConnectionState = Me.Adapter.InsertCommand.Connection.State
+            If ((Me.Adapter.InsertCommand.Connection.State And Global.System.Data.ConnectionState.Open)  _
+                        <> Global.System.Data.ConnectionState.Open) Then
+                Me.Adapter.InsertCommand.Connection.Open
+            End If
+            Try 
+                Dim returnValue As Integer = Me.Adapter.InsertCommand.ExecuteNonQuery
+                Return returnValue
+            Finally
+                If (previousConnectionState = Global.System.Data.ConnectionState.Closed) Then
+                    Me.Adapter.InsertCommand.Connection.Close
+                End If
+            End Try
+        End Function
+    End Class
+    
+    '''<summary>
     '''TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
     '''</summary>
     <Global.System.ComponentModel.DesignerCategoryAttribute("code"),  _
@@ -33195,6 +42385,8 @@ Namespace TECHLINKDataSetTableAdapters
         Private _cOPTDTableAdapter As COPTDTableAdapter
         
         Private _cOPTC2TableAdapter As COPTC2TableAdapter
+        
+        Private _cusTableAdapter1 As CusTableAdapter1
         
         Private _backupDataSetBeforeUpdate As Boolean
         
@@ -33254,6 +42446,20 @@ Namespace TECHLINKDataSetTableAdapters
         End Property
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0"),  _
+         Global.System.ComponentModel.EditorAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterManagerPropertyEditor, Microso"& _ 
+            "ft.VSDesigner, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3"& _ 
+            "a", "System.Drawing.Design.UITypeEditor")>  _
+        Public Property CusTableAdapter1() As CusTableAdapter1
+            Get
+                Return Me._cusTableAdapter1
+            End Get
+            Set
+                Me._cusTableAdapter1 = value
+            End Set
+        End Property
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Public Property BackupDataSetBeforeUpdate() As Boolean
             Get
@@ -33284,6 +42490,10 @@ Namespace TECHLINKDataSetTableAdapters
                             AndAlso (Not (Me._cOPTC2TableAdapter.Connection) Is Nothing)) Then
                     Return Me._cOPTC2TableAdapter.Connection
                 End If
+                If ((Not (Me._cusTableAdapter1) Is Nothing)  _
+                            AndAlso (Not (Me._cusTableAdapter1.Connection) Is Nothing)) Then
+                    Return Me._cusTableAdapter1.Connection
+                End If
                 Return Nothing
             End Get
             Set
@@ -33306,6 +42516,9 @@ Namespace TECHLINKDataSetTableAdapters
                 If (Not (Me._cOPTC2TableAdapter) Is Nothing) Then
                     count = (count + 1)
                 End If
+                If (Not (Me._cusTableAdapter1) Is Nothing) Then
+                    count = (count + 1)
+                End If
                 Return count
             End Get
         End Property
@@ -33318,7 +42531,7 @@ Namespace TECHLINKDataSetTableAdapters
         Private Function UpdateUpdatedRows(ByVal dataSet As TECHLINKDataSet, ByVal allChangedRows As Global.System.Collections.Generic.List(Of Global.System.Data.DataRow), ByVal allAddedRows As Global.System.Collections.Generic.List(Of Global.System.Data.DataRow)) As Integer
             Dim result As Integer = 0
             If (Not (Me._cusTableAdapter) Is Nothing) Then
-                Dim updatedRows() As Global.System.Data.DataRow = dataSet.COPMA.Select(Nothing, Nothing, Global.System.Data.DataViewRowState.ModifiedCurrent)
+                Dim updatedRows() As Global.System.Data.DataRow = dataSet.COPMA2.Select(Nothing, Nothing, Global.System.Data.DataViewRowState.ModifiedCurrent)
                 updatedRows = Me.GetRealUpdatedRows(updatedRows, allAddedRows)
                 If ((Not (updatedRows) Is Nothing)  _
                             AndAlso (0 < updatedRows.Length)) Then
@@ -33344,6 +42557,15 @@ Namespace TECHLINKDataSetTableAdapters
                     allChangedRows.AddRange(updatedRows)
                 End If
             End If
+            If (Not (Me._cusTableAdapter1) Is Nothing) Then
+                Dim updatedRows() As Global.System.Data.DataRow = dataSet.COPMA.Select(Nothing, Nothing, Global.System.Data.DataViewRowState.ModifiedCurrent)
+                updatedRows = Me.GetRealUpdatedRows(updatedRows, allAddedRows)
+                If ((Not (updatedRows) Is Nothing)  _
+                            AndAlso (0 < updatedRows.Length)) Then
+                    result = (result + Me._cusTableAdapter1.Update(updatedRows))
+                    allChangedRows.AddRange(updatedRows)
+                End If
+            End If
             Return result
         End Function
         
@@ -33355,7 +42577,7 @@ Namespace TECHLINKDataSetTableAdapters
         Private Function UpdateInsertedRows(ByVal dataSet As TECHLINKDataSet, ByVal allAddedRows As Global.System.Collections.Generic.List(Of Global.System.Data.DataRow)) As Integer
             Dim result As Integer = 0
             If (Not (Me._cusTableAdapter) Is Nothing) Then
-                Dim addedRows() As Global.System.Data.DataRow = dataSet.COPMA.Select(Nothing, Nothing, Global.System.Data.DataViewRowState.Added)
+                Dim addedRows() As Global.System.Data.DataRow = dataSet.COPMA2.Select(Nothing, Nothing, Global.System.Data.DataViewRowState.Added)
                 If ((Not (addedRows) Is Nothing)  _
                             AndAlso (0 < addedRows.Length)) Then
                     result = (result + Me._cusTableAdapter.Update(addedRows))
@@ -33378,6 +42600,14 @@ Namespace TECHLINKDataSetTableAdapters
                     allAddedRows.AddRange(addedRows)
                 End If
             End If
+            If (Not (Me._cusTableAdapter1) Is Nothing) Then
+                Dim addedRows() As Global.System.Data.DataRow = dataSet.COPMA.Select(Nothing, Nothing, Global.System.Data.DataViewRowState.Added)
+                If ((Not (addedRows) Is Nothing)  _
+                            AndAlso (0 < addedRows.Length)) Then
+                    result = (result + Me._cusTableAdapter1.Update(addedRows))
+                    allAddedRows.AddRange(addedRows)
+                End If
+            End If
             Return result
         End Function
         
@@ -33388,6 +42618,14 @@ Namespace TECHLINKDataSetTableAdapters
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")>  _
         Private Function UpdateDeletedRows(ByVal dataSet As TECHLINKDataSet, ByVal allChangedRows As Global.System.Collections.Generic.List(Of Global.System.Data.DataRow)) As Integer
             Dim result As Integer = 0
+            If (Not (Me._cusTableAdapter1) Is Nothing) Then
+                Dim deletedRows() As Global.System.Data.DataRow = dataSet.COPMA.Select(Nothing, Nothing, Global.System.Data.DataViewRowState.Deleted)
+                If ((Not (deletedRows) Is Nothing)  _
+                            AndAlso (0 < deletedRows.Length)) Then
+                    result = (result + Me._cusTableAdapter1.Update(deletedRows))
+                    allChangedRows.AddRange(deletedRows)
+                End If
+            End If
             If (Not (Me._cOPTC2TableAdapter) Is Nothing) Then
                 Dim deletedRows() As Global.System.Data.DataRow = dataSet.COPTC2.Select(Nothing, Nothing, Global.System.Data.DataViewRowState.Deleted)
                 If ((Not (deletedRows) Is Nothing)  _
@@ -33405,7 +42643,7 @@ Namespace TECHLINKDataSetTableAdapters
                 End If
             End If
             If (Not (Me._cusTableAdapter) Is Nothing) Then
-                Dim deletedRows() As Global.System.Data.DataRow = dataSet.COPMA.Select(Nothing, Nothing, Global.System.Data.DataViewRowState.Deleted)
+                Dim deletedRows() As Global.System.Data.DataRow = dataSet.COPMA2.Select(Nothing, Nothing, Global.System.Data.DataViewRowState.Deleted)
                 If ((Not (deletedRows) Is Nothing)  _
                             AndAlso (0 < deletedRows.Length)) Then
                     result = (result + Me._cusTableAdapter.Update(deletedRows))
@@ -33468,6 +42706,11 @@ Namespace TECHLINKDataSetTableAdapters
                 Throw New Global.System.ArgumentException("All TableAdapters managed by a TableAdapterManager must use the same connection s"& _ 
                         "tring.")
             End If
+            If ((Not (Me._cusTableAdapter1) Is Nothing)  _
+                        AndAlso (Me.MatchTableAdapterConnection(Me._cusTableAdapter1.Connection) = false)) Then
+                Throw New Global.System.ArgumentException("All TableAdapters managed by a TableAdapterManager must use the same connection s"& _ 
+                        "tring.")
+            End If
             Dim workConnection As Global.System.Data.IDbConnection = Me.Connection
             If (workConnection Is Nothing) Then
                 Throw New Global.System.ApplicationException("TableAdapterManager contains no connection information. Set each TableAdapterMana"& _ 
@@ -33525,6 +42768,15 @@ Namespace TECHLINKDataSetTableAdapters
                     If Me._cOPTC2TableAdapter.Adapter.AcceptChangesDuringUpdate Then
                         Me._cOPTC2TableAdapter.Adapter.AcceptChangesDuringUpdate = false
                         adaptersWithAcceptChangesDuringUpdate.Add(Me._cOPTC2TableAdapter.Adapter)
+                    End If
+                End If
+                If (Not (Me._cusTableAdapter1) Is Nothing) Then
+                    revertConnections.Add(Me._cusTableAdapter1, Me._cusTableAdapter1.Connection)
+                    Me._cusTableAdapter1.Connection = CType(workConnection,Global.System.Data.SqlClient.SqlConnection)
+                    Me._cusTableAdapter1.Transaction = CType(workTransaction,Global.System.Data.SqlClient.SqlTransaction)
+                    If Me._cusTableAdapter1.Adapter.AcceptChangesDuringUpdate Then
+                        Me._cusTableAdapter1.Adapter.AcceptChangesDuringUpdate = false
+                        adaptersWithAcceptChangesDuringUpdate.Add(Me._cusTableAdapter1.Adapter)
                     End If
                 End If
                 '
@@ -33598,6 +42850,10 @@ Namespace TECHLINKDataSetTableAdapters
                 If (Not (Me._cOPTC2TableAdapter) Is Nothing) Then
                     Me._cOPTC2TableAdapter.Connection = CType(revertConnections(Me._cOPTC2TableAdapter),Global.System.Data.SqlClient.SqlConnection)
                     Me._cOPTC2TableAdapter.Transaction = Nothing
+                End If
+                If (Not (Me._cusTableAdapter1) Is Nothing) Then
+                    Me._cusTableAdapter1.Connection = CType(revertConnections(Me._cusTableAdapter1),Global.System.Data.SqlClient.SqlConnection)
+                    Me._cusTableAdapter1.Transaction = Nothing
                 End If
                 If (0 < adaptersWithAcceptChangesDuringUpdate.Count) Then
                     Dim adapters((adaptersWithAcceptChangesDuringUpdate.Count) - 1) As Global.System.Data.Common.DataAdapter
